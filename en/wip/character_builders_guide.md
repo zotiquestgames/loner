@@ -1,6 +1,6 @@
 # Loner: Character Builder’s Guide
 
-## Chapter 1: Introduction – Why This Book?
+## Introduction – Why This Book?
 
 This is not a system expansion. It's a mirror.
 
@@ -55,7 +55,7 @@ This is solo play as self-archaeology.
 
 Let’s begin.
 
-## Chapter 2: Playing with Identity
+## Playing with Identity
 
 In *Loner*, you don’t write a backstory—you **build it through play**. But what happens when the character changes? What if the tag that once defined them doesn’t fit anymore? What if the person who began the story would no longer recognize the person living it?
 
@@ -135,7 +135,7 @@ Identity in *Character Builder’s Guide* is a mosaic of half-truths and flashba
 > You’re not playing an archetype.
 > You’re watching someone slowly become one—only to outgrow it.
 
-## Chapter 3: The Lifepath Engine
+## The Lifepath Engine
 
 Backstories in *Loner* aren't required—but they do emerge.
 
@@ -566,7 +566,7 @@ You can:
 
 Just like real history, not everything stays meaningful. But sometimes, it comes back.
 
-## Chapter 4: The Relationship Matrix
+## The Relationship Matrix
 
 Solo stories thrive on tension—and tension needs people. Not just strangers and monsters, but the ones who know you. The ones who shaped you. The ones who won’t let you go.
 
@@ -682,7 +682,7 @@ Each time they return, update the matrix. Let the web evolve.
 This is your past, reaching out.
 This is your future, cracking.
 
-## Chapter 5: Memory & Flashbacks
+## Memory & Flashbacks
 
 The past isn’t gone. It just waits for the right moment to resurface.
 
@@ -775,7 +775,7 @@ If the Oracle says a memory is false, you can roll to interpret how:
 
 Let the new truth ripple outward. Update the Relationship Matrix. Shift your tags. Ask what else might be false.
 
-## Chapter 6: Interpersonal Scene Frames
+## Interpersonal Scene Frames
 
 Not every scene has to be about the mission.
 
@@ -889,7 +889,7 @@ You can tilt these frames to match the tone of your world:
 * “She claims to be your clone. You don’t believe her. Yet.”
 * “The AI refers to a shared memory you didn’t input.”
 
-## Chapter 7: Evolving Bonds in Solo Play
+## Evolving Bonds in Solo Play
 
 In solo play, relationships are memory traces—until they change.
 
@@ -1005,7 +1005,7 @@ They appear as a blank slate. Later, you realize they reflect you—before, afte
 
 Relationships in solo play aren’t tracked. They’re **remembered**, **rewritten**, and **resurfaced**—until something breaks, or bonds, or both.
 
-## Chapter 8: The NPC Depth Generator
+## The NPC Depth Generator
 
 Not every NPC matters.
 But the ones who do? They shape your journey—sometimes more than you do.
@@ -1116,7 +1116,7 @@ This **want** shapes every scene they’re in.
 
 Takes 60 seconds. Fuels hours of play.
 
-## Chapter 9: Evolving the Self
+## Evolving the Self
 
 Who you start as is not who you’ll stay.
 
@@ -1206,7 +1206,7 @@ Your character isn’t a build.
 They’re a fracture pattern.
 Keep breaking. Keep rewriting.
 
-## Chapter 10: Visual Tools & Appendix
+## Visual Tools & Appendix
 
 Not everything needs to be written in long form. Some truths are best diagrammed, mapped, or drawn in the margins.
 

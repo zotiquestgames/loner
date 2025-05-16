@@ -2,6 +2,25 @@
 
 ## Introduction
 
+In September 2021, I created Loner as a free ten-page document. It was simply my own way of playing solo games, with simple rules, no fancy dice, and a focus on character and story.
+
+Loner was downloaded more than a thousand times. I was amazed! It was just a collection of other people's material, arranged to support my game. Its development was over. I used it often and decided to share it with the wider community. I had declared there would never be a second edition, but then something happened.
+
+An Italian Solo RPG community was born. They were curious to try a game that was easy to play solo. They demanded that I translate Loner. I did, but I wasn't convinced. 
+People asked me lots of questions about the game. I had to add more examples, diagrams, and explanations. This led to the second edition of Loner.
+
+The Italian community also came up with Adventure Packs. They needed ready-to-use tags and asked for a lot of them!
+Thank the Italian community if you have the current edition of Loner!
+
+I indeed liked it so much, I keep creating new settings!
+There was still something missing. I thought that using qualifiers (tags) in solo games was now common among role-players. It was not actually the case, and many have asked for help on how to play Loner.
+
+I'm a concise writer, and Loner reflects that. With this Companion I try to fill the gap: to explain well how to play Loner and to accompany this by the extension of the example contained in the Core Rules. You will find again Zahra and her world here. She is dear to me because she was in my first playtest!
+
+I hope you find this useful!
+
+**2025 Update:** Since the release of the Companion, Loner has taken an unexpected path — one that led to the 3rd edition and the publication of the Guides that now form the core ecosystem of the game. I've made some changes here to reflect that evolution.
+
 ### **Purpose of This Handbook**
 
 Welcome to the **Loner Companion**\! Think of this guide as the seasoned friend by your side, ready to dive deeper into *Loner*, a solo RPG crafted for minimalist, emergent storytelling. This isn’t just a handbook; it’s a peek behind the curtain to uncover *why* *Loner* functions the way it does and how you can unlock its full potential in your adventures. We’re exploring the core of what makes *Loner* unique and how you can make that magic come to life.
@@ -55,6 +74,51 @@ Instead of numerical stats, *Loner* uses *tags*: descriptive phrases that captur
 ### **Generic Yet Focused Gameplay**
 
 *Loner* can adapt to any setting, but it’s not trying to be a one-size-fits-all RPG. It’s designed for quick resolutions and storytelling, not for tactical depth or strict simulation. This focus lets *Loner* excel at compact, evocative stories, making it adaptable to fantasy, sci-fi, mystery, horror, and more. The system is versatile yet always stays true to its core strengths: simplicity, emergent storytelling, and fictional positioning. Whether exploring haunted ruins or distant galaxies, *Loner* keeps mechanics light, ensuring the focus stays on creativity and immersion.
+
+## Everything is a Character
+
+One of the most flexible ideas in *Loner* is that anything meaningful to the story can be treated as a **character** — even if it’s not a person. This isn’t just a clever trick. It’s a paradigm: a way to unify how you describe and interact with the elements of your world.
+
+The moment you stop asking “Is this an NPC or an object?” and start asking “What role does this play in the story?” — everything clicks.
+
+When something matters to your narrative, when it exerts pressure on the protagonist, presents choices, or evolves over time, it deserves the same descriptive clarity you’d give a named character. This includes not just allies and rivals, but factions, vehicles, artificial intelligences, locations, monsters, magical items, and more.
+
+You don't need to create a separate system for vehicles or relics or ghost towns — you just describe them with **tags**. You assign them a **concept**. If relevant, you give them **gear** or a **frailty**. Most of the time, that’s enough.
+
+These "non-human characters" don’t need a Goal or Motive — unless the fiction demands it. You’re free to imagine a sentient sword with a personal agenda or a rogue satellite with a vendetta, but it's just as valid to keep them lean and functional.
+
+By treating story-relevant elements as characters, you stay inside the *Loner* engine. You don't break immersion. You don't reach for another system. You just keep playing.
+
+### Example: Treating a Ship as a Character
+
+Let’s say Zahra’s starship — the *Century Skylark* — is central to the adventure. Instead of inventing a ship system, you write:
+
+* **Concept**: *Spacecraft in bad shape*
+* **Skills**: *Hyperjump Drive, Camouflage Circuits*
+* **Frailty:** *Midlife Courier*
+* **Gear**: *Stealth Hull Mod, Emergency Override Key*
+
+Now the ship can come under pressure: its frailty can complicate things; its tags can grant advantages when appropriate. You might even track **conditions** like *"Low Fuel"* or *"Internal Lockdown."* You narrate its involvement the same way you would for a loyal companion or an unpredictable contact.
+
+### Example: Treating a Faction as a Character
+
+The Leton Corporation may be a looming presence, but that doesn’t mean you need an org chart. You define them with:
+
+* **Concept**: *Tech Monopoly with a Smile*
+* **Skills**: *Opaque Ethics, Total Market Surveillance*
+* **Frailty**: *Shareholder Anxiety*
+* **Gear**: *Legal Armory, Encrypted Vaults*
+
+Now, any interaction with Leton — from negotiation to infiltration — has fictional weight. You don’t track numbers or stat blocks. You follow narrative logic, anchored by meaningful descriptors.
+
+This is what *Loner* means by minimalist. You don’t reduce complexity. You reduce friction.
+
+If it has story gravity, give it tags.
+If it might break, give it a frailty.
+If it might help, give it gear.
+And if it doesn't do any of those things? You don’t need to stat it at all.
+
+Characters are the language of *Loner*. Let your world speak fluently.
 
 ## Preparing for Your Journey
 
@@ -160,6 +224,16 @@ Tags in *Loner* guide the narrative without imposing hard boundaries on what you
 
 In *Loner*, the story unfolds one scene at a time — each scene a small, self-contained chapter in your protagonist’s journey. Every scene serves as a stepping stone, advancing the story and adding layers to the narrative. The way you start and guide these scenes has a big impact on the story’s pacing and tone, helping maintain a rhythm that feels both natural and engaging.
 
+#### Starting Scenes: Framed or In Motion?
+
+There are two main ways to kick off your first scene in *Loner*, each with its own vibe and benefits:
+
+* **Dramatic Scene**: Drop into the action. Your protagonist is already mid-heist, mid-chase, mid-argument. This method skips preamble and creates momentum. Think of a movie opening that starts with the hero hanging off a cliff — that’s what this is. It works great if you want to discover the story as you play.
+
+* **Framed Setup (5W+H)**: Build your opening scene like a briefing. Ask: Who’s involved? What’s the mission? Why does the protagonist care? Where does it happen? How does it begin? And what’s the immediate obstacle? This method gives you a clear direction and stakes before the first roll.
+
+You can pick one or blend both — frame a mission first, then start right in the middle of it going sideways.
+
 #### Starting Scenes with Purpose
 
 Each scene in *Loner* works best when it starts with a purpose or question. Even if it’s as simple as “What’s waiting in this room?” or “How does my protagonist handle this unexpected encounter?” a purpose provides direction and helps tie the scene back to your protagonist’s goals. This way, the story moves forward with a sense of intentionality, making each scene feel like a meaningful step.
@@ -211,8 +285,6 @@ In *Loner*, each Oracle question is answered by rolling two six-sided dice — o
    - **Chance Die is Higher**: The answer is **Yes**.  
    - **Risk Die is Higher**: The answer is **No**.
 
-   
-
 2. **Modifiers for Complications or Benefits**: Specific dice combinations add extra layers to the answer:  
      
    - **If both dice are low (3 or less)**, add a **“but…”** This suggests a minor drawback even if the answer is “yes” or a small advantage if it’s “no.”  
@@ -232,6 +304,26 @@ These modifiers create richer storytelling possibilities, adding depth and unpre
 For example, if your protagonist is trying to climb a cliff and has the *“Athletic”* trait, you’d add a Chance Die, rolling two and keeping the higher result. If they’re trying to climb while *“Exhausted,”* you’d add a Risk Die, rolling two and keeping the higher.
 
 The Advantage and Disadvantage mechanics keep gameplay balanced and reflect the character’s unique strengths and challenges, letting you interpret outcomes that feel authentic to the story. With closed questions, the Oracle’s dice mechanics, and the Advantage/Disadvantage system, you have everything you need to keep the narrative moving in ways that are both structured and spontaneous. Each decision, guided by the Oracle, adds layers of meaning to the journey, making every turn in the story feel impactful and fresh.
+
+#### Resolving a Situation: One Roll or Many?
+
+When you face a risky action or dramatic moment, you can resolve it in different ways depending on how much detail and pacing you want:
+
+* **Single Roll**
+  Ask one yes/no question. A single result gives you a full answer.
+  *“Does the agent slip past the guards undetected?”*
+  Quick, clean, and perfect for fast-moving scenes.
+
+* **Multiple Rolls**
+  Break the situation into smaller beats.
+  *“Does she find a place to hide?” → “Can she stay silent?”*
+  This keeps the tension high and gives space for twists.
+
+* **Harm & Luck**
+  For extended conflict — physical or otherwise — track outcomes over time. The Luck score goes down when the protagonist takes hits, and scenes become grittier and more tactical.
+  Best used for fights, duels, pursuits, or dangerous negotiations.
+
+Use the approach that fits your scene’s intensity. A conversation might resolve with one roll. A final confrontation might deserve a full Luck-based blow-by-blow.
 
 ### **Interpreting Oracle Responses**
 
