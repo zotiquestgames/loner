@@ -1281,50 +1281,6 @@ Each ring = one major character evolution.
 
 Use lines/arrows to show how one shift caused another.
 
-### Blank Tables (for Custom Themes)
-
-You can create your own D66 tables for recurring elements unique to your story.
-
-| d66 | \[Your Theme Here] |
-| --- | ------------------ |
-| 11  |                    |
-| 12  |                    |
-| …   |                    |
-| 66  |                    |
-
-Suggested table themes:
-
-* *Things They Told You That Still Haunt You*
-* *Reasons You Didn’t Quit*
-* *Last Messages from the Field*
-* *Unfinished Conversations*
-
-Use when flashbacks start feeling repetitive, or when your story develops its own motifs.
-
-### Print-and-Play Tag Cards
-
-Small index-style cards you can fill with:
-
-```
-[NAME]
-[ROLE]: Ally / Rival / etc.
-[TAGS]:
-•  
-•  
-•  
-[WANTS]:  
-[NOTES]:
-```
-
-Use colored markers or border symbols:
-
-* 🔺 = Nemesis
-* 🟢 = Active in current arc
-* ⚫ = Unknown allegiance
-* ⚡ = Unresolved tension
-
-Lay them out during play. Shuffle. Flip. Burn.
-
 ## License
 
 Loner: Character Builder's Guide

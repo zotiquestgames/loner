@@ -109,6 +109,7 @@
 Every mystery leaves traces in its wake. To peel back the layers of deceit and reach the truth, your character must gather fragments of information — whispered gossip, half-burned notes, overlooked fingerprints — and assemble them into something coherent.  
 
 When attempting to uncover a clue, ask a closed question and interpret the result as follows:  
+
 - **"No, and..."**: The trail is cold. Nothing surfaces — not even a red herring.  
 - **"No"**: Something surfaces, but it’s little more than background noise — a detail of no real consequence.  
 - **"No, but..."**: You find something... but it deceives. A clue that points in the wrong direction.  
@@ -120,6 +121,7 @@ When attempting to uncover a clue, ask a closed question and interpret the resul
 People lie. They withhold. They break under pressure or hide behind smiles. When questioning a suspect or witness, every word must be weighed, every glance watched. Interrogation is a duel — not of blades, but of patience, perception, and precision.  
 
 When questioning someone, ask a closed question and consult the result:  
+
 - **"No, and..."**: The suspect shuts down completely. The door slams shut.  
 - **"No"**: They offer scraps — vague, unrelated, useless.  
 - **"No, but..."**: They lead you astray, deliberately or not. A lie wrapped in truth.  
@@ -131,6 +133,7 @@ When questioning someone, ask a closed question and consult the result:
 Everyone has a story. Whether it holds up under scrutiny is another matter. Some will offer details too perfect. Others will be vague in the places that matter most. It's your job to test those stories — to verify alibis, or to unpick the lies woven into them.  
 
 When checking an alibi, ask a closed question and interpret the outcome:  
+
 - **"No, and..."**: The alibi crumbles before you can confirm a single detail. Nothing adds up.  
 - **"No"**: The story can’t be verified, but it doesn’t appear to matter — yet.  
 - **"No, but..."**: You fail to confirm the alibi, but stumble onto something misleading — a false trail.  
@@ -142,6 +145,7 @@ When checking an alibi, ask a closed question and interpret the outcome:
 Blood stains. Scratched floorboards. Fibers clinging to a cuff. The world leaves traces — even when a killer tries to erase them. Your task is to find those traces, read them, and understand what they mean.  
 
 When collecting or analyzing physical evidence, ask a closed question and apply the result:  
+
 - **"No, and..."**: You find nothing. Worse, you may have disturbed the scene.  
 - **"No"**: You uncover something — but it’s mundane, or unrelated.  
 - **"No, but..."**: You uncover something that appears meaningful… but points you the wrong way.  
@@ -152,7 +156,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 ## Factions
 
 ### **The Black Ledger**  
-- **Concept**: An invisible cabal of financiers, archivists, and social architects who manipulate events from the shadows.  
+- **Concept**: Invisible cabal of financiers  
 - **Skills**: Obfuscation, Financial Leverage, Strategic Assassination  
 - **Frailty**: Paranoia and buried feuds  
 - **Gear**: Burnt ledgers, private cipher keys, death certificates filed before the fact  
@@ -161,7 +165,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 - **Nemesis**: Rogue investigators and unpredictable whistleblowers
 
 ### **The Silent Service**  
-- **Concept**: A discreet branch of royal intelligence tasked with suppressing dangerous knowledge.  
+- **Concept**: Discreet branch of royal intelligence
 - **Skills**: Surveillance, Psychological Disarmament, Memory Engineering  
 - **Frailty**: Forbidden from exposure — their greatest strength is also a leash  
 - **Gear**: Redacted dossiers, night-coded signals, memory erasure tools  
@@ -170,7 +174,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 - **Nemesis**: The Ink & Ash Society and any detective who refuses to stand down
 
 ### **The Ink & Ash Society**  
-- **Concept**: An underground coalition of investigative journalists, former archivists, and disillusioned librarians.  
+- **Concept**: Underground coalition of investigative journalists  
 - **Skills**: Information Recovery, Leak Coordination, Moral Outrage  
 - **Frailty**: No central command; easy prey for co-option  
 - **Gear**: Hidden presses, blackmail letters, stolen obituaries  
@@ -179,7 +183,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 - **Nemesis**: The Black Ledger, who write the truths people believe
 
 ### **The Church of Saint Elvan**  
-- **Concept**: A fractured spiritualist order claiming to channel the lost and unravel unsolved fates.  
+- **Concept**: Fractured spiritualist order  
 - **Skills**: Induced Revelation, Dream Mapping, Spiritual Pressure  
 - **Frailty**: Riddled with charlatans and rival interpretations  
 - **Gear**: Soot-marked reliquaries, mourning veils, voice-transmitting planchettes  
@@ -188,7 +192,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 - **Nemesis**: Rationalist societies and former members who saw too much
 
 ### **The Ashgrove Club**  
-- **Concept**: A gentleman’s salon masking a truth-brokering syndicate for the powerful.  
+- **Concept**: Gentleman’s Salon  
 - **Skills**: Slander Engineering, Controlled Disclosure, Black-Tie Espionage  
 - **Frailty**: Coddled by their privilege; underestimate the desperate  
 - **Gear**: Personal dossiers, bribed witnesses, wine-stained scandal ledgers  
@@ -197,7 +201,7 @@ When collecting or analyzing physical evidence, ask a closed question and apply 
 - **Nemesis**: The Ink & Ash Society, and anyone who won’t play by the rules
 
 ### **The Rookery Pact**  
-- **Concept**: A loose network of street-crawlers, undertown informants, and scavengers of discarded truth.  
+- **Concept**: Network of street-crawlers  
 - **Skills**: Urban Intuition, Unofficial Surveillance, Lost Item Retrieval  
 - **Frailty**: Divided loyalties and unspoken vendettas  
 - **Gear**: Bone dice, message knots, nightglass pendants  
