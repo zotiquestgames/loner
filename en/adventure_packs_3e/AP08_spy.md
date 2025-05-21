@@ -208,63 +208,63 @@ Each mission alters the geopolitical climate. After a mission:
 
 ### **Sophia Dubois**
 
-**Concept**: Rogue Diplomat
-**Skills**: Social Subversion, Auction Rigging
-**Frailty**: Secretly Indebted
-**Gear**: Bugged Earring, Forged Manifests
-**Goal**: Erase Past
-**Motive**: Survival
-**Nemesis**: Burned Protégé
+* **Concept**: Rogue Diplomat
+* **Skills**: Social Subversion, Auction Rigging
+* **Frailty**: Secretly Indebted
+* **Gear**: Bugged Earring, Forged Manifests
+* **Goal**: Erase Past
+* **Motive**: Survival
+* **Nemesis**: Burned Protégé
 
 ### **Jack Zhang**
 
-**Concept**: Ghost Coder
-**Skills**: Network Infiltration, Code Obfuscation
-**Frailty**: Fame-Seeking
-**Gear**: Keylogger Drone, Signal Repeater
-**Goal**: Leak the Vault
-**Motive**: Recognition
-**Nemesis**: Rogue AI
+* **Concept**: Ghost Coder
+* **Skills**: Network Infiltration, Code Obfuscation
+* **Frailty**: Fame-Seeking
+* **Gear**: Keylogger Drone, Signal Repeater
+* **Goal**: Leak the Vault
+* **Motive**: Recognition
+* **Nemesis**: Rogue AI
 
 ### **Dmitri Volkov**
 
-**Concept**: Ex-GRU Broker
-**Skills**: Logistics, Bluffing
-**Frailty**: Haunted Loyalty
-**Gear**: Sealed Crate, Encrypted List
-**Goal**: Honor a Debt
-**Motive**: Redemption
-**Nemesis**: GRU General
+* **Concept**: Ex-GRU Broker
+* **Skills**: Logistics, Bluffing
+* **Frailty**: Haunted Loyalty
+* **Gear**: Sealed Crate, Encrypted List
+* **Goal**: Honor a Debt
+* **Motive**: Redemption
+* **Nemesis**: GRU General
 
 ### **Maria Gutierrez**
 
-**Concept**: Freelance Killer
-**Skills**: Disappearance, Termination
-**Frailty**: Memory Gaps
-**Gear**: Kill Ledger, Retinal Scrambler
-**Goal**: Find Lost Year
-**Motive**: Truth
-**Nemesis**: Unknown Handler
+* **Concept**: Freelance Killer
+* **Skills**: Disappearance, Termination
+* **Frailty**: Memory Gaps
+* **Gear**: Kill Ledger, Retinal Scrambler
+* **Goal**: Find Lost Year
+* **Motive**: Truth
+* **Nemesis**: Unknown Handler
 
 ### **William Buchanan**
 
-**Concept**: Faded Legend
-**Skills**: Disguise, Code-Switching
-**Frailty**: Obsolete Habits
-**Gear**: Fake Obituary, Lockbox Orders
-**Goal**: Finish Old Mission
-**Motive**: Redemption
-**Nemesis**: Young Operative
+* **Concept**: Faded Legend
+* **Skills**: Disguise, Code-Switching
+* **Frailty**: Obsolete Habits
+* **Gear**: Fake Obituary, Lockbox Orders
+* **Goal**: Finish Old Mission
+* **Motive**: Redemption
+* **Nemesis**: Young Operative
 
 ### **Suki Kim**
 
-**Concept**: Masked Infiltrator
-**Skills**: Mimicry, Bureaucracy
-**Frailty**: Emotional Residue
-**Gear**: Invisible Memoirs, Stolen Heirloom
-**Goal**: Discover Identity
-**Motive**: Self-Recovery
-**Nemesis**: Unknown Sibling
+* **Concept**: Masked Infiltrator
+* **Skills**: Mimicry, Bureaucracy
+* **Frailty**: Emotional Residue
+* **Gear**: Invisible Memoirs, Stolen Heirloom
+* **Goal**: Discover Identity
+* **Motive**: Self-Recovery
+* **Nemesis**: Unknown Sibling
 
 ## Threat Actors
 

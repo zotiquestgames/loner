@@ -136,13 +136,6 @@ Once per adventure, you may **Push Yourself** to regain 1 Action Point — but i
 > \[CAUTION]
 > This isn’t a reset button — it’s a red flag to the fiction. Push when the moment feels *big*, and be ready for the fallout.
 
-Great. This version of the factions reads like placeholders from a 90s Indiana Jones game. Nothing *wrong* per se — but they lack:
-
-* **Distinct tone**: many overlap conceptually (Adventurers vs Archaeologists?).
-* **Modern ambiguity**: too many "good vs evil" pairs.
-* **Relevance to your premise**: the global, genre-hopping tension isn’t well-reflected.
-* **Style**: names like "Military Expedition" or "The Adventurers’ Guild" feel uninspired for this setting.
-
 ## Factions
 
 ### **The Looking Glass Division**

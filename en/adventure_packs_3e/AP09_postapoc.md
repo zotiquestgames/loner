@@ -62,6 +62,55 @@
 | 5 | Flash Goggles     | Rainwater Catcher    | Hand-Crank Radio   | Scavenger’s Toolkit   | EMP Spike           | Barbed Whip                      |
 | 6 | Spore-Breath Mask | Broken Drone Eye     | Chainblade         | Chitin Shield         | Magnet Compass      | Voice of the Ancients (Recorder) |
 
+### Names
+
+#### Female Names
+
+|   | 1      | 2     | 3       | 4     | 5     | 6     |
+| - | ------ | ----- | ------- | ----- | ----- | ----- |
+| 1 | Mags   | Rella | Juniper | Ada   | Caia  | Nix   |
+| 2 | Sela   | Brynn | Vega    | Petra | Ashra | Miri  |
+| 3 | Fallon | Rue   | Danya   | Talin | Ona   | Briar |
+| 4 | Zadie  | Lark  | Edda    | Moren | Hala  | Kez   |
+| 5 | Syl    | Echo  | Tamsin  | Arla  | Cyra  | Fern  |
+| 6 | Nyla   | Jex   | Thorne  | Imra  | Pax   | Ilsey |
+
+
+#### Male Names
+
+|   | 1     | 2      | 3       | 4      | 5    | 6      |
+| - | ----- | ------ | ------- | ------ | ---- | ------ |
+| 1 | Rigg  | Thorne | Cass    | Bram   | Lex  | Jaro   |
+| 2 | Flint | Corven | Dax     | Halden | Vorn | Elric  |
+| 3 | Silas | Boone  | Jett    | Maddox | Ren  | Colm   |
+| 4 | Asher | Talor  | Brin    | Vex    | Orin | Merrik |
+| 5 | Zev   | Nilo   | Garrick | Kade   | Drex | Harlan |
+| 6 | Roen  | Sayer  | Quinn   | Moss   | Fen  | Lio    |
+
+
+#### Surnames
+
+|   | 1       | 2        | 3       | 4        | 5         | 6      |
+| - | ------- | -------- | ------- | -------- | --------- | ------ |
+| 1 | Ashvale | Burnside | Varnell | Crossley | Hollowick | Trask  |
+| 2 | Bramble | Thornell | Creed   | Gallows  | Mirelow   | Falco  |
+| 3 | Shard   | Quade    | Tiller  | Draven   | Laskin    | Vale   |
+| 4 | Roach   | Wexler   | Kern    | Fallow   | Brinley   | Rask   |
+| 5 | Soot    | Harker   | Fenwick | Omeral   | Crane     | Hush   |
+| 6 | Slade   | Vexley   | Grinn   | Cask     | Ember     | Dorran |
+
+
+#### Nicknames
+
+|   | 1      | 2       | 3      | 4      | 5      | 6      |
+| - | ------ | ------- | ------ | ------ | ------ | ------ |
+| 1 | Cinder | Knuckle | Scorch | Dusty  | Nails  | Flinch |
+| 2 | Spark  | Ghost   | Biter  | Crook  | Stitch | Glare  |
+| 3 | Echo   | Vex     | Dagger | Crank  | Pit    | Rattle |
+| 4 | Jinx   | Thump   | Snare  | Wick   | Blight | Scab   |
+| 5 | Stray  | Fang    | Sly    | Wretch | Brick  | Grit   |
+| 6 | Moth   | Hex     | Grub   | Snipe  | Wasp   | Shrike |
+
 ## Special Rules
 
 ### The Eden Fallout
@@ -104,13 +153,11 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 > Ask the Oracle: *Do they agree?*
 > *Yes, and —* they warn you of a nearby fallout storm for free.
 
-
 ## Factions
 
 ### The Rust Saints
 
-**Concept**: Devotional scrappers who worship the decay of the old world.
-
+* **Concept**: Devotional scrappers who worship the decay of the old world.
 * **Skills**: Scavenging, Tinkering
 * **Frailty**: Obsessive relic hoarding
 * **Gear**: Icon-welded armor, relic detectors, oxidized blades
@@ -120,8 +167,7 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### The Verdancy
 
-**Concept**: Symbiotic cult devoted to mutated flora and fungal enlightenment.
-
+* **Concept**: Symbiotic cult devoted to mutated flora and fungal enlightenment.
 * **Skills**: Herbalism, Mutation control
 * **Frailty**: Vulnerable to fire and cold
 * **Gear**: Spore-robes, mycelial salves, symbiont spores
@@ -131,8 +177,7 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### The Enclave Remnants
 
-**Concept**: Heirs of a pre-collapse government bunker, still clinging to authority.
-
+* **Concept**: Heirs of a pre-collapse government bunker, still clinging to authority.
 * **Skills**: Engineering, Bureaucratic command
 * **Frailty**: Rigid protocol blindness
 * **Gear**: Old-world uniforms, biometric scanners, ration stockpiles
@@ -142,8 +187,7 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### The Blister March
 
-**Concept**: Nomadic war-clans hardened by fallout storms and endless raids.
-
+* **Concept**: Nomadic war-clans hardened by fallout storms and endless raids.
 * **Skills**: Guerrilla tactics, Firearms
 * **Frailty**: Blood-feud conditioning
 * **Gear**: Scrap-mounted bikes, heat-flare bombs, bone-masks
@@ -153,8 +197,7 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### The Radiant Front
 
-**Concept**: Revolutionary fanatics infused with controlled mutations.
-
+* **Concept**: Revolutionary fanatics infused with controlled mutations.
 * **Skills**: Propaganda, Bio-enhancement
 * **Frailty**: Unstable genetic shifts
 * **Gear**: Glow-serums, neural injectors, living tattoos
@@ -164,8 +207,7 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### The Gutterkin
 
-**Concept**: Underground traders and thieves operating out of collapsed city ruins.
-
+* **Concept**: Underground traders and thieves operating out of collapsed city ruins.
 * **Skills**: Infiltration, Barter
 * **Frailty**: Light sensitivity
 * **Gear**: Sensor visors, smoke bombs, dermal lockpicks
@@ -239,57 +281,64 @@ No one rules the Wastes — but many try. When you interact with a faction (mili
 
 ### Glowback Coyote
 
-* **Concept**: Predatory scavenger warped by bioluminescent fallout
+* **Concept**: Bioluminescent predator
 * **Skills**: Silent tracking, night ambush
 * **Frailty**: Hyperreactive nervous system
-* **Features**: Radiant veins, fused jawbone fangs, double pupils
-* **Behavior**: Trails the scent of blood and burned plastic
+* **Gear**: Glowing veinstalk hide, fused jawbone fangs
+* **Goal**: Stalk contaminated prey through the night
+* **Motive**: Hunger sharpened by mutation
 * **Nemesis**: Pack-hunters and high-frequency pulses
 
 ### Ironclatter Beetle
 
-* **Concept**: Trash-mining insect grown inside rustfields
+* **Concept**: Shrapnel-shelled scavenger
 * **Skills**: Burrowing, plating resilience
 * **Frailty**: Overheats in direct sunlight
-* **Features**: Shrapnel carapace, vibro-mandibles, scrap-sense antennae
-* **Behavior**: Consumes circuitry and wiring, nests in cooling vents
+* **Gear**: Vibro-mandibles, scrap-sense antennae
+* **Goal**: Harvest metal to construct secure nests
+* **Motive**: Instinctive hoarding of conductive salvage
 * **Nemesis**: Sudden temperature shifts, sonic blasts
 
 ### Bloomspite
 
-* **Concept**: Spore-ridden plant beast with predator mimicry
+* **Concept**: Carnivorous bloom mimic
 * **Skills**: Toxin release, regenerative bloom cycles
-* **Frailty**: Susceptible to frost, desiccation
-* **Features**: Petal-lined mouth, pulsing core, root-twitch reflex
-* **Behavior**: Camouflages as vibrant ruin-growth, then strikes
+* **Frailty**: Susceptible to frost and desiccation
+* **Gear**: Petal-lined trap maw, pulsing spore core
+* **Goal**: Lure and digest warm-blooded prey
+* **Motive**: Territorial instinct rooted in survival
 * **Nemesis**: Fire, salt, and anti-fungal wash
 
 ### Miremaw
 
-* **Concept**: Biotoxin-fed amphibian dwelling in chemical sumps
+* **Concept**: Toxic sump predator
 * **Skills**: Ambush, venom secretion
-* **Frailty**: UV-exposed membranes tear easily
-* **Features**: Transparent eyelids, siphon tongue, sludge-coated hide
-* **Behavior**: Feeds on warm rot, thrives in rot-pools and sewer shadows
+* **Frailty**: UV-sensitive membranes
+* **Gear**: Siphon tongue, sludge-coated hide
+* **Goal**: Defend and dominate chemical lairs
+* **Motive**: Bio-filtration instinct linked to hunger
 * **Nemesis**: Droughts, predatory swarms
 
 ### Bramblecarver
 
-* **Concept**: Semi-mechanized scorpion born from scrapyard entanglements
+* **Concept**: Tech-burdened scrapyard scorpion
 * **Skills**: Armor resilience, mechanical detection
-* **Frailty**: Vulnerable to magnetic interference
-* **Features**: Cable-choked limbs, arc-welded stinger, scanner core
-* **Behavior**: Seeks salvage to embed in body, territorial over tech
+* **Frailty**: Magnetic interference vulnerability
+* **Gear**: Arc-welded stinger, scanner-core optics
+* **Goal**: Absorb and assimilate salvage into its body
+* **Motive**: Territorial maintenance through augmentation
 * **Nemesis**: EMP bursts, magnetic mines
 
 ### Tinker-Rat
 
-* **Concept**: Bio-augmented rodent with learned tool use
-* **Skills**: Stealth, mimicry, scavenging
-* **Frailty**: Skeletal fragility, addictive to irradiated crumbs
-* **Features**: Mechanical jaw pin, claw thumbs, retinal flash memory
-* **Behavior**: Steals small objects, nests near tech, mimics human speech
+* **Concept**: Augmented junk rodent
+* **Skills**: Stealth, mimicry
+* **Frailty**: Skeletal fragility
+* **Gear**: Retinal flash memory, mechanical jaw pin
+* **Goal**: Build semi-functional nests from scavenged tech
+* **Motive**: Compulsive tinkering driven by instinct
 * **Nemesis**: Traps, loud noise, plasma discharge
+
 
 ## Locations
 
