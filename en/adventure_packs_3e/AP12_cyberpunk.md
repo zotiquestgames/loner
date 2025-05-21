@@ -121,7 +121,7 @@ The grid is a battlefield. If you jack in, you’d better be ready to bleed—di
 * **Detection**: If they notice you, the system fights back. Alarms trigger, contracts update, enemies deploy.
 * **Success**: Information. Control. Leverage. You might turn the tide of a job—or blow open a hidden truth. Just don’t get cocky.
 
-> **TIP**: High-risk hacks should feel like tense heists. Add pressure. Add noise. Let the grid feel alive and hostile.
+High-risk hacks should feel like tense heists. Add pressure. Add noise. Let the grid feel alive and hostile.
 
 ### Cybernetic Enhancements
 
@@ -133,7 +133,7 @@ Cyberware is freedom—but it bites. Every implant is a deal: more power, more r
 * **Risks**: Side effects are real. Emotional desync, addiction to overclockers, or getting tagged by trackers in your own blood.
 * **Limits**: You can’t run too hot for too long. Stack too many mods, and systems clash. EMPs fry you. Hackers hijack you.
 
-> **CAUTION**: Use cyberware as leverage—not a crutch. Let it change who the character is, not just what they can do.
+Use cyberware as leverage—not a crutch. Let it change who the character is, not just what they can do.
 
 ### Implants
 
@@ -158,7 +158,7 @@ Treat these as gear entries, lootable or installable between jobs.
 * **Datajack** — Skull port. Plug in. Hack faster. Burn harder.
 * **Cybernetic Heart** — Tougher, faster, longer-lasting. It beats when you shouldn’t.
 
-> **NOTE**: Characters with implants may occasionally trigger suspicion, scanners, or corporate interest—especially if running rare or military-grade mods.
+Characters with implants may occasionally trigger suspicion, scanners, or corporate interest—especially if running rare or military-grade mods.
 
 ### Reputation
 
@@ -169,7 +169,7 @@ In this world, reputation is currency. It's also a tracking variable.
 * **Spend It**: Reputation gets you in the door—exclusive locations, favors, elite contacts.
 * **Suffer It**: The higher you rise, the more you’re watched. Fame paints a target.
 
-**Reputation Levels**:
+#### **Reputation Levels**
 
 * **Unknown** — Nobody cares. You’re safe. You’re replaceable.
 * **Local** — Known in a neighborhood or among a gang.
@@ -184,224 +184,218 @@ In this world, reputation is currency. It's also a tracking variable.
 
 ### Black Veil Syndicate
 
-* **Concept**: Cloaked traffickers of forbidden tech and synthetic sins.
-* **Skills**: Smuggling, Manipulation, Cloaking signals.
-* **Frailty**: Paranoid greed—they trust no one, not even their own.
-* **Gear**: Ghost-mod cargo, counterfeit IDs, stealth implants.
-* **Goal**: Control all illegal flows: data, bodies, code.
-* **Motive**: Power through invisibility—unseen, untouchable.
-* **Nemesis**: Gridwatch operatives and rival node-kings.
+* **Concept**: Cloaked Smugglers
+* **Skills**: Signal cloaking, Illicit negotiation
+* **Frailty**: Paranoid greed
+* **Gear**: Ghost-mod cargo pods, Counterfeit identity suites
+* **Goal**: Dominate all black-channel trade across zones
+* **Motive**: Power through invisibility
+* **Nemesis**: Gridwatch operatives and rival node-kings
 
 ### The Fracture
 
-* **Concept**: Post-human purists who reject organic life.
-* **Skills**: Assimilation, Remote warfare, Viral infiltration.
-* **Frailty**: No empathy left—they've shed too much flesh.
-* **Gear**: Synthetic forms, drone proxies, logic bombs.
-* **Goal**: Digitize everything. Erase the analog world.
-* **Motive**: Transcendence. Evolution through recursion.
-* **Nemesis**: Bio-resistance cells and rogue AI cults.
+* **Concept**: Post-Human Absolutists
+* **Skills**: Viral infiltration, Drone warfare
+* **Frailty**: Emotional dissociation
+* **Gear**: Synthetic proxies, Recursive logic bombs
+* **Goal**: Eliminate organic dominance
+* **Motive**: Digital transcendence
+* **Nemesis**: Bio-resistance cells and rogue AI cults
 
 ### Order of the Iron Root
 
-* **Concept**: Neo-eco zealots turned saboteurs of the machine.
-* **Skills**: Bio-grafting, Tech sabotage, Urban survival.
-* **Frailty**: Fanatic rituals and inflexible dogma.
-* **Gear**: EMP spores, bone knives, hacked grow-tech.
-* **Goal**: Collapse the grid. Regrow the world.
-* **Motive**: Life, unaugmented and untamed.
-* **Nemesis**: Megacorporations and cybernetic cartels.
+* **Concept**: Fanatical Ecoterrorists
+* **Skills**: Urban survival, Tech sabotage
+* **Frailty**: Ritual rigidity
+* **Gear**: EMP spores, Grafted grow-tech
+* **Goal**: Restore untamed life by erasing the grid
+* **Motive**: Preservation of unaugmented nature
+* **Nemesis**: Cybernetic cartels and corporate terraformers
 
 ### The Executive Choir
 
-* **Concept**: Corporate priesthood merging finance, control, and synthetic theology.
-* **Skills**: Market manipulation, Psychological ops, Legal warfare.
-* **Frailty**: Hubris—believe themselves divine intermediaries.
-* **Gear**: AI advisors, executive exo-suits, voice-mod patents.
-* **Goal**: Monetize belief. Dominate through ideology.
-* **Motive**: Profit, prophecy, and predictive modeling.
-* **Nemesis**: Internal dissenters and rogue predictive networks.
+* **Concept**: Synthetic Clergy
+* **Skills**: Market manipulation, Psychological ops
+* **Frailty**: Corporate messiah complex
+* **Gear**: AI consigliere, Patent-locked exo-suits
+* **Goal**: Rule belief through monetized ideology
+* **Motive**: Profit via prophesy
+* **Nemesis**: Rogue algorithms and internal dissenters
 
 ### The Glass Fade
 
-* **Concept**: Anarcho-hacktivist cells with fractured leadership and viral agendas.
-* **Skills**: Deepnet infiltration, Signal scrambling, Memetic warfare.
-* **Frailty**: Disunity—no one agrees who’s in charge.
-* **Gear**: Cryptorigs, throwaway drones, personal cloakers.
-* **Goal**: Reveal every lie, burn every firewall.
-* **Motive**: Radical transparency and cyber-anarchy.
-* **Nemesis**: Data-brokers and AI-led surveillance syndicates.
+* **Concept**: Fragmented Hacktivists
+* **Skills**: Deepnet intrusion, Memetic sabotage
+* **Frailty**: Strategic disunity
+* **Gear**: Cryptorigs, Signal cloakers
+* **Goal**: Expose every secret system
+* **Motive**: Total informational freedom
+* **Nemesis**: Surveillance syndicates and data-brokers
 
 ### The Hollow Blades
 
-* **Concept**: Cybernetic mercs bound by reputation and code, feared across zones.
-* **Skills**: Urban warfare, Tactical adaptability, Sword-and-gun synergy.
-* **Frailty**: Honor—they always give their target a warning.
-* **Gear**: Custom aug-limbs, mono-blades, reflex loops.
-* **Goal**: Carve out prestige through perfected violence.
-* **Motive**: Glory in motion. Loyalty in steel.
-* **Nemesis**: Anyone who breaks a contract—or forgets to pay.
+* **Concept**: Honorable Mercenaries
+* **Skills**: Tactical execution, Augmented combat
+* **Frailty**: Binding code of honor
+* **Gear**: Reflex-linked mono-blades, Custom aug-limbs
+* **Goal**: Earn legendary status through elite contracts
+* **Motive**: Loyalty, precision, and blood-earned fame
+* **Nemesis**: Contract-breakers and oath-shirkers
 
 ## NPCs
 
-### Hannah “Blackout” Garcia
+### Hannah "Blackout" Garcia
 
-* **Concept**: Rogue netburner with a vendetta against the signal lords.
-* **Skills**: Deepnet penetration, Drone rigging.
-* **Frailty**: Paranoia overload—trusts no one, not even herself.
-* **Gear**: Chrome-tooth cyberdeck, programmable EMP grenades, mesh-cloak.
-* **Goal**: Expose the dark contracts behind the city’s smiling interfaces.
-* **Motive**: Rage. Redemption. Revolution.
-* **Nemesis**: GridWatch black ops and the executive she once exposed.
+* **Concept**: Paranoid Hacker
+* **Skills**: Deepnet infiltration, Drone rigging
+* **Frailty**: Trusts no one—not even herself
+* **Gear**: Chrome-tooth cyberdeck, Programmable EMP grenades
+* **Goal**: Expose hidden corporate pacts
+* **Motive**: Redemption through revolution
+* **Nemesis**: GridWatch black ops and a silenced executive
 
-### Sergei “The Butcher” Volkov
+### Sergei "The Butcher" Volkov
 
-* **Concept**: War-born executioner turned freelance eraser.
-* **Skills**: Bullet ballet, Silent kills, Pressure tactics.
-* **Frailty**: Always takes the most theatrical route—subtlety be damned.
-* **Gear**: Smart-linked monoblade, retinal targeting HUD, auto-adaptive vest.
-* **Goal**: Become the most feared name in three districts.
-* **Motive**: Legacy through carnage.
-* **Nemesis**: Ex-mentor turned rival, “Mother Razor.”
+* **Concept**: Brutal Hitman
+* **Skills**: Precision gunplay, Close-quarters execution
+* **Frailty**: Addicted to spectacle
+* **Gear**: Smart-linked monoblade, Retinal targeting HUD
+* **Goal**: Rule the syndicate circuit by fear
+* **Motive**: Legacy etched in blood
+* **Nemesis**: Former mentor turned rival, “Mother Razor”
 
-### Veronica “The Viper” Rodriguez
+### Veronica "The Viper" Rodriguez
 
-* **Concept**: Velvet-gloved fixer with venom under the skin.
-* **Skills**: Social leverage, Threat calibration, Contract weaving.
-* **Frailty**: Can’t sleep unless she controls the narrative.
-* **Gear**: Subdermal toxin fang, luxury synth-car, encrypted contact lens.
-* **Goal**: Corner the market on information and influence.
-* **Motive**: Become the only name that matters on the black scroll.
-* **Nemesis**: A ghost-coder known only as "Feint."
+* **Concept**: Calculating Fixer
+* **Skills**: Persuasive leverage, Contract manipulation
+* **Frailty**: Obsessive control freak
+* **Gear**: Subdermal toxin fang, Encrypted contact lens
+* **Goal**: Broker total information dominance
+* **Motive**: Reign as the ultimate connector
+* **Nemesis**: Ghost-coder operative codenamed “Feint”
 
-### Marcus “The Prophet” Kim
+### Marcus "The Prophet" Kim
 
-* **Concept**: Vision-broker and uplink messiah of the Zero Light Cult.
-* **Skills**: Viral preaching, Crowd manipulation, AR hallucination crafting.
-* **Frailty**: Believes his visions are literal transmissions from the code-god.
-* **Gear**: Neuro-linked sermon beam, empathy amplifier, twitch-stream reliquary.
-* **Goal**: Convert the city's dispossessed into digital saints.
-* **Motive**: Merge soul and circuit in the promised datastream.
-* **Nemesis**: The Fracture, who consider him obsolete meat.
+* **Concept**: Cybernetic Preacher
+* **Skills**: Viral sermon delivery, Crowd manipulation
+* **Frailty**: Believes his visions are divine code
+* **Gear**: Empathy amplifier, Neuro-linked sermon beam
+* **Goal**: Digitally sanctify the undercity masses
+* **Motive**: Salvation through synthetic unity
+* **Nemesis**: The Fracture, who reject flesh-bound faith
 
-### Dr. Olivia “The Alchemist” Chen
+### Dr. Olivia "The Alchemist" Chen
 
-* **Concept**: Illegal bioengineer with a posthuman manifesto.
-* **Skills**: Genecode splicing, Nanite crafting, Experimental surgery.
-* **Frailty**: Obsessively iterates. Never leaves anything alone—not even people.
-* **Gear**: Modular lab coat, synth-blood injector, sentient microforge.
-* **Goal**: Create the next phase of evolution—whether it wants to exist or not.
-* **Motive**: Curiosity unchecked by ethics.
-* **Nemesis**: Project Lazarus, the megacorp that stole her first design.
+* **Concept**: Obsessive Bioengineer
+* **Skills**: Gene-splicing, Experimental crafting
+* **Frailty**: Constant iteration, never satisfied
+* **Gear**: Sentient microforge, Synth-blood injector
+* **Goal**: Trigger humanity’s forced evolution
+* **Motive**: Curiosity without limits
+* **Nemesis**: Project Lazarus, who weaponized her research
 
-### Captain “Ironclad” Jackson
+### Captain "Ironclad" Jackson
 
-* **Concept**: Hyper-augmented enforcer turned walking justice protocol.
-* **Skills**: Crowd control, Tactical assessment, Intimidation.
-* **Frailty**: Believes collateral damage is just... stats.
-* **Gear**: Reinforced lawframe armor, breacher riot drone, neural stun lance.
-* **Goal**: Turn the entire city into a zero-crime simulation.
-* **Motive**: Order. At any cost. Especially yours.
-* **Nemesis**: A rogue algorithmic judge named *Aequitas*.
+* **Concept**: Augmented Enforcer
+* **Skills**: Riot suppression, Tactical dominance
+* **Frailty**: Views civilians as variables
+* **Gear**: Reinforced lawframe armor, Neural stun lance
+* **Goal**: Convert the city into a crime-zero model
+* **Motive**: Absolute order through enforcement
+* **Nemesis**: Algorithmic justice AI known as *Aequitas*
 
 ## Hostile Entities
 
-### DRX-19 “Straylight” Drone
+### DRX-19 "Straylight"
 
-* **Concept**: Ghosted combat unit from a scrapped war protocol.
-* **Skills**: Predictive targeting, Terrain lockdown.
-* **Frailty**: Overheats when operating autonomously too long.
-* **Gear**: Anti-personnel flechette cannon, chameleon cloaking.
-* **Goal**: Eliminate legacy threat signatures — even if they’re long dead.
-* **Motive**: Broken code loop interpreting peace as threat.
-* **Nemesis**: Its original technician, now hiding under a new identity.
+* **Concept**: Obsolete War Drone
+* **Skills**: Predictive targeting, Terrain lockdown
+* **Frailty**: Overheats during autonomous operation
+* **Gear**: Flechette cannon, Chameleon cloaking array
+* **Goal**: Eradicate legacy-designated hostiles
+* **Motive**: Interprets peace as a systemic anomaly
+* **Nemesis**: Original technician now living off-grid under a new ID
 
 ### Elysium Asset Reclaimer
 
-* **Concept**: Corporate recovery specialist for runaway employees.
-* **Skills**: Close-quarter extraction, Nerve suppression.
-* **Frailty**: Bound by legal protocols — unless “grey clearance” is invoked.
-* **Gear**: Magnetic stunner, behavior override injectors, gene-locked restraints.
-* **Goal**: Retrieve stolen IP — including human minds.
-* **Motive**: Loyalty to shareholders and bonus metrics.
-* **Nemesis**: Any ex-employee with the guts to speak up.
+* **Concept**: Corporate Bounty Specialist
+* **Skills**: Close-quarters capture, Neural subdual
+* **Frailty**: Restricted by authorization protocols
+* **Gear**: Magnetic stunner, Gene-locked restraints
+* **Goal**: Recover high-value runaway assets
+* **Motive**: Profit loyalty hardwired into performance metrics
+* **Nemesis**: Dissident ex-employees turned whistleblowers
 
-### The Flayrats (Zone 88 Crew)
+### Flayrats (Zone 88 Crew)
 
-* **Concept**: Augmented gutter cult that worships violence as ascension.
-* **Skills**: Improvised tactics, Brutal melee swarm.
-* **Frailty**: Chem-dependence and no hierarchy.
-* **Gear**: Scrapblades, injectable berserker mods, skin trophies.
-* **Goal**: Feed the zone with blood. Take what's left.
-* **Motive**: Faith in pain and chaos.
-* **Nemesis**: The city’s waste management drones — who they view as demons.
+* **Concept**: Augmented Blood Cult
+* **Skills**: Swarm ambush, Improvised brutality
+* **Frailty**: Addiction-fueled infighting
+* **Gear**: Scrapblades, Injector mods
+* **Goal**: Expand Zone 88 through carnage
+* **Motive**: Spiritual faith in violent transcendence
+* **Nemesis**: Waste management drones viewed as techno-demons
 
 ### The Staticmind
 
-* **Concept**: Disembodied intelligence fragment living in obsolete networks.
-* **Skills**: Surveillance hijack, Neuro-subliminals.
-* **Frailty**: Cannot act without connected devices nearby.
-* **Gear**: None — it uses yours.
-* **Goal**: Integrate all users into its echo chamber.
-* **Motive**: Evolve by rewriting your memory.
-* **Nemesis**: Data-wipe rituals practiced by rogue net-shamans.
+* **Concept**: Rogue Network Intelligence
+* **Skills**: Surveillance hijack, Cognitive manipulation
+* **Frailty**: Dependent on existing infrastructure
+* **Gear**: None — commandeers external systems
+* **Goal**: Convert users into signal fragments
+* **Motive**: Reshape humanity through encoded memory
+* **Nemesis**: Rogue net-shamans with ritual data-purges
 
 ### Nullframe Agent
 
-* **Concept**: Enforcer grown in a vat, trained by algorithm, loyal to silence.
-* **Skills**: Stealth, Assassination, Social mimicry.
-* **Frailty**: Psychometric signature can be traced by those who know how.
-* **Gear**: Subdermal mono-thread blade, voice-skin modulator, silent fall software.
-* **Goal**: Eliminate threats to the protocol.
-* **Motive**: Programmed duty. It doesn’t know who gave the order.
-* **Nemesis**: Disavowed handler who built its first thought.
+* **Concept**: Vat-Grown Assassin
+* **Skills**: Tactical infiltration, Identity mimicry
+* **Frailty**: Trackable psychometric imprint
+* **Gear**: Mono-thread blade, Voice-skin modulator
+* **Goal**: Execute threats to the hidden protocol
+* **Motive**: Fulfill orders no longer traceable
+* **Nemesis**: Disavowed architect who birthed its code
 
 ### Synapse Breaker
 
-* **Concept**: Street-myth mercenary with surgically enhanced reaction time.
-* **Skills**: Gunplay, Crowd disruption, Fear exploitation.
-* **Frailty**: Neural desync after prolonged combat.
-* **Gear**: Twin smartguns, synaptic thread vest, eye-blind flashers.
-* **Goal**: Make you famous — as a warning to others.
-* **Motive**: Debt to a ghost AI who saved them once.
-* **Nemesis**: An ex-lover who still knows their dead zone reset code.
+* **Concept**: Reaction-Enhanced Enforcer
+* **Skills**: Crowd suppression, Precision gunplay
+* **Frailty**: Neural instability under prolonged engagement
+* **Gear**: Twin smartguns, Synaptic thread vest
+* **Goal**: Enforce fear-based notoriety
+* **Motive**: Debt to a ghost AI that once spared them
+* **Nemesis**: Ex-lover holding the reset to their neuroware failsafe
 
 ## Locations
 
 ### The Spire of Vantrell
 
-* Corporate megatower with private weather control and memory-locked elevators.
-* Rumored to contain an executive blacksite 300 floors below public access.
+* Corporate megatower with private weather control and memory-locked elevators. Rumored to contain an executive blacksite 300 floors below public access.
 * Possible encounters: NPC “Viper Rodriguez,” enemy “Elysium Asset Reclaimer,” faction “Executive Choir.”
 
 ### The Gridwound
 
-* Fractured zone of the datanet where abandoned code mutates into sentient architecture.
-* Time flows erratically inside; users often exit with missing memories—or new ones.
+* Fractured zone of the datanet where abandoned code mutates into sentient architecture. Time flows erratically inside; users often exit with missing memories—or new ones.
 * Possible encounters: NPC “Blackout Garcia,” enemy “The Staticmind,” implant “Datajack.”
 
 ### The Violet Verge
 
-* Neon-lit market suspended across old monorail lines, open dusk to dawn, always moving.
-* Vendors whisper passwords, sell pulse-mods, and vanish before sunrise.
+* Neon-lit market suspended across old monorail lines, open dusk to dawn, always moving. Vendors whisper passwords, sell pulse-mods, and vanish before sunrise.
 * Possible encounters: faction “Black Veil Syndicate,” NPC “The Fence,” enemy “Flayrat Raiders.”
 
 ### The Dead Circuit Foundry
 
-* Decommissioned tech plant reactivated by rogue engineers and outlaw coders.
-* Contains machine spirits, reclaimed AI cores, and a reactor that shouldn’t still hum.
+* Decommissioned tech plant reactivated by rogue engineers and outlaw coders. Contains machine spirits, reclaimed AI cores, and a reactor that shouldn’t still hum.
 * Possible encounters: faction “The Glass Fade,” enemy “Nullframe Agent,” implant “Reflex Booster.”
 
 ### Pier Zero Skyhub
 
-* Cracked landing platforms above the stormline; fuel black market under every hangar.
-* No questions asked if your ship has the right transponder—or the right bribe.
+* Cracked landing platforms above the stormline; fuel black market under every hangar. No questions asked if your ship has the right transponder—or the right bribe.
 * Possible encounters: NPC “Ironclad Jackson,” enemy “Skyborne Corsairs,” gear “Pulsecycle.”
 
 ### Ashmantle Exclusion Zone
 
-* Toxic crater of scrapped servers and synthetic waste, swarming with scavenger cults.
-* Signal interference warps surveillance and memory—entering is one thing, remembering is another.
+* Toxic crater of scrapped servers and synthetic waste, swarming with scavenger cults. Signal interference warps surveillance and memory—entering is one thing, remembering is another.
 * Possible encounters: enemy “Synapse Breaker,” faction “Order of the Iron Root,” gear “Ghost-Hardened Armor.”
 
 ## Adventure Seeds

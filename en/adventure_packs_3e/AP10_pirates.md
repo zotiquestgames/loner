@@ -338,38 +338,34 @@ When tension peaks, ask: *Does the crew rise against me?* or *Can I hold the dec
 ### Port Royal
 
 * A thriving British colonial port, infamous for its corruption and indulgence.
-* The Governor’s Mansion: A seat of brittle authority, where bribes speak louder than laws.
-* The Black Pearl Tavern: Crowded, smoky, and loud—a crossroads for whispers, wagers, and shady crews.
+* **Possible Encounter:** Bribe the corrupt Governor’s aide; overhear treasonous plans at the Black Pearl Tavern; escape a tavern brawl turned deadly.
 
 ### Isla de Culebras
 
 * A remote and rocky island, feared for its storms, snakes, and the wrecks that litter its shores.
-* The Hidden Cavern: Said to house long-lost Spanish plunder, accessible only at low tide.
-* The Clifftop Watch: An old lookout tower now used by smugglers—if they trust you.
+* **Possible Encounter:** Dodge rival treasure hunters in the hidden cavern; get ambushed by smugglers in the clifftop watch; scale jagged cliffs under musket fire.
 
 ### Tortuga
 
 * A loose, lawless port where pirates rule and no flag flies for long.
-* The Pirate Court: A boisterous longhouse where captains settle disputes with drink or steel.
-* The Red Parrot Inn: Loud music, louder laughter, and contracts written in spilled rum.
+* **Possible Encounter:** Duel a rival in the Red Parrot Inn; persuade the Pirate Court to back a mutiny; chase a thief through crowded alleys.
 
 ### Nassau
 
 * A fledgling pirate republic where ideals clash with ambition.
-* The Governor’s Quarters: A nominal official walks a fine line between bribes and bullets.
-* The Free Market: Open stalls sell rope, powder, secrets, and stolen goods.
+* **Possible Encounter:** Trade secrets in the Free Market; outwit a British informant in the Governor’s Quarters; rally support for a pirate fleet.
 
 ### Shipbreaker Cove
 
 * A jagged inlet known for wrecks, reefs, and rumors of hidden anchorages.
-* The Assembly Rock: A neutral site where pirate captains meet under truce—briefly.
-* The Coastal Defenses: Old swivel guns, natural choke points, and blind currents make entry dangerous.
+* **Possible Encounter:** Slip through the cove’s defenses under pursuit; parley during a tense pirate summit; retrieve a wrecked courier ship’s logs before high tide.
 
 ### The Lost Shoals
 
 * A shifting maze of reefs and fogbanks where compasses spin and charts lie.
-* The Wreck of the Resolute: A splintered brig lodged in coral, possibly still holding sealed cargo.
-* The Deadlight Buoy: A drifting signal with no known owner—some say it follows ships.
+* **Possible Encounter:** Board the haunted wreck of the Resolute; escape a pursuing brig obscured in the fog; investigate why the Deadlight Buoy is following your vessel.
+
+
 
 ## Adventure Seeds
 

@@ -109,12 +109,12 @@
 
 In this land, justice is often decided in a heartbeat — or the failure of one.
 
-- When a duel begins, both participants roll a **Quick-Draw** skill check.
-- The winner gains **+1d on their first attack**.
-- After that, combat proceeds as normal — each side takes turns making attack rolls until one is down or flees.
-- A tie on the draw means both fire at once: resolve both attacks before applying consequences.
+- When a duel begins, both participants roll a closed Oracle question:
+ “Do I outdraw my opponent?”
+Use Advantage if tags support it (e.g. Quick Hands, Fast Reflexes, Gunfighter Instinct).
+- The winner gains Advantage on their first Conflict roll.
 
-> **Note:** You can use tags like `Quick Hands`, `Fast Reflexes`, or `Gunfighter Instinct` to get advantage on the draw roll.
+After that, combat proceeds normally — each side takes turns resolving Conflicts until one is down, disarmed, or flees.
 
 ### Wanted Levels
 
@@ -150,227 +150,219 @@ The frontier doesn’t care about your plans. It breaks them — and you — wit
 
 ### The Badge-Bearers
 
-* **Concept**: Sheriffs, marshals, and posses trying to hold back the tide.
-* **Skills**: Tracking fugitives, calm under fire.
-* **Frailty**: Bound by a crumbling code in a lawless land.
-* **Gear**: Tin star, ledger of names, dusty long rifle.
-* **Goal**: Keep the peace, or die trying.
-* **Motive**: Duty — even if it kills them.
-* **Nemesis**: The Scars of the Territory.
+* **Concept**: Grim enforcers of a fading order
+* **Skills**: Fugitive tracking, frontier discipline
+* **Frailty**: Cling to codes no longer respected
+* **Gear**: Tin badge, arrest ledger
+* **Goal**: Hold the line against chaos
+* **Motive**: Duty above all
+* **Nemesis**: The Scars of the Territory
 
 ### The Scars of the Territory
 
-* **Concept**: Disbanded gangs, failed rebellions, desperate men and women living by the gun.
-* **Skills**: Robbery, intimidation, hiding in plain sight.
-* **Frailty**: Distrust and betrayal are the only currency.
-* **Gear**: Masked bandanas, sawed-off shotguns, coin purses of blood money.
-* **Goal**: Live fast, leave nothing behind.
-* **Motive**: Survival through violence.
-* **Nemesis**: Badge-Bearers, but also each other.
+* **Concept**: Fractured gangs and gun-hardened survivors
+* **Skills**: Ambush tactics, outlaw charisma
+* **Frailty**: Prone to betrayal within the ranks
+* **Gear**: Stolen pistols, blood-stained bandanas
+* **Goal**: Ride until no law can follow
+* **Motive**: Vengeance and survival
+* **Nemesis**: Badge-Bearers, and each other
 
 ### The Dustwalkers
 
-* **Concept**: Indigenous guides, warriors, elders, and spirits of a land already lost.
-* **Skills**: Reading wind and stone, spiritual vision.
-* **Frailty**: Haunted by treaties broken and stories stolen.
-* **Gear**: Worn talismans, curved blades, ancestral maps.
-* **Goal**: Preserve memory, protect what’s left.
-* **Motive**: Tradition in resistance.
-* **Nemesis**: The Railmen.
+* **Concept**: Displaced guardians of ancestral trails
+* **Skills**: Landcraft, memory-keeping
+* **Frailty**: Surrounded by a world that forgets
+* **Gear**: Ceremonial blade, hand-drawn map
+* **Goal**: Defend the land without losing the story
+* **Motive**: Resistance rooted in tradition
+* **Nemesis**: The Railmen Syndicate
 
 ### The Homestead Union
 
-* **Concept**: Farmers, ranchers, widows, and orphans clinging to soil and hope.
-* **Skills**: Bartering, fence-building, sharpshooting with a musket.
-* **Frailty**: Hope can blind them to threats in plain sight.
-* **Gear**: Wedding rings, hunting dogs, patched rifles.
-* **Goal**: Build something that lasts longer than their names.
-* **Motive**: A better life.
-* **Nemesis**: Land barons and all who claim dominion.
+* **Concept**: Stubborn settlers and fence-holding families
+* **Skills**: Bartering grit, marksmanship from the porch
+* **Frailty**: Naïveté disguised as hope
+* **Gear**: Worn musket, iron cooking pot
+* **Goal**: Raise homes that can’t be burned out
+* **Motive**: Future carved from dirt
+* **Nemesis**: Land agents and syndicate men
 
 ### The Railmen Syndicate
 
-* **Concept**: Tycoons, enforcers, and visionaries laying steel across bloodied ground.
-* **Skills**: Explosives, logistics, buying silence.
-* **Frailty**: Blind to human cost.
-* **Gear**: Engine whistles, payroll satchels, ledgers thick with names and debts.
-* **Goal**: Complete the line — no matter who’s buried beneath it.
-* **Motive**: Expansion, efficiency, empire.
-* **Nemesis**: Dustwalkers and saboteurs.
+* **Concept**: Industrialists and their loyal hammermen
+* **Skills**: Dynamite use, supply logistics
+* **Frailty**: Blind to who’s buried under progress
+* **Gear**: Steel rail contracts, brass whistle
+* **Goal**: Push the line west at any cost
+* **Motive**: Wealth through empire
+* **Nemesis**: Dustwalkers and all who delay the line
 
 ### The Border Marauders
 
-* **Concept**: Runaways, deserters, and ex-revolutionaries from beyond the Rio, bound by their own code.
-* **Skills**: Guerilla tactics, desert riding, fearless strikes.
-* **Frailty**: Divided loyalties and old ghosts.
-* **Gear**: Bullet-scarred coats, machetes, relic pistols.
-* **Goal**: Rewrite the border in fire.
-* **Motive**: Justice twisted into revenge.
-* **Nemesis**: Rangers, mercenaries, and time.
+* **Concept**: Ragged veterans of lost causes
+* **Skills**: Guerilla strikes, desert maneuvering
+* **Frailty**: Fragmented loyalty and old scores
+* **Gear**: Machetes, patched saddlebags
+* **Goal**: Redraw the frontier in blood
+* **Motive**: Wrath against the old order
+* **Nemesis**: Militias, bounty hunters, and time itself
 
 ## NPCs
 
 ### Jack “Black Dust” McLean
 
-* **Concept**: Charismatic gang leader with a draw faster than talk.
-* **Skills**: Quick-draw duels, battlefield tactics.
-* **Frailty**: Can’t resist a gamble, even when the stakes are life and death.
-* **Gear**: Twin custom pistols, black hat full of bullet holes.
-* **Goal**: Carve out a kingdom of dust and fear.
-* **Motive**: Legacy through blood.
-* **Nemesis**: Sheriff Ada Whitlock.
+* **Concept**: Charismatic gang leader
+* **Skills**: Quick-draw duels, battlefield tactics
+* **Frailty**: Can’t resist a gamble
+* **Gear**: Twin custom pistols, bullet-scarred black hat
+* **Goal**: Carve out a kingdom of dust and fear
+* **Motive**: Legacy through blood
+* **Nemesis**: Sheriff Ada Whitlock
 
 ### Belle “Brass Tooth” Calderón
 
-* **Concept**: Notorious stagecoach raider and folk hero to the wrong kind of folks.
-* **Skills**: Disguises, bluffing, horseback ambushes.
-* **Frailty**: Haunted by a betrayal that keeps her half-drunk, half-dangerous.
-* **Gear**: Sawed-off shotgun, charm bracelet made from bounty tags.
-* **Goal**: Burn the records of her past and replace them with legend.
-* **Motive**: Spite dressed up as freedom.
-* **Nemesis**: Deputy Marshal Thorne.
+* **Concept**: Notorious stagecoach raider
+* **Skills**: Bluffing, horseback ambushes
+* **Frailty**: Haunted by betrayal
+* **Gear**: Sawed-off shotgun, charm bracelet of bounty tags
+* **Goal**: Erase her past with infamy
+* **Motive**: Spite dressed as freedom
+* **Nemesis**: Deputy Marshal Thorne
 
 ### “Doc” Vance Holloway
 
-* **Concept**: Dying gambler, killer, and philosopher with nothing left but style.
-* **Skills**: Cards, pistols, and reading a man’s soul from across the table.
-* **Frailty**: Coughing blood and hiding it with a joke.
-* **Gear**: Ivory-handled derringer, silver pocketwatch he keeps winding.
-* **Goal**: Die with a grin, not a whimper.
-* **Motive**: Loyalty to those who stayed when others ran.
-* **Nemesis**: “Gentleman” Ringo Malloy.
+* **Concept**: Dying gambler-philosopher
+* **Skills**: Card sharp, intuitive shooter
+* **Frailty**: Coughs blood he jokes away
+* **Gear**: Ivory-handled derringer, silver pocketwatch
+* **Goal**: Die with a grin, not a whimper
+* **Motive**: Loyalty to those who stayed
+* **Nemesis**: “Gentleman” Ringo Malloy
 
 ### Mary “Stagecoach” Fields
 
-* **Concept**: Iron-willed hauler of people and freight through places maps avoid.
-* **Skills**: Driving rough terrain, handling a shotgun, wrangling mules and men.
-* **Frailty**: Won’t go near rivers — bad history.
-* **Gear**: Reinforced coach whip, hidden flask, battered iron skillet.
-* **Goal**: Get her people where they’re going, alive and whole.
-* **Motive**: Duty carved in scars.
-* **Nemesis**: Bandit queen "Red Clara" Valdez.
+* **Concept**: Iron-willed freight hauler
+* **Skills**: Rough terrain driver, mule wrangler
+* **Frailty**: Won’t cross rivers
+* **Gear**: Reinforced coach whip, battered iron skillet
+* **Goal**: Deliver her passengers alive
+* **Motive**: Duty carved in scars
+* **Nemesis**: Bandit queen Red Clara Valdez
 
 ### Caleb “The Preacher” Johnson
 
-* **Concept**: Bible in one hand, revolver in the other — he believes both are holy.
-* **Skills**: Fiery sermons, deadly aim.
-* **Frailty**: Sees signs of judgment everywhere — even in dreams.
-* **Gear**: Dust-covered Bible, family Colt with a notched grip.
-* **Goal**: Save the town — or cleanse it by fire.
-* **Motive**: Redemption, no matter the cost.
-* **Nemesis**: Snake-oil revivalist Silas "God’s Hand" Granger.
+* **Concept**: Gun-slinging preacher
+* **Skills**: Fiery sermons, deadly aim
+* **Frailty**: Sees judgment in every shadow
+* **Gear**: Dusty Bible, notched Colt revolver
+* **Goal**: Save the town—or burn its sins away
+* **Motive**: Redemption at any cost
+* **Nemesis**: Revivalist Silas "God’s Hand" Granger
 
 ### Lydia “The Widow” Duvall
 
-* **Concept**: Lace and lead — mourning clothes over a rifle barrel.
-* **Skills**: Marksmanship, cold patience.
-* **Frailty**: Drinks to remember, not forget.
-* **Gear**: Lace shawl sewn with pistol loops, widow’s veil she never lifts.
-* **Goal**: Put a bullet in the man who shot her husband in the back.
-* **Motive**: Justice cut with grief.
-* **Nemesis**: “Bloody” Bill Davidson and every man who rides with him.
+* **Concept**: Rifle-wielding mourner
+* **Skills**: Marksmanship, cold patience
+* **Frailty**: Drinks to remember
+* **Gear**: Lace shawl with pistol loops, widow’s veil
+* **Goal**: Kill the man who murdered her husband
+* **Motive**: Grief-forged justice
+* **Nemesis**: Bloody Bill Davidson
 
 ## Frontier Threats
 
 ### The Dustjaw
 
-* **Concept**: Hardened outlaw with nothing left to lose.
-* **Skills**: Quick-draw, bush ambush.
-* **Frailty**: Overconfident and slow to retreat.
-* **Gear**: Rusted six-shooter, bullet-patched duster.
-* **Goal**: Rob enough to vanish south.
-* **Motive**: Survival through domination.
-* **Nemesis**: The posse who left him for dead.
+* **Concept**: Hardened outlaw with nothing left to lose
+* **Skills**: Quick-draw, bush ambush
+* **Frailty**: Overconfident and slow to retreat
+* **Gear**: Rusted six-shooter, bullet-patched duster
+* **Goal**: Rob enough to vanish south
+* **Motive**: Survival through domination
+* **Nemesis**: The posse who left him for dead
 
 ### Ridgeback Coyote
 
-* **Concept**: Territorial alpha with a scarred snout.
-* **Skills**: Night prowling, coordinated howling.
-* **Frailty**: Easily baited when hungry.
-* **Gear**: Teeth, speed, the cover of darkness.
-* **Goal**: Drive out intruders and expand its range.
-* **Motive**: Instinct and hunger.
-* **Nemesis**: A ranch dog with a grudge.
+* **Concept**: Territorial alpha with a scarred snout
+* **Skills**: Night prowling, coordinated howling
+* **Frailty**: Easily baited when hungry
+* **Gear**: Teeth, speed, the cover of darkness
+* **Goal**: Drive out intruders and expand its range
+* **Motive**: Instinct and hunger
+* **Nemesis**: A ranch dog with a grudge
 
 ### Painted Canyon Sniper
 
-* **Concept**: Former scout turned paid killer.
-* **Skills**: Camouflage, long-range marksmanship.
-* **Frailty**: One eye shot out in war.
-* **Gear**: Scoped carbine, war medal worn on a string.
-* **Goal**: Collect the bounty, no questions asked.
-* **Motive**: Professional pride, not malice.
-* **Nemesis**: Any who return fire.
+* **Concept**: Former scout turned paid killer
+* **Skills**: Camouflage, long-range marksmanship
+* **Frailty**: One eye shot out in war
+* **Gear**: Scoped carbine, war medal worn on a string
+* **Goal**: Collect the bounty, no questions asked
+* **Motive**: Professional pride, not malice
+* **Nemesis**: Any who return fire
 
 ### Broadjaw Rattler
 
-* **Concept**: Massive rattlesnake nesting near the creek beds.
-* **Skills**: Silent approach, lightning strike.
-* **Frailty**: Slow to move in the morning chill.
-* **Gear**: Fangs, venom sac, natural camouflage.
-* **Goal**: Secure territory and mates.
-* **Motive**: Defense and hunger.
-* **Nemesis**: The trail hand with a shovel scar to prove it.
+* **Concept**: Massive rattlesnake nesting near the creek beds
+* **Skills**: Silent approach, lightning strike
+* **Frailty**: Slow to move in the morning chill
+* **Gear**: Fangs, venom sac, natural camouflage
+* **Goal**: Secure territory and mates
+* **Motive**: Defense and hunger
+* **Nemesis**: The trail hand with a shovel scar to prove it
 
 ### Creekbed Rustlers
 
-* **Concept**: Loose band of cattle thieves operating under moonlight.
-* **Skills**: Rope work, herd steering, vanishing fast.
-* **Frailty**: Poor coordination when separated.
-* **Gear**: Lariats, stolen brands, tired nags.
-* **Goal**: Sell stolen herds before daybreak.
-* **Motive**: Profit from other men’s labor.
-* **Nemesis**: Any honest wrangler or night watch.
+* **Concept**: Loose band of cattle thieves operating under moonlight
+* **Skills**: Rope work, herd steering, vanishing fast
+* **Frailty**: Poor coordination when separated
+* **Gear**: Lariats, stolen brands, tired nags
+* **Goal**: Sell stolen herds before daybreak
+* **Motive**: Profit from other men’s labor
+* **Nemesis**: Any honest wrangler or night watch
 
 ### Bitter Range Widow
 
-* **Concept**: Sharp-eyed homesteader with a dead husband and no patience.
-* **Skills**: Marksmanship, terrain advantage.
-* **Frailty**: Quick temper, quicker trigger.
-* **Gear**: Old Springfield rifle, widow’s locket.
-* **Goal**: Keep her land at all costs.
-* **Motive**: Defiance against displacement.
-* **Nemesis**: The land agent who forged her claim.
+* **Concept**: Sharp-eyed homesteader with a dead husband and no patience
+* **Skills**: Marksmanship, terrain advantage
+* **Frailty**: Quick temper, quicker trigger
+* **Gear**: Old Springfield rifle, widow’s locket
+* **Goal**: Keep her land at all costs
+* **Motive**: Defiance against displacement
+* **Nemesis**: The land agent who forged her claim
 
 ## Locations
 
 ### Red Lantern Saloon
 
-* Faded hub of drink, smoke, and whispered deals.
-* Known for poker games that end in gunfire.
+* Faded hub of drink, smoke, and whispered deals. Known for poker games that end in gunfire.
 * Possible Encounters: Bartender, Drifter, Card Shark
 
 ### Devil’s Spine Pass
 
-* Narrow switchback trail carved through jagged rock.
-* Ideal ground for ambushes — or accidents.
+* Narrow switchback trail carved through jagged rock. Ideal ground for ambushes — or accidents.
 * Possible Encounters: Highwayman, Scout, Coyote
 
 ### Lost Pick Mine
 
-* Partially collapsed claim with rumors of hidden silver.
-* Echoes travel too far down here.
+* Partially collapsed claim with rumors of hidden silver. Echoes travel too far down here.
 * Possible Encounters: Claim Jumper, Stray Mule, Cave-In Risk
 
 ### Fort Redemption
 
-* Old Union fort turned garrison for local patrols.
-* Supplies are short, tempers shorter.
+* Old Union fort turned garrison for local patrols. Supplies are short, tempers shorter.
 * Possible Encounters: Captain, Deserter, Supply Officer
 
 ### Dusthaven
 
-* Boomtown gone bust, now ruled by backroom politics.
-* Streets are dry, but blood still runs.
+* Boomtown gone bust, now ruled by backroom politics. Streets are dry, but blood still runs.
 * Possible Encounters: Corrupt Mayor, Deputy, Loan Shark
 
 ### Hollow Tree Ranch
 
-* Well-fenced spread on disputed land.
-* Guards work for pay — and switch sides fast.
+* Well-fenced spread on disputed land. Guards work for pay — and switch sides fast.
 * Possible Encounters: Ranch Hand, Foreman, Trespasser
-
-## Adventure Seeds
 
 ## Adventure Seeds
 
