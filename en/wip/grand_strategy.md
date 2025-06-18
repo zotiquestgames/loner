@@ -257,11 +257,41 @@ Document the goals and time frame in your game journal or setup notes. Use a sum
 >   - *Ravenwatch Syndicate*: Undermine the power of rival factions through espionage and sabotage.
 >   - *Emerald Dominion*: Spread their influence by converting two factions to their ideology.
 
+
+### Sample Scenario: Ashes of the Rift
+
+> A once-stable region lies in turmoil after a cataclysmic arcane event tore a dimensional rift into the heartland. Ancient power struggles flare anew, trade routes collapse, and belief systems fracture. Three emergent factions now compete for control over what remains.
+
+### Faction 1: The Ember League
+- **Assets**: Flame-Sworn Paladins, Rift-Metal Foundries
+- **Skill**: Tactical Fire Control
+- **Frailty**: Over-reliant on unstable Rift energy
+- **Goal**: Establish a militarized theocracy centered on the Rift
+
+### Faction 2: The Verdant Concord
+- **Assets**: Network of Root-Kin Agents, Mycelial Archives
+- **Skill**: Deep Ecological Memory
+- **Frailty**: Isolationist doctrine limits diplomacy
+- **Goal**: Restore balance and seal the Rift through ancient rites
+
+### Faction 3: The Broken Syndic
+- **Assets**: Black Market Portals, Disgraced Nobles, Espionage Guilds
+- **Skill**: Smuggling and Manipulation
+- **Frailty**: Infighting among rogue houses
+- **Goal**: Exploit the chaos to rebuild their shattered empire
+
+### Starting Situation
+- A surge of Rift energy has destabilized the once-neutral city of Kharan’s Spire.
+- Each faction moves to influence or claim it before the anomaly widens.
+- Roll a **World Event** at game start and resolve one faction argument each before Turn 1.
+
+
 ## Gameplay
 
 In *Loner: Grand Strategy*, gameplay unfolds over structured turns, each representing a key moment in the evolving narrative. During each turn, factions take actions to pursue their goals, react to events, and shape the world. The process is divided into four phases, ensuring a balance of strategy, storytelling, and unpredictability. Let the Oracle guide outcomes, and use the factions’ traits to weave a dynamic and engaging story.
 
 ```graphviz
+
 fontname="Permanent Marker";
 node [shape="plain", style = "rounded", 
 fontname="Permanent Marker", fontsize=12]
@@ -390,9 +420,55 @@ For each AI-controlled faction, follow these steps:
 3. **Build the Argument**: Present the AI faction’s action as an argument, using its Skills, Assets, and Frailty to justify the attempt:
    - Example: *The Gilded Lords use their Master Negotiators Skill and Trade Coalition Asset to forge an alliance against the Ironbound Enclave.*
 
+#### How to Build an Argument
+At the heart of _Loner: Grand Strategy_ is the act of presenting an argument: describing what a faction is trying to do and why it might succeed. 
+
+Use this repeatable template when stating any action:
+
+**[Faction] uses [Asset or Skill] to [Intent] because [Justification].**
+- **Intent** is what the faction wants to achieve (attack, ally, seize land, etc.)
+- **Asset/Skill** is what supports the attempt (e.g., Elite Army, Spy Network)
+- **Justification** is your rationale — the story logic
+
+**Examples:**
+
+- *The Ravenwatch Syndicate uses their Hidden Networks to infiltrate the merchant council because the trade war weakens defenses.*
+- *The Gilded Lords use their Master Negotiators to forge an alliance because the Ironbound Enclave threatens the coast.*
+- *The Emerald Dominion uses its Prophets to incite rebellion in the east because the population shares their faith.*
+
+This structure helps you argue clearly and makes Oracle rolls more meaningful.
+
+#### Optional: Minimalist AI Turn Shortcut
+
+*(Use this only if you want to speed up large campaigns)*
+
+Instead of resolving each AI turn with full argument logic, roll **1d6** on the following table and narrate a brief action accordingly. This shortcut skips explicit trait-based arguments.
+
+| d6 | AI Faction Action Summary                             |
+| -- | ----------------------------------------------------- |
+| 1  | Fortifies or defends a vulnerable asset or location   |
+| 2  | Expands territory or claims a neutral resource        |
+| 3  | Undermines a rival with sabotage or espionage         |
+| 4  | Negotiates with another faction for alliance or trade |
+| 5  | Exploits a recent event or environmental change       |
+| 6  | Pursues a surprising side goal or pivots unexpectedly |
+
+* Use the faction’s **goal and frailty** to color the outcome.
+* Skip full argument justification; go straight to Oracle resolution.
+* Ideal for **background factions** or **quick multi-faction scenes**.
+
+#### Note on Asymmetric Factions
+Factions in _Loner: Grand Strategy_ are not designed to be balanced opponents.
+
+Some may dominate the map through strong assets and momentum; others may stagnate, implode, or collapse due to frailty rolls, world events, or failed arguments.
+
+This asymmetry is a feature, not a flaw: it creates a dynamic strategic world where power shifts naturally, alliances are reactive, and no faction is protected from downfall.
+
+Embrace this variability — it’s what makes each campaign unique.
+
 ### Phase 2: Resolve the Action
 
-When you need to test your expectations you'll ask the Oracle a closed question.
+Once the arguments are build, you ask the Oracle to determine the action's outcome.
 
 You’ll need 2d6 in one color (**Chance Dice**), and 2d6 in another (**Risk Dice**).
 
@@ -411,6 +487,28 @@ To resolve a closed question, roll one **Chance Die** and one **Risk Die**:
 | Mismatched |             Yes            |           No          |
 |            |                            |                       |
 |    Equal   | Add 1 to the Twist Counter |                       |
+
+#### Interpreting “Yes, but…” and “No, and…”
+
+Some Oracle outcomes (like **“Yes, but…”** or **“No, and…”**) invite interpretation. Use these suggestions to guide your storytelling:
+
+* **Yes, but...** 
+  The action succeeds, *but at a cost or with a drawback*.  
+  *Example*: “The Enclave secures the outpost, **but** it’s damaged beyond immediate use.”
+
+* **No, and...** 
+  The action fails, *and things get worse*.
+  *Example*: “The Syndicate fails to intercept the convoy, **and** their spy is exposed and captured.”
+
+* **Yes, and...** 
+  The action succeeds *with extra benefit*.
+  *Example*: “The Gilded Lords broker a trade deal, **and** gain access to a secret shipping lane.”
+
+* **No, but...** 
+  The action fails *but there’s a silver lining*.
+  *Example*: “The Dominion’s envoy is turned away, **but** they learn about internal divisions in the rival court.”
+
+These interpretations help move the narrative forward while keeping outcomes dynamic and story-rich.
 
 #### Advantage and Disadvantage
 
@@ -465,7 +563,7 @@ The game concludes when:
 - **Last turn ends**, even if the final outcome is status quo.
 - **A key storyline resolves**, such as the end of a war, the collapse of a dominant power, or the prevention (or realization) of a major calamity.
 
-### **Bringing the Story to a Close**
+### Bringing the Story to a Close
 
 At the end of the game, take time to reflect on the journey and provide a satisfying narrative closure. Use the following steps to tie together the factions’ stories and the broader world:
 
@@ -613,6 +711,26 @@ Every conflict should leave a mark on the game’s narrative:
 - **Victory**: A faction achieves its objective, gaining new resources, alliances, or territory.
 - **Defeat**: A faction faces setbacks, such as losing control of resources, suffering reputation damage, or retreating.
 - **Escalation**: Even successful actions may spark new rivalries, introduce unforeseen challenges, or shift alliances.
+
+### Optional: Quick Conflict Resolution for AI Factions
+
+When multiple AI factions are engaged in a conflict and you want to resolve the outcome quickly without narrating step-by-step actions, use this method:
+
+1. Roll 1d6 for **each faction involved** and consult the table below.
+2. Compare results to determine relative advantage.
+3. Use a single Oracle roll to resolve the decisive moment, adjusting based on who had the upper hand in step 1.
+
+| d6 | AI Conflict Posture (Narrative Advantage)                   |
+|----|-------------------------------------------------------------|
+| 1  | Disorganized – suffers internal strife or delays            |
+| 2  | Defensive – focused on holding territory or resources       |
+| 3  | Aggressive – launches a bold attack or risky maneuver       |
+| 4  | Strategic – uses assets or alliances to shape the battle    |
+| 5  | Opportunistic – exploits terrain or rival weaknesses        |
+| 6  | Coordinated – executes a high-efficiency plan               |
+
+Then resolve with the Oracle as usual, narrating the result based on momentum, resources, and faction goals. This shortcut preserves dramatic flow without the full argument structure.
+
 
 ###  Map Integration
 
@@ -900,125 +1018,190 @@ Keeps a chronological log of major events, faction actions, and story developmen
 
 ## Random Tables
 
-### **1. Faction Interaction Tables**
+### 1. Faction Behavior Tables
 
-- **Faction Actions (1d6)**: Determines an AI faction’s intent during their turn.
-  
-  | Roll | Intent             |
-  |------|--------------------|
-  |  1   | Defend territory   |
-  |  2   | Expand influence   |
-  |  3   | Sabotage a rival   |
-  |  4   | Forge an alliance  |
-  |  5   | Gather resources   |
-  |  6   | Launch an attack   |
+#### Faction Actions (1d6)
 
-- **Relationship Events (1d6)**: Adds dynamic changes to faction relationships.
+Determines an AI faction’s primary focus or strategy during its turn.
 
-  | Roll | Event                              |
-  |------|------------------------------------|
-  |  1   | Alliance formed                   |
-  |  2   | Trade agreement established       |
-  |  3   | Betrayal exposed                  |
-  |  4   | Rivalry escalates                 |
-  |  5   | Diplomatic breakthrough achieved  |
-  |  6   | Hostile action leads to conflict  |
+| Roll | Intent            |
+| ---- | ----------------- |
+| 1    | Defend territory  |
+| 2    | Expand influence  |
+| 3    | Sabotage a rival  |
+| 4    | Forge an alliance |
+| 5    | Gather resources  |
+| 6    | Launch an attack  |
 
-### **2. World-Building Tables**
+#### Faction Shifts (1d6)
 
-- **Environmental Events (1d6)**: Adds challenges or opportunities related to the environment.
-  
-  | Roll | Event                                |
-  |------|--------------------------------------|
-  |  1   | Natural disaster disrupts plans      |
-  |  2   | Resource-rich area discovered        |
-  |  3   | Harsh weather impedes progress       |
-  |  4   | Strange phenomenon sparks interest   |
-  |  5   | A disease spreads, affecting regions |
-  |  6   | Strategic location becomes contested |
+Represents internal transformations or crises affecting a faction's structure or priorities.
 
-- **Location Traits (1d6)**: Generates unique traits for new or unexplored locations.
-  
-  | Roll | Trait               |
-  |------|---------------------|
-  |  1   | Highly defensible   |
-  |  2   | Resource-rich       |
-  |  3   | Culturally significant |
-  |  4   | Difficult to access |
-  |  5   | Under contested control |
-  |  6   | Recently destabilized |
+| Roll | Shift                              |
+| ---- | ---------------------------------- |
+| 1    | Internal dissent grows             |
+| 2    | Leadership changes hands           |
+| 3    | Resources become depleted          |
+| 4    | A new ally strengthens the faction |
+| 5    | Military focus increases           |
+| 6    | The faction becomes divided        |
 
-### **3. Story-Twist Tables**
+### 2. Diplomacy and Relationship Tables
 
-- **Conflict Twists (1d6)**: Unexpected developments in ongoing conflicts.
-  
-  | Roll | Twist                                |
-  |------|--------------------------------------|
-  |  1   | A third party intervenes             |
-  |  2   | Resources run out unexpectedly       |
-  |  3   | Reinforcements arrive unexpectedly   |
-  |  4   | Leadership changes mid-conflict      |
-  |  5   | A secret plan is exposed             |
-  |  6   | Terrain changes influence the battle |
+#### Diplomatic Events (1d6)
 
-- **Narrative Twists (1d6)**: Adds complexity or surprises to the story.
-  
-  | Roll | Twist                                |
-  |------|--------------------------------------|
-  |  1   | A key figure is assassinated         |
-  |  2   | A secret alliance is revealed        |
-  |  3   | An ancient relic is discovered       |
-  |  4   | A long-lost faction reappears        |
-  |  5   | The environment changes drastically  |
-  |  6   | A sudden betrayal shifts power       |
+Adds dynamic changes to relationships between factions.
 
-### **4. Resource and Trade Tables**
+| Roll | Event                            |
+| ---- | -------------------------------- |
+| 1    | Alliance formed                  |
+| 2    | Trade agreement established      |
+| 3    | Secret alliance revealed         |
+| 4    | Rivalry escalates                |
+| 5    | Betrayal exposed                 |
+| 6    | Diplomatic breakthrough achieved |
 
-- **Resource Events (1d6)**: Changes to the status of key resources.
-  
-  | Roll | Event                                |
-  |------|--------------------------------------|
-  |  1   | Resource becomes scarce              |
-  |  2   | New resource deposits found          |
-  |  3   | Resource value skyrockets            |
-  |  4   | A resource-rich area becomes contested|
-  |  5   | A faction monopolizes the resource   |
-  |  6   | Trade embargo disrupts availability  |
+### 3. World State Tables
 
-- **Trade Outcomes (1d6)**: Results of trade agreements or negotiations.
-  
-  | Roll | Outcome                              |
-  |------|--------------------------------------|
-  |  1   | Trade flourishes                     |
-  |  2   | Trade is disrupted                   |
-  |  3   | Smuggling operations increase        |
-  |  4   | Trade routes become contested        |
-  |  5   | Trade agreement leads to conflict    |
-  |  6   | Mutual benefits strengthen factions  |
+#### Environmental Disruptions (1d6)
 
-### **5. Character and Faction Development Tables**
+Global or regional phenomena that affect all factions or regions.
 
-- **Leader Traits (1d6)**: Generates traits for faction leaders or key characters.
-  
-  | Roll | Trait                |
-  |------|----------------------|
-  |  1   | Charismatic          |
-  |  2   | Ruthless             |
-  |  3   | Strategically brilliant |
-  |  4   | Idealistic           |
-  |  5   | Cunning              |
-  |  6   | Ambitious            |
+| Roll | Event                                |
+| ---- | ------------------------------------ |
+| 1    | Natural disaster disrupts plans      |
+| 2    | Resource-rich area discovered        |
+| 3    | Harsh weather impedes progress       |
+| 4    | Strange phenomenon sparks interest   |
+| 5    | A disease spreads, affecting regions |
+| 6    | Strategic location becomes contested |
 
-- **Faction Shifts (1d6)**: Creates unexpected changes within a faction.
-  
-  | Roll | Shift                                |
-  |------|--------------------------------------|
-  |  1   | Internal dissent grows               |
-  |  2   | Leadership changes hands             |
-  |  3   | Resources become depleted            |
-  |  4   | A new ally strengthens the faction   |
-  |  5   | Military focus increases             |
-  |  6   | The faction becomes divided          |
+#### Location Traits (1d6)
+
+Defines traits of newly discovered or key locations.
+
+| Roll | Trait                   |
+| ---- | ----------------------- |
+| 1    | Highly defensible       |
+| 2    | Resource-rich           |
+| 3    | Culturally significant  |
+| 4    | Difficult to access     |
+| 5    | Under contested control |
+| 6    | Recently destabilized   |
+
+### 4. Story Twists (1d6)
+
+#### Story Twists (Conflict or Narrative)
+
+Adds unexpected developments that change the course of a conflict or plotline.
+
+| Roll | Twist                                |
+| ---- | ------------------------------------ |
+| 1    | A third party intervenes             |
+| 2    | Resources run out unexpectedly       |
+| 3    | Reinforcements or help arrive        |
+| 4    | Leadership or power structure shifts |
+| 5    | A secret plan or relic is revealed   |
+| 6    | A betrayal or drastic change occurs  |
+
+### 5. Economy and Trade Tables
+
+#### Economic Shifts (1d6)
+
+Tracks changes in resource availability or trade dynamics.
+
+| Roll | Event                                  |
+| ---- | -------------------------------------- |
+| 1    | Resource becomes scarce                |
+| 2    | New resource deposits discovered       |
+| 3    | Trade flourishes                       |
+| 4    | Smuggling or black market expands      |
+| 5    | Embargo or disruption affects economy  |
+| 6    | Trade leads to conflict or opportunity |
+
+### 6. Character Tables
+
+#### Leader Traits (1d6)
+
+Generates defining traits for leaders or key characters.
+
+| Roll | Trait                   |
+| ---- | ----------------------- |
+| 1    | Charismatic             |
+| 2    | Ruthless                |
+| 3    | Strategically brilliant |
+| 4    | Idealistic              |
+| 5    | Cunning                 |
+| 6    | Ambitious               |
 
 
+## Appendix: Quick Reference Summary
 
+### Game Loop: Turn Structure
+
+Each turn has three phases:
+
+**Phase 1: Player Turn**
+
+1. Choose a faction.
+2. Build an argument:
+   *"\[Faction] uses \[Asset or Skill] to \[Intent] because \[Justification]."*
+3. Roll the Oracle to resolve.
+4. Narrate consequences and update the world.
+
+**Phase 2: AI-Controlled Factions**
+
+1. Roll **Intent** (1d6).
+2. Choose target (goal, map, or random).
+3. Build argument using Assets, Skills, Frailty.
+4. Roll the Oracle and narrate outcomes.
+
+> Optional: use **Minimalist AI Turn Shortcut** or **Quick Conflict Method** if playing fast.
+
+**Phase 3: World Events**
+
+* Roll for **Environmental Disruption**, **Economic Shift**, or a **Story Twist**.
+* Apply effects and narrate impact.
+
+### Oracle Table (Roll 1d6)
+
+Roll **one Chance d6** and **one Risk d6** (different colours).
+Compare the two dice and consult the grid:
+
+|                                | **Risk die is higher**                     | **Chance die is higher** |
+| ------------------------------ | ------------------------------------------ | ------------------------ |
+| **Both dice ≤ 3**              | **No, but…**                               | **Yes, but…**            |
+| **Both dice ≥ 4**              | **No, and…**                               | **Yes, and…**            |
+| **Numbers differ (< 4 & ≥ 4)** | **No**                                     | **Yes**                  |
+| **Both dice equal**            | **Yes, and…** & add 1 to **Twist Counter** |                          |
+
+### Random Table Index
+
+| Table Category                | Use Case                        |
+| ----------------------------- | ------------------------------- |
+| **Faction Actions**           | AI faction turn intent          |
+| **Faction Shifts**            | Internal changes to a faction   |
+| **Diplomatic Events**         | Changing relationships          |
+| **Environmental Disruptions** | Global or regional changes      |
+| **Location Traits**           | New or key location flavor      |
+| **Story Twists**              | Plot complications or surprises |
+| **Economic Shifts**           | Trade, scarcity, market changes |
+| **Leader Traits**             | Add personality to NPC leaders  |
+
+### Core Concepts
+
+* **Argument-Based Play**: Actions succeed based on logic + justification, not stats.
+* **Asymmetry is Expected**: Factions may rise, stagnate, or collapse.
+* **Conflict Options**:
+
+  * Single Oracle Question
+  * Series of Oracle Questions
+  * Narrated Interaction
+
+## License
+
+Loner: Grand Strategy
+
+© 2025 Roberto Bisceglie
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
