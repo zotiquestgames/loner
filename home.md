@@ -41,7 +41,7 @@ Loner is a product of [**Zotiquest Games**](https://zotiquestgames.com)
     <div class="w3-card w3-third">
     <img src="assets/img/covers/complete.png" alt="Avatar" style="width:100%">
         <div class="w3-center">
-            <h2><b>Loner Complete</b></h2>
+            <h2><b>Loner Omnibus</b></h2>
             <p>
                 <b>Loner Complete</b> contains the <b>Core Rules 2e</b> + 12 Adventure Packs, tight supplements that kick off your experience with Character Traits, NPCs, Factions, Locations and Adventure Seeds! Over 300 pages of content in popular genres like Fantasy, Sci-fi, Horror but also Cyberpunk, Western, Post-Apoc and much more!
             </p>

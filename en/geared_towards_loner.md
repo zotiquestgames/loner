@@ -11,3 +11,4 @@ The following games are intended to be a new generation of Adventure Packs: self
 - [Tales & Tumbles!](en/geared_towards_loner/tales_and_tumbles.md)
 - [Dungeoneer](en/geared_towards_loner/dungeoneer.md)
 - [Spacer](en/geared_towards_loner/spacer.md)
+- [Arabian Nights Adventures](en/geared_towards_loner/arabian_nights_adventures.md)
