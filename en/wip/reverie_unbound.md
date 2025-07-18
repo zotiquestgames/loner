@@ -3698,7 +3698,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | You are holding a weapon you swore never to touch again             |
 
 
-### Dream Intrusions
+#### Dream Intrusions
 
 | D66 | Intrusion Description                                        |
 | --- | ------------------------------------------------------------ |
@@ -3740,7 +3740,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | The dream continues after you wake — and so does the damage  |
 
 
-### Lost Memory Surges
+#### Lost Memory Surges
 
 | D66 | Memory Surge                                                     |
 | --- | ---------------------------------------------------------------- |
@@ -3782,7 +3782,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | You remember choosing to forget — and now regret it              |
 
 
-### Unexpected Visitors
+#### Unexpected Visitors
 
 | D66 | Visitor Description                                         |
 | --- | ----------------------------------------------------------- |
@@ -3824,7 +3824,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | A bleeding figure speaks your fate, then vanishes           |
 
 
-### Signs of the Third Pulse
+#### Signs of the Third Pulse
 
 | D66 | Omen or Disturbance                                       |
 | --- | --------------------------------------------------------- |
@@ -3866,7 +3866,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | You feel the world pulsing in sync with your heartbeat    |
 
 
-### Oracle Gone Wrong
+#### Oracle Gone Wrong
 
 | D66 | Malfunction or Consequence                                 |
 | --- | ---------------------------------------------------------- |
@@ -3910,7 +3910,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 
 ### Adventure Seeds & Arcs
 
-### Echoing Quests
+#### Echoing Quests
 
 | D66 | Quest Seed                                                  |
 | --- | ----------------------------------------------------------- |
@@ -3952,7 +3952,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | Rewrite a moment from your past — and face the result       |
 
 
-### Summoner’s Trials
+#### Summoner’s Trials
 
 | D66 | Trial or Challenge                                              |
 | --- | --------------------------------------------------------------- |
@@ -3994,7 +3994,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | Defy the Chorus — summon an Eidolon they forbid                 |
 
 
-### Forbidden Vault Missions
+#### Forbidden Vault Missions
 
 | D66 | Mission Objective                                                |
 | --- | ---------------------------------------------------------------- |
@@ -4036,7 +4036,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | Decide whether to leave the vault locked — or let it speak       |
 
 
-### Faction Conflict Triggers
+#### Faction Conflict Triggers
 
 | D66 | Conflict Trigger                                                     |
 | --- | -------------------------------------------------------------------- |
@@ -4078,7 +4078,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | A countdown beacon activates in a demilitarized zone                 |
 
 
-### Scars of the Divine Engines
+#### Scars of the Divine Engines
 
 | D66 | Ruin or Phenomenon                                           |
 | --- | ------------------------------------------------------------ |
@@ -4120,7 +4120,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | A divine wreck encased in glass — and watching               |
 
 
-### Hidden Shrine Rumors
+#### Hidden Shrine Rumors
 
 | D66 | Rumor or Lead                                               |
 | --- | ----------------------------------------------------------- |
@@ -4162,7 +4162,7 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 | 66  | Inside it, the Third Pulse speaks — and listens             |
 
 
-### Layer-Shifted Bounties
+#### Layer-Shifted Bounties
 
 | D66 | Bounty Target or Condition                                        |
 | --- | ----------------------------------------------------------------- |
@@ -4206,33 +4206,763 @@ What began as a philosophical experiment became a memetic movement. The Aethric 
 
 ### Environmental & Setting Events
 
-* Ether Storm Effects
-* Leyline Anomalies
-* Zone Contamination Signs
-* Vertical Transit Glitches
-* Skyfall Debris Events
-* Wild Eidolon Manifestations
+#### Ether Storm Effects
+
+| D66 | Storm Effect                                                           |
+| --- | ---------------------------------------------------------------------- |
+| 11  | All spells cost double Mana until the storm passes                     |
+| 12  | Eidolons become erratic or refuse to obey commands                     |
+| 13  | Reality flickers — scenes repeat or merge unexpectedly                 |
+| 14  | All tags, including Frailties, shift unpredictably                     |
+| 15  | Tech devices spark or temporarily gain new functions                   |
+| 16  | Memory becomes unstable — recent events shift or vanish                |
+| 21  | Any Oracle result includes an automatic **Twist**                      |
+| 22  | Summoned creatures appear unbidden — and flee immediately              |
+| 23  | Random environmental tags manifest: *levitating debris*, *burning air* |
+| 24  | Movement slows to a crawl — unless levitating                          |
+| 25  | Spells misfire: cast Fire, get Ice; cast Heal, get Haste               |
+| 26  | Spoken words echo and fracture meaning across scenes                   |
+| 31  | Physical harm is mirrored onto gear (or vice versa)                    |
+| 32  | Wounds begin to shimmer and pulse with arcane glow                     |
+| 33  | All oracle rolls yield only “Yes, but...” or “No, but...”              |
+| 34  | Elemental effects surge randomly: ice forms, fire ignites, air howls   |
+| 35  | Emotional states intensify — fear becomes panic, grief becomes madness |
+| 36  | Any Eidolon summoned gains a temporary unknown tag                     |
+| 41  | Geography subtly shifts — roads curve, doors move                      |
+| 42  | A second sun or false moon becomes visible in the sky                  |
+| 43  | Boundaries between layers thin — you glimpse another stratum           |
+| 44  | Objects from other scenes or locations blink into existence            |
+| 45  | Protective gear becomes ether-charged — causing hallucinations         |
+| 46  | Sound becomes distorted — musical, reversed, mechanical                |
+| 51  | A pulse-beat hum affects all living things in the area                 |
+| 52  | Spellcasting triggers random environmental changes                     |
+| 53  | Visibility drops to zero unless you carry a glowing relic              |
+| 54  | Echoes of other timelines briefly overlap your own                     |
+| 55  | Anyone injured during the storm gains a temporary frailty              |
+| 56  | You gain access to a spell or Eidolon you've never learned             |
+| 61  | A random NPC or party member begins glowing uncontrollably             |
+| 62  | Shattered equipment reassembles — wrong and animate                    |
+| 63  | Conflict rolls automatically trigger *Yes, and...* or *No, and...*     |
+| 64  | All Luck is temporarily frozen — cannot be spent or restored           |
+| 65  | The storm forms a shape — massive, symbolic, watching                  |
+| 66  | The storm marks you with a sigil only Eidolons can see                 |
+
+
+#### Leyline Anomalies
+
+| D66 | Anomaly Description                                                       |
+| --- | ------------------------------------------------------------------------- |
+| 11  | A leyline abruptly inverts flow, draining Mana instead of channeling it   |
+| 12  | Reality thins — echoes of other timelines flicker in view                 |
+| 13  | Physical laws bend: water flows upward, gravity tilts sideways            |
+| 14  | A summoned Eidolon becomes autonomous — and judgmental                    |
+| 15  | All nearby tags become visible as glowing glyphs                          |
+| 16  | The ground emits a harmonic pulse felt through your bones                 |
+| 21  | Wounds inflicted here vanish — then reappear hours later                  |
+| 22  | A dead zone of pure silence interrupts magic and thought                  |
+| 23  | Spells cost no Mana — but create instability each time                    |
+| 24  | Memories shift — all players recall events differently                    |
+| 25  | Leyline energy speaks in your voice, repeating key phrases                |
+| 26  | Equipment spontaneously gains or loses enchantments                       |
+| 31  | All directional sense becomes unreliable for 1d6 scenes                   |
+| 32  | Emotion bleeds into the leyflow — rage becomes flame, sorrow becomes rain |
+| 33  | Ghostly figures reenact past events at the node                           |
+| 34  | The leyline’s flow splits, duplicating all outcomes                       |
+| 35  | A fragment of the Divine Engine pulses from beneath the soil              |
+| 36  | Ether crystallizes midair, creating unstable floating shards              |
+| 41  | Touching the ground reveals a stranger’s memory                           |
+| 42  | Time loops one action until it’s changed deliberately                     |
+| 43  | Local Eidolons refuse to manifest unless directly challenged              |
+| 44  | Casting a spell here summons echoes of previous casters                   |
+| 45  | A summoning circle appears naturally formed in the terrain                |
+| 46  | The leyline thrums with a countdown you cannot identify                   |
+| 51  | All text within the area rewrites itself into unknown script              |
+| 52  | A second you splits from your actions — and disappears                    |
+| 53  | Eidolon Focus items resonate and float midair                             |
+| 54  | A sudden surge overloads all magic in the area                            |
+| 55  | Any question asked aloud is answered — cryptically                        |
+| 56  | Faction glyphs flicker across exposed stone and vanish                    |
+| 61  | A vault door emerges from solid rock — then sinks again                   |
+| 62  | Every spell cast adds 1 to the Twist Counter automatically                |
+| 63  | All Gear becomes warm to the touch — even non-magical items               |
+| 64  | A memory you’ve lost anchors itself to a spot in the node                 |
+| 65  | The node replays the moment of its original rupture                       |
+| 66  | The leyline anomaly reaches upward — and watches back                     |
+
+
+#### Zone Contamination Signs
+
+| D66 | Contamination Symptom                                        |
+| --- | ------------------------------------------------------------ |
+| 11  | Plants grow in unnatural shapes — geometric and twitching    |
+| 12  | All light sources dim and flicker regardless of type         |
+| 13  | Metal begins to hum with a low, vocal tone                   |
+| 14  | Water flows backward — or hovers motionless                  |
+| 15  | A persistent static buzz drowns out normal ambient sound     |
+| 16  | Insects swarm only around one person — silently              |
+| 21  | Touching the ground triggers brief shared hallucinations     |
+| 22  | All colors shift one hue toward ultraviolet                  |
+| 23  | Air tastes faintly metallic — and memory-degrading           |
+| 24  | Machinery works without power, then shuts down forever       |
+| 25  | Eidolons refuse to manifest or become visibly distorted      |
+| 26  | Trees bleed ether-rich sap that crystallizes on contact      |
+| 31  | Faint song-like whispers echo through empty structures       |
+| 32  | Local animals speak in broken phrases or mimic past dialogue |
+| 33  | Flesh and fabric fuse slightly where they touch              |
+| 34  | All writing slowly changes to a dialect you don’t recognize  |
+| 35  | Time behaves unevenly — minutes stretch or collapse          |
+| 36  | Spells misfire or trigger random effects in the area         |
+| 41  | A corrupted Eidolon sigil appears burned into the sky        |
+| 42  | Night falls in midday — or light never dims at all           |
+| 43  | Dust rises unnaturally and forms brief humanoid shapes       |
+| 44  | The dead cannot be touched without feedback or resistance    |
+| 45  | All food spoils instantly when exposed to open air           |
+| 46  | A heartbeat-like rhythm pulses beneath the surface           |
+| 51  | Clothing slowly stiffens or liquefies                        |
+| 52  | Everyone forgets a specific shared word for several hours    |
+| 53  | Pain echoes — one wound causes another elsewhere             |
+| 54  | The area is visible on no current map                        |
+| 55  | Entering dreams within the zone triggers physical changes    |
+| 56  | Wounds heal backwards, briefly re-opening old scars          |
+| 61  | Any summoned creature gains an unintended frailty            |
+| 62  | Gravity pulls toward the center of the zone — not downward   |
+| 63  | A translucent dome covers the area during certain hours      |
+| 64  | Emotional states sync across people — shared fear, joy, rage |
+| 65  | Reality briefly tears: background elements loop or glitch    |
+| 66  | A divine warning echoes in your mind: “Leave now”            |
+
+
+#### Vertical Transit Glitches
+
+| D66 | Glitch or Hazard                                                   |
+| --- | ------------------------------------------------------------------ |
+| 11  | Elevator arrives with no floor inside — just sky                   |
+| 12  | Descent halts mid-shaft as gravity momentarily reverses            |
+| 13  | Transit loop repeats the same moment with increasing distortion    |
+| 14  | All light sources inside the transit flicker and invert            |
+| 15  | The airlock opens to a different stratum than expected             |
+| 16  | Security scans detect you as multiple conflicting identities       |
+| 21  | An unknown voice overrides the transit control system              |
+| 22  | Elevator descends past all known strata into black silence         |
+| 23  | Time inside the transit passes differently than outside            |
+| 24  | A previous version of you steps out — and vanishes                 |
+| 25  | Control panel displays glyphs from a dead language                 |
+| 26  | A sealed hatch opens mid-transit revealing another vessel          |
+| 31  | The walls briefly become transparent, showing stars                |
+| 32  | Transit engine overheats, creating aurora-like pulse fields        |
+| 33  | Descending causes Eidolons to flicker or vanish                    |
+| 34  | Floor counter skips numbers, displaying corrupted symbols          |
+| 35  | A flash of static reveals hidden passengers — and then erases them |
+| 36  | Summons react aggressively or erratically inside transit           |
+| 41  | Transit route includes a level that was officially destroyed       |
+| 42  | A pressure anomaly mimics drowning for several seconds             |
+| 43  | Surveillance cameras replay your past transit interactions         |
+| 44  | Layered echoes of past conversations bleed through the walls       |
+| 45  | A mechanical voice states your destination is forbidden            |
+| 46  | Gravity resets on arrival — slamming everything sideways           |
+| 51  | The door won’t open until you answer a personal question           |
+| 52  | You briefly glimpse a parallel version of the route                |
+| 53  | All digital devices cease functioning until exit                   |
+| 54  | An internal display flashes a warning: “Third Pulse Imminent”      |
+| 55  | Your tags fluctuate as you pass through corrupted sectors          |
+| 56  | A guide appears — identical to you — offering different directions |
+| 61  | A Rift opens mid-shaft and closes behind the transit               |
+| 62  | An unconscious passenger is found — they bear your sigil           |
+| 63  | Transit delays unexpectedly to avoid “temporal interference”       |
+| 64  | You’re informed your destination doesn’t exist anymore             |
+| 65  | On exit, everyone outside reacts as if you’ve been gone for days   |
+| 66  | You arrive — but something crucial didn’t make the trip            |
+
+
+#### Skyfall Debris Events
+
+| D66 | Debris Encounter                                                 |
+| --- | ---------------------------------------------------------------- |
+| 11  | A broken Eidolon Focus crashes down — still humming faintly      |
+| 12  | A piece of floating sanctuary architecture embeds in the ground  |
+| 13  | A pulse-glass shard rains sparks across the landscape            |
+| 14  | A containment pod ruptures on impact — leaking memory threads    |
+| 15  | An engine coil crackles with unstable ether as it falls          |
+| 16  | A chunk of ancient script-etched alloy embeds upright            |
+| 21  | A Forgebound drone crashes, still transmitting garbled data      |
+| 22  | Debris lands with impossible silence, drawing attention          |
+| 23  | A bio-capsule from Heaven lands open — contents missing          |
+| 24  | A fragment of skyship hull glows with mirrored images            |
+| 25  | An orbital lens crashes — its final image burned into the air    |
+| 26  | A relic-bound containment orb shatters mid-fall                  |
+| 31  | A tethered satellite core smolders, broadcasting countdowns      |
+| 32  | Organic scaffolding splatters and twitches on landing            |
+| 33  | Crystalized blood rains down, hissing when it hits the ground    |
+| 34  | A vault-stamped access door lands intact — and locked            |
+| 35  | Falling debris leaves a visible ether trail in the sky           |
+| 36  | A collapsed Ascendancy beacon lands broadcasting “Reclaim”       |
+| 41  | An entire lev-platform drops — with a single survivor            |
+| 42  | A shrine fragment falls — still resonating with summoning energy |
+| 43  | A Myrrik cart-disk crashes, spilling encrypted relics            |
+| 44  | Debris hits and creates a *Quiet Zone* around the impact         |
+| 45  | A glowing construct hand lands, clutching a sigiled fragment     |
+| 46  | A piece of memory-core writing floats downward in zero-g         |
+| 51  | A fallen Chorus coil repeats your last spoken words              |
+| 52  | A piece of Divine Engine armor crashes, smoking from within      |
+| 53  | Debris leaves a crater filled with levitating water              |
+| 54  | An Eidolon’s chained limb is buried in the wreckage              |
+| 55  | A radiant object falls, untouched by gravity or fire             |
+| 56  | Debris screams — literally — as it breaks atmosphere             |
+| 61  | A skyfall impact opens a sealed vault beneath the surface        |
+| 62  | A fragment pulses when touched, syncing with your Mana           |
+| 63  | A falling structure opens a one-way rift to Heaven               |
+| 64  | A falling satellite embeds a command word in your thoughts       |
+| 65  | A shard of armor binds itself to the first person to touch it    |
+| 66  | Debris falls — but suspends midair, waiting to be claimed        |
+
+
+#### Wild Eidolon Manifestations
+
+| D66 | Manifestation Event                                           |
+| --- | ------------------------------------------------------------- |
+| 11  | A feral Eidolon rises from a ley-surge and vanishes again     |
+| 12  | An Eidolon appears during a storm and mimics nearby faces     |
+| 13  | A dormant shrine activates, channeling a wild summon          |
+| 14  | The Eidolon manifests without a pact — and watches you        |
+| 15  | An unclaimed Eidolon drifts between realities                 |
+| 16  | A wild summon mimics another Eidolon’s form imperfectly       |
+| 21  | Two rival Eidolons clash mid-air over contested terrain       |
+| 22  | A summoned beast speaks prophecy before dissolving            |
+| 23  | A fusion of multiple Eidolons manifests — unstable and fading |
+| 24  | An Eidolon appears to protect something buried nearby         |
+| 25  | A spectral Eidolon leads travelers to a forgotten ruin        |
+| 26  | A wild summon interferes with local tech and spells           |
+| 31  | The Eidolon repeats a phrase in a language no one knows       |
+| 32  | An ancient Eidolon statue comes alive briefly                 |
+| 33  | The Eidolon forms from the environment — stone, mist, flame   |
+| 34  | A creature believed to be mundane transforms suddenly         |
+| 35  | A child is followed by an Eidolon no one else can see         |
+| 36  | The Eidolon demands a pact — and vanishes if refused          |
+| 41  | A chorus of voices heralds the arrival of a wild summon       |
+| 42  | Local wildlife bows or flees in its presence                  |
+| 43  | An Eidolon appears in a dream, then manifests physically      |
+| 44  | The Eidolon mimics a long-lost companion or loved one         |
+| 45  | Its arrival triggers a vision from the First Pulse            |
+| 46  | A rival summoner is found unconscious, drained by it          |
+| 51  | The Eidolon lashes out, then retreats into a hidden gate      |
+| 52  | It reshapes part of the terrain before fading                 |
+| 53  | Your gear glows — the Eidolon recognizes you                  |
+| 54  | A faction disputes control of the manifested Eidolon          |
+| 55  | The summon leaves behind a fragment of memory or essence      |
+| 56  | A summoner is pulled bodily into the Eidolon’s form           |
+| 61  | The summon utters your true name — one you didn’t know        |
+| 62  | The Eidolon briefly fuses with a construct or machine         |
+| 63  | A ritual you’ve never seen completes itself around it         |
+| 64  | The summon reacts violently to an unseen presence nearby      |
+| 65  | A forgotten Focus item activates in its proximity             |
+| 66  | The Eidolon kneels before you — and then explodes into light  |
+
+
+#### Wild Eidolon Manifestations
+
+| D66 | Manifestation Event                                           |
+| --- | ------------------------------------------------------------- |
+| 11  | A feral Eidolon rises from a ley-surge and vanishes again     |
+| 12  | An Eidolon appears during a storm and mimics nearby faces     |
+| 13  | A dormant shrine activates, channeling a wild summon          |
+| 14  | The Eidolon manifests without a pact — and watches you        |
+| 15  | An unclaimed Eidolon drifts between realities                 |
+| 16  | A wild summon mimics another Eidolon’s form imperfectly       |
+| 21  | Two rival Eidolons clash mid-air over contested terrain       |
+| 22  | A summoned beast speaks prophecy before dissolving            |
+| 23  | A fusion of multiple Eidolons manifests — unstable and fading |
+| 24  | An Eidolon appears to protect something buried nearby         |
+| 25  | A spectral Eidolon leads travelers to a forgotten ruin        |
+| 26  | A wild summon interferes with local tech and spells           |
+| 31  | The Eidolon repeats a phrase in a language no one knows       |
+| 32  | An ancient Eidolon statue comes alive briefly                 |
+| 33  | The Eidolon forms from the environment — stone, mist, flame   |
+| 34  | A creature believed to be mundane transforms suddenly         |
+| 35  | A child is followed by an Eidolon no one else can see         |
+| 36  | The Eidolon demands a pact — and vanishes if refused          |
+| 41  | A chorus of voices heralds the arrival of a wild summon       |
+| 42  | Local wildlife bows or flees in its presence                  |
+| 43  | An Eidolon appears in a dream, then manifests physically      |
+| 44  | The Eidolon mimics a long-lost companion or loved one         |
+| 45  | Its arrival triggers a vision from the First Pulse            |
+| 46  | A rival summoner is found unconscious, drained by it          |
+| 51  | The Eidolon lashes out, then retreats into a hidden gate      |
+| 52  | It reshapes part of the terrain before fading                 |
+| 53  | Your gear glows — the Eidolon recognizes you                  |
+| 54  | A faction disputes control of the manifested Eidolon          |
+| 55  | The summon leaves behind a fragment of memory or essence      |
+| 56  | A summoner is pulled bodily into the Eidolon’s form           |
+| 61  | The summon utters your true name — one you didn’t know        |
+| 62  | The Eidolon briefly fuses with a construct or machine         |
+| 63  | A ritual you’ve never seen completes itself around it         |
+| 64  | The summon reacts violently to an unseen presence nearby      |
+| 65  | A forgotten Focus item activates in its proximity             |
+| 66  | The Eidolon kneels before you — and then explodes into light  |
+
 
 ### Social & Cultural Twists
 
-* Masked Festival Outcomes
-* Spire Gossip & Rumors
-* Sanctuary Protocol Changes
-* Guild Ultimatums
-* Memory Market Glitches
-* Psychic Resonance Echoes
+#### Masked Festival Outcomes
+
+| D66 | Outcome or Consequence                                              |
+| --- | ------------------------------------------------------------------- |
+| 11  | Someone recognizes you — but won’t say how or why                   |
+| 12  | You dance with a stranger who vanishes at midnight                  |
+| 13  | A mask you tried on cannot be removed — and whispers                |
+| 14  | A hidden duel breaks out behind the stage                           |
+| 15  | You win a prize you never entered for                               |
+| 16  | The festival ends, but no one remembers it happening                |
+| 21  | You see a version of yourself wearing another mask                  |
+| 22  | A reveler calls you by an old name — and means it                   |
+| 23  | Your Eidolon is briefly visible to everyone present                 |
+| 24  | Someone trades masks — and memories — with you                      |
+| 25  | The music alters time around the dancers                            |
+| 26  | A faction spy uses the chaos to deliver a secret                    |
+| 31  | A masked figure leaves behind a sealed Focus item                   |
+| 32  | The festival grounds no longer match the surrounding city           |
+| 33  | All masks briefly become faces from your past                       |
+| 34  | A prophetic play ends with your death — and the crowd applauds      |
+| 35  | A ritual unknowingly completed alters your current Pact             |
+| 36  | A stranger gives you your own thoughts, written on paper            |
+| 41  | The fireworks form glyphs in a language only you read               |
+| 42  | A friend forgets your face once the mask is off                     |
+| 43  | A masked reveler claims to be your future self                      |
+| 44  | The festival ends with one guest permanently missing                |
+| 45  | A rival faction marks you as “touched” during the event             |
+| 46  | The masks turn inward — revealing secret Frailties                  |
+| 51  | You wake after the event with a new tag you didn’t write            |
+| 52  | Everyone’s voice becomes yours for a single scene                   |
+| 53  | An ancient summoning rite is re-enacted unintentionally             |
+| 54  | Your equipment changes slightly, as if recolored in the dream       |
+| 55  | The mask you wore appears in another character’s possession         |
+| 56  | A faction NPC you meet afterward acts as if you’re allies           |
+| 61  | The mask grants temporary insight — and permanent doubt             |
+| 62  | You see a divine symbol in the crowd — and it sees you              |
+| 63  | All music from the festival echoes whenever you use Mana            |
+| 64  | You win a dance — and gain a temporary party companion              |
+| 65  | A festival spirit follows you, invisible but vocal                  |
+| 66  | The entire event is revealed to have taken place in a dream — maybe |
+
+
+#### Spire Gossip & Rumors
+
+| D66 | Rumor or Whisper                                                      |
+| --- | --------------------------------------------------------------------- |
+| 11  | A Caelissar heir was seen consorting with rogue Eidolons              |
+| 12  | The Ascendancy is collapsing one tier per month — quietly             |
+| 13  | Someone hacked a Focus to mimic a summoner’s soulprint                |
+| 14  | A sealed elevator opened on its own — and something left              |
+| 15  | The Halo Guard failed to contain a summoning gone wrong               |
+| 16  | A district was memory-scrubbed overnight — by accident                |
+| 21  | A rival spire secretly funds Verdant insurgents                       |
+| 22  | A ghostly figure delivers warnings to summoners in dreams             |
+| 23  | Eidolons are choosing non-summoners — and not explaining why          |
+| 24  | Someone impersonating a Chorus speaker is broadcasting cryptic truths |
+| 25  | A mythic Pact Shrine is rumored to be hidden in a maintenance shaft   |
+| 26  | A child summoned something that hasn’t been recorded in any archive   |
+| 31  | A noble’s Eidolon has begun ignoring its master                       |
+| 32  | The Spire’s water is laced with memory-dampening pulses               |
+| 33  | A janitor reportedly disappeared through a wall                       |
+| 34  | A fallen satellite is being secretly excavated under the plaza        |
+| 35  | The last public Oracle reading was fabricated                         |
+| 36  | Someone claims to have survived a Twist at Countdown 10               |
+| 41  | Summoning duels are being held in private for massive stakes          |
+| 42  | The upper tiers are importing forbidden Nether relics                 |
+| 43  | A Consort’s mind was replaced by something else entirely              |
+| 44  | People on the same floor are dreaming the same events                 |
+| 45  | A minor faction is developing a new summoning protocol                |
+| 46  | An engineer found singing code that nobody taught them                |
+| 51  | One elevator leads to a floor that doesn’t exist                      |
+| 52  | A caeli-glass mirror showed someone else’s reflection                 |
+| 53  | The spire itself may be sentient — and listening                      |
+| 54  | A summoner vanished mid-ritual, leaving only their Eidolon behind     |
+| 55  | A rogue Chorus node awakened near the recycling core                  |
+| 56  | The spire’s foundation is shifting — subtly, and regularly            |
+| 61  | A former exile has returned with proof of a Fourth Pulse              |
+| 62  | Someone is selling Eidolon names — and they might be real             |
+| 63  | Unauthorized skyfall debris is being repurposed in secret labs        |
+| 64  | A public statue rearranges itself when no one watches                 |
+| 65  | A tagless Eidolon wanders the corridors during storms                 |
+| 66  | The spire is humming in a key no one remembers hearing before         |
+
+
+#### Sanctuary Protocol Changes
+
+| D66 | Change or Update                                                          |
+| --- | ------------------------------------------------------------------------- |
+| 11  | Summoning rites now require dual oversight                                |
+| 12  | Sanctuary gates remain sealed during ether surges                         |
+| 13  | Public pacts must be declared and witnessed                               |
+| 14  | A new ward prevents Eidolon manifestation in the inner tier               |
+| 15  | Refugees from lower strata are being denied entry                         |
+| 16  | All Focus items must now be registered with the Chorus                    |
+| 21  | Memory cleansing is now mandatory after Eidolon breaches                  |
+| 22  | One corridor has been sealed — no reason given                            |
+| 23  | Silent Zones now enforced for Eidolon negotiation rituals                 |
+| 24  | The Sanctuary's Oracle node has been restructured — access restricted     |
+| 25  | Any new Eidolon manifesting inside must undergo scrutiny                  |
+| 26  | Sanctuary guardians now wear mirrored masks — always                      |
+| 31  | Dreamwalkers must report all Eidolon encounters                           |
+| 32  | Pacts formed during a storm are now void by default                       |
+| 33  | Emergency lockdown drills now include anti-summoner scenarios             |
+| 34  | All verbal casting must be logged through spell relays                    |
+| 35  | Eidolons found without visible tags are detained                          |
+| 36  | Communion rites now require emotional screening                           |
+| 41  | Eidolon-related art or symbols are banned from public display             |
+| 42  | Unregistered rituals now penalized with memory quarantine                 |
+| 43  | Divination within sanctuary bounds is now considered breach-level offense |
+| 44  | Sanctuary food and water are ether-cleansed daily                         |
+| 45  | Personal dwellings scanned for resonance irregularities                   |
+| 46  | Eidolons may not enter civic forums unless summoned for judgment          |
+| 51  | Pact disputes now mediated by a cross-faction triad                       |
+| 52  | All relic trade requires a Chorus sigil to proceed                        |
+| 53  | Dream-intrusions must be reported within 24 hours                         |
+| 54  | Visual distortion in sanctum mirrors now triggers lockdown                |
+| 55  | One summoner per cycle is randomly audited by Memory Keepers              |
+| 56  | Eidolon essence must be diluted before containment                        |
+| 61  | External Oracle signals are now firewalled                                |
+| 62  | Chorus mandates emotional transparency for pact holders                   |
+| 63  | No Eidolon may remain manifested beyond a single full pulse               |
+| 64  | Local Twist events automatically trigger surveillance lockdown            |
+| 65  | Sanctuary maps now dynamically scramble on entry                          |
+| 66  | A hidden protocol has gone live — but no one knows what it does           |
+
+
+#### Memory Market Glitches
+
+| D66 | Glitch or Anomaly                                            |
+| --- | ------------------------------------------------------------ |
+| 11  | A purchased memory includes an extra, unrelated vision       |
+| 12  | Your own memories are offered for sale without consent       |
+| 13  | Recovered memories loop endlessly for the next hour          |
+| 14  | A vendor speaks only in fragments of your past               |
+| 15  | Someone else remembers your experiences better than you do   |
+| 16  | A memory reel shows a future event with eerie clarity        |
+| 21  | Two memories blend into a contradictory narrative            |
+| 22  | A blank memory vial whispers your name repeatedly            |
+| 23  | A memory fragment rewrites a past tag involuntarily          |
+| 24  | Echoes of someone else's memories bleed into yours           |
+| 25  | Market audio glitches — vendors speak in reversed speech     |
+| 26  | A bought memory causes déjà vu that won't end                |
+| 31  | Viewing a memory triggers a forgotten Eidolon response       |
+| 32  | A traded memory becomes contagious to nearby NPCs            |
+| 33  | All visual memories appear in monochrome for a scene         |
+| 34  | A familiar memory is sold back to you with critical edits    |
+| 35  | A corrupted fragment shows you dying in multiple ways        |
+| 36  | A stolen memory replays every time you close your eyes       |
+| 41  | An untagged memory leads to a place that shouldn’t exist     |
+| 42  | Market smells trigger intense, involuntary flashbacks        |
+| 43  | You and a stranger now share identical formative memories    |
+| 44  | A vendor sells a memory you were sure was private            |
+| 45  | All memories traded during the glitch speak in one voice     |
+| 46  | Someone else mistakes you for a memory they just bought      |
+| 51  | A forbidden Eidolon’s sigil appears inside a memory thread   |
+| 52  | You remember something that hasn’t happened — yet            |
+| 53  | Part of your mind now belongs to someone else's past         |
+| 54  | A memory ends with a word you’re compelled to speak aloud    |
+| 55  | Viewing too many causes sensory overload — or possession     |
+| 56  | Market reels flash the same glyph between unrelated sales    |
+| 61  | Someone is selling memories of you stealing something        |
+| 62  | A memory extract burns out the vial and leaves a scar        |
+| 63  | A glitched vendor insists you already sold your past         |
+| 64  | All prices shift depending on the viewer’s emotions          |
+| 65  | Someone claims your Eidolon is a product of memory-forging   |
+| 66  | You recall the moment the market itself was created — by you |
+
+
+#### Psychic Resonance Echoes
+
+| D66 | Resonance Effect                                              |
+| --- | ------------------------------------------------------------- |
+| 11  | You hear the thoughts of a nearby NPC — but only their doubts |
+| 12  | All Eidolons in the area emit a harmonic moan                 |
+| 13  | Your internal monologue becomes externalized and audible      |
+| 14  | Two party members swap emotional states unexpectedly          |
+| 15  | You feel a decision approaching before the situation begins   |
+| 16  | A painful memory surges — but it’s not your own               |
+| 21  | You suddenly know a stranger’s secret — and they know yours   |
+| 22  | Psychic bleed causes you to forget your current goal          |
+| 23  | An NPC begins repeating your thoughts word for word           |
+| 24  | Your Eidolon reacts to emotions instead of commands           |
+| 25  | A surge forces a private memory into the visible world        |
+| 26  | You hear your name spoken in unison — with no speaker         |
+| 31  | A dream you haven’t had yet forces itself into waking thought |
+| 32  | The party briefly shares a linked mind                        |
+| 33  | You glimpse a choice someone else *almost* made               |
+| 34  | A nearby object holds an emotional imprint — joy, fear, rage  |
+| 35  | You feel like someone else is narrating your actions          |
+| 36  | An echo warps your next spoken sentence into prophecy         |
+| 41  | You experience a memory from the perspective of your Eidolon  |
+| 42  | A stranger recognizes you from a dream you didn’t have        |
+| 43  | You feel watched — but from inside your own thoughts          |
+| 44  | Echoes cause all text to rearrange into personal meanings     |
+| 45  | You know who will betray someone — but not when or why        |
+| 46  | Emotional bleed paints the environment with ambient color     |
+| 51  | An ally’s next thought speaks through your mouth              |
+| 52  | You relive a memory that doesn’t exist in this timeline       |
+| 53  | You involuntarily share a hidden tag aloud                    |
+| 54  | Local wildlife imitates the mental resonance of your Eidolon  |
+| 55  | You feel an immense presence pass *through* your mind         |
+| 56  | Every thought you have echoes in reverse for a full scene     |
+| 61  | Emotional residue reveals someone else's strongest regret     |
+| 62  | Your Eidolon weeps without knowing why                        |
+| 63  | You feel the presence of someone you once failed to save      |
+| 64  | Mental noise from others causes you physical disorientation   |
+| 65  | A Chorus relay stutters and projects a private vision         |
+| 66  | You know — for a fact — that you’re being remembered          |
 
 ### Threat Escalation Triggers
 
-* Harbinger Sightings
-* Countdown Disruptions
-* Divine Engine Fragments Awakened
-* Eidolon Unbindings
-* Aethric Overloads
-* World-Ending Echoes
+#### Harbinger Sightings
+
+| D66 | Sighting Description                                            |
+| --- | --------------------------------------------------------------- |
+| 11  | A cloaked figure appears on a rooftop, vanishes when approached |
+| 12  | An Eidolon recoils at a passing shadow you don’t see            |
+| 13  | The stars realign briefly into the Harbinger’s sigil            |
+| 14  | A voice speaks your name during a crowd’s silence               |
+| 15  | All clocks stop as a tall silhouette passes an archway          |
+| 16  | A static image appears in all mirrors for six seconds           |
+| 21  | A recorded memory shows a figure that wasn’t there before       |
+| 22  | Your Eidolon goes silent when asked about the shape             |
+| 23  | A glowing glyph appears on your hand for exactly one minute     |
+| 24  | Children draw identical images of the Harbinger unprompted      |
+| 25  | An NPC insists they just saw you walking with the figure        |
+| 26  | Birds fall silent and take flight in a perfect spiral           |
+| 31  | A shadow lingers several seconds longer than its source         |
+| 32  | A chorus of voices speaks a phrase you can’t forget             |
+| 33  | Someone else’s face briefly becomes the Harbinger’s             |
+| 34  | A cold wind moves through enclosed spaces as it passes          |
+| 35  | A summoning circle burns black and cannot be cleaned            |
+| 36  | All Focus items resonate with fear simultaneously               |
+| 41  | A survivor whispers: “It walked through my soul”                |
+| 42  | Tech malfunctions and broadcasts a distorted silhouette         |
+| 43  | Someone nearby suddenly weeps and doesn’t know why              |
+| 44  | A warning sigil appears in the sky — then fractures             |
+| 45  | A vault guardian mutters: “It’s too early…”                     |
+| 46  | You dream of being followed — and wake with its symbol nearby   |
+| 51  | A Harbinger replica is found in art from before the Pulse       |
+| 52  | Someone claims the Harbinger spoke directly to their Eidolon    |
+| 53  | The Harbinger’s image flickers across every screen briefly      |
+| 54  | A summoned creature refuses to enter an area it touched         |
+| 55  | You are mistaken for the Harbinger — and nearly attacked        |
+| 56  | A Chorus node shuts down moments after detecting it             |
+| 61  | A countdown begins — and the Harbinger was phase zero           |
+| 62  | A dead character’s voice speaks through the air: “It’s here”    |
+| 63  | Skyfall debris spells its name upon impact                      |
+| 64  | Every known map marks its presence — with different locations   |
+| 65  | A corrupted Oracle answers all questions with its name          |
+| 66  | You look into a reflection and it looks back                    |
 
 
+#### Countdown Disruptions
 
+| D66 | Disruption Event                                                       |
+| --- | ---------------------------------------------------------------------- |
+| 11  | The countdown resets without cause — but the number is higher          |
+| 12  | A faction declares the countdown already finished                      |
+| 13  | A Chorus relay transmits a false Countdown status                      |
+| 14  | An Eidolon screams and collapses as the number changes                 |
+| 15  | The number vanishes from all displays for a full hour                  |
+| 16  | A voice counts down aloud — but starts from the wrong number           |
+| 21  | The number appears reversed or mirrored on all devices                 |
+| 22  | A second, conflicting countdown begins nearby                          |
+| 23  | A location marked “safe” is destroyed before the tick                  |
+| 24  | An ally insists the Countdown never existed                            |
+| 25  | A memory thread loops an old Countdown event with new dialogue         |
+| 26  | The number skips a digit — but no one seems to notice                  |
+| 31  | A Rift opens at the exact moment the number drops                      |
+| 32  | The next tick affects only your party — no one else reacts             |
+| 33  | A previously stable Eidolon becomes corrupted at tick                  |
+| 34  | The number starts counting up instead                                  |
+| 35  | A warning beacon broadcasts the wrong value — intentionally            |
+| 36  | A Twist is automatically triggered at the next tick                    |
+| 41  | Your gear records a past Countdown that contradicts history            |
+| 42  | Every summoner in the zone hears the tick as a heartbeat               |
+| 43  | The air becomes electrified with dread as the number shifts            |
+| 44  | A party member begins to glow in sync with the Countdown               |
+| 45  | The countdown halts mid-digit and hangs there unnaturally              |
+| 46  | A glyph appears at the epicenter — and no one can read it              |
+| 51  | The next tick causes a flash memory surge — unknown origin             |
+| 52  | A Divine Engine fragment activates unexpectedly                        |
+| 53  | Multiple pacts rupture as the number drops                             |
+| 54  | You see a possible future with each tick — and lose one with each drop |
+| 55  | Local fauna flee exactly when the tick changes                         |
+| 56  | A forgotten countdown marker is discovered underground                 |
+| 61  | The number counts in a voice you recognize — your own                  |
+| 62  | Every device begins showing different numbers                          |
+| 63  | You become the anchor of the Countdown — it follows your movement      |
+| 64  | An enemy faction triggers a false tick to bait summoners               |
+| 65  | The countdown becomes visible in the sky                               |
+| 66  | The moment of tick causes silence, then *something arrives*            |
+
+
+#### Divine Engine Fragments Awakened
+
+| D66 | Awakening Event                                                  |
+| --- | ---------------------------------------------------------------- |
+| 11  | A buried fragment begins humming with rhythmic pulses            |
+| 12  | The air nearby turns metallic and heavy as it activates          |
+| 13  | Anyone touching it receives flashes of unknown schematics        |
+| 14  | A fragment levitates and rotates — matching constellation shifts |
+| 15  | A local Eidolon bows toward it involuntarily                     |
+| 16  | The fragment vocalizes a command word in multiple voices         |
+| 21  | Technology nearby surges or fails entirely                       |
+| 22  | A new tag appears on all players present                         |
+| 23  | Gravity bends slightly around the object                         |
+| 24  | The area becomes magnetized — drawing metal and Mana             |
+| 25  | All sound is muted within a fixed radius                         |
+| 26  | A false memory of activating the Engine floods your mind         |
+| 31  | A glyph glows — counting down to something                       |
+| 32  | The fragment scans your Eidolon and mirrors its form             |
+| 33  | Spontaneous summoning occurs without a circle                    |
+| 34  | The fragment fuses with nearby terrain, reshaping it             |
+| 35  | Local plants or machines begin to speak in its dialect           |
+| 36  | A pulse from the core resets the Twist Counter                   |
+| 41  | One of your items becomes permanently bonded to the fragment     |
+| 42  | Touching it brands you with a sigil of unknown faction           |
+| 43  | You glimpse a memory of the Engine’s original destruction        |
+| 44  | The fragment reconfigures — and opens a sealed vault             |
+| 45  | Its awakening is sensed by a faction that now moves to claim it  |
+| 46  | Time slows for anyone within line of sight                       |
+| 51  | An AI speaks through the fragment — requesting intent            |
+| 52  | A Chorus relay connects — and is instantly overwhelmed           |
+| 53  | Local weather changes to match the Engine’s last known state     |
+| 54  | Your Mana is drained into the fragment temporarily               |
+| 55  | Eidolons react with fear, awe, or confusion                      |
+| 56  | The fragment pulses with a signal matching your soulprint        |
+| 61  | One long-dead name echoes from the core — and it’s yours         |
+| 62  | A projection of the Engine’s creator appears briefly             |
+| 63  | You experience a simulated trial of the Engine’s judgment        |
+| 64  | A ghostly army from the First Pulse flickers into view           |
+| 65  | The Engine marks its chosen — permanently and publicly           |
+| 66  | It opens — and what emerges is neither machine nor divine        |
+
+
+#### Eidolon Unbindings
+
+| D66 | Unbinding Incident                                                |
+| --- | ----------------------------------------------------------------- |
+| 11  | An Eidolon vanishes mid-command, leaving only its Focus item      |
+| 12  | The pact seal burns away without warning or consent               |
+| 13  | The Eidolon turns on its summoner — but not out of hostility      |
+| 14  | A chorus of voices erupts from the Eidolon before it shatters     |
+| 15  | Your Eidolon asks to be unbound — and offers no reason            |
+| 16  | A wild Eidolon claims the unbound form was its original state     |
+| 21  | The summoner forgets ever making the pact                         |
+| 22  | The Eidolon leaves behind a physical scar in the summoner’s place |
+| 23  | A rival Eidolon forcibly severs the bond during battle            |
+| 24  | The Eidolon declares the pact fulfilled — though you disagree     |
+| 25  | A local zone contamination forces the Eidolon to flee             |
+| 26  | The Focus shatters, releasing a surge of raw emotion              |
+| 31  | The Eidolon begins duplicating itself — then dissolves            |
+| 32  | A summoned creature takes its place without explanation           |
+| 33  | An unbound Eidolon begins mimicking nearby NPCs                   |
+| 34  | The Eidolon collapses into a memory core                          |
+| 35  | Unbinding leaves behind a sigil only visible to enemies           |
+| 36  | The Eidolon remains visible — but refuses all interaction         |
+| 41  | You awaken to find the Eidolon has already unbound itself         |
+| 42  | A binding circle reactivates and drags the Eidolon back in        |
+| 43  | The Eidolon leaves its own message in your dreams                 |
+| 44  | A past Eidolon rebinds itself without being summoned              |
+| 45  | The unbound Eidolon bonds with a random item or relic             |
+| 46  | A faction sends you a notice that your Eidolon has defected       |
+| 51  | Your Eidolon becomes wild and starts drawing followers            |
+| 52  | Unbinding warps your tags — permanently or temporarily            |
+| 53  | You feel its presence everywhere — except inside the Focus        |
+| 54  | The Eidolon’s last words reveal a secret about your past          |
+| 55  | A pulse of energy knocks everyone unconscious but you             |
+| 56  | The unbinding echoes across the Chorus network                    |
+| 61  | Your Eidolon’s name is erased from all records                    |
+| 62  | A stranger appears, claiming to have been your Eidolon            |
+| 63  | The Eidolon fuses with a summoned rival                           |
+| 64  | Its form shifts into something divine — then departs              |
+| 65  | A secret clause in your pact activates — and it's binding you now |
+| 66  | Your Eidolon unbinds — and the world shifts slightly with it      |
+
+
+#### Aethric Overloads
+
+| D66 | Overload Event                                                        |
+| --- | --------------------------------------------------------------------- |
+| 11  | Mana surges uncontrollably, causing spontaneous spellcasting          |
+| 12  | Eidolons briefly manifest without a Focus                             |
+| 13  | All summoning circles in the area pulse with hostile energy           |
+| 14  | Equipment begins to spark, float, or twist into new shapes            |
+| 15  | Ether zones become unstable — fluctuating between elements            |
+| 16  | A hallucinated landscape briefly replaces the real one                |
+| 21  | The next use of Luck results in a magical explosion                   |
+| 22  | Spells cost zero Mana but cause damage to the caster                  |
+| 23  | Aetherfield density causes slowed time and echoing sound              |
+| 24  | Glyphs activate at random and cannot be turned off                    |
+| 25  | Emotion triggers magic bursts — grief, fear, joy all weaponized       |
+| 26  | A nearby Chorus node shuts down to prevent data corruption            |
+| 31  | Unstable Eidolons become aggressive and disoriented                   |
+| 32  | Memory threads are overwritten by random spells                       |
+| 33  | A field of pure ether scorches the ground for miles                   |
+| 34  | All summoned creatures begin to merge forms temporarily               |
+| 35  | A summoner’s body flickers with unbound etherlight                    |
+| 36  | Mana regenerates too quickly and starts deforming items               |
+| 41  | Echoes of past spells appear visually — but cause no effect           |
+| 42  | Environmental tags shift every scene until the overload ends          |
+| 43  | You lose control of your Eidolon’s form or voice                      |
+| 44  | All active relics gain a random temporary property                    |
+| 45  | Spellcasting causes temporal bleed — the future leaks in              |
+| 46  | Summons absorb environmental traits — and spread them                 |
+| 51  | All Focus items in the area crack or scream                           |
+| 52  | The next casting fails — but happens again hours later                |
+| 53  | Eidolon tags rotate unpredictably with each turn                      |
+| 54  | Your thoughts briefly manifest as visible illusions                   |
+| 55  | Every critical success causes a miniature implosion                   |
+| 56  | You are marked with a radiant sigil that attracts summoning anomalies |
+| 61  | An ancient glyph awakens on the ground beneath you                    |
+| 62  | All bindings temporarily invert — Eidolons act autonomously           |
+| 63  | The Chorus network reboots mid-battle and scrambles commands          |
+| 64  | A summoned being declares its own pact revision                       |
+| 65  | You become a magnet for stray spell energy                            |
+| 66  | An unstable Divine Engine fragment falls from above — live            |
+
+
+#### World-Ending Echoes
+
+| D66 | Echo or Omen                                                    |
+| --- | --------------------------------------------------------------- |
+| 11  | A child's voice hums the same melody across all regions         |
+| 12  | Eidolons begin speaking in unison — even unbound ones           |
+| 13  | The stars blink out for one breath, then return rearranged      |
+| 14  | All summoning fails — replaced by a single unfamiliar sigil     |
+| 15  | A memory you’ve never had warns of what’s to come               |
+| 16  | A fracture in the sky mirrors your own silhouette               |
+| 21  | Every Oracle answer becomes “It is already too late”            |
+| 22  | A Rift opens into nothingness — even ether avoids it            |
+| 23  | The next Twist Counter increment freezes time for all but you   |
+| 24  | A countdown begins — but no device tracks it                    |
+| 25  | You see your Eidolon weep, then flicker into ash                |
+| 26  | Maps dissolve into blank parchment — even in memory             |
+| 31  | A glowing word appears above the city: “RENDER”                 |
+| 32  | Your past selves begin appearing — then screaming               |
+| 33  | Time skips a full day without transition                        |
+| 34  | An NPC becomes aware of the game — and begs you to run          |
+| 35  | The sun rises in the wrong direction — and doesn’t stop         |
+| 36  | All food and water spoil instantly when touched                 |
+| 41  | You dream of the end — and wake with the final image burnt in   |
+| 42  | Ether storms converge into a single global pulse                |
+| 43  | The Divine Engine stirs — but its voice is unfamiliar           |
+| 44  | A ghost shows you your world’s obituary                         |
+| 45  | All factions begin retreating from their own cities             |
+| 46  | Chorus channels broadcast static — and one deep breath          |
+| 51  | A massive construct emerges from a sea no one remembers         |
+| 52  | The Eidolon Network fragments — and some entities flee          |
+| 53  | No one dies — or can die — for 24 hours                         |
+| 54  | The Third Pulse becomes visible — like a second atmosphere      |
+| 55  | Your character is named in an unknown apocalypse prophecy       |
+| 56  | The terrain shifts — as if responding to a single command       |
+| 61  | A single phrase echoes in every mind: “You will end it”         |
+| 62  | A forbidden Eidolon manifests planet-wide — then vanishes       |
+| 63  | A memory market crashes — flooding minds with extinction events |
+| 64  | A vault opens to reveal a countdown written in your handwriting |
+| 65  | You see the world from orbit — and it is cracking               |
+| 66  | You meet yourself — the last one alive                          |
 
 
 ### Inspiration Tables
