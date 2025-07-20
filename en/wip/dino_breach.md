@@ -40,21 +40,17 @@ To play *Dino Breach!* you will need:
 - **Science Gone Wrong**: The dangers of unchecked scientific ambition and playing god with nature.
 - **Corporate Greed**: A company's pursuit of profit leads to disastrous consequences.
 - **Isolated Setting**: A remote island, research facility, or abandoned park cut off from the outside world.
-- **Time Travel/Alternate Realities**: Drawing from Dino Crisis, experiments with time or parallel universes.
 - **Military/Covert Operations**: Players as special forces or secret agents sent to investigate or contain the situation.
 - **Genetic Engineering**: Modified dinosaurs with enhanced abilities or unpredictable behaviors.
 - **Environmental Commentary**: The consequences of disrupting natural ecosystems.
 - **Resourcefulness**: Limited resources force players to be creative with tools and strategies.
 - **Dinosaur Variety**: From raptors to T-rexes, each with unique behaviors and challenges.
 - **The "Expert"**: An NPC paleontologist or geneticist who provides crucial info but may also be a liability.
-- **Betrayal**: Hidden agendas among NPCs or even party members.
 - **Escalating Threat**: Starting with smaller dinos, building up to the apex predators.
-- **Puzzle-Solving**: Figuring out ancient mechanisms or modern security systems.
 - **Moral Dilemmas**: Deciding the fate of the dinos, research data, or survivors.
 - **Factions**: Competing interests like eco-terrorists, rival corporations, or military groups.
 - **Biosecurity Protocols**: Containing outbreaks, dealing with quarantine zones.
-- **The "Nature Finds a Way" Moment**: When players think they're safe, nature surprises them.
-- **Mysterious Past**: Ancient ruins or previous failed attempts at dino parks/research.
+- **The "Nature Finds a Way"**: When players think they're safe, nature surprises them.
 - **Cinematic Action Scenes**: Daring escapes, vehicle chases, and climactic dino showdowns.
 
 ### Playable Themes
