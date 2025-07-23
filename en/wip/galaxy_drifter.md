@@ -2032,7 +2032,7 @@ The galaxy lacks central government, instead operating as a loose confederation 
 
 ## Appendix: Playing *Loner: Galaxy Drifter* with *Loner: Spacer*
 
-This appendix expands *Loner: Galaxy Drifter* using the optional systems, tables, and structures from *Loner: Loner: Spacer*, without replacing its narrative-first flow. Use it only if you want to dive deeper into starship design, planetary economies, star system generation, or interstellar trade.
+This appendix expands *Loner: Galaxy Drifter* using the optional systems, tables, and structures from *Loner: Spacer*, without replacing its narrative-first flow. Use it only if you want to dive deeper into starship design, planetary economies, star system generation, or interstellar trade.
 
 ### What *Loner: Spacer* Adds
 
@@ -2054,13 +2054,15 @@ If your drifter owns or gains a ship, use *Loner: Spacer*'s rules to define it:
 
 * Give it a **Name**, **Type**, **Modules** (up to 4), **Condition**, and **Frailty**
 * Treat the ship like a Drifter character: it can have scenes, suffer consequences, and evolve
-* Example:
-  **Void Nomad**
 
-  * Type: Courier
-  * Modules: Basic Thrusters, Smuggler’s Hold, Advanced Sensors, Shield Generator
-  * Condition: Worn
-  * Frailty: Incompatible Systems
+Example:
+
+>  **Void Nomad**
+
+>  * Type: Courier
+>  * Modules: Basic Thrusters, Smuggler’s Hold, Advanced Sensors, Shield Generator
+>  * Condition: Worn
+>  * Frailty: Incompatible Systems
 
 Use *Loner: Galaxy Difter*’s existing tags and twist mechanics when piloting the ship or facing space danger.
 
