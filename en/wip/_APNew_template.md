@@ -292,9 +292,9 @@ At the end of the adventure you may add another trait to the character. It is be
 
 Also update the list of **NPCs**, **Locations**, and **Events** that may show up again in future adventures.
 
-## Exploring the World [if feasible with the setting]
+## Exploring the World
 
-[Title] [description on the context of world exploration in this game]
+[description on the context of world exploration in this game]
 
 ### Preparation
 
@@ -314,23 +314,9 @@ Also update the list of **NPCs**, **Locations**, and **Events** that may show up
 
 Upon reaching your destination, consult your map or the Oracle for details about the location and potential encounters.  This could be a bustling city, a forgotten ruin, a hidden valley inhabited by strange creatures, or anything your imagination conjures. Use your character's skills and the exploration mechanics to overcome challenges, gather information, and uncover the secrets of [Title].
 
-## Map Genaration
-
-[Generation procedures and tables to make a territory with the dice-drop method or a common point-crawl]
-
 ## Setting Information
 
-### Geography
-
-### Cultures & People
-
-### Trade and Commerce
-
-### Art and Culture
-
-### Magic and Mysticism
-
-### Folklore and Mythology
+[details the setting in each subsections]
 
 ## Factions
 
