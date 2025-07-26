@@ -292,46 +292,7 @@ At the end of the adventure you may add another trait to the character. It is be
 
 Also update the list of **NPCs**, **Locations**, and **Events** that may show up again in future adventures.
 
-## Exploring the World
 
-[description on the context of world exploration in this game]
-
-### Preparation
-
-* **Define Your Destination:**  Choose a specific location on your map (hand-drawn or provided) or have the Oracle (dice rolls) determine a general direction and a rumor about a point of interest.
-* **Choose Your Mode of Travel:** Consider your character's skills, resources, and the desired speed of travel.
-* **Stock Up:**  Gather supplies based on your chosen travel time and potential hazards. 
-
-### The Journey
-
-#### A. [Vehicle Type] Exploration
-
-* **Navigation Check:** Roll a d6 to navigate. On a 4+, navigate successfully. On a 3 or less, consult the "[Vehicle Type] Encounters" table for a random encounter or complication.
-* **Weather Check:** Every d6 hours roll a d6. On a 1 or 2, encounter rough weather (strong winds, lightning storms) that may damage your [Vehicle Type] (apply a relevant trait to the [Vehicle Type]).
-* **Scouting Check (optional):** Attempt to scout the landing area. Before landing in an unexplored area, roll a d6. On a 4+, gain a brief glimpse of the surrounding terrain and potential dangers. On a 3 or less, you miss crucial details.
-
-#### Reaching Your Destination
-
-Upon reaching your destination, consult your map or the Oracle for details about the location and potential encounters.  This could be a bustling city, a forgotten ruin, a hidden valley inhabited by strange creatures, or anything your imagination conjures. Use your character's skills and the exploration mechanics to overcome challenges, gather information, and uncover the secrets of [Title].
-
-## Setting Information
-
-[details the setting in each subsections]
-
-## Factions
-
-[Make 6 major factions using this template]
-
-### [Faction Name]
-- **Concept**: [Adjective + Noun]
-- **Skills**: [Two general traits that help to do things]
-- **Frailty**: [One general trait that hinder the owner]
-- **Gear**: [Two pieces of special equipment]
-- **Goal**: [Long term objective]
-- **Motive**: [General motivation]
-- **Nemesis**: 
-
-[Brief description in prose]
 
 ## Creatures & Foes
 
