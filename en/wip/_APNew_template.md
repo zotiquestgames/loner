@@ -292,13 +292,11 @@ At the end of the adventure you may add another trait to the character. It is be
 
 Also update the list of **NPCs**, **Locations**, and **Events** that may show up again in future adventures.
 
-
-
 ## Creatures & Foes
 
-[Bestiary for the setting, 36 creatures, each in the following format:]
+[Bestiary for the setting, 36 creatures, numbered as a d66, each in the following format:]
 
-### [Creature Name]
+### [D66]. [Creature Name]
 - **Concept**: [Adjective + Noun]
 - **Skills**: [Two general traits that help to do things]
 - **Frailty**: [One general trait that hinder the owner]
