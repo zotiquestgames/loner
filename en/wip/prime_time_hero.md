@@ -1,9 +1,5 @@
 # Prime Time Hero
 
-***Prime Time Hero*** is a solo tabletop RPG adventure set in the neon-soaked world of 1980s action-adventure television.
-
-This minimalist Solo Role Playing Game is designed to capture the spirit of classic TV shows like *MacGyver*, *Knight Rider*, *Magnum P.I.*, and *The A-Team*, where charismatic heroes solve problems with wit, charm, and improvised solutions.
-
 ## Introduction
 
 *Prime Time Hero* follows the following design principles:
@@ -327,6 +323,88 @@ To answer an Open-Ended question, roll 1d6 once on each of the Inspiration Table
 At the end of the adventure you may add another trait to the character. It is better that this is related to how the story just ended and can be either a Skill, Gear, a new Frailty, or even a new Nemesis! You can also modify an existing trait to better represent an enhanced expertise.
 
 Also update the list of **NPCs**, **Locations**, and **Events** that may show up again in future adventures.
+
+## Advanced Play Options
+
+### Series Campaign Rules
+
+If you want to play **Prime Time Hero** as an ongoing series rather than one-shots, consider these additions:
+
+**Recurring Characters**: Keep a stable of allies, contacts, and enemies who can appear across multiple episodes. Your helicopter pilot, your government contact, your reliable informant - they become part of your show's "cast."
+
+**Story Arcs**: Plant seeds in early episodes that bloom into major storylines later. Maybe that corrupt businessman you exposed has a brother seeking revenge, or that experimental technology you destroyed was just a prototype.
+
+**Character Development**: After every 3-5 episodes, you may:
+- Add a new Skill related to recent adventures
+- Upgrade existing Gear with new capabilities  
+- Develop a new Contact who can provide assistance
+- Gain a new Nemesis based on your actions
+- Remove a Frailty you've overcome through character growth
+
+**Reputation System**: As your hero becomes famous (or infamous), their reputation precedes them. This can be:
+- **Advantage** when people respect or fear you
+- **Disadvantage** when you're too recognizable for stealth
+- **Plot Driver** when enemies specifically target you
+
+### Multi-Character Play
+
+While designed for solo play, **Prime Time Hero** can accommodate multiple characters:
+
+**Team Format**: Each player creates a specialist (the face, the tech expert, the driver, the muscle) working together like *The A-Team*
+
+**Rival Format**: Players create competing investigators or agents working separate cases that occasionally intersect
+
+**Guest Star Format**: One player has a main character while others rotate in as guest stars, contacts, or even reformed villains
+
+### Difficulty Variants
+
+**Pulp Hero Mode**: Your character is nearly invincible. Reduce all damage taken by 1 and add an extra Chance Die to all dramatic actions.
+
+**Gritty Mode**: The world is darker and more dangerous. All conflicts use Harm & Luck rules, and healing takes longer.
+
+**High Tech Mode**: Set in the late 1980s with more advanced technology available. Gadgets are more sophisticated but also more likely to be detected or countered.
+
+### Random Episode Generators
+
+**Cold Open Generator** (Roll 1d6):
+1. **Action Scene**: Start mid-chase or mid-fight
+2. **Mystery Hook**: Discover a body or crime scene  
+3. **Personal Moment**: Character development scene
+4. **Exposition Dump**: Meeting with client or contact
+5. **Dramatic Irony**: Show villain's plan before hero knows
+6. **False Normal**: Peaceful scene about to be disrupted
+
+**Episode Title Generator** (Roll 2d6):
+- First die determines first word
+- Second die determines second word
+- Add "The" if it sounds better
+
+| D6 | First Word | Second Word |
+|----|------------|-------------|
+| 1  | Deadly     | Game        |
+| 2  | Silent     | Partner     |
+| 3  | Golden     | Conspiracy  |
+| 4  | Final      | Challenge   |
+| 5  | Secret     | Mission     |
+| 6  | Double     | Cross       |
+
+**Cliffhanger Generator** (Roll 1d6):
+1. **Death Trap**: Hero caught in elaborate trap
+2. **Revelation**: Major character revealed as traitor
+3. **Explosion**: Something important about to blow up
+4. **Pursuit**: High-speed chase reaches critical moment
+5. **Dilemma**: Must choose between two important things
+6. **Arrival**: Unexpected person arrives at worst moment
+
+### Setting Variations
+
+**Tropical Paradise**: Focus on island locations, resorts, and maritime adventures. Think *Magnum P.I.* with beach settings, yacht clubs, and helicopter tours.
+
+**Urban Jungle**: City-based adventures with corporate espionage, high-tech crime, and metropolitan sophistication. Think *Miami Vice* meets *Knight Rider*.
+
+**International Intrigue**: Globe-trotting adventures with diplomatic immunity, embassy parties, and exotic locations. Think *James Bond* television series.
+
+**Small Town Secrets**: Rural or small-town setting where everyone knows everyone, but dark secrets lurk beneath the surface. Think *Twin Peaks* with 1980s action.
 
 ## Exploring the World
 
@@ -1080,6 +1158,1237 @@ Former special forces operatives who now work as mercenaries and security contra
 | 65  | Barbecue grill provides intense heat source |
 | 66  | Ceiling fan blades become improvised helicopter |
 
+### Cold Open Scenarios
+
+| D66 | Cold Open                                              |
+| --- | ------------------------------------------------------ |
+| 11  | High-speed motorcycle chase through narrow alleyways |
+| 12  | Explosion rocks luxury yacht during cocktail party |
+| 13  | Mysterious figure in evening wear scales embassy wall |
+| 14  | Helicopter pursuit over neon-lit cityscape at night |
+| 15  | Sports car crashes through glass storefront window |
+| 16  | Scuba diver emerges from hotel swimming pool with briefcase |
+| 21  | Sniper scope tracks target through penthouse window |
+| 22  | Hang glider lands unexpectedly on corporate rooftop |
+| 23  | Limousine ambush at international airport pickup |
+| 24  | Secret laboratory explodes in remote mountain facility |
+| 25  | Speedboat chase through marina filled with luxury yachts |
+| 26  | Elevator plunges down skyscraper shaft with hero inside |
+| 31  | Private jet makes emergency landing on desert highway |
+| 32  | Underwater cave exploration reveals hidden submarine base |
+| 33  | Casino heist unfolds during high-stakes poker tournament |
+| 34  | Ski slope chase involving armed pursuers and avalanche |
+| 35  | Racing circuit becomes battlefield between rival factions |
+| 36  | Museum gala interrupted by artifact theft attempt |
+| 41  | Diplomatic reception turns deadly when lights go out |
+| 42  | Construction crane battle high above city streets |
+| 43  | Wine cellar meeting interrupted by gas leak explosion |
+| 44  | Vintage car rally becomes cover for arms deal |
+| 45  | Observatory telescope discovers incoming missile attack |
+| 46  | Beach resort evacuation due to approaching storm |
+| 51  | Corporate boardroom takeover by masked intruders |
+| 52  | Subway tunnel chase involving maintenance vehicles |
+| 53  | Rooftop pursuit across interconnected building tops |
+| 54  | Harbor warehouse fire reveals smuggling operation |
+| 55  | Mountain cable car rescue from terrorist attack |
+| 56  | Fashion show runway becomes escape route |
+| 61  | Hotel penthouse meeting interrupted by helicopter assault |
+| 62  | Bridge collapse traps hero with vital evidence |
+| 63  | Airport control tower taken over by criminals |
+| 64  | Mansion dinner party poisoning attempt |
+| 65  | Industrial plant meltdown threatens entire city |
+| 66  | Secret agent extraction gone wrong at embassy |
+
+### Episode Titles
+
+| D66 | Episode Title                                          |
+| --- | ------------------------------------------------------ |
+| 11  | "The Monaco Connection" |
+| 12  | "Dead Drop Dangerous" |
+| 13  | "Swiss Account Murder" |
+| 14  | "The Malibu Conspiracy" |
+| 15  | "Code Name: Paradise" |
+| 16  | "The Istanbul Express" |
+| 21  | "Diamonds Are Deadly" |
+| 22  | "The Zurich Equation" |
+| 23  | "Caribbean Death Trap" |
+| 24  | "The Tokyo Protocol" |
+| 25  | "Murder at 30,000 Feet" |
+| 26  | "The Berlin Gambit" |
+| 31  | "Silent Partners" |
+| 32  | "The Riviera Deception" |
+| 33  | "Tropical Storm Warning" |
+| 34  | "The London Underground" |
+| 35  | "Golden Gate Conspiracy" |
+| 36  | "The Paris Solution" |
+| 41  | "Midnight in Miami" |
+| 42  | "The Vatican Papers" |
+| 43  | "Hawaiian Heat Wave" |
+| 44  | "The Amsterdam Network" |
+| 45  | "Double Cross at Dawn" |
+| 46  | "The Singapore Syndrome" |
+| 51  | "Arctic Ice Conspiracy" |
+| 52  | "The Moroccan Connection" |
+| 53  | "Silicon Valley Secrets" |
+| 54  | "The Stockholm Solution" |
+| 55  | "Cancun Cover-Up" |
+| 56  | "The Vienna Vendetta" |
+| 61  | "Brazilian Burnout" |
+| 62  | "The Geneva Convention" |
+| 63  | "Thai Triangle Trouble" |
+| 64  | "The Barcelona Betrayal" |
+| 65  | "Norwegian Night Mare" |
+| 66  | "The Ultimate Deception" |
+
+### Cliffhanger Moments
+
+| D66 | Cliffhanger                                            |
+| --- | ------------------------------------------------------ |
+| 11  | Hero trapped in slowly filling water chamber |
+| 12  | Bomb timer reaches final 30 seconds |
+| 13  | Trusted ally points gun at hero's back |
+| 14  | Vehicle careens toward cliff edge with failed brakes |
+| 15  | Hero discovers their own identity was false all along |
+| 16  | Poisoned dart takes effect as vision blurs |
+| 21  | Elevator cable snaps with hero inside plummeting car |
+| 22  | Computer virus threatens to launch nuclear missiles |
+| 23  | Hero's love interest revealed as enemy agent |
+| 24  | Airplane loses engine over shark-infested waters |
+| 25  | Building foundation explosives set to detonate |
+| 26  | Hero must choose between saving innocent or catching villain |
+| 31  | Parachute fails to open during aerial escape |
+| 32  | Laboratory containment breach releases deadly virus |
+| 33  | Hero's memory wiped by experimental technology |
+| 34  | Speedboat engine dies in middle of storm |
+| 35  | Hidden recording reveals hero's dark secret |
+| 36  | Nemesis returns from presumed death at worst moment |
+| 41  | Hero falls through trap door into pit of danger |
+| 42  | Radio signal jams as backup is called for help |
+| 43  | Evidence that could save innocent burns in fire |
+| 44  | Hero's vehicle runs out of fuel during chase |
+| 45  | Blackmail photos threaten to destroy ally's career |
+| 46  | Submarine begins emergency deep dive with hero aboard |
+| 51  | Hero's weapon jams facing multiple armed enemies |
+| 52  | Ice begins cracking under hero's weight |
+| 53  | Truth serum forces hero to reveal secret mission |
+| 54  | Hero locked in freezer with temperature dropping |
+| 55  | Innocent child wanders into line of fire |
+| 56  | Hero's air supply cut off in underwater facility |
+| 61  | Earthquake strikes during crucial negotiation |
+| 62  | Hero's cover blown on live television broadcast |
+| 63  | Rope begins fraying as hero rappels down cliff |
+| 64  | Hero discovers bomb is attached to their heartbeat |
+| 65  | Avalanche triggered by villain's escape route |
+| 66  | Hero wakes up in unfamiliar place with no memory |
+
+### Plot Twist Generator
+
+| D66 | Plot Twist                                             |
+| --- | ------------------------------------------------------ |
+| 11  | The victim is actually the mastermind behind everything |
+| 12  | Hero's government contact is double agent for enemy |
+| 13  | The stolen technology doesn't work as advertised |
+| 14  | Hero's nemesis is actually their presumed-dead parent |
+| 15  | The rescue mission was elaborate trap from beginning |
+| 16  | Innocent bystander turns out to be undercover agent |
+| 21  | The real crime was committed by hero's closest ally |
+| 22  | Hero discovers they've been unknowingly drugged |
+| 23  | The criminal organization is government black operation |
+| 24  | Hero's lost love is alive and working for enemy |
+| 25  | The evidence hero collected was planted deliberately |
+| 26  | Hero's vehicle has been sabotaged by mechanic |
+| 31  | The case is elaborate test of hero's loyalty |
+| 32  | Hero's memories of past mission were artificially implanted |
+| 33  | The villain's plan succeeds despite hero's efforts |
+| 34  | Hero discovers they're being used in larger conspiracy |
+| 35  | The technology being stolen doesn't actually exist |
+| 36  | Hero's backup team has been replaced by impostors |
+| 41  | The real target of assassination is hero themselves |
+| 42  | Hero's investigation threatens to expose their own crime |
+| 43  | The criminal is hero's identical twin or doppelganger |
+| 44  | Hero discovers the mission briefing was complete fiction |
+| 45  | The rescued person refuses to leave with hero |
+| 46  | Hero's extraction point is controlled by enemies |
+| 51  | The villain's death was faked to throw off pursuit |
+| 52  | Hero's communication device has been compromised |
+| 53  | The criminal operation is legitimate government mission |
+| 54  | Hero's identity has been stolen by criminal imposter |
+| 55  | The person hiring hero is actually the real villain |
+| 56  | Hero discovers they're in elaborate virtual reality |
+| 61  | The criminal's motivation is to protect innocent people |
+| 62  | Hero's equipment was designed to fail at crucial moment |
+| 63  | The case involves hero's family member as perpetrator |
+| 64  | Hero discovers they're suffering from amnesia |
+| 65  | The rescue target is bait in trap for hero |
+| 66  | Hero's entire team has been working against them |
+
+### Climax Settings
+
+| D66 | Climax Location                                        |
+| --- | ------------------------------------------------------ |
+| 11  | Luxury yacht during violent storm at sea |
+| 12  | Spinning restaurant atop skyscraper |
+| 13  | Active volcano research station |
+| 14  | Underground missile silo during launch countdown |
+| 15  | Oil rig platform during equipment fire |
+| 16  | International space station orbiting Earth |
+| 21  | Moving freight train crossing mountain bridge |
+| 22  | Underwater research facility losing pressure |
+| 23  | Collapsing mine shaft with limited oxygen |
+| 24  | Aircraft hangar during thunderstorm |
+| 25  | Carnival funhouse with deadly traps |
+| 26  | Ice hotel melting due to sabotage |
+| 31  | Casino vault during active robbery |
+| 32  | Television studio during live broadcast |
+| 33  | Opera house chandelier high above audience |
+| 34  | Racing stadium during championship event |
+| 35  | Cruise ship engine room during rough seas |
+| 36  | Cathedral bell tower during wedding ceremony |
+| 41  | Chemical plant with leaking toxic materials |
+| 42  | Airport runway during emergency landing |
+| 43  | Amusement park roller coaster at full speed |
+| 44  | Hotel ballroom during diplomatic reception |
+| 45  | Construction site crane arm high above city |
+| 46  | Submarine torpedo room during dive |
+| 51  | Observatory dome during meteor shower |
+| 52  | Wine cellar during earthquake |
+| 53  | Ice rink during hockey championship |
+| 54  | Art gallery during exclusive auction |
+| 55  | Lighthouse tower during hurricane |
+| 56  | Train yard switching station at rush hour |
+| 61  | Hospital operating theater during surgery |
+| 62  | Radio telescope dish during transmission |
+| 63  | Greenhouse conservatory during chemical leak |
+| 64  | Race track during high-speed competition |
+| 65  | Clock tower mechanism room at midnight |
+| 66  | Penthouse pool area during party |
+
+### Tag Scene Outcomes
+
+| D66 | Episode Resolution                                     |
+| --- | ------------------------------------------------------ |
+| 11  | Hero gets medal from grateful government official |
+| 12  | Romantic sunset with rescued person |
+| 13  | Hero drives off into neon-lit night |
+| 14  | Villain led away in handcuffs swearing revenge |
+| 15  | Hero relaxes on beach with tropical drink |
+| 16  | Newspaper headline celebrates hero's success |
+| 21  | Hero receives expensive gift from grateful client |
+| 22  | Villain falls into own trap with ironic justice |
+| 23  | Hero's vehicle gets dramatic slow-motion reveal |
+| 24  | Innocent people return to normal lives safely |
+| 25  | Hero walks away from explosion without looking back |
+| 26  | Government covers up incident to protect hero |
+| 31  | Hero gets key to city from grateful mayor |
+| 32  | Romantic dinner interrupted by next case call |
+| 33  | Hero's reputation spreads to international attention |
+| 34  | Grateful family adopts hero as honorary member |
+| 35  | Hero retires exotic vehicle until next adventure |
+| 36  | Villain's organization crumbles without leadership |
+| 41  | Hero discovers hidden message thanking them |
+| 42  | Previously destroyed evidence miraculously recovered |
+| 43  | Hero's actions inspire others to fight corruption |
+| 44  | Secret government agency offers hero new mission |
+| 45  | Hero's nemesis grudgingly shows respect |
+| 46  | International peace treaty signed due to hero's work |
+| 51  | Hero receives inheritance from grateful wealthy client |
+| 52  | Villain reforms and becomes productive citizen |
+| 53  | Hero's improvised gadget becomes commercial product |
+| 54  | Hero gets honorary doctorate from rescued university |
+| 55  | Previously missing person reunites with family |
+| 56  | Hero's vehicle gets upgraded with new technology |
+| 61  | Charity foundation established in hero's honor |
+| 62  | Hero gets exclusive access to international locations |
+| 63  | Former enemy becomes reliable ally for future |
+| 64  | Hero's actions prevent international incident |
+| 65  | Grateful corporation provides unlimited expense account |
+| 66  | Hero rides off toward new adventure on horizon |
+
+### Evidence Types
+
+| D66 | Evidence Discovered                                    |
+| --- | ------------------------------------------------------ |
+| 11  | Encrypted computer disk with financial records |
+| 12  | Photograph showing criminal meeting in exotic location |
+| 13  | Handwritten note in foreign language with coordinates |
+| 14  | Chemical residue from illegal drug manufacturing |
+| 15  | Audio recording of criminal planning session |
+| 16  | Fingerprints on expensive wine glass |
+| 21  | Tire tracks from rare luxury vehicle |
+| 22  | Torn fabric from designer clothing |
+| 23  | Radio frequency used by criminal organization |
+| 24  | Bank account number traced to offshore location |
+| 25  | Mysterious key to unknown high-security lock |
+| 26  | Blood sample with unusual chemical markers |
+| 31  | Airline ticket stub to suspicious destination |
+| 32  | Hotel registration under false identity |
+| 33  | Shipping manifest for illegal cargo |
+| 34  | Telephone number that connects to criminal network |
+| 35  | DNA evidence linking multiple crime scenes |
+| 36  | Security camera footage showing perpetrator |
+| 41  | Coded message hidden in newspaper advertisement |
+| 42  | Rare ammunition type from specialized weapon |
+| 43  | Medical records showing experimental drug use |
+| 44  | Art authentication certificate proving forgery |
+| 45  | Geological survey hiding resource exploitation |
+| 46  | Archaeological report concealing artifact theft |
+| 51  | Insurance policy with suspicious beneficiary |
+| 52  | Employment record at shell company |
+| 53  | Travel visa with fabricated entry stamps |
+| 54  | Laboratory test results proving contamination |
+| 55  | Military service record with classified missions |
+| 56  | University transcript showing false credentials |
+| 61  | Customs declaration hiding contraband |
+| 62  | Medical prescription for mind-altering drugs |
+| 63  | Property deed showing illegal land acquisition |
+| 64  | Communications equipment programmed for espionage |
+| 65  | Scientific formula for dangerous chemical weapon |
+| 66  | Blackmail photos compromising government official |
+
+### Information Sources
+
+| D66 | Who Has the Information You Need                       |
+| --- | ------------------------------------------------------ |
+| 11  | Bartender at exclusive private club |
+| 12  | Taxi driver who knows all city secrets |
+| 13  | Hotel concierge with connections to everyone |
+| 14  | Retired intelligence agent living quietly |
+| 15  | Fashion designer attending high society events |
+| 16  | Casino dealer who notices everything |
+| 21  | Yacht club commodore with maritime knowledge |
+| 22  | Art gallery owner dealing with collectors |
+| 23  | University professor researching relevant topic |
+| 24  | Diplomatic courier carrying sensitive information |
+| 25  | Mechanics who service vehicles for criminals |
+| 26  | Personal trainer to wealthy and powerful clients |
+| 31  | Antique dealer handling stolen artifacts |
+| 32  | Pilot flying private jets to secret destinations |
+| 33  | Jeweler appraising suspicious valuable items |
+| 34  | Restaurant owner catering exclusive events |
+| 35  | Museum security guard noticing unusual patterns |
+| 36  | Travel agent arranging mysterious trips |
+| 41  | Photographer who captured crime scene |
+| 42  | Librarian with access to archived records |
+| 43  | Bank manager handling suspicious transactions |
+| 44  | Doorman at luxury apartment building |
+| 45  | Florist delivering to criminal hideouts |
+| 46  | Accountant managing illegal financial operations |
+| 51  | Personal assistant to corrupt executive |
+| 52  | Golf caddy overhearing business conversations |
+| 53  | Masseur working at exclusive health spa |
+| 54  | Chauffeur driving important people secretly |
+| 55  | Telephone operator monitoring suspicious calls |
+| 56  | Maid cleaning offices with sensitive documents |
+| 61  | Translator working on classified materials |
+| 62  | Insurance investigator with inside knowledge |
+| 63  | Customs official noticing smuggling patterns |
+| 64  | Real estate agent selling properties to criminals |
+| 65  | Computer technician maintaining criminal systems |
+| 66  | Former criminal seeking redemption through cooperation |
+
+### Red Herrings
+
+| D66 | False Lead or Misdirection                             |
+| --- | ------------------------------------------------------ |
+| 11  | Innocent person with criminal-looking past |
+| 12  | Legitimate business used as criminal front |
+| 13  | False identity created to throw off investigation |
+| 14  | Planted evidence pointing to wrong suspect |
+| 15  | Decoy operation hiding real criminal activity |
+| 16  | Staged crime scene designed to mislead |
+| 21  | Double agent feeding false information |
+| 22  | Innocent meeting misinterpreted as criminal |
+| 23  | Legal activity that appears illegal |
+| 24  | Wrong person wearing similar clothing |
+| 25  | Coincidental presence at crime scene |
+| 26  | Forged documents implicating innocent party |
+| 31  | Rival criminal organization blamed for crimes |
+| 32  | Technology malfunction creating false readings |
+| 33  | Witness with poor memory giving wrong details |
+| 34  | Similar-looking location confused with real site |
+| 35  | Innocent person blackmailed into suspicious behavior |
+| 36  | Legitimate government operation mistaken for crime |
+| 41  | False flag operation designed to frame others |
+| 42  | Innocent person with access to criminal location |
+| 43  | Overheard conversation taken out of context |
+| 44  | Innocent business transaction appearing suspicious |
+| 45  | Wrong time zone creating false alibis |
+| 46  | Mistaken identity due to plastic surgery |
+| 51  | Innocent person forced to act suspiciously |
+| 52  | Legal but unethical activity drawing suspicion |
+| 53  | Cultural misunderstanding creating false impression |
+| 54  | Innocent person with criminal relatives |
+| 55  | Staged accident designed to mislead investigation |
+| 56  | False confession obtained through coercion |
+| 61  | Innocent person recruited unknowingly |
+| 62  | Legitimate emergency mistaken for criminal activity |
+| 63  | Wrong vehicle identified in witness statement |
+| 64  | Innocent person with suspicious hobby |
+| 65  | False documentation created by criminals |
+| 66  | Innocent person manipulated into appearing guilty |
+
+### Breakthrough Moments
+
+| D66 | How the Case Breaks Open                               |
+| --- | ------------------------------------------------------ |
+| 11  | Villain makes mistake revealing true identity |
+| 12  | Hero overhears crucial phone conversation |
+| 13  | Laboratory analysis reveals unexpected connection |
+| 14  | Surveillance footage captures criminal meeting |
+| 15  | Financial records show money trail to mastermind |
+| 16  | Former associate turns against criminal organization |
+| 21  | Hero discovers pattern in seemingly random crimes |
+| 22  | Intercepted radio transmission reveals next target |
+| 23  | Forensic evidence links suspect to multiple scenes |
+| 24  | Computer hack reveals criminal database |
+| 25  | Witness comes forward with crucial testimony |
+| 26  | Hero connects two apparently unrelated cases |
+| 31  | Criminal's personal vendetta exposed through research |
+| 32  | Hidden camera reveals secret criminal meeting |
+| 33  | Document authentication proves forgery operation |
+| 34  | Chemical analysis identifies unique signature |
+| 35  | Hero recognizes criminal from previous encounter |
+| 36  | Victim escapes and provides inside information |
+| 41  | Criminal accidentally reveals location of evidence |
+| 42  | Hero follows money through shell corporations |
+| 43  | Linguistic analysis identifies criminal's origin |
+| 44  | Hero discovers criminal's personal weakness |
+| 45  | Timing analysis reveals criminal's schedule |
+| 46  | Hero finds criminal's personal diary or journal |
+| 51  | Criminal organization member defects with information |
+| 52  | Hero realizes significance of overlooked detail |
+| 53  | Criminal's cover story falls apart under scrutiny |
+| 54  | Hero discovers criminal's true motivation |
+| 55  | Physical evidence proves criminal's presence |
+| 56  | Hero infiltrates criminal meeting successfully |
+| 61  | Criminal's technology is reverse-engineered |
+| 62  | Hero connects crime to international conspiracy |
+| 63  | Criminal makes desperate attempt to silence witness |
+| 64  | Hero discovers criminal's next planned operation |
+| 65  | Criminal's past victims come forward together |
+| 66  | Hero realizes they've been investigating wrong crime |
+
+### Investigation Obstacles
+
+| D66 | What Blocks Your Progress                              |
+| --- | ------------------------------------------------------ |
+| 11  | Key witness too frightened to talk |
+| 12  | Evidence destroyed in convenient fire |
+| 13  | Corrupt officials block access to information |
+| 14  | Criminal organization threatens hero's loved ones |
+| 15  | False information planted to mislead investigation |
+| 16  | Hero's government clearance revoked unexpectedly |
+| 21  | Vital location declared off-limits due to emergency |
+| 22  | Key suspect flees to country with no extradition |
+| 23  | Computer systems hacked and files deleted |
+| 24  | Hero framed for crime to discredit investigation |
+| 25  | Language barrier prevents communication with witness |
+| 26  | Legal injunction stops hero from pursuing case |
+| 31  | Weather conditions make travel impossible |
+| 32  | Hero's equipment confiscated by authorities |
+| 33  | False flag operation diverts hero's attention |
+| 34  | Key informant turns up dead before meeting |
+| 35  | Hero's communication monitored by criminals |
+| 36  | Diplomatic immunity protects criminal suspect |
+| 41  | Laboratory closed due to contamination scare |
+| 42  | Hero's access to crime scene restricted |
+| 43  | Witness protection program hides key person |
+| 44  | Criminal organization bribes hero's contacts |
+| 45  | Hero's vehicle sabotaged to prevent pursuit |
+| 46  | False emergency diverts hero from real crime |
+| 51  | Key evidence requires special clearance to access |
+| 52  | Hero's bank accounts frozen by corrupt officials |
+| 53  | Criminal uses hero's identity to commit crimes |
+| 54  | Media attention compromises hero's investigation |
+| 55  | Hero's past actions used against current mission |
+| 56  | International border closed due to political crisis |
+| 61  | Hero's expertise questioned by rival investigator |
+| 62  | Criminal organization has mole in hero's network |
+| 63  | Hero's emotional investment clouds judgment |
+| 64  | Time pressure forces premature action |
+| 65  | Hero's methods declared illegal by authorities |
+| 66  | Criminal organization goes dormant sensing investigation |
+
+### Witness Types
+
+| D66 | Witness Character and Situation                        |
+| --- | ------------------------------------------------------ |
+| 11  | Terrified elderly person who saw everything |
+| 12  | Child with important information but trauma |
+| 13  | Criminal's spouse seeking protection for testimony |
+| 14  | Security guard who ignored breach for money |
+| 15  | Tourist who photographed crime accidentally |
+| 16  | Journalist investigating same story independently |
+| 21  | Former employee with inside knowledge |
+| 22  | Neighbor who noticed unusual activity |
+| 23  | Delivery person who accessed secure location |
+| 24  | Taxi driver who overheard important conversation |
+| 25  | Hotel staff member who cleaned crime scene |
+| 26  | Mechanic who serviced criminal's vehicles |
+| 31  | Accountant who discovered financial irregularities |
+| 32  | Nurse who treated criminal's injuries |
+| 33  | Pilot who flew criminals to secret location |
+| 34  | Translator who worked on criminal communications |
+| 35  | Librarian who helped with criminal research |
+| 36  | Construction worker who built secret facility |
+| 41  | Telephone operator who monitored suspicious calls |
+| 42  | Bank teller who processed unusual transactions |
+| 43  | Art expert who authenticated stolen pieces |
+| 44  | Computer programmer who wrote criminal software |
+| 45  | Chef who catered private criminal meetings |
+| 46  | Florist who delivered to criminal hideouts |
+| 51  | Jeweler who appraised stolen gems |
+| 52  | Travel agent who arranged criminal transportation |
+| 53  | Personal trainer who knows criminal's schedule |
+| 54  | Masseur who overheard planning sessions |
+| 55  | Chauffeur who drove criminals to meetings |
+| 56  | Maid who cleaned offices with incriminating documents |
+| 61  | Doorman who controls access to criminal headquarters |
+| 62  | Bartender who served drinks during criminal meetings |
+| 63  | Golf caddy who overheard business discussions |
+| 64  | Personal assistant who scheduled criminal appointments |
+| 65  | Museum guide who noticed unusual visitor behavior |
+| 66  | Immigration officer who processed false documents |
+
+
+### Chase Complications
+
+| D66 | Chase Complication                                     |
+| --- | ------------------------------------------------------ |
+| 11  | Construction site forces detour through maze |
+| 12  | Bridge opening stops pursuit at critical moment |
+| 13  | Rush hour traffic creates obstacle course |
+| 14  | Road construction narrows path dangerously |
+| 15  | Thunderstorm reduces visibility to near zero |
+| 16  | Police roadblock forces alternative route |
+| 21  | Fuel gauge shows empty tank during pursuit |
+| 22  | Tire blowout on high-speed turn |
+| 23  | Radio communication jammed by interference |
+| 24  | School zone forces speed reduction |
+| 25  | Ferry departure threatens to end chase |
+| 26  | Airplane takeoff blocks runway escape route |
+| 31  | Motorcycle gang joins chase for unknown reasons |
+| 32  | Tourist bus blocks narrow mountain road |
+| 33  | Drawbridge mechanism jammed in up position |
+| 34  | Ice storm makes roads treacherous |
+| 35  | Parade route blocks normal street access |
+| 36  | Harbor crane swings across pursuit path |
+| 41  | Livestock escapes blocking rural highway |
+| 42  | Train crossing gate malfunctions down |
+| 43  | Street fair crowds force slow navigation |
+| 44  | Fuel truck jackknifed across freeway |
+| 45  | Dense fog rolls in from ocean |
+| 46  | Mechanical failure threatens vehicle breakdown |
+| 51  | Innocent bystanders force careful maneuvering |
+| 52  | Emergency vehicles responding to unrelated crisis |
+| 53  | Road washed out by recent flash flooding |
+| 54  | Vehicle pursuit enters military restricted zone |
+| 55  | Sunset creates dangerous driving visibility |
+| 56  | Street racing competition blocks route |
+| 61  | Harbor master raises all bridges simultaneously |
+| 62  | Airport runway construction forces aircraft detour |
+| 63  | Carnival parade with elaborate floats |
+| 64  | Industrial accident closes major thoroughfare |
+| 65  | Vehicle overheats from prolonged high speed |
+| 66  | Hero must choose between pursuit and rescue |
+
+### Combat Environments
+
+| D66 | Combat Location                                        |
+| --- | ------------------------------------------------------ |
+| 11  | Luxury yacht deck during storm |
+| 12  | Casino floor between slot machines |
+| 13  | Art museum among priceless paintings |
+| 14  | Hotel kitchen with dangerous equipment |
+| 15  | Construction site with heavy machinery |
+| 16  | Airport runway with jet engines |
+| 21  | Shopping mall during busy shopping day |
+| 22  | Observatory with telescope equipment |
+| 23  | Wine cellar with vintage collections |
+| 24  | Car wash with spinning brushes |
+| 25  | Ice rink during hockey practice |
+| 26  | Aquarium tunnel with marine life |
+| 31  | Greenhouse with exotic plants |
+| 32  | Radio station during live broadcast |
+| 33  | Penthouse pool area with glass walls |
+| 34  | Factory assembly line with moving machinery |
+| 35  | Nightclub with strobing lights and loud music |
+| 36  | Submarine engine room with steam pipes |
+| 41  | Ski lodge with roaring fireplace |
+| 42  | Carnival funhouse with mirrors and obstacles |
+| 43  | Hospital operating theater with medical equipment |
+| 44  | Race track pit area during active race |
+| 45  | Television studio during live taping |
+| 46  | Chemical laboratory with volatile materials |
+| 51  | Clock tower mechanism room with gears |
+| 52  | Subway platform during rush hour |
+| 53  | Airplane cargo hold during flight |
+| 54  | Mine shaft with unstable support beams |
+| 55  | Opera house stage during performance |
+| 56  | Oil rig platform over rough seas |
+| 61  | Space center mission control room |
+| 62  | Archaeological dig site with ancient artifacts |
+| 63  | Elevator shaft between moving cars |
+| 64  | Jewelry store with laser security systems |
+| 65  | Martial arts tournament arena |
+| 66  | Rotating restaurant overlooking city |
+
+### Escape Routes
+
+| D66 | Escape Method                                          |
+| --- | ------------------------------------------------------ |
+| 11  | Motorcycle through narrow alleyways |
+| 12  | Speedboat through marina channels |
+| 13  | Helicopter from rooftop landing pad |
+| 14  | Zip line across urban canyon |
+| 15  | Underground maintenance tunnels |
+| 16  | Hot air balloon from park |
+| 21  | Jet ski through harbor waters |
+| 22  | Parasail from coastal cliff |
+| 23  | Cable car across mountain valley |
+| 24  | Subway tunnel on maintenance tracks |
+| 25  | Sewer system beneath city streets |
+| 26  | Cargo container on freight ship |
+| 31  | Hang glider from building rooftop |
+| 32  | Ski slope down mountain face |
+| 33  | River rapids in inflatable raft |
+| 34  | Construction crane across skyline |
+| 35  | Underground parking garage maze |
+| 36  | Service elevator to building basement |
+| 41  | Ventilation duct system through building |
+| 42  | Fire escape zigzag down apartment |
+| 43  | Gondola lift over ski resort |
+| 44  | Monorail system across theme park |
+| 45  | Subway train surfing on roof |
+| 46  | Ice slide down frozen waterfall |
+| 51  | Parachute jump from airplane |
+| 52  | Bungee jump from suspension bridge |
+| 53  | Water slide through hotel complex |
+| 54  | Coal chute in abandoned mine |
+| 55  | Laundry chute in luxury hotel |
+| 56  | Emergency water landing in harbor |
+| 61  | Catapult launch from medieval castle |
+| 62  | Rocket sled across desert terrain |
+| 63  | Toboggan run through forest |
+| 64  | Underground river in natural cave |
+| 65  | Conveyor belt through factory |
+| 66  | Ejector seat from compromised aircraft |
+
+### Stunt Opportunities
+
+| D66 | Spectacular Stunt Moment                               |
+| --- | ------------------------------------------------------ |
+| 11  | Leap between moving vehicles |
+| 12  | Swing across chasm on rope |
+| 13  | Slide under closing security door |
+| 14  | Jump through glass window unharmed |
+| 15  | Surf on top of moving subway train |
+| 16  | Pole vault over electrified fence |
+| 21  | Motorcycle jump over drawbridge gap |
+| 22  | Leap from exploding building to helicopter |
+| 23  | Ski jump off mountain cliff to safety |
+| 24  | Swing from chandelier across ballroom |
+| 25  | Slide down banister while shooting |
+| 26  | Jump from crane to building rooftop |
+| 31  | Dive through waterfall to hidden cave |
+| 32  | Leap from horse to moving train |
+| 33  | Parachute onto moving yacht deck |
+| 34  | Swing on high-voltage power line |
+| 35  | Jump between elevator cars in shaft |
+| 36  | Leap from airplane to mountainside |
+| 41  | Slide down avalanche on ski equipment |
+| 42  | Jump from speedboat to seaplane |
+| 43  | Leap across rooftops in single bound |
+| 44  | Swing from construction crane hook |
+| 45  | Jump through fireball explosion unharmed |
+| 46  | Leap from balcony to swimming pool |
+| 51  | Motorcycle jump through ring of fire |
+| 52  | Jump from helicopter to oil rig |
+| 53  | Leap between gondola cars over canyon |
+| 54  | Jump from race car at full speed |
+| 55  | Swing across river on vine |
+| 56  | Leap from building using hang glider |
+| 61  | Jump from jet plane to another aircraft |
+| 62  | Leap across lava flow on volcanic rocks |
+| 63  | Jump from yacht to rescue helicopter |
+| 64  | Swing from flagpole to embassy window |
+| 65  | Leap between ice floes in arctic |
+| 66  | Jump from space shuttle to space station |
+
+### Environmental Hazards
+
+| D66 | Natural or Artificial Danger                           |
+| --- | ------------------------------------------------------ |
+| 11  | Flash flood in desert canyon |
+| 12  | Avalanche triggered by explosion |
+| 13  | Tropical storm with hurricane winds |
+| 14  | Volcanic eruption with lava flows |
+| 15  | Earthquake causing building collapse |
+| 16  | Forest fire spreading rapidly |
+| 21  | Toxic gas leak in industrial facility |
+| 22  | Radiation exposure in research lab |
+| 23  | Chemical spill creating deadly fog |
+| 24  | High-voltage electrical storm |
+| 25  | Quicksand in jungle expedition |
+| 26  | Blizzard with zero visibility |
+| 31  | Landslide blocking mountain road |
+| 32  | Tidal wave threatening coastal area |
+| 33  | Sandstorm in desert location |
+| 34  | Ice storm making travel impossible |
+| 35  | Mudslide after heavy rainfall |
+| 36  | Sinkhole opening in city street |
+| 41  | Steam explosion in geothermal area |
+| 42  | Acid rain from chemical plant |
+| 43  | Methane gas buildup in confined space |
+| 44  | Solar flare disrupting electronics |
+| 45  | Magnetic storm affecting navigation |
+| 46  | Temperature inversion trapping pollutants |
+| 51  | Whirlpool in turbulent waters |
+| 52  | Rockfall in mountain tunnel |
+| 53  | Permafrost melting in arctic region |
+| 54  | Dust devil in open terrain |
+| 55  | Flash freeze creating ice hazard |
+| 56  | Waterspout over ocean surface |
+| 61  | Ground fog reducing visibility |
+| 62  | Hailstorm with golf-ball sized ice |
+| 63  | Lightning strike igniting fuel depot |
+| 64  | Tornado touching down in populated area |
+| 65  | Glacier calving creating ice tsunami |
+| 66  | Meteor shower with debris impact |
+
+### Last-Minute Saves
+
+| D66 | How Hero Snatches Victory                              |
+| --- | ------------------------------------------------------ |
+| 11  | Improvised gadget works perfectly at crucial moment |
+| 12  | Villain's own trap backfires on them |
+| 13  | Unexpected ally arrives with reinforcements |
+| 14  | Hero's knowledge of obscure fact saves day |
+| 15  | Environmental factor helps hero escape |
+| 16  | Villain's weakness exploited at perfect time |
+| 21  | Hero's reputation convinces enemy to switch sides |
+| 22  | Previously planted evidence finally discovered |
+| 23  | Hero's vehicle modification proves crucial |
+| 24  | Innocent bystander provides unexpected assistance |
+| 25  | Hero's moral code inspires others to help |
+| 26  | Technology glitch favors hero instead of villain |
+| 31  | Hero's improvised plan succeeds against odds |
+| 32  | Villain's arrogance leads to crucial mistake |
+| 33  | Hero's physical conditioning proves decisive |
+| 34  | Previously ignored detail becomes key to victory |
+| 35  | Hero's network of contacts provides vital support |
+| 36  | Natural phenomenon helps hero's cause |
+| 41  | Hero's sacrifice inspires others to act |
+| 42  | Villain's organization turns against leader |
+| 43  | Hero's understanding of human nature pays off |
+| 44  | Previously damaged equipment suddenly works |
+| 45  | Hero's quick thinking turns defeat into victory |
+| 46  | Villain's plan has fatal flaw hero exploits |
+| 51  | Hero's charm wins over hostile force |
+| 52  | Coincidental timing gives hero perfect opportunity |
+| 53  | Hero's preparedness overcomes impossible odds |
+| 54  | Villain's emotional attachment becomes weakness |
+| 55  | Hero's willingness to trust pays off |
+| 56  | Hero's improvisation creates chain reaction |
+| 61  | Hero's knowledge of location provides advantage |
+| 62  | Villain underestimates hero's determination |
+| 63  | Hero's moral stand inspires mass resistance |
+| 64  | Previously assumed dead ally returns |
+| 65  | Hero's reputation precedes them at crucial moment |
+| 66  | Hero's leap of faith proves to be correct |
+
+### Social Events
+
+| D66 | Gathering Where Information Can Be Found               |
+| --- | ------------------------------------------------------ |
+| 11  | Embassy reception with international diplomats |
+| 12  | Charity gala for environmental cause |
+| 13  | Art auction featuring stolen masterpieces |
+| 14  | Fashion show with international models |
+| 15  | Wine tasting at exclusive vineyard |
+| 16  | Corporate merger celebration dinner |
+| 21  | Museum opening with wealthy patrons |
+| 22  | University fundraising benefit |
+| 23  | Hospital charity ball |
+| 24  | Opera premiere with social elite |
+| 25  | Country club golf tournament |
+| 26  | Yacht club regatta celebration |
+| 31  | International film festival premiere |
+| 32  | Casino grand opening night |
+| 33  | Hotel grand reopening party |
+| 34  | Restaurant anniversary celebration |
+| 35  | Political fundraising dinner |
+| 36  | Business conference cocktail hour |
+| 41  | Scientific symposium reception |
+| 42  | Archaeological society meeting |
+| 43  | Antique dealers' private viewing |
+| 44  | Jewelry exhibition preview |
+| 45  | Classical music concert intermission |
+| 46  | Dance competition social hour |
+| 51  | Wedding reception of influential family |
+| 52  | Graduation ceremony reception |
+| 53  | Retirement party for government official |
+| 54  | Birthday celebration for celebrity |
+| 55  | Anniversary dinner at exclusive restaurant |
+| 56  | Book launch party for controversial author |
+| 61  | Tennis tournament sponsors' dinner |
+| 62  | Horse racing season opening |
+| 63  | Sailing competition awards ceremony |
+| 64  | Aviation show VIP reception |
+| 65  | Technology conference networking event |
+| 66  | International peace summit reception |
+
+### Cover Identities
+
+| D66 | Who You Pretend to Be                                  |
+| --- | ------------------------------------------------------ |
+| 11  | Wealthy art collector seeking investments |
+| 12  | International business consultant |
+| 13  | Documentary filmmaker researching subject |
+| 14  | Archaeological expedition member |
+| 15  | Medical researcher attending conference |
+| 16  | Diplomatic attaché from friendly nation |
+| 21  | Investment banker with offshore connections |
+| 22  | Fashion photographer on assignment |
+| 23  | Wine expert evaluating collections |
+| 24  | Insurance investigator assessing claims |
+| 25  | Technology journalist writing expose |
+| 26  | University professor researching abroad |
+| 31  | Luxury real estate developer |
+| 32  | Private security consultant |
+| 33  | International courier with urgent delivery |
+| 34  | Philanthropist evaluating charity |
+| 35  | Sports agent representing athletes |
+| 36  | Entertainment industry talent scout |
+| 41  | Antique dealer appraising collections |
+| 42  | Environmental scientist conducting study |
+| 43  | Travel writer reviewing destinations |
+| 44  | Cultural attaché promoting exchanges |
+| 45  | Financial advisor managing portfolios |
+| 46  | Technical writer documenting processes |
+| 51  | Import/export business representative |
+| 52  | Vacation resort location scout |
+| 53  | Wedding planner for wealthy clients |
+| 54  | Personal trainer for celebrities |
+| 55  | Yacht broker selling luxury vessels |
+| 56  | Private pilot available for charter |
+| 61  | Jeweler evaluating precious stones |
+| 62  | Communications equipment salesperson |
+| 63  | Security system installation expert |
+| 64  | Computer consultant upgrading systems |
+| 65  | Transportation logistics coordinator |
+| 66  | Executive assistant to important person |
+
+### Conversation Hooks
+
+| D66 | What Gets People Talking                               |
+| --- | ------------------------------------------------------ |
+| 11  | Mention mutual acquaintance from past |
+| 12  | Ask about expensive item they're wearing |
+| 13  | Comment on unusual accent or language |
+| 14  | Discuss shared experience at location |
+| 15  | Ask for recommendation about local activity |
+| 16  | Compliment their expertise in their field |
+| 21  | Mention recent news affecting their business |
+| 22  | Ask about travel plans or recent trip |
+| 23  | Comment on quality of event or venue |
+| 24  | Discuss investment opportunities |
+| 25  | Ask about their opinion on current events |
+| 26  | Mention problem they might help solve |
+| 31  | Compliment their taste in art or culture |
+| 32  | Ask about their connection to host |
+| 33  | Discuss shared hobby or interest |
+| 34  | Comment on unusual weather conditions |
+| 35  | Ask about their professional background |
+| 36  | Mention mutual friend who spoke highly |
+| 41  | Ask for advice about business matter |
+| 42  | Comment on interesting architectural detail |
+| 43  | Discuss recent changes in their industry |
+| 44  | Ask about their family or personal life |
+| 45  | Mention recent achievement or recognition |
+| 46  | Discuss upcoming events in social calendar |
+| 51  | Ask about their charitable interests |
+| 52  | Comment on quality of food or drink |
+| 53  | Discuss recent acquisition or purchase |
+| 54  | Ask about their educational background |
+| 55  | Mention concern about security or safety |
+| 56  | Discuss shared interest in sports or recreation |
+| 61  | Ask about their thoughts on venue location |
+| 62  | Comment on interesting piece of jewelry |
+| 63  | Discuss recent developments in their field |
+| 64  | Ask about their plans for upcoming holiday |
+| 65  | Mention shared connection to organization |
+| 66  | Ask for their perspective on recent controversy |
+
+### Social Complications
+
+| D66 | When Charm and Diplomacy Fail                          |
+| --- | ------------------------------------------------------ |
+| 11  | Cover story contradicts known facts |
+| 12  | Someone recognizes hero from past mission |
+| 13  | Fake credentials don't match database |
+| 14  | Hero accidentally reveals classified knowledge |
+| 15  | Cultural mistake offends important person |
+| 16  | Hero's accent slips revealing true origin |
+| 21  | Someone tests hero's supposed expertise |
+| 22  | Hero's photograph appears in security files |
+| 23  | Conversation partner is enemy agent |
+| 24  | Hero's communication device malfunctions publicly |
+| 25  | Someone notices hero's surveillance activities |
+| 26  | Hero's behavior inconsistent with cover identity |
+| 31  | Innocent question reveals hero doesn't belong |
+| 32  | Hero's equipment detected by security scan |
+| 33  | Someone calls hero by wrong name publicly |
+| 34  | Hero's financial resources questioned |
+| 35  | Language barrier reveals communication problems |
+| 36  | Hero's physical condition inconsistent with story |
+| 41  | Someone double-checks hero's references |
+| 42  | Hero's knowledge too specific to be coincidental |
+| 43  | Security footage shows hero in previous location |
+| 44  | Hero's timing arrival seems too convenient |
+| 45  | Someone notices hero asking too many questions |
+| 46  | Hero's cover blown by unexpected test |
+| 51  | Former contact appears unexpectedly |
+| 52  | Hero's equipment inappropriate for stated purpose |
+| 53  | Someone notices hero's defensive training |
+| 54  | Hero's story doesn't match companion's version |
+| 55  | Security check reveals false documentation |
+| 56  | Hero's reaction inconsistent with claimed background |
+| 61  | Someone notices hero's surveillance training |
+| 62  | Hero's knowledge of location too detailed |
+| 63  | Conversation reveals hero's military experience |
+| 64  | Hero's equipment traced to government source |
+| 65  | Someone recognizes hero's vehicle or equipment |
+| 66  | Hero's behavior triggers security investigation |
+
+### Blackmail Material
+
+| D66 | What People Want to Hide                               |
+| --- | ------------------------------------------------------ |
+| 11  | Affair with political opponent's spouse |
+| 12  | Embezzlement of charity funds |
+| 13  | Illegal drug use affecting judgment |
+| 14  | Secret gambling debts to criminal organization |
+| 15  | Academic credentials completely fabricated |
+| 16  | Military service record falsified |
+| 21  | Business partnership with known criminals |
+| 22  | Tax evasion through offshore accounts |
+| 23  | Plagiarism of important research work |
+| 24  | Bribery of government officials |
+| 25  | Industrial espionage against competitors |
+| 26  | Environmental damage cover-up |
+| 31  | Medical malpractice resulting in death |
+| 32  | Art forgery sold as authentic masterpiece |
+| 33  | Insider trading based on confidential information |
+| 34  | Safety violations resulting in worker injuries |
+| 35  | Identity theft to assume deceased person's life |
+| 36  | War crimes committed during military service |
+| 41  | Research data falsified for grant money |
+| 42  | Archaeological artifacts illegally excavated |
+| 43  | Medical experiments on unwilling subjects |
+| 44  | Corporate merger based on fraudulent information |
+| 45  | University admissions bribery scandal |
+| 46  | Government contracts awarded through corruption |
+| 51  | Historical documents stolen from museum |
+| 52  | Scientific discoveries stolen from colleagues |
+| 53  | Witness intimidation to avoid prosecution |
+| 54  | Medical license obtained through false identity |
+| 55  | Investment fraud targeting elderly victims |
+| 56  | Adoption records falsified for financial gain |
+| 61  | Archaeological site destroyed for development |
+| 62  | Medical treatment withheld for insurance fraud |
+| 63  | Government secrets sold to foreign powers |
+| 64  | University research stolen for commercial use |
+| 65  | Historical artifacts smuggled from origin country |
+| 66  | Identity assumed after faking own death |
+
+### Alliance Opportunities
+
+| D66 | Potential Temporary Partners                           |
+| --- | ------------------------------------------------------ |
+| 11  | Reformed criminal seeking redemption |
+| 12  | Government agent working same case |
+| 13  | Investigative journalist with inside information |
+| 14  | Former military officer with combat skills |
+| 15  | Local police detective fighting corruption |
+| 16  | Corporate whistleblower seeking protection |
+| 21  | International spy with shared enemy |
+| 22  | Victim's family member seeking justice |
+| 23  | Former enemy who owes hero favor |
+| 24  | Local guide with knowledge of terrain |
+| 25  | Computer hacker opposing criminal network |
+| 26  | Undercover agent from friendly nation |
+| 31  | Art expert helping recover stolen pieces |
+| 32  | Medical professional treating victims |
+| 33  | Transportation specialist with vehicles |
+| 34  | Communications expert with surveillance gear |
+| 35  | Financial investigator following money trail |
+| 36  | Environmental activist exposing corporate crime |
+| 41  | Academic researcher with specialized knowledge |
+| 42  | Security professional with inside access |
+| 43  | Former criminal organization member defecting |
+| 44  | International aid worker with local connections |
+| 45  | Legal expert navigating complex jurisdiction |
+| 46  | Technology specialist with cutting-edge equipment |
+| 51  | Cultural insider with social connections |
+| 52  | Pilot with aircraft and flying skills |
+| 53  | Maritime captain with boat and crew |
+| 54  | Mountaineer with wilderness survival skills |
+| 55  | Linguist who can translate crucial documents |
+| 56  | Archaeologist with historical site knowledge |
+| 61  | Diplomatic official with government access |
+| 62  | Business executive with corporate resources |
+| 63  | Celebrity with media influence and connections |
+| 64  | Religious leader with community respect |
+| 65  | Criminal informant with underworld knowledge |
+| 66  | Foreign national seeking asylum in exchange for intel |
+
+### High-Tech Threats
+
+| D66 | 1980s-Style Technological Dangers                     |
+| --- | ------------------------------------------------------ |
+| 11  | Laser defense system protecting facility |
+| 12  | Computer virus destroying evidence files |
+| 13  | Satellite surveillance tracking every movement |
+| 14  | Electronic lock system trapping intruders |
+| 15  | Automated security robots patrolling area |
+| 16  | Radio frequency jamming blocking communications |
+| 21  | Heat-seeking missile system targeting vehicles |
+| 22  | Computer-controlled toxic gas release |
+| 23  | Electronic surveillance monitoring all activity |
+| 24  | Automated factory machinery turned weapon |
+| 25  | Satellite weapon capable of precision strikes |
+| 26  | Computer-controlled vehicle sabotage system |
+| 31  | Electronic voting manipulation changing results |
+| 32  | Automated trading system stealing millions |
+| 33  | Computer worm spreading through networks |
+| 34  | Electronic lock-down trapping people inside |
+| 35  | Radar-guided surface-to-air missiles |
+| 36  | Computer-controlled building system takeover |
+| 41  | Electronic banking transfer stealing funds |
+| 42  | Automated security system with lethal force |
+| 43  | Computer simulation predicting hero's actions |
+| 44  | Electronic mind control through television |
+| 45  | Satellite communication interception system |
+| 46  | Computer-controlled transportation disruption |
+| 51  | Electronic identity theft replacing records |
+| 52  | Automated manufacturing creating weapons |
+| 53  | Computer analysis revealing secret patterns |
+| 54  | Electronic surveillance through home appliances |
+| 55  | Satellite positioning system misdirecting navigation |
+| 56  | Computer-controlled power grid manipulation |
+| 61  | Electronic warfare disrupting military systems |
+| 62  | Automated stock trading causing market crash |
+| 63  | Computer-controlled weather modification system |
+| 64  | Electronic voting booth programming fraud |
+| 65  | Satellite internet controlling global communications |
+| 66  | Computer AI developing beyond human control |
+
+### Communication Methods
+
+| D66 | How Information Travels                                |
+| --- | ------------------------------------------------------ |
+| 11  | Coded messages in newspaper personal ads |
+| 12  | Dead drop locations in public places |
+| 13  | Radio transmissions on obscure frequencies |
+| 14  | Telephone calls using voice scramblers |
+| 15  | Computer bulletin board encrypted messages |
+| 16  | Fax transmissions to secure locations |
+| 21  | Carrier pigeons with message containers |
+| 22  | Shortwave radio broadcasts at scheduled times |
+| 23  | Microfiche hidden in everyday objects |
+| 24  | Car phone calls during specific routes |
+| 25  | Telex messages through international networks |
+| 26  | Morse code signals using lights or sounds |
+| 31  | Coded graffiti in predetermined locations |
+| 32  | Message bottles thrown from moving vehicles |
+| 33  | Flower arrangements with symbolic meanings |
+| 34  | Book cipher using specific publication |
+| 35  | Musical compositions containing coded information |
+| 36  | Photograph negatives with hidden messages |
+| 41  | Tape recordings left in secure locations |
+| 42  | Computer disk exchanges through intermediaries |
+| 43  | Clothing patterns indicating status or instructions |
+| 44  | Food delivery orders with coded meanings |
+| 45  | Tourist postcards with invisible ink |
+| 46  | Art gallery exhibitions with hidden messages |
+| 51  | Sports scores broadcast containing information |
+| 52  | Weather reports with coded temperature readings |
+| 53  | Magazine advertisements with symbolic elements |
+| 54  | Store window displays arranged as signals |
+| 55  | Library book checkout patterns indicating status |
+| 56  | Restaurant reservation names conveying messages |
+| 61  | Parking garage ticket stubs with coded information |
+| 62  | Hotel room service orders indicating instructions |
+| 63  | Theater ticket purchases signaling meetings |
+| 64  | Gym locker combinations changed to send messages |
+| 65  | Church bulletin announcements with hidden meanings |
+| 66  | University lecture schedules containing coded times |
+
+### Surveillance Systems
+
+| D66 | What's Watching You                                    |
+| --- | ------------------------------------------------------ |
+| 11  | Security cameras with facial recognition |
+| 12  | Motion sensors triggering silent alarms |
+| 13  | Infrared heat detectors monitoring body temperature |
+| 14  | Pressure plates in floors detecting weight |
+| 15  | Laser tripwires invisible to naked eye |
+| 16  | Sound monitoring detecting specific voices |
+| 21  | Magnetic field detectors sensing metal objects |
+| 22  | Video recorders with motion activation |
+| 23  | Radio frequency monitors tracking transmissions |
+| 24  | Seismic sensors detecting footsteps |
+| 25  | Chemical sniffers identifying explosive residue |
+| 26  | Biometric scanners reading fingerprints |
+| 31  | Satellite imagery tracking vehicle movement |
+| 32  | Computer analysis of behavioral patterns |
+| 33  | Telephone taps recording all conversations |
+| 34  | Mail inspection detecting suspicious packages |
+| 35  | Credit card monitoring tracking purchases |
+| 36  | Hotel registration surveillance identifying guests |
+| 41  | Airport X-ray machines scanning luggage |
+| 42  | Border crossing documentation verification |
+| 43  | Bank transaction monitoring flagging large sums |
+| 44  | Rental car GPS tracking recording locations |
+| 45  | Restaurant reservation monitoring identifying patrons |
+| 46  | Hospital admission records tracking medical visits |
+| 51  | University enrollment monitoring student activity |
+| 52  | Employment background checks revealing history |
+| 53  | Insurance claim investigations detecting fraud |
+| 54  | Utility bill analysis revealing occupancy patterns |
+| 55  | Postal service monitoring tracking mail delivery |
+| 56  | Airline passenger manifest surveillance |
+| 61  | Hotel telephone monitoring recording room calls |
+| 62  | Casino surveillance tracking gambling behavior |
+| 63  | Shopping mall security monitoring customer activity |
+| 64  | Parking garage cameras recording license plates |
+| 65  | Marina surveillance monitoring boat arrivals |
+| 66  | Country club membership monitoring tracking visits |
+
+### Weather & Environment
+
+| D66 | Atmospheric Conditions                                 |
+| --- | ------------------------------------------------------ |
+| 11  | Tropical thunderstorm with dangerous lightning |
+| 12  | Dense fog reducing visibility to few feet |
+| 13  | Hurricane winds making travel impossible |
+| 14  | Scorching desert heat causing dehydration |
+| 15  | Arctic blizzard with sub-zero temperatures |
+| 16  | Torrential rainfall causing flash flooding |
+| 21  | Sandstorm reducing visibility to zero |
+| 22  | Ice storm coating everything in treacherous ice |
+| 23  | High altitude low oxygen affecting performance |
+| 24  | Extreme humidity making exertion difficult |
+| 25  | Sudden temperature drop threatening hypothermia |
+| 26  | Strong crosswinds affecting aircraft operations |
+| 31  | Hailstorm with golf-ball sized ice |
+| 32  | Drought conditions creating water shortage |
+| 33  | Monsoon season flooding transportation routes |
+| 34  | Heat lightning creating dramatic backdrop |
+| 35  | Ground fog rolling in from ocean |
+| 36  | Dust devil whirlwinds in open terrain |
+| 41  | Seasonal wildfire smoke reducing air quality |
+| 42  | Tidal changes affecting coastal access |
+| 43  | Volcanic ash cloud disrupting air travel |
+| 44  | Solar flare disrupting electronic communications |
+| 45  | Geomagnetic storm affecting navigation equipment |
+| 46  | Atmospheric pressure changes affecting health |
+| 51  | Seasonal migration affecting local wildlife |
+| 52  | Pollen count creating severe allergic reactions |
+| 53  | Ozone layer depletion increasing UV exposure |
+| 54  | Temperature inversion trapping air pollution |
+| 55  | Jet stream changes affecting weather patterns |
+| 56  | Ocean current shifts affecting marine conditions |
+| 61  | Seasonal flooding making roads impassable |
+| 62  | Snow avalanche risk in mountain areas |
+| 63  | Mudslide potential on steep terrain |
+| 64  | Lightning strike risk in exposed areas |
+| 65  | Tornado watch affecting ground operations |
+| 66  | Seismic activity threatening structural stability |
+
+### Cultural Details
+
+| D66 | Local Flavor for International Locations              |
+| --- | ------------------------------------------------------ |
+| 11  | Traditional festival celebration disrupting schedule |
+| 12  | Language barrier requiring translator assistance |
+| 13  | Religious observance limiting business hours |
+| 14  | Cultural taboo accidentally violated by hero |
+| 15  | Local cuisine causing digestive distress |
+| 16  | Traditional music masking conversation |
+| 21  | Currency exchange creating financial complications |
+| 22  | Local customs requiring specific dress code |
+| 23  | Traditional architecture limiting surveillance options |
+| 24  | Cultural hierarchy affecting social interactions |
+| 25  | Local transportation methods unfamiliar to hero |
+| 26  | Traditional crafts concealing modern technology |
+| 31  | Regional dialect making communication difficult |
+| 32  | Time zone confusion affecting coordination |
+| 33  | Local superstitions influencing behavior |
+| 34  | Traditional ceremonies providing cover |
+| 35  | Cultural etiquette preventing direct questions |
+| 36  | Local politics affecting cooperation |
+| 41  | Regional specialties masking illegal trade |
+| 42  | Traditional hospitality complicating departure |
+| 43  | Cultural gender roles limiting access |
+| 44  | Local history affecting current tensions |
+| 45  | Traditional medicine competing with modern treatment |
+| 46  | Cultural celebration drawing unwanted attention |
+| 51  | Regional weather patterns affecting local customs |
+| 52  | Traditional occupations concealing criminal activity |
+| 53  | Cultural artifacts having unexpected significance |
+| 54  | Local education system revealing social structure |
+| 55  | Traditional entertainment providing information source |
+| 56  | Cultural dress indicating social status |
+| 61  | Regional conflict affecting local loyalty |
+| 62  | Traditional wedding customs complicating infiltration |
+| 63  | Cultural funeral rites affecting timing |
+| 64  | Local sports events providing social cover |
+| 65  | Traditional hunting season affecting wildlife |
+| 66  | Cultural harvest festival changing population patterns |
+
+### Period Details
+
+| D66 | Specific 1980s Atmosphere Elements                    |
+| --- | ------------------------------------------------------ |
+| 11  | Neon signs casting colorful shadows on wet streets |
+| 12  | Synthesizer music playing from car stereo |
+| 13  | Cocaine residue found at crime scene |
+| 14  | Personal computer with green phosphor monitor |
+| 15  | VHS tape containing crucial surveillance footage |
+| 16  | Car phone with large antenna extending |
+| 21  | Walkman headphones worn by key witness |
+| 22  | Video arcade providing neutral meeting ground |
+| 23  | Shopping mall fountain as dead drop location |
+| 24  | Answering machine with important message |
+| 25  | Cable television news report breaking story |
+| 26  | Compact disc technology impressing characters |
+| 31  | Digital watch with calculator and alarm |
+| 32  | Polaroid instant camera documenting evidence |
+| 33  | Rubik's cube used as coded message system |
+| 34  | MTV playing music videos in background |
+| 35  | Exercise video promoting health consciousness |
+| 36  | Microwave oven exploding due to sabotage |
+| 41  | Home video recorder documenting criminal activity |
+| 42  | Electronic organizer containing contact information |
+| 43  | Laser disc player in wealthy person's home |
+| 44  | Cordless telephone allowing mobile conversation |
+| 45  | Electronic gaming system distracting security |
+| 46  | Boom box radio providing musical distraction |
+| 51  | Members Only jacket worn by suspect |
+| 52  | Feathered hair indicating 1980s setting |
+| 53  | Power suit worn by corporate executive |
+| 54  | Athletic wear as acceptable street clothing |
+| 55  | Designer jeans indicating wealth and status |
+| 56  | Aviator sunglasses worn day and night |
+| 61  | Shoulder pads in women's business attire |
+| 62  | Parachute pants worn by young people |
+| 63  | Leather jacket indicating rebel attitude |
+| 64  | Bright colored clothing making subtle surveillance difficult |
+| 65  | Athletic shoes as fashion statement |
+| 66  | Big hair requiring significant maintenance time |
+
 ### Inspiration Tables
 
 #### Verbs
@@ -1117,6 +2426,10 @@ Former special forces operatives who now work as mercenaries and security contra
 
 ## Appendix: Inspirational Media
 
+***Prime Time Hero*** is a solo tabletop RPG adventure set in the neon-soaked world of 1980s action-adventure television.
+
+This minimalist Solo Role Playing Game is designed to capture the spirit of classic TV shows like *MacGyver*, *Knight Rider*, *Magnum P.I.*, and *The A-Team*, where charismatic heroes solve problems with wit, charm, and improvised solutions.
+
 ### Television Series
 - **MacGyver** (1985-1992): The gold standard for resourceful heroes solving problems with improvised gadgets
 - **Knight Rider** (1982-1986): High-tech car and charismatic hero fighting crime
@@ -1149,6 +2462,101 @@ Former special forces operatives who now work as mercenaries and security contra
 - **Synthesizer Scores**: Giorgio Moroder, Harold Faltermeyer, Jan Hammer
 - **Rock Soundtracks**: Kenny Loggins, Berlin, Survivor
 - **Jazz Fusion**: Weather Report, Return to Forever, Mahavishnu Orchestra
+
+## Quick Start Guide
+
+### Creating Your Prime Time Hero
+
+1. **Choose or roll for a Name** using the name tables
+2. **Select a Concept** that captures your character's essence (like "Rogue CIA Agent" or "Hawaiian Private Eye")  
+3. **Pick two Skills** that make you special (like "Jury-Rigging Genius" or "Master of Disguise")
+4. **Choose one Frailty** that creates interesting complications
+5. **Select two pieces of Gear** that define your style (like "Talking Sports Car" or "Swiss Army Knife")
+6. **Define your Goal** (what you're trying to achieve long-term)
+7. **Establish your Motive** (why you pursue this goal)
+8. **Create or leave blank your Nemesis** (they can emerge during play)
+9. **Set Luck to 6**
+
+### Your First Case
+
+1. **Roll on the Case Generator** (page XX) or create your own hook
+2. **Set the scene** - where does the episode begin?
+3. **Introduce the problem** - who needs help and why?
+4. **Ask the Oracle** when you're uncertain about outcomes
+5. **Let complications arise** naturally through play
+6. **Build to a climactic confrontation** 
+7. **Wrap up with consequences** and character growth
+
+### Essential Rules Summary
+
+- **Oracle Rolls**: 1 Chance Die vs 1 Risk Die determines Yes/No answers
+- **Advantage/Disadvantage**: Add extra dice, keep the highest of that type  
+- **Twists**: When dice are equal, add to Twist Counter; at 3+ a Twist occurs
+- **Conflicts**: Can be single questions or extended Harm & Luck exchanges
+- **Improvised Gadgets**: Describe your invention, ask Oracle if it works
+
+## Character Sheet Template
+
+**PRIME TIME HERO CHARACTER SHEET**
+
+---
+
+**Name:** _________________________ **Nickname:** _________________________
+
+**Concept:** _________________________________________________________________
+
+**Skills:**
+1. ___________________________________________________________________
+2. ___________________________________________________________________
+
+**Frailty:** __________________________________________________________________
+
+**Gear:**  
+1. ___________________________________________________________________
+2. ___________________________________________________________________
+
+**Goal:** ____________________________________________________________________
+
+**Motive:** __________________________________________________________________
+
+**Nemesis:** _________________________________________________________________
+
+**Luck:** ⬜⬜⬜⬜⬜⬜ (starts at 6)
+
+---
+
+**CURRENT EPISODE**
+
+**Case:** ___________________________________________________________________
+
+**Key NPCs:**
+- ________________________________________________________________________
+- ________________________________________________________________________  
+- ________________________________________________________________________
+
+**Locations:**
+- ________________________________________________________________________
+- ________________________________________________________________________
+- ________________________________________________________________________
+
+**Clues & Evidence:**
+- ________________________________________________________________________
+- ________________________________________________________________________
+- ________________________________________________________________________
+
+**Complications:**
+- ________________________________________________________________________
+- ________________________________________________________________________
+
+**Twist Counter:** ⬜⬜⬜
+
+---
+
+**NOTES:**
+___________________________________________________________________________
+___________________________________________________________________________
+___________________________________________________________________________
+___________________________________________________________________________
 
 ## License
 
