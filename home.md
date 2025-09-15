@@ -21,7 +21,7 @@ Loner is a product of [**Zotiquest Games**](https://zotiquestgames.com)
 
 <!-- <iframe frameborder="0" src="https://itch.io/embed/1908947" width="552" height="167"><a href="https://zeruhur.itch.io/loner-2nd-edition">Loner (2nd Edition) by Zotiquest Games</a></iframe> -->
 
-## Core Rules
+<!-- ## Core Rules
 
 <div class="w3-row-padding w3-container w3-padding-16">
     <div class="w3-card w3-third">
@@ -270,7 +270,7 @@ A new generation of Adventure Packs: self-contained, stand-alone games with all 
             </div>
             </div>
     </div>          
-</div>
+</div> -->
 
 ## Web SRD
 The complete text of Loner, the Adventure Packs and the Geared Toward Loner Games are available for free in web format on this site. Just navigate the navbar above!
