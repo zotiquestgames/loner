@@ -1,18 +1,18 @@
-# Urban Planner
+# City Manager
 
-***Urban Planner*** is a solo tabletop RPG adventure set in the challenging world of city management and urban development.
+***City Manager*** is a solo tabletop RPG adventure set in the challenging world of city management and urban development.
 
 This minimalist Solo Role Playing Game is designed to simulate the complexities of governing a growing settlement, from a small village to a sprawling metropolis.
 
 ## Introduction
 
-*Urban Planner* follows the following design principles:
+*City Manager* follows the following design principles:
 
 1. **Portable**: to play you will need a few common (six-sided) dice and writing materials. Anything else is optional and not essential.
 2. **Rules-Light**: the game relies on a few rules and only one solving mechanic, easy to learn and eventually to memorize.
 3. **Tag-based**: your city, districts, and situations are defined only by qualitative descriptors and no quantitative characteristics.
 
-With a focus on quick resolutions, **Urban Planner** throws you headfirst into the heart of municipal governance. Your city will be defined by thematic tags, like *"Industrial Hub"*, *"Tourist Destination"*, or *"Crime-Ridden"*.
+With a focus on quick resolutions, **City Manager** throws you headfirst into the heart of municipal governance. Your city will be defined by thematic tags, like *"Industrial Hub"*, *"Tourist Destination"*, or *"Crime-Ridden"*.
 
 ### What is a Role Playing Game (RPG)?
 A role-playing game (RPG) is a type of game in which players assume the roles of fictional characters and act out their actions and decisions within a narrative or imaginary setting. The outcome of these actions and decisions is often determined by a set of rules and game mechanics, such as dice rolls or statistical attributes of the characters. Players may also collaborate to create a shared story or narrative through their characters' actions and interactions.
@@ -27,15 +27,15 @@ Through the interaction of player, oracle, tools, and prompts, your decisions wi
 You will play alone, but be sure to play in an environment that is comfortable for you, without overexerting yourself, and reserve the option to stop as soon as you feel uncomfortable for any reason, physical or emotional. Don't be afraid to tackle challenging urban themes, but do so in full awareness of your boundaries.
 
 ### Minimum Requirements
-To play *Urban Planner* you will need:
+To play *City Manager* you will need:
 - **4 six sided dice** (also known as d6s): two pairs of different colors
 - **Paper and writing tools**: at least a sheet of scrap paper and pencil, but index cards or sticky notes are a fine addition
 - **City sheet**: you may use the provided sheet at the back or a simple index card
-- **Notebook**: *Urban Planner* is not a solo journaling game, you can easily play it in the "theater of mind". But tracking your city's growth makes the experience richer!
+- **Notebook**: *City Manager* is not a solo journaling game, you can easily play it in the "theater of mind". But tracking your city's growth makes the experience richer!
 
 ## The Urban Setting
 
-Urban Planner places you in the role of a city administrator, mayor, or planning commissioner responsible for guiding a settlement's development. Your decisions will shape not just the physical infrastructure, but the social, economic, and political landscape of your growing community.
+City Manager places you in the role of a city administrator, mayor, or planning commissioner responsible for guiding a settlement's development. Your decisions will shape not just the physical infrastructure, but the social, economic, and political landscape of your growing community.
 
 ### Playable Themes
 
@@ -55,11 +55,11 @@ Urban Planner places you in the role of a city administrator, mayor, or planning
 
 ## Your City
 
-Your city is the main "character" in Urban Planner, described by evolving traits that capture its essence, strengths, and challenges.
+Your city is the main "character" in City Manager, described by evolving traits that capture its essence, strengths, and challenges.
 
 ### Everything is a District!
 
-In *Urban Planner*, Districts, Neighborhoods, Organizations, Infrastructure Projects, and even major Buildings can be treated as characters with their own traits!
+In *City Manager*, Districts, Neighborhoods, Organizations, Infrastructure Projects, and even major Buildings can be treated as characters with their own traits!
 
 Your City is described by some core traits:
 
@@ -151,14 +151,14 @@ You can use these traits to create a city on the fly, mix them, or just use them
 
 ## Rules
 
-*Urban Planner* is a minimalist Solo Role Playing Game designed to simulate city management through emergent storytelling. You'll guide your city through challenges, making decisions that shape its development while dealing with unexpected crises and opportunities.
+*City Manager* is a minimalist Solo Role Playing Game designed to simulate city management through emergent storytelling. You'll guide your city through challenges, making decisions that shape its development while dealing with unexpected crises and opportunities.
 
 ### Keep The Development Moving
 
-A game in *Urban Planner* is a succession of scenarios. 
+A game in *City Manager* is a succession of scenarios. 
 A scenario is a situation requiring administrative attention - a policy decision, crisis response, development project, or political challenge.
 
-In *Urban Planner* for each scenario:
+In *City Manager* for each scenario:
 1. **Identify the situation and your intended response**. Based on your city's traits, vision, and mandate, determine what action you want to take. What might be the consequences or public reaction?
 2. **Test your expectations**. When uncertain about outcomes, [ask the Oracle](#consulting-the-oracle) a closed question (answer is Yes or No), considering relevant city tags to determine if there is an [Advantage or Disadvantage](#advantage-and-disadvantage).
 3. **Interpret the result**. Is the Oracle's answer what you expected? If not, how does this unexpected outcome change the situation or create new challenges for your administration?
@@ -265,7 +265,7 @@ Update your list of **Districts**, **Organizations**, and **Ongoing Situations**
 
 ## Urban Development
 
-Urban Planner focuses on the strategic and political aspects of city management rather than detailed resource tracking. Development happens through policy decisions and their consequences.
+City Manager focuses on the strategic and political aspects of city management rather than detailed resource tracking. Development happens through policy decisions and their consequences.
 
 ### Planning Projects
 
@@ -761,7 +761,7 @@ As cities grow beyond their boundaries:
 
 ## License
 
-Urban Planner
+City Manager
 
 © 2025 [Your Name]
 
