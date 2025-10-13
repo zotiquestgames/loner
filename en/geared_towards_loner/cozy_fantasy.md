@@ -229,6 +229,28 @@ You can use the following traits to create a character quickly, mix and match th
 | 5   | Nib | Tinker | Wren | Sooty | Doodle | Flax |
 | 6   | Toadstool | Titch | Button | Snippet | Whimsy | Fawn |
 
+### Locations
+
+|     | 1   | 2   | 3   | 4   | 5   | 6   |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1   | The Drowsy Bookshelf | Moonlit Meadow | The Wandering Library | Warm Kettle Inn | The Whispering Woods | Starfall Bridge |
+| 2   | Fireside Bakery | The Old Willow | Candleglow Workshop | Hidden Glade | The Cozy Corner | Twilight Tearoom |
+| 3   | The Forgotten Garden | Lantern Grove | Ember & Ash Forge | Crystal Brook | The Velvet Thread | Dewdrop Dell |
+| 4   | The Winding Path | Firefly Hollow | The Mended Quilt | Stargazer's Peak | The Singing River | Honeycomb Market |
+| 5   | Moss-Covered Ruins | The Warm Welcome | Petal Bridge | The Quiet Shore | Bramble Thicket | The Tattered Map Room |
+| 6   | Cobblestone Square | The Driftwood Pier | Fern Canyon | The Sleeping Hearth | Clover Crossing | The Silver Bell |
+
+### Regions
+
+|     | 1   | 2   | 3   | 4   | 5   | 6   |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1   | Brindlewick | Mossmere | Cindergrove | Willowbend | Thornhaven | Amber Hollow |
+| 2   | Cloverfield | Hearthbrook | Mistwood Vale | Starfall Crossing | Pebbleshore | Fernwick |
+| 3   | Dewmere | Candlewick | Bramble Rest | Quiethaven | Meadowlark | Silver Birch |
+| 4   | Honeydell | Twilight Glen | Cobbleton | Rosemere | Fireside | Moonwater |
+| 5   | Lanternwood | Applebough | Starling's End | Wrendale | Marigold Mills | Whisperleaf |
+| 6   | Cinderholm | Frostvale | Emberstone | Thimblewick | Goldenrod | Softpine |
+
 ## Rules
 
 *Loner Cozy Fantasy* is a minimalist Solo Role Playing Game designed to be played with only one character (the Protagonist). You'll guide them through the story that will unravel during the game, asking closed questions to an Oracle which will help you overturn your expectations.
