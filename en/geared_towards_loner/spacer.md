@@ -11,20 +11,24 @@
 3. **Tag-Based**: Characters, starships, factions, and even planetary systems are defined by descriptive tags rather than numbers.
 
 ### What is a Role Playing Game (RPG)?
+
 A role-playing game (RPG) is a type of game in which players assume the roles of fictional characters and act out their actions and decisions within a narrative or imaginary setting. The outcome of these actions and decisions is often determined by a set of rules and game mechanics, such as dice rolls or statistical attributes of the characters. Players may also collaborate to create a shared story or narrative through their characters' actions and interactions.
 
 ### What is a Solo RPG?
 
-In a solo RPG a single player takes on the roles of one or more characters, while also simultaneously managing some elements of the game world. These games typically involve the use of a rule system and game mechanics to determine the outcome of actions taken by the player-controlled characters. 
+In a solo RPG a single player takes on the roles of one or more characters, while also simultaneously managing some elements of the game world. These games typically involve the use of a rule system and game mechanics to determine the outcome of actions taken by the player-controlled characters.
 Unlike a gamebook (such as the Fighting Fantasy, Lone Wolf, and Tunnels & Trolls series) a solo RPG is not a form of interactive, forked narrative in which outcomes are pre-determined and limited by the author's choices.
 
 Through the interaction of player, oracle, tools, and prompts, the character's actions will build an **emergent narrative** within whose boundaries anything can be attempted, without predetermined limits.
 
 ### Safety Tools
+
 You will play alone, but be sure to play in an environment that is comfortable for you, without overexerting yourself, and reserve the option to stop as soon as you feel uncomfortable for any reason, physical or emotional. Don't be afraid to tackle new themes, but do so in full awareness of your boundaries.
 
 ### Minimum Requirements
+
 To play *Loner: Spacer* you will need:
+
 - **4 six sided dice** (also known as d6s): two pairs of different colors
 - **Paper and writing tools**: at least a sheet of scrap paper and and pencil, but index cards or sticky notes are a fine addition
 - **Character sheet**: you may use the provided sheet at the back or a simple index card.
@@ -134,6 +138,7 @@ Your protagonist is described by several fixed traits:
 | 6   | Etherkin       | Varion         | Thalorian      | Tempestral     | Krythian       | Xenarith       |
 
 ## Equipment and Gear
+
 Characters rely on specialized gear to survive the harshness of space.
 
 ### **Equipment Categories**
@@ -146,10 +151,12 @@ Characters rely on specialized gear to survive the harshness of space.
 | **Survival**       | Emergency Shelter, Rations Pack, Heat Regulator |
 
 ### **Gear Tags**
+
 - Gear is defined by tags like *"Lightweight,"* *"Durable,"* or *"High-Tech."*
 - Tags determine how gear interacts with the environment and challenges. For example, *"Waterproof"* may grant an **Advantage** during waterlogged conditions.
 
 ### **Maintaining Gear**
+
 Ask the oracle if a piece of gear malfunctions or requires maintenance after prolonged use. Tags like *"Reliable"* or *"Old and Worn"* influence these outcomes.
 
 ### Gear and Equipment Table
@@ -201,8 +208,8 @@ Every now and then you will be surprised with an unexpected twist!
 
 ### Keep The Action In Motion
 
-A game in *Loner: Spacer* is a succession of scenes. 
-A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal. 
+A game in *Loner: Spacer* is a succession of scenes.
+A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal.
 
 In *Loner: Spacer* at each scene:
 
@@ -220,12 +227,11 @@ You’ll need 2d6 in one color (**Chance Dice**), and 2d6 in another (**Risk Dic
 
 To resolve a closed question, roll one **Chance Die** and one **Risk Die**:
 
-- If the Chance Die is highest, the answer is **Yes**. 
+- If the Chance Die is highest, the answer is **Yes**.
 - If the Risk Die is highest, the answer is **No**.
-- If both are low (3 or less), add a **but...**. 
+- If both are low (3 or less), add a **but...**.
 - If both are high (4 or more), add an **and...**.
 - If both are equal, the answer is **Yes, and...**. Add a point to the **[Twist Counter](#twist-counter)**.
-
 
 | Dice Value |    Chance Die > Risk Die   | Risk Die > Chance Die |
 |:----------:|:--------------------------:|:---------------------:|
@@ -245,7 +251,7 @@ Consider tags **intuitively and not quantitatively**, using the context of the s
 
 The Twist Counter is a measure of the rising tension in the narrative. At the beginning is set to 0. Every time a double throw (dice are equal) happens, add 1 to the Counter. If the Counter is below three, consider the answer as "**Yes, but...**". Otherwise a **Twist** happens and resets the Counter.
 
-Roll 2d6 and consult the following Twist Table to determine what kind of twist happens. 
+Roll 2d6 and consult the following Twist Table to determine what kind of twist happens.
 
 | D6 |      Subject       |        Action       |
 |:--:|:------------------:|:-------------------:|
@@ -261,7 +267,7 @@ Interpret the two-word sentence in the context of the current scene. Twists will
 ### Conflicts
 
 A *Conflict* is any situation in which opponents clash, attacking, defending, or wearing each other down in order to win.
-This applies both in a practical and metaphorical sense. 
+This applies both in a practical and metaphorical sense.
 
 So, a Conflict is not only limited to combat (or fighting) in the strict sense but also to competitive situations (such as contests, duels, verbal confrontations, etc.) in which two or more characters (including vehicles, of course!) compete.
 
@@ -317,6 +323,7 @@ Also update the list of **NPCs**, **Locations**, and **Events** that may show up
 Your spacecraft is an integral part of your character’s story and a reflection of their role in the galaxy. Ships are described using **tags** and **modules**.
 
 ### Core Traits
+
 Every spacecraft starts with the following core traits:
 
 - **Name**: A unique and memorable name for the ship, such as *"Starlight Shadow"* or *"Void Whisper."*
@@ -326,9 +333,11 @@ Every spacecraft starts with the following core traits:
 - **Frailty**: A unique drawback that affects performance, like *"Weak Structural Integrity"* or *"Underpowered Reactor."*
 
 ### **Customizing Your Ship**
+
 Customization occurs during play using tags and oracle-driven prompts. A ship can be modified by adding or upgrading **modules**, which enhance or change its capabilities.
 
 #### **Module Examples**
+
 | **Category**      | **Examples**                     |
 | ------------------ | -------------------------------- |
 | **Propulsion**     | Basic Thrusters, Ion Engines, Warp Drive |
@@ -338,6 +347,7 @@ Customization occurs during play using tags and oracle-driven prompts. A ship ca
 | **Cargo**          | Smuggler's Hold, Refrigerated Storage, Expanded Bay |
 
 #### **Upgrading Modules**
+
 To upgrade a module:
 
 1. **Determine Availability**: Ask the oracle whether the upgrade is available at your current location.
@@ -368,7 +378,7 @@ To upgrade a module:
 | 5      | **Mining Vessel**         | Designed for resource extraction in asteroid belts or planets. |
 | 6      | **Science Vessel**        | Equipped with labs and sensors for research and analysis. |
 
-####  Modules
+#### Modules
 
 | **D66** | **Module**              | **Category**    | **Description**                                                     | **Cost (Credits)** |
 |---------|-------------------------|-----------------|---------------------------------------------------------------------|--------------------|
@@ -409,7 +419,6 @@ To upgrade a module:
 | 65      | Tactical Display System | Utility         | Provides combat and navigation overlays.                           | 14,000            |
 | 66      | Drone Launch Bay        | Utility         | Deploys various drones for tasks like exploration or combat.       | 20,000            |
 
-
 #### Conditions
 
 | **D6** | **Condition**        | **Description**                                                     |
@@ -421,7 +430,7 @@ To upgrade a module:
 | 5      | **Malfunctioning**   | Systems frequently fail; immediate repairs are critical.            |
 | 6      | **Experimental**     | Cutting-edge but untested; highly risky with unpredictable outcomes.|
 
-#### Frailties 
+#### Frailties
 
 |     | 1                       | 2                       | 3                     | 4                      | 5                        | 6                     |
 | --- | ----------------------- | ----------------------- | --------------------- | ---------------------- | ------------------------ | --------------------- |
@@ -435,6 +444,7 @@ To upgrade a module:
 ### Example Starships
 
 #### **1. Celestial Warden**
+
 - **Type**: **Explorer**  
   Equipped for long-range exploration and surveys.
 - **Modules**:
@@ -452,6 +462,7 @@ To upgrade a module:
   Uses more fuel than typical ships, requiring frequent refueling.
 
 #### **2. Void Whisper**
+
 - **Type**: **Courier**  
   Fast and reliable for delivering messages or small cargo.
 - **Modules**:
@@ -469,6 +480,7 @@ To upgrade a module:
   Small cargo bay limits hauling capacity.
 
 #### **3. Nebula Voyager**
+
 - **Type**: **Trader**  
   Specializes in transporting goods and commodities.
 - **Modules**:
@@ -486,6 +498,7 @@ To upgrade a module:
   Loud propulsion makes the ship easily detectable.
 
 #### **4. Crimson Hawk**
+
 - **Type**: **Fighter**  
   Armed for combat, built for speed and agility.
 - **Modules**:
@@ -503,6 +516,7 @@ To upgrade a module:
   Systems heat up quickly, causing potential malfunctions in prolonged engagements.
 
 #### **5. Aether Drift**
+
 - **Type**: **Mining Vessel**  
   Designed for resource extraction in asteroid belts or planets.
 - **Modules**:
@@ -520,6 +534,7 @@ To upgrade a module:
   Propulsion issues cause unreliable movement.
 
 #### **6. Nightfall Specter**
+
 - **Type**: **Science Vessel**  
   Equipped with labs and sensors for research and analysis.
 - **Modules**:
@@ -541,6 +556,7 @@ To upgrade a module:
 The economy in *Loner: Spacer* is a narrative-driven system for managing credits, bartering, and maintaining your ship and gear.
 
 ### Credits and Costs
+
 - **Credits** are the universal currency. Tag your financial state with terms like *"Wealthy,"* *"Barely Scraping By,"* or *"Broke."*
 - When buying, selling, or upgrading, consult the oracle to determine prices and availability.
 
@@ -610,10 +626,12 @@ The condition of your ship impacts the cost and frequency of maintenance.
 ### **Bartering and Cost Adjustments**
 
 #### **Bartering System**
+
 - **Charismatic Tags** (*"Persuasive,"* *"Clever Trader"*) grant discounts of up to 20%.
 - **Wealth Tags** influence NPC reactions; *"Broke"* might lead to price hikes, while *"Wealthy"* could grant exclusive deals.
 
 #### **Market Dynamics**
+
 - **Location-Specific Pricing**: Goods and services are cheaper in industrial hubs but expensive in remote or war-torn areas.
 - **Event-Based Fluctuations**: Prices spike during shortages, disasters, or faction conflicts.
 
@@ -622,11 +640,11 @@ The condition of your ship impacts the cost and frequency of maintenance.
 In *Loner: Spacer*, cargo management and trading are central to your journey across the galaxy. Your ship's cargo capacity and the condition of goods are influenced by its design, modules, and the challenges faced during travel. Cargo is described through narrative-driven **tags**, which affect how it is stored, transported, and traded.
 
 ### Cargo Management
+
 Your ship’s cargo capacity is determined by the **Cargo Bay Module** and relevant tags. Cargo is described with tags like *"Fragile,"* *"Perishable,"* or *"Highly Valuable."*
 
 - **Capacity**: Tags like *"Spacious"* or *"Limited"* determine how much you can store.
 - **Conditions**: Check for damage or loss during hazardous travel by consulting the oracle.
-
 
 | **Capacity**         | **Description**                                                                 |
 |------------------|---------------------------------------------------------------------------------|
@@ -636,7 +654,6 @@ Your ship’s cargo capacity is determined by the **Cargo Bay Module** and relev
 | **Restricted**   | Cargo hold is constrained due to additional ship systems or design limitations. |
 | **Secure**       | Enhanced locking and protection against theft or unauthorized access.           |
 | **Fragile**      | Poorly constructed, prone to damage or leaks during hazardous conditions.       |
-
 
 | **Condition**          | **Description**                                                              |
 |-------------------|------------------------------------------------------------------------------|
@@ -656,6 +673,7 @@ Travel and navigation are integral to the vast, open-ended gameplay of *Loner: S
 Each star system is unique, offering opportunities, challenges, and mysteries. Use the following steps and tables to generate a system.
 
 #### Step 1: Determine the Star
+
 Roll 1d6 to determine the star type.
 
 | **D6** | **Star Type**           | **Tags**                       |
@@ -668,6 +686,7 @@ Roll 1d6 to determine the star type.
 | 6      | Black Hole (system edge)| Invisible, High Gravity        |
 
 ##### Step 2: Planets and Features
+
 Roll 2d6 to determine how many orbits has the system. Then roll 1d6 for each orbit to determine what occupies it.
 
 | **D6** | **Orbit Feature**               | **Tags**                     |
@@ -679,6 +698,7 @@ Roll 2d6 to determine how many orbits has the system. Then roll 1d6 for each orb
 | 6      | Derelict Space Station/Artifact | Ancient, Mysterious          |
 
 ##### Step 2a: Determine Habitable Planet Type
+
 If an orbit features a **Habitable Planet**, roll 1d6 to determine its type.
 
 | **D6** | **Planet Type**         | **Description**                                                                 |
@@ -691,6 +711,7 @@ If an orbit features a **Habitable Planet**, roll 1d6 to determine its type.
 | 6      | Exotic                  | Alien landscapes with unique atmospheric or geological features.                |
 
 ##### Step 2b: Planetary Civilization
+
 Roll 1d6 to determine the level of civilization present on the planet.
 
 | **D6** | **Civilization Level**        | **Tags**                         |
@@ -702,8 +723,8 @@ Roll 1d6 to determine the level of civilization present on the planet.
 | 5      | Post-Civilization            | Collapsed, Scattered Survivors    |
 | 6      | Alien Civilization           | Mysterious, Culturally Complex    |
 
-
 ##### Step 2c: Habitable Planet Features
+
 Roll 1d6 to determine additional features that define the planet’s environment.
 
 | **D6** | **Planetary Feature**              | **Tags**                           |
@@ -716,6 +737,7 @@ Roll 1d6 to determine additional features that define the planet’s environment
 | 6      | Floating Cities or Habitats       | Advanced, Limited Access            |
 
 #### Step 3: Special System Events
+
 Roll 1d6 to add a unique event or trait to the system.
 
 | **D6** | **Special Trait**               |
@@ -732,17 +754,20 @@ Roll 1d6 to add a unique event or trait to the system.
 Space travel involves precise calculations and careful resource management. All travel distances are measured in **Light Units (LU)** — a narrative measure of distance.
 
 #### Travel Procedure
+
 1. **Determine Destination**: Select a nearby system or roll the oracle to randomly choose.
 2. **Calculate Distance**: Roll 1d6 for the distance in LU. Tags like *"Navigational Charts"* or *"Astrogation Expert"* may influence the outcome (i.e. roll 2d6 and take the lower).
 3. **Check Resources**: Ensure your ship has sufficient fuel and supplies for the journey.
 4. **Resolve Travel**: Roll on the **Space Travel Encounter Table** (see below).
 
 #### Fuel and Resource Management
+
 - Each ship has a **Fuel Capacity**, defined by its tags. Example: *"Efficient Engines"* may use less fuel.
 - **Resource Consumption**: For each LU traveled, deduct 1 unit of fuel or supplies. A tag like *"Extended Fuel Tanks"* allows for longer journeys.
 - **Refueling**: Purchase fuel at spaceports or mine resources in systems with asteroid belts or gas giants (requires *"Mining Equipment"* tag).
 
 #### **Travel Failure**
+
 If you run out of fuel or supplies, ask the oracle if a distress beacon brings help or leads to an encounter. Tags like *"High Traffic Region"* or *"Remote Space"* influence outcomes.
 
 ### Hyperspace/Faster-Than-Light (FTL) Travel
@@ -750,11 +775,13 @@ If you run out of fuel or supplies, ask the oracle if a distress beacon brings h
 FTL travel allows you to bypass vast distances but introduces unique risks.
 
 #### **FTL Jump Procedure**
+
 1. **Spool Hyperdrive**: Takes 1d6 in-game hours. Tags like *"Advanced Hyperdrive"* may reduce this.
 2. **Plot Course**: Roll 2d6. A result of 7+ means a clear path. Otherwise, consult the **FTL Mishap Table**.
 3. **Jump to Hyperspace**: Each jump consumes significant fuel—calculate based on distance.
 
 ##### **FTL Mishap Table (2d6)**
+
 | **Roll** | **Result**                         |
 |----------|------------------------------------|
 | 2        | Catastrophic Malfunction (emergency exit) |
@@ -791,6 +818,7 @@ The economic system in *Loner: Spacer* is built around dynamic, oracle-driven tr
 Trading is a central activity for players who choose the merchant or smuggler path. Commodities are defined by **tags** that influence their value and transport requirements.
 
 #### **Step 1: Determine Commodities**
+
 Roll on the **Good Table** to identify trade goods available at your current location.
 
 | **D6** | **Good**       | **Tags**                      |
@@ -803,6 +831,7 @@ Roll on the **Good Table** to identify trade goods available at your current loc
 | 6      | Medical Supplies    | Critical, Time-Sensitive      |
 
 #### Step 2: Trade Routes
+
 Determine a destination system using the **Trade Route Table** (roll 1d6).
 
 | **D6** | **Route Condition**            | **Tags**                      |
@@ -816,9 +845,10 @@ Use the route condition to influence pricing and encounters during travel.
 
 ### Economic Simulation for Star Systems
 
-Each star system has an economy based on its **Tags**, which define its wealth, industry, and demand. 
+Each star system has an economy based on its **Tags**, which define its wealth, industry, and demand.
 
 #### **System Economic Tags**
+
 | **Category**        | **Examples**                  |
 |---------------------|------------------------------|
 | **Wealth**          | Rich, Poor, Moderate        |
@@ -834,6 +864,7 @@ Ask the oracle or roll 2d6 to assign tags to a system:
 These tags influence the availability of commodities, pricing, and trading opportunities.
 
 #### **Example System Economies**
+
 - **Rich Technological Hub**: *"Advanced Tech" has low prices but high demand in neighboring systems.*
 - **Poor Agricultural World**: *"Food Supplies" are cheap but in high demand elsewhere.*
 
@@ -842,6 +873,7 @@ These tags influence the availability of commodities, pricing, and trading oppor
 Prices fluctuate based on the system’s economic tags and current events.
 
 #### Base Pricing
+
 Use the **Commodity Price Table** to establish baseline prices.
 
 | **Commodity**       | **Base Price (per unit)** |
@@ -854,6 +886,7 @@ Use the **Commodity Price Table** to establish baseline prices.
 | Medical Supplies    | 300 Credits              |
 
 #### Price Modifiers
+
 Adjust base prices by rolling 1d6 and consulting the **Market Modifier Table**.
 
 | **D6** | **Price Modifier**       |
@@ -874,6 +907,7 @@ Modifiers are further influenced by tags:
 Reputation reflects your character's standing within the trading community, influencing prices, access, and opportunities.
 
 #### Reputation Tags
+
 Your reputation is described by tags like:
 
 - *"Trusted Merchant"* (discounts at ports)
@@ -881,15 +915,18 @@ Your reputation is described by tags like:
 - *"Unreliable Dealer"* (reduced customer base)
 
 #### Building Reputation
+
 - Deliver goods on time: Gain a positive tag like *"Dependable."*
 - Smuggle or cheat factions: Gain negative tags like *"Blacklisted by Faction X."*
 - Ask the oracle after major trades to determine how your actions impact reputation.
 
 #### Reputation Effects
+
 - Positive reputation may grant discounts, protection, or exclusive contracts.
 - Negative reputation may lead to higher taxes, fewer trade options, or faction hostility.
 
 #### Faction-Specific Influence
+
 Factions track your reputation using a sliding scale from *"Friendly"* to *"Hostile."* Major trades, betrayals, or aiding their rivals will shift their perception of you.
 
 #### Reputation Tags Table
@@ -908,6 +945,7 @@ Factions track your reputation using a sliding scale from *"Friendly"* to *"Host
 Add dynamism to trading with random events and opportunities.
 
 #### **Trade Opportunity Table (2d6)**
+
 | **Roll** | **Event**                                    |
 |----------|---------------------------------------------|
 | 2        | Rare commodity auction (requires credits)   |
@@ -1018,6 +1056,7 @@ Generate missions dynamically using these tables. Roll a series of dice to defin
 | 6        | Deep Space Anomaly          |
 
 #### **Quick Example**
+
 - **Objective**: Retrieve Rare Artifact
 - **Complication**: Hostile Faction Involvement
 - **Reward**: Favor from a Faction
@@ -1030,6 +1069,7 @@ This mission would involve retrieving an artifact from a derelict station while 
 The *Loner: Spacer* framework allows you to build complex, engaging narratives using oracle-driven prompts and tag-based storytelling. Follow this structure to develop adventures:
 
 #### Step 1: Start with a Hook
+
 Roll or decide on an initial event to kickstart the adventure. Example hooks:
 
 - A distress signal from a stranded vessel (*"Unknown Origin" tag*).
@@ -1037,15 +1077,18 @@ Roll or decide on an initial event to kickstart the adventure. Example hooks:
 - Discovery of a mysterious star map leading to uncharted space.
 
 #### Step 2: Layer Challenges
+
 Add challenges to create tension. Use the **Environmental Challenge Systems** below or the **Mission Complication Table** to introduce obstacles. Challenges should align with the mission’s tags.
 
 #### Step 3: Develop NPC and Faction Ties
+
 Include NPCs or factions that connect to the mission. Example:
 
 - A rival smuggler complicates the mission (*"Cunning and Ruthless"* tag).
 - A faction offers unexpected assistance in exchange for a favor (*"Influential but Demanding"* tag).
 
 #### Step 4: Add Twists
+
 Incorporate twists using the oracle or roll on the **Mission Twist Table** (1d6):
 
 | **Roll** | **Twist**                             |
@@ -1062,6 +1105,7 @@ Incorporate twists using the oracle or roll on the **Mission Twist Table** (1d6)
 Space is hostile and unpredictable. The following systems introduce environmental challenges that add depth and difficulty to your missions.
 
 #### **Hazard Table (1d6)**
+
 | **Roll** | **Hazard**                   | **Tags**                       |
 |----------|------------------------------|---------------------------------|
 | 1        | Solar Storm                  | Disruptive, Hazardous          |
@@ -1072,6 +1116,7 @@ Space is hostile and unpredictable. The following systems introduce environmenta
 | 6        | Unstable Terrain             | Fragile, Dangerous             |
 
 #### Survival Mechanics
+
 When encountering a hazard:
 
 1. **Assess Tags**: Use relevant ship or character tags (e.g., *"Shielded Hull"* or *"Expert Pilot"*) to determine if you have an **Advantage**.
@@ -1079,6 +1124,7 @@ When encountering a hazard:
 3. **Apply Consequences**: If unsuccessful, impose narrative consequences, such as damage to equipment (*"Weakened Hull"*) or increased tension with factions (*"Law Enforcement Suspicious"*).
 
 #### Environmental Interactions
+
 Characters can attempt to modify the environment using equipment:
 
 - **Action**: Use a tool or system, like deploying drones or stabilizing a station.
@@ -1116,6 +1162,7 @@ Creating a vibrant galaxy filled with alien civilizations, factions, and diverse
 Alien civilizations add mystery and depth to the galaxy. Use these steps to define their unique traits.
 
 #### Step 1: Core Traits
+
 Each civilization is described by a combination of **tags** that define their nature.
 
 | **Category**          | **Examples**                |
@@ -1128,6 +1175,7 @@ Each civilization is described by a combination of **tags** that define their na
 Roll or choose one tag from each category to define the civilization’s core.
 
 #### Step 2: Cultural Quirks
+
 Add a distinctive cultural element using the **Alien Culture Table** (1d6):
 
 | **Roll** | **Cultural Trait**           | **Tags**                  |
@@ -1140,6 +1188,7 @@ Add a distinctive cultural element using the **Alien Culture Table** (1d6):
 | 6        | Isolationist                 | Xenophobic, Secretive     |
 
 #### Step 3: Communication
+
 Determine how the species communicates using the **Communication Style Table** (1d6):
 
 | **Roll** | **Style**                     |
@@ -1152,6 +1201,7 @@ Determine how the species communicates using the **Communication Style Table** (
 | 6        | Sound Vibrations              |
 
 #### Step 4: Strengths and Weaknesses
+
 Assign one **Strength** and one **Weakness** to balance the civilization’s role in the galaxy.
 
 | **Strengths**              | **Weaknesses**             |
@@ -1162,6 +1212,7 @@ Assign one **Strength** and one **Weakness** to balance the civilization’s rol
 | Expansive Territory        | Poor Resource Management  |
 
 #### Example Civilization
+
 - **Core Traits**: Amphibious, Communal, Advanced Technology, Cooperative  
 - **Cultural Quirk**: Ritualistic  
 - **Communication**: Bioluminescent Signals  
@@ -1175,6 +1226,7 @@ This results in a species of peaceful amphibians that thrive in their watery wor
 Factions shape the political and economic dynamics of the galaxy. Each faction is described by a set of traits.
 
 #### **Step 1: Faction Traits**
+
 Define the faction with the following tags:
 
 - **Concept**: Summarize the faction’s identity (e.g., *"Galactic Trade Guild"* or *"Pirate Confederacy"*).
@@ -1183,6 +1235,7 @@ Define the faction with the following tags:
 - **Motive**: The faction’s overarching goal (e.g., *"Control Trade Routes"* or *"Destroy Rival Factions"*).
 
 #### **Step 2: Diplomacy**
+
 Determine the faction’s stance toward others. Use the **Faction Relations Matrix** to define relationships as:
 
 - **Allied**: Strong cooperation.
@@ -1198,6 +1251,7 @@ Determine the faction’s stance toward others. Use the **Faction Relations Matr
 | Planetary Coalition | Friendly        | Tense         |
 
 #### **Step 3: Power Structures**
+
 Roll on the **Faction Leadership Table** (1d6) to determine the faction’s governance style:
 
 | **Roll** | **Leadership Style**         |
@@ -1210,6 +1264,7 @@ Roll on the **Faction Leadership Table** (1d6) to determine the faction’s gove
 | 6        | Anarchy                      |
 
 #### **Example Faction**
+
 - **Concept**: Planetary Coalition  
 - **Skills**: Advanced Diplomacy, Strong Military Defense  
 - **Frailty**: Fragmented Leadership  
@@ -1222,6 +1277,7 @@ Roll on the **Faction Leadership Table** (1d6) to determine the faction’s gove
 The galaxy is a tapestry of diverse cultures and technologies. These frameworks help you design civilizations, planets, and factions that feel distinct.
 
 #### Cultural Diversity
+
 Assign cultures to planets or regions using the **Cultural Archetype Table** (1d6):
 
 | **Roll** | **Cultural Archetype**       |
@@ -1234,6 +1290,7 @@ Assign cultures to planets or regions using the **Cultural Archetype Table** (1d
 | 6        | Cosmopolitan Traders         |
 
 #### Technological Diversity
+
 Define technological development using the **Tech Level Table** (1d6):
 
 | **Roll** | **Tech Level**               | **Tags**               |
@@ -1246,6 +1303,7 @@ Define technological development using the **Tech Level Table** (1d6):
 | 6        | Experimental/Alien           | Unstable, Mysterious   |
 
 #### Planetary Influence
+
 Roll to determine how culture and technology interact on a planet using the **Planetary Influence Table** (1d6):
 
 | **Roll** | **Cultural/Tech Interaction**|
@@ -1299,7 +1357,6 @@ Roll to determine how culture and technology interact on a planet using the **Pl
 | 5   | Rion’s Dust | Lethen Drift | Kassandra’s Halo | Iron Vane | Mirix Maw | Zenth Cluster |
 | 6   | Rookfall    | Tarn Maw  | Voidglass | Nelma's Ring | Flayer Crest | Galder Ice |
 
-
 ### Stations & Installations Names
 
 |     | 1         | 2         | 3         | 4         | 5         | 6         |
@@ -1310,7 +1367,6 @@ Roll to determine how culture and technology interact on a planet using the **Pl
 | 4   | Echelon V | Kora Point | Tangent Relay | Wraith Base | Voidcall Node | Pax Ascendant |
 | 5   | Trinary Helm | Delphi Outpost | K'Tal Foundry | Skell Station | Beacon Arus | Enclave Nox |
 | 6   | Zenith Arc | Zeek's Coil | Omega Refuge | Tristorm Yard | Silent Mooring | Station Myndra |
-
 
 ### Inspiration Tables
 
@@ -1352,6 +1408,7 @@ Roll to determine how culture and technology interact on a planet using the **Pl
 The following works served as direct or spiritual inspiration for *Loner: Spacer*. While the game is designed to support emergent storytelling, these sources offer tone, themes, and aesthetic guidance to enrich your solo voyages through the stars.
 
 ### **Books**
+
 - *Traveller RPG* (original & Mongoose editions) – For modular worldbuilding and hard sci-fi trading mechanics.
 - *The Expanse* series by James S. A. Corey – Realistic space travel, political factions, and station life.
 - *Rimworld* (sourcebook) by Greg Stolze – A narrative-first exploration of frontier survival and alien ecosystems.
@@ -1360,6 +1417,7 @@ The following works served as direct or spiritual inspiration for *Loner: Spacer
 - *Neuromancer* by William Gibson – Aesthetic cues and tone for black market tech and high-risk trading.
 
 ### **Films**
+
 - *Outland* (1981) – Corporate frontier lawlessness and industrial isolation.
 - *Alien* & *Aliens* (1979, 1986) – For gritty ship interiors and hostile space.
 - *Interstellar* (2014) – Tense, realistic space travel and relativity.
@@ -1368,12 +1426,14 @@ The following works served as direct or spiritual inspiration for *Loner: Spacer
 - *The Black Hole* (1979) – Weird science, lost stations, and cosmic madness.
 
 ### **TV Series**
+
 - *The Mandalorian* – Lone trader life, episodic missions, and fringe societies.
 - *Firefly* – Free traders, faction tension, and frontier survival.
 - *The Expanse* – System-wide politics, realistic physics, and multi-faction dynamics.
 - *Battlestar Galactica (2004)* – Survival on the run, moral compromise, and deep space uncertainty.
 
 ### **Video Games**
+
 - *Elite* series (especially *Elite: Dangerous*) – Core gameplay loop of trading, exploration, and risk.
 - *FTL: Faster Than Light* – Procedural travel, decision-making, and survival.
 - *No Man’s Sky* – Procedural systems, colorful biomes, and lonely exploration.
@@ -1381,6 +1441,7 @@ The following works served as direct or spiritual inspiration for *Loner: Spacer
 - *Hardspace: Shipbreaker* – Industrial tools, salvage gameplay, and working-class space life.
 
 ### **Comics & Visual Media**
+
 - *Prophet* (Brandon Graham) – Alien weirdness and interstellar scavenging.
 - *Saga* (Brian K. Vaughan & Fiona Staples) – Emotionally driven space opera.
 - *Descender* (Jeff Lemire & Dustin Nguyen) – AI mysteries and exploration aesthetics.
@@ -1391,10 +1452,4 @@ Loner: Spacer
 
 © 2025 Roberto Bisceglie
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
-
-
-
-
-
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <http://creativecommons.org/licenses/by-sa/4.0/> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

@@ -1,11 +1,12 @@
-### **Savage Blades of Xylandra**
+# Savage Blades of Xylandra
+
 *A Solo RPG of Sword and Planet Adventure*
 
 ***Savage Blades of Xylandra*** is a solo tabletop RPG adventure set on the mysterious planet of **Xylandra**, a world lost in spacetime where exotic civilizations, ancient alien ruins, and forgotten technologies collide in a struggle for survival and power. Airships sail across vast deserts and towering jungles, warlords clash over lost relics, and daring adventurers carve their destinies in the remnants of a fallen cosmic empire.
 
 This minimalist Solo Role Playing Game is designed to let you explore **a savage world of adventure, lost science, and planetary warlords**, where primal might meets enigmatic alien wisdom, and every moment could be your last.
 
-## **Introduction**
+## Introduction
 
 *Savage Blades of Xylandra* follows these design principles:
 
@@ -16,19 +17,22 @@ This minimalist Solo Role Playing Game is designed to let you explore **a savage
 With a focus on quick resolutions, **Savage Blades of Xylandra** throws you headfirst into the heart of planetary adventure. Your character will be defined by thematic tags such as *“Lost Starfarer”*, *“Sky-Pirate Duelist”*, *“Relic Seeker”*, or *“Feral Gladiator”*.
 
 ### What is a Role Playing Game (RPG)?
+
 A role-playing game (RPG) is a type of game in which players assume the roles of fictional characters and act out their actions and decisions within a narrative or imaginary setting. The outcome of these actions and decisions is often determined by a set of rules and game mechanics, such as dice rolls or statistical attributes of the characters. Players may also collaborate to create a shared story or narrative through their characters' actions and interactions.
 
 ### What is a Solo RPG?
 
-In a solo RPG a single player takes on the roles of one or more characters, while also simultaneously managing some elements of the game world. These games typically involve the use of a rule system and game mechanics to determine the outcome of actions taken by the player-controlled characters. 
+In a solo RPG a single player takes on the roles of one or more characters, while also simultaneously managing some elements of the game world. These games typically involve the use of a rule system and game mechanics to determine the outcome of actions taken by the player-controlled characters.
 Unlike a gamebook (such as the Fighting Fantasy, Lone Wolf, and Tunnels & Trolls series) a solo RPG is not a form of interactive, forked narrative in which outcomes are pre-determined and limited by the author's choices.
 
 Through the interaction of player, oracle, tools, and prompts, the character's actions will build an **emergent narrative** within whose boundaries anything can be attempted, without predetermined limits.
 
 ### Safety Tools
+
 You will play alone, but be sure to play in an environment that is comfortable for you, without overexerting yourself, and reserve the option to stop as soon as you feel uncomfortable for any reason, physical or emotional. Don't be afraid to tackle new themes, but do so in full awareness of your boundaries.
 
-### **Minimum Requirements**  
+### Minimum Requirements  
+
 To play *Savage Blades of Xylandra*, you will need:  
 
 - **4 six-sided dice** (also known as d6s): two pairs of different colors.  
@@ -36,11 +40,11 @@ To play *Savage Blades of Xylandra*, you will need:
 - **Character sheet**: you may use the provided sheet at the back or a simple index card.  
 - **Notebook**: *Savage Blades of Xylandra* is not a solo journaling game; you can easily play it in the "theater of the mind." However, you can keep track of your game if you feel the need!  
 
-## **Setting Introduction: Xylandra, The Lost Planet**  
+## Setting Introduction: Xylandra, The Lost Planet  
 
 Xylandra is a savage world of **ancient alien ruins, exotic civilizations, planetary warlords, airships, lost technologies, and primal conflict**. Once a thriving nexus of cosmic power, it is now a **fractured world**, torn apart by **forgotten wars, temporal distortions, and the struggle between its many species**. Here, warriors carve out their empires, explorers seek forbidden knowledge, and adventurers fight for survival among the wreckage of a fallen age.  
 
-### **Core Setting Features**  
+### Core Setting Features  
 
 - **A World Out of Time**  
   - Xylandra is lost in **a temporal anomaly**, drifting between past, present, and unknown futures.  
@@ -72,7 +76,7 @@ Xylandra is a savage world of **ancient alien ruins, exotic civilizations, plane
   - Humans, alien hybrids, cybernetic warlords, and **bioengineered survivors** all coexist in fragile alliances or brutal feuds.  
   - Some believe Xylandra is a **prison world**, others claim it is **a test, a tomb, or an experiment gone awry**.  
 
-## **Playable Themes**  
+## Playable Themes  
 
 The game supports a wide range of **Sword and Planet adventure themes**, including:  
 
@@ -85,35 +89,37 @@ The game supports a wide range of **Sword and Planet adventure themes**, includi
 - **Science vs. Sorcery** – Debate whether **mystics** are frauds or **keepers of forgotten physics**, and whether **science is any less dangerous than sorcery**.  
 - **Factions and Espionage** – Play as a **spy, diplomat, or rogue agent**, working between warlords, cults, and ancient orders to **shift the balance of power**.  
 
-## **Timeline of Xylandra**  
+## Timeline of Xylandra  
 
 Xylandra’s **true history is fragmented**, hidden within ancient ruins, oral traditions, and forbidden archives. Different cultures **interpret events differently**, leading to **contradictory myths and competing truths**.  
 
-### **The Known Eras**  
+### **??? – The Era of the Builders (Mythic Time)**  
 
-**??? – The Era of the Builders (Mythic Time)**  
 - A **great and advanced civilization** ruled Xylandra.  
 - They **constructed massive cities, created bioengineered life, and harnessed the planet’s energies**.  
 - Something happened—**a war, a rebellion, a cosmic disaster**—that led to their **disappearance**.  
 - Their **machines and temples still function**, though no one fully understands them.  
 
-**Unknown – The Fracturing**  
+### **Unknown – The Fracturing**  
+
 - The sky **split**, and time itself **became unstable**.  
 - **New species and civilizations** appeared, some from other worlds, others from **Xylandra’s own past and future**.  
 - The planet became a **battleground**, with warring factions **trying to claim its ruins**.  
 
-**Recent Past – The Warlord Age**  
+### **Recent Past – The Warlord Age**  
+
 - The **old empires collapsed**, and new powers **rose from the ashes**.  
 - **Sky-pirates, raiders, and warlords** fought over the planet’s **few remaining stable territories**.  
 - Some rediscovered **forgotten technologies**, while others turned to **brute force and conquest**.  
 
-**Now – The Age of Uncertainty**  
+### **Now – The Age of Uncertainty**  
+
 - **Something stirs** in the ruins, long-dormant machines beginning to **reactivate**.  
 - The floating fragments of the shattered moon have **shifted**—revealing **hidden strongholds and forgotten cities**.  
 - Time itself is growing **even less stable**, causing **entire regions to vanish or return**.  
 - Warlords, scholars, and mystics **seek the truth**—but some fear that **Xylandra’s true purpose** is still unfolding.  
 
-## **Characters**  
+## Characters  
 
 In *Savage Blades of Xylandra*, you take on the role of **a warrior, a rogue, or an outcast** trying to carve your destiny on a savage and mysterious planet. Whether you are **a relic-hunting archaeologist**, **a blood-bound gladiator**, **a disgraced warlord**, or **a sky-pirate seeking fortune**, your path is yours to decide.  
 
@@ -139,7 +145,7 @@ Your Protagonist is described by some fixed traits:
 - **Nemesis**: A person or organization that hinders the protagonist. It can emerge during the first game sessions, it may or may or not be the direct antagonist of the story, ready to appear to make life even more difficult.
 - **Luck**: The measure of a character's ability to avoid ill fortune or an inauspicious outcome. It applies only in Conflicts and automatically recharges when they end. Luck starts and caps at 6.
 
-These **traits** are described by **tags**, descriptive words or phrases that can identify anything in the game world. Even the **details** of the environment in which the action moves and **conditions** (physical or mental) of the characters are tags. 
+These **traits** are described by **tags**, descriptive words or phrases that can identify anything in the game world. Even the **details** of the environment in which the action moves and **conditions** (physical or mental) of the characters are tags.
 
 **They are qualitative representations. They are not quantitative measures.**
 
@@ -243,10 +249,11 @@ Every now and then you will be surprised with an unexpected twist!
 
 ### Keep The Action In Motion
 
-A game in *[Title]* is a succession of scenes. 
-A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal. 
+A game in *[Title]* is a succession of scenes.
+A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal.
 
 In *[Title]* at each scene:
+
 1. **Identify what you expect from the scene**. Compared to traits, goal, and motivation determine the Protagonist's action. What might be the reaction of the game world?
 2. **Test your expectations**. When you are uncertain (or overconfident) about the reaction to your actions, [ask the Oracle](#consulting-the-oracle) a closed question (answer is Yes or No), considering the tags involved to determine if there is an [Advantage or Disadvantage](#advantage-and-disadvantage).
 3. **Interpret the result**. Is the Oracle's answer in line with your expectations? If not, in the context in which the scene takes place, how should an answer that subverts them be considered?
@@ -260,12 +267,12 @@ When you need to test your expectations you'll ask the Oracle a closed question.
 You’ll need 2d6 in one color (**Chance Dice**), and 2d6 in another (**Risk Dice**).
 
 To resolve a closed question, roll one **Chance Die** and one **Risk Die**:
-- If the Chance Die is highest, the answer is **Yes**. 
+
+- If the Chance Die is highest, the answer is **Yes**.
 - If the Risk Die is highest, the answer is **No**.
-- If both are low (3 or less), add a **but...**. 
+- If both are low (3 or less), add a **but...**.
 - If both are high (4 or more), add an **and...**.
 - If both are equal, the answer is **Yes, but...**. Add a point to the **[Twist Counter](#twist-counter)**.
-
 
 | Dice Value |    Chance Die > Risk Die   | Risk Die > Chance Die |
 |:----------:|:--------------------------:|:---------------------:|
@@ -285,7 +292,7 @@ Consider tags **intuitively and not quantitatively**, using the context of the s
 
 The Twist Counter is a measure of the rising tension in the narrative. At the beginning is set to 0. Every time a double throw (dice are equal) happens, add 1 to the Counter. If the Counter is below three, consider the answer as "**Yes, but...**". Otherwise a **Twist** happens and resets the Counter.
 
-Roll 2d6 and consult the following Twist Table to determine what kind of twist happens. 
+Roll 2d6 and consult the following Twist Table to determine what kind of twist happens.
 
 | D6 |      Subject       |        Action       |
 |:--:|:------------------:|:-------------------:|
@@ -303,9 +310,11 @@ Interpret the two-word sentence in the context of the current scene. Twists will
 Xylandra is a world of **pulp adventure, ancient technologies, lost civilizations, and brutal combat**. The following rules add **genre-specific elements** to enhance the **Sword and Planet** experience, while still relying on the **oracular system** to resolve outcomes.  
 
 ## **Survival in the Harsh Lands**  
+
 Xylandra is **an unforgiving world**, where adventurers must **navigate treacherous landscapes, survive brutal climates, and endure hardships unknown to most mortals**.  
 
 ### **Environmental Threats**  
+
 When traveling through the **harsh landscapes of Xylandra**—such as **burning deserts, storm-wracked skies, or beast-infested ruins**—test survival by asking the **Oracle**:  
 
 | Oracle Roll | Survival Outcome |
@@ -318,9 +327,11 @@ When traveling through the **harsh landscapes of Xylandra**—such as **burning 
 | **No, and...** | The world fights back! A deadly storm, a hostile beast, or a sandquake threatens your life. |
 
 ## **The Struggle for Ancient Relics**  
+
 Forgotten ruins hide **weapons, artifacts, and lost technologies**—but such treasures do not give up their secrets easily.  
 
 ### **Recovering a Relic**  
+
 When attempting to **activate, understand, or claim an ancient artifact**, test fate with the **Oracle**:  
 
 | Oracle Roll | Relic Interaction Outcome |
@@ -333,9 +344,11 @@ When attempting to **activate, understand, or claim an ancient artifact**, test 
 | **No, and...** | The relic backfires! A trap triggers, a defense system activates, or an ancient intelligence awakens! |
 
 ## **Airship Combat and High-Speed Chases**  
+
 Skyships, war-gliders, and **gravity-defying relics** make aerial combat **a chaotic dance of fire and steel**.  
 
 ### **Chasing a Skyship or Outmaneuvering an Enemy**  
+
 When pursuing a **fleeing ship or evading pursuit**, test skill and luck with the **Oracle**:  
 
 | Oracle Roll | Chase Outcome |
@@ -348,9 +361,11 @@ When pursuing a **fleeing ship or evading pursuit**, test skill and luck with th
 | **No, and...** | You lose control! A storm hits, an engine fails, or enemy forces close in! |
 
 ## **Warlords, Factions, and Power Struggles**  
+
 On Xylandra, the strong rule by **force, guile, or sheer charisma**. A single **duel, betrayal, or alliance** can shift the balance of power.  
 
 ### **Negotiating with a Warlord or Faction Leader**  
+
 When bargaining for **alliance, mercy, or favor**, let the **Oracle** decide your fate:  
 
 | Oracle Roll | Political Outcome |
@@ -363,9 +378,11 @@ When bargaining for **alliance, mercy, or favor**, let the **Oracle** decide you
 | **No, and...** | You have insulted them, miscalculated, or walked into a trap! |
 
 ## **The Unstable Nature of Time and Reality**  
+
 Xylandra exists **outside normal space-time**, causing **strange occurrences, lost memories, and paradoxical events**.  
 
 ### **Experiencing a Time or Reality Distortion**  
+
 When passing through a **fractured zone** or interacting with **time-warped technology**, roll the **Oracle**:  
 
 | Oracle Roll | Temporal Disturbance Effect |
@@ -380,11 +397,12 @@ When passing through a **fractured zone** or interacting with **time-warped tech
 ### Conflicts
 
 A *Conflict* is any situation in which opponents clash, attacking, defending, or wearing each other down in order to win.
-This applies both in a practical and metaphorical sense. 
+This applies both in a practical and metaphorical sense.
 
 So, a Conflict is not only limited to combat (or fighting) in the strict sense but also to competitive situations (such as contests, duels, verbal confrontations, etc.) in which two or more characters (including vehicles, of course!) compete.
 
 Conflicts can be resolved in different ways depending on preferences and context:
+
 1. Ask a single closed question. The Oracle's answer determines the outcome of the conflict.
 2. Ask a series of closed questions to resolve current single actions.
 3. Use the rules of Harm & Luck below.
@@ -487,36 +505,42 @@ The **Sky-Yards** of Xylandra produce ships of **various sizes and purposes**, f
 These legendary skyships **roam the Xylandran skies**, some feared, others revered. They are **known throughout the warfronts, wastelands, and floating cities**—each with its own **legacy of conquest, exploration, or mystery**.  
 
 ### **Doomwake Raider**  
+
 - **Concept**: Pirate War-Barge  
 - **Skills**: Brutal Boarding Assaults, Fearsome Reputation  
 - **Frailty**: Sought by Every Warlord  
 - **Gear**: Plasma-Edged Grappling Hooks, Warhorn of the Lost Legion  
 
 ### **Stormfang Vanguard**  
+
 - **Concept**: Warlord’s Command Cruiser  
 - **Skills**: Battlefield Coordination, Orbital Strike Protocols  
 - **Frailty**: Massive Fuel Requirements  
 - **Gear**: Command Chamber of the Conqueror, Shockwave Cannons  
 
 ### **Black Mirage**  
+
 - **Concept**: Phantom-Class Infiltrator  
 - **Skills**: Absolute Silence, Cloaking Veil  
 - **Frailty**: Cannot Withstand Direct Combat  
 - **Gear**: Temporal Distortion Matrix, Ether-Steel Hull  
 
 ### **Celestial Wayfinder**  
+
 - **Concept**: Lost Builder's Relic Vessel  
 - **Skills**: Rift Phase Travel, Unknown Energy Core  
 - **Frailty**: Reacts Unpredictably to Relics  
 - **Gear**: Builder’s Star Compass, Self-Regenerating Hull  
 
 ### **Skywarden Sentinel**  
+
 - **Concept**: Guardian of the Skies  
 - **Skills**: Intercepting Warships, Defending Floating Cities  
 - **Frailty**: Bound by Oath to the Warlords  
 - **Gear**: Resonant Pulse Shields, Sky Lance Battery  
 
 ### **The Dying Sun**  
+
 - **Concept**: Drifting Mystery Ship  
 - **Skills**: Reality Bending Capabilities, Unknowable Origin  
 - **Frailty**: Crew Goes Mad Over Time  
@@ -531,37 +555,47 @@ From **monstrous land-crawlers that plow through deserts**, to **nimble dune-run
 ### **Vehicle Types**  
 
 #### **Titan-Crawlers (Iron Serpents)**  
+
 **Concept**: Massive, multi-carriage landships that trudge across Xylandra’s wastelands, powered by **arcane energy cores, solar sails, or forgotten Builder engines**. These **"Titan-Crawlers"** are both **fortresses and cities on wheels**, designed for long-distance survival.  
 
 **Common Uses**:  
+
 - **Mobile Strongholds**: Warlords use them as **moving fortresses**, housing entire clans, armies, or nomadic factions.  
 - **Trade and Cargo Convoys**: Merchants traverse the **storm-wracked deserts** in armored Titan-Crawlers, carrying **precious resources, weapons, and stolen relics**.  
 
 #### **Dune-Runners (Steam Wagons)**  
+
 **Concept**: Small, fast land-skiffs that **glide over sand, rock, and broken terrain**, propelled by **aetheric wind sails, repulsor engines, or biofuel combustion**. These vehicles are **favored by scouts, raiders, and bounty hunters**.  
 
 **Common Uses**:  
+
 - **Personal Transport**: Used by **lone wanderers, bounty hunters, and warlords’ envoys** for rapid travel.  
 - **Raiders and Skirmishers**: Ideal for **hit-and-run attacks**, striking enemies before disappearing into the dunes.  
 
 #### **War Mechs (Mechanical Walkers)**  
+
 **Concept**: **Bipedal or quadrupedal war machines**, towering over the battlefield. These **ancient war constructs** are either **Builder-tech remnants, modern recreations, or scavenged hybrids**, powered by **arc-reactors, unstable plasma cores, or muscle-enhancing synthetic fibers**.  
 
 **Common Uses**:  
+
 - **Battlefield Domination**: Used as **walking siege engines** in warlord conflicts.  
 - **Industrial Applications**: Some war mechs are **retooled for heavy labor**, assisting in **salvage operations or city construction**.  
 
 #### **Storm-Crawlers (Exploration Rovers)**  
+
 **Concept**: Rugged, multi-legged or wheeled vehicles designed for **exploration, artifact recovery, and deep wasteland treks**. Equipped with **terrain-adaptive legs, magnetic stabilizers, or subterranean drills**, they allow **scholars, relic-hunters, and prospectors** to explore the **deadliest places on Xylandra**.  
 
 **Common Uses**:  
+
 - **Archaeological Expeditions**: Used to **explore ancient ruins** and recover lost artifacts.  
 - **Wasteland Survival**: Some warbands live **entirely aboard these machines**, scavenging and moving between ruins.  
 
 #### **Nomad Caravans (Luxury Road Coaches)**  
+
 **Concept**: Large, reinforced **traveler's wagons**, housing **mercenaries, traders, and exiled nobles**. Unlike the **Titan-Crawlers**, these are built for **smaller-scale migration**, providing **comfort and security on the long, dangerous roads**.  
 
 **Common Uses**:  
+
 - **Diplomatic Missions**: Nobles and ambassadors **travel across warlord-ruled territories** in these armored convoys.  
 - **Wealthy Nomads**: Some **live their entire lives aboard**, moving from **floating cities to trade hubs** in their **ornate, self-sufficient machines**.  
 
@@ -634,6 +668,7 @@ Once you **arrive**, consult the **Oracle** or your **map** to determine:
 - What **treasures or dangers** lie hidden?  
 
 Use your **character's skills, vehicle capabilities, and exploration mechanics** to:  
+
 - **Avoid or engage threats**.  
 - **Recover lost artifacts**.  
 - **Negotiate with locals or conquer new lands**.  
@@ -722,6 +757,7 @@ The world of **Xylandra** is shaped by powerful factions, each **struggling for 
 Here are six of the **most influential factions** on Xylandra:  
 
 ### **The Bone-Kings of the Wastes**  
+
 - **Concept**: Warlord Tyrants  
 - **Skills**: Brutal Conquest, Unbreakable Will  
 - **Frailty**: Bound by the Code of Strength  
@@ -735,6 +771,7 @@ The **Bone-Kings** are the self-proclaimed **rulers of the wastelands**, bound b
 Loyalty to the Bone-Kings is **earned in battle**—to rise among their ranks, one must **challenge and slay their superior** in **a public duel of honor**. Though they are **ruthless conquerors**, they **do not tolerate treachery**—betrayal is punishable by **public execution or exile into the cursed ruins of the Riftlands**.  
 
 ### **The Skyborne Freeholds**  
+
 - **Concept**: Pirate Confederation  
 - **Skills**: Rapid Strikes, Hidden Navigation Routes  
 - **Frailty**: Divided Leadership  
@@ -750,6 +787,7 @@ Each **captain** rules their own ship and **answers to no one but their crew**, 
 They are **outlaws to some, legends to others**, but to all, they are **the last free people of the sky**.  
 
 ### **The Rift Scholars**  
+
 - **Concept**: Forbidden Knowledge Seekers  
 - **Skills**: Rift Energy Manipulation, Ancient Language Deciphering  
 - **Frailty**: Obsession Overrides Morality  
@@ -765,6 +803,7 @@ Many Rift Scholars are **shunned by society**, seen as **reckless fools or dange
 They walk a fine line between **knowledge and madness**, and for them, **the pursuit of the unknown is worth any sacrifice**.  
 
 ### **The Cult of the Builder-Gods**  
+
 - **Concept**: Fanatical Zealots  
 - **Skills**: Artifact Restoration, Prophetic Visions  
 - **Frailty**: Blind Devotion to the Builders  
@@ -780,6 +819,7 @@ They see those who **tamper with ancient artifacts** as **blasphemers and hereti
 The Cult operates from **hidden sanctuaries**, watching the world **for signs of the Builders' return**—and when they come, they believe that **only the faithful will be spared**.  
 
 ### **The Ironfang Mercenary Guild**  
+
 - **Concept**: Elite Warband for Hire  
 - **Skills**: Tactical Warfare, Ruthless Efficiency  
 - **Frailty**: Loyalty Only to Coin  
@@ -795,6 +835,7 @@ They take **no contracts they cannot complete**, and once **a deal is struck, it
 To cross the Ironfang Guild is to **invite death upon yourself**, and to **hire them is to ensure victory—so long as your coin lasts**.  
 
 ### **The Ghosts of the Fracture**  
+
 - **Concept**: Riftborn Outcasts  
 - **Skills**: Shadow Tactics, Time-Warped Reflexes  
 - **Frailty**: Warped by the Rift  
@@ -838,6 +879,7 @@ Below is the **current state of alliances, conflicts, and tensions** among Xylan
 | **Ghosts of the Fracture** | **Hostile** (Hunted by warlords) | **Cordial** (Occasionally trade) | **Friendly** (Share common interests) | **Tense** (Viewed as unnatural) | **Hostile** (Refuse to work with them) | — |
 
 ### **Understanding the Matrix**  
+
 - **Hostile** – Open war or severe conflict. Fighting is common, and neither side will negotiate unless forced.  
 - **Tense** – Strong **distrust**, but occasional cooperation when necessary. Could lead to conflict or an alliance under the right circumstances.  
 - **Cold** – A general dislike, but not outright hostile. Likely competitors or factions with opposing ideologies.  
@@ -851,11 +893,13 @@ Below is the **current state of alliances, conflicts, and tensions** among Xylan
 Xylandra’s **political landscape is ever-changing**—a single **event, war, or lost relic discovery** can **change everything**.  
 
 ### **Examples of Shifting Relations:**  
+
 - If the **Bone-Kings** launch a **major invasion**, the **Skyborne Freeholds and Rift Scholars** might **become allies of convenience**.  
 - If a **Builder relic is unearthed**, the **Cult of the Builder-Gods and Rift Scholars** may **clash over who controls it**.  
 - If the **Ghosts of the Fracture uncover a truth about Xylandra’s collapse**, they may become **targets of warlords and cultists alike**.  
 
 At any time, players can **consult the Oracle** to determine:  
+
 - **Has a faction’s stance changed?**  
 - **Has an uneasy truce been broken?**  
 - **Has a shocking betrayal occurred?**  
@@ -865,6 +909,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 ## **Creatures & Foes**  
 
 ### **11 Sandstrider Dune-Worm**  
+
 - **Concept**: Burrowing Colossus  
 - **Skills**: Devours Entire Caravans, Unstoppable Movement  
 - **Frailty**: Blind—Senses by Vibration  
@@ -874,6 +919,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Skyborne Freeholds, who hunt them for sport  
 
 ### **12 Void-Touched Harbinger**  
+
 - **Concept**: Riftborn Abomination  
 - **Skills**: Warps Reality, Absorbs Energy  
 - **Frailty**: Fades if Unfed  
@@ -883,6 +929,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Rift Scholars, who attempt to control it  
 
 ### **13 Sky-Horror of Zerathis**  
+
 - **Concept**: Winged Predator  
 - **Skills**: Hunts from Above, Deafening Screech  
 - **Frailty**: Weak Against Blinding Light  
@@ -892,6 +939,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Storm-Crested Roc, its only rival  
 
 ### **14 Wraithbone Automaton**  
+
 - **Concept**: Living Relic Guardian  
 - **Skills**: Impervious to Non-Relic Weapons, Remembers Its Old Masters  
 - **Frailty**: Bound to Its Original Programming  
@@ -901,6 +949,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Cult of the Builder-Gods, who seek to control it  
 
 ### **15 Chitin-Fanged Ravager**  
+
 - **Concept**: Swarming Warbeast  
 - **Skills**: Attacks in Packs, Devours Metal  
 - **Frailty**: Weak to Fire  
@@ -910,6 +959,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ironfang Mercenary Guild, who burn them out in droves  
 
 ### **16 Howling Nightfiend**  
+
 - **Concept**: Shadowstalker  
 - **Skills**: Moves in Darkness, Emits Mind-Breaking Screams  
 - **Frailty**: Cannot Exist in Direct Sunlight  
@@ -919,6 +969,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ghosts of the Fracture, who know how to kill it  
 
 ### **21 Starved Bone-Gnawer**  
+
 - **Concept**: Flesh-Hunting Scavenger  
 - **Skills**: Unrelenting Pursuit, Smells Blood from Miles Away  
 - **Frailty**: Cannot Digest Artificial Material  
@@ -928,6 +979,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Warlords who use them as execution beasts  
 
 ### **22 Terrorclad Warbeast**  
+
 - **Concept**: Warlord’s Monstrosity  
 - **Skills**: Breaks Siege Walls, Unyielding Fury  
 - **Frailty**: Cannot Swim  
@@ -937,6 +989,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Other Terrorclads—only one can rule  
 
 ### **23 Rift-Marked Specter**  
+
 - **Concept**: Ethereal Predator  
 - **Skills**: Passes Through Walls, Drains Vital Energy  
 - **Frailty**: Bound to a Single Location  
@@ -946,6 +999,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Rift Scholars seeking to control it  
 
 ### **24 Storm-Crested Roc**  
+
 - **Concept**: Thunder-Winged Giant  
 - **Skills**: Generates Lightning, Aerial Supremacy  
 - **Frailty**: Vulnerable to Poisoned Weapons  
@@ -955,6 +1009,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Sky-Horror of Zerathis  
 
 ### **25 Obsidian Devourer**  
+
 - **Concept**: Living Crystal Horror  
 - **Skills**: Can Absorb Energy, Indestructible Hide  
 - **Frailty**: Slow Movement  
@@ -964,6 +1019,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Cult of the Builder-Gods who worship it  
 
 ### **26 Sun-Scaled Basilisk**  
+
 - **Concept**: Ancient Desert Reptile  
 - **Skills**: Paralyzing Gaze, Regenerative Scales  
 - **Frailty**: Sensitive to Sudden Darkness  
@@ -973,6 +1029,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: Rift Scholars seeking to use it as a living weapon  
 
 ### **31 The Forgotten Stalker**  
+
 - **Concept**: Shapeshifting Lurker  
 - **Skills**: Mimics Its Prey, Silent as the Void  
 - **Frailty**: Cannot Maintain Its Form for Long  
@@ -982,6 +1039,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ghosts of the Fracture, who see through its disguises  
 
 ### **32 Titan-Worm of the Deep**  
+
 - **Concept**: Earthquake Bringer  
 - **Skills**: Causes Tremors, Swallows Entire Cities  
 - **Frailty**: Sluggish Above Ground  
@@ -991,6 +1049,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Bone-Kings, who see it as a weapon to harness  
 
 ### **33 Plague-Touched Wretch**  
+
 - **Concept**: Diseased Mutant  
 - **Skills**: Spreads Infections, Rapid Mutation  
 - **Frailty**: Weak Body, Easily Incapacitated  
@@ -1000,6 +1059,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ironfang Mercenary Guild, who burn them on sight  
 
 ### **34 Ancient Warforged Sentinel**  
+
 - **Concept**: Battle-Scarred Relic  
 - **Skills**: Indestructible, Tactical Combat Programming  
 - **Frailty**: Bound to Old Directives  
@@ -1009,6 +1069,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Cult of the Builder-Gods, who seek to control it  
 
 ### **35 Skyborne Leviathan**  
+
 - **Concept**: Cosmic Drifter  
 - **Skills**: Generates Gravity Wells, Absorbs Lightning  
 - **Frailty**: Drawn to Astral Currents, Slow Moving  
@@ -1018,6 +1079,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Skyborne Freeholds, who hunt it for power  
 
 ### **36 Sable-Fanged Lurker**  
+
 - **Concept**: Jungle Deathtrap  
 - **Skills**: Camouflages Perfectly, Strikes Instantly  
 - **Frailty**: Only Hunts in Complete Darkness  
@@ -1027,6 +1089,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Sandborn Tribes, who have learned how to kill it  
 
 ### **41 Blood-Kissed Death Vulture**  
+
 - **Concept**: Flesh-Stripping Scavenger  
 - **Skills**: Hunts by Smell Alone, Feeds on the Dying  
 - **Frailty**: Cannot Kill its Own Prey  
@@ -1036,6 +1099,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Bone-Kings, who see them as omens of weakness  
 
 ### **42 Iron-Horned Behemoth**  
+
 - **Concept**: Living Siege Engine  
 - **Skills**: Tramples Everything in Its Path, Impervious to Fire  
 - **Frailty**: Cannot Turn Quickly  
@@ -1045,6 +1109,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ironfang Mercenary Guild, who capture and use them as war beasts  
 
 ### **43 The Thing Beneath**  
+
 - **Concept**: Nightmare Unknown  
 - **Skills**: Exists Outside of Time, Can Speak to the Dead  
 - **Frailty**: Bound to a Single Location  
@@ -1054,6 +1119,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Rift Scholars, who attempt to study it  
 
 ### **44 Warp-Haunted Relic Beast**  
+
 - **Concept**: Sentient Artifact  
 - **Skills**: Adapts to Every Attack, Absorbs Knowledge  
 - **Frailty**: Cannot Exist Outside Ruins  
@@ -1063,6 +1129,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Cult of the Builder-Gods, who see it as divine  
 
 ### **45 The Last Sky-Titan**  
+
 - **Concept**: Extinct God-Beast  
 - **Skills**: Controls the Weather, Flight Without Limit  
 - **Frailty**: Cannot Regenerate  
@@ -1072,6 +1139,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Skyborne Freeholds, who see it as a challenge  
 
 ### **46 Bone-Crowned Flesh Warden**  
+
 - **Concept**: Warlord’s Executioner  
 - **Skills**: Unstoppable Force, Cannot Feel Pain  
 - **Frailty**: Bound to the Will of Its Master  
@@ -1081,6 +1149,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ghosts of the Fracture, who seek to free it  
 
 ### **51 Glass-Skinned Hunter**  
+
 - **Concept**: Camouflaged Predator  
 - **Skills**: Becomes Nearly Invisible, Hunts in Complete Silence  
 - **Frailty**: Fragile When Exposed  
@@ -1090,6 +1159,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Sandborn Tribes, who have learned to track it  
 
 ### **52 Dagger-Jawed Ambush Drake**  
+
 - **Concept**: Fast-Striking Pack Hunter  
 - **Skills**: Lightning Reflexes, Deathgrip Bite  
 - **Frailty**: Overwhelmed Easily When Alone  
@@ -1099,6 +1169,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ironfang Mercenaries, who use them for sport  
 
 ### **53 Feral War-Mutant**  
+
 - **Concept**: Berserker Abomination  
 - **Skills**: Enraged Strength, Rapid Regeneration  
 - **Frailty**: Cannot Distinguish Friend from Foe  
@@ -1108,6 +1179,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Bone-Kings, who try to tame them as war-beasts  
 
 ### **54 Silver-Eyed Orphan**  
+
 - **Concept**: Psychic Child of the Rift  
 - **Skills**: Sees the Future, Disrupts Minds  
 - **Frailty**: Cannot Control Their Abilities  
@@ -1117,6 +1189,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Cult of the Builder-Gods, who seek to capture them  
 
 ### **55 Soul-Tethered Echo Beast**  
+
 - **Concept**: Guardian of the Dead  
 - **Skills**: Absorbs Memories, Summons Phantoms  
 - **Frailty**: Bound to the Place of Its Death  
@@ -1126,6 +1199,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Rift Scholars, who try to unravel its mysteries  
 
 ### **56 Thorned Mire Titan**  
+
 - **Concept**: Bog-Dwelling Colossus  
 - **Skills**: Moves Through Mud Effortlessly, Massive Strength  
 - **Frailty**: Weak to Fire  
@@ -1135,6 +1209,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Skyborne Freeholds, who seek to harvest its land  
 
 ### **61 Screaming Horror of the Deep**  
+
 - **Concept**: Abyssal Nightmare  
 - **Skills**: Emits Sound Waves That Shatter Bone, Moves Without Rippling Water  
 - **Frailty**: Cannot Survive in Open Air  
@@ -1144,6 +1219,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Rift Scholars, who study its connection to lost waters  
 
 ### **62 Black-Blooded Warlord Beast**  
+
 - **Concept**: Warhound of the Tyrants  
 - **Skills**: Fueled by Carnage, Resistant to Pain  
 - **Frailty**: Cannot Function Without Command  
@@ -1153,6 +1229,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Bone-Kings, who see them as trophies  
 
 ### **63 The Hunger Unleashed**  
+
 - **Concept**: Reality-Devouring Anomaly  
 - **Skills**: Dissolves Matter, Can Walk Through Time  
 - **Frailty**: Weak to Ancient Seals  
@@ -1162,6 +1239,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Ghosts of the Fracture, who fight to contain it  
 
 ### **64 Moon-Scarred Trickster**  
+
 - **Concept**: Reality-Warping Entity  
 - **Skills**: Creates Illusions, Alters Perceptions  
 - **Frailty**: Cannot Stand to See Its Own Reflection  
@@ -1171,6 +1249,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Rift Scholars, who seek to bind it  
 
 ### **65 Storm-Bound Phantom Leviathan**  
+
 - **Concept**: Living Sky-Maelstrom  
 - **Skills**: Controls Lightning, Moves With the Storm  
 - **Frailty**: Bound to the Clouds  
@@ -1180,6 +1259,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 - **Nemesis**: The Skyborne Freeholds, who hunt it for power  
 
 ### **66 The Never-Dying King**  
+
 - **Concept**: Eternal Horror  
 - **Skills**: Cannot Be Killed, Commands the Dead  
 - **Frailty**: Weak to Ancient Rites  
@@ -1232,6 +1312,7 @@ This **unpredictable political climate** ensures that **no alliance is permanent
 | 66  | A **legendary warlord’s tomb opens**, and those who enter hear whispers from the past. |  
 
 ### **Travel Encounters**  
+
 Use this table when **journeying across Xylandra**, whether by **land, air, or Rift-walking**.  
 
 | DD6 | Encounter |
@@ -1274,6 +1355,7 @@ Use this table when **journeying across Xylandra**, whether by **land, air, or R
 | 66  | A **legendary warrior challenges you**, claiming you are fated to battle. |
 
 ### **Ruin Encounters**  
+
 Use this table when **exploring Builder ruins, warlord tombs, and other lost places**.  
 
 | D66 | Encounter |
@@ -1296,7 +1378,6 @@ Use this table when **exploring Builder ruins, warlord tombs, and other lost pla
 | 34  | A **mysterious voice** asks you to **finish what it started**. |
 | 35  | A **treasure chest is locked**, but strange energy radiates from within. |
 | 36  | A **warlord’s corpse sits on a throne**, gripping an artifact tightly. |
-
 
 ### **Skyship Encounters**  
 
@@ -1626,7 +1707,6 @@ Use this table when **exploring Builder ruins, warlord tombs, and other lost pla
 | 65  | A **location marker for a hidden Builder city**, one never discovered. |  
 | 66  | A **memory implant**, designed to rewrite the user’s own past. |  
 
-
 ### **Forgotten Cities & Ghost Settlements**  
 
 | D66 | **Forgotten Cities & Ghost Settlements** |  
@@ -1954,7 +2034,6 @@ Use this table when **exploring Builder ruins, warlord tombs, and other lost pla
 | 64  | A **Warp-Spined Aberration**, a bio-mechanical horror that twists between states of matter. |  
 | 65  | A **Death-Bell Warden**, an entity that only appears to those on the verge of death. |  
 | 66  | A **World-Eater Spawn**, a newborn version of something that should not exist. |  
-
 
 ### **Nomadic Tribes & Hidden Cults**  
 
@@ -2365,6 +2444,7 @@ Use this table when **exploring Builder ruins, warlord tombs, and other lost pla
 The world of *Savage Blades of Xylandra* draws inspiration from **classic Sword & Planet adventures, cosmic horror, lost civilizations, and tales of doomed warlords, skyborne empires, and ancient relics of immense power**. The following media selections—books, films, TV series, comics, and games—capture the essence of this setting.  
 
 ### **Books & Novels**  
+
 - *Barsoom Series* (Edgar Rice Burroughs) – The quintessential **Sword & Planet** saga featuring John Carter’s adventures on Mars.  
 - *Almuric* (Robert E. Howard) – A **brutal planetary romance** featuring a barbarian exiled to a savage alien world.  
 - *The Planet of Adventure Series* (Jack Vance) – A stranded traveler must navigate the **dangerous societies of an alien planet**.  
@@ -2372,12 +2452,14 @@ The world of *Savage Blades of Xylandra* draws inspiration from **classic Sword 
 - *Dune* (Frank Herbert) – The **desert wastelands, political intrigue, and mysticism** parallel many themes of Xylandra.  
 
 ### **Films & TV Series**  
+
 - *John Carter* (2012) – A **modern adaptation of the Barsoom series**, showcasing alien landscapes and warlord politics.  
 - *Flash Gordon* (1980) – The **pulp, high-adventure aesthetic of warring planetary rulers and airborne battles**.  
 - *Stargate (Film & TV Series)* – **Portal-based exploration of alien civilizations, lost empires, and warlords.**  
 - *Heavy Metal* (1981) – **A collection of pulpy, psychedelic sci-fi-fantasy adventures.**  
 
 ### **Video Games & Tabletop RPGs**  
+
 - *Dark Sun (Dungeons & Dragons Setting)* – **A dying world of brutal survival, psychic warriors, and desolate landscapes.**  
 - *Horizon: Zero Dawn* – **A lost world of tribal survival, ancient machines, and fallen civilizations.**  
 - *Planescape: Torment* – **A deep, philosophical exploration of identity in a world of shifting realities.**  
@@ -2386,11 +2468,10 @@ The world of *Savage Blades of Xylandra* draws inspiration from **classic Sword 
 - *Degenesis* (RPG) – **A post-apocalyptic, neo-tribal world with brutal combat and lost knowledge.**  
 - *Outcast (1999/2017 Remake)* – **A lone explorer navigating an alien world filled with political intrigue.**  
 
-
 ## License
 
-Savage Blades of Xylandra 
+Savage Blades of Xylandra
 
 © 2025 Roberto Bisceglie
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <http://creativecommons.org/licenses/by-sa/4.0/> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
