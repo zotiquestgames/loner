@@ -1,231 +1,286 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-    <title>Loner Assistant</title>
+    <title>Loner Assistant v2.0</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="js/data.js"></script>
-    <script src="js/icons.js"></script>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <span  class="navbar-brand" href="#">
-                <img src="assets/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Loner Assistant
-            </span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://loner.zotiquestgames.com">Home Page</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about" data-bs-toggle="offcanvas">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://zeruhur.itch.io/loner/">Loner on itch.io</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/zeruhur/loner-assistant/">Github</a>
-                  </li>
-              </div>
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <h1>🎲 Loner Assistant</h1>
+            <span class="version">v2.0</span>
+        </div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-view="play">Play</button>
+            <button class="nav-btn" data-view="campaigns">Campaigns</button>
+            <button class="nav-btn" data-view="characters">Characters</button>
+            <button class="nav-btn" data-view="tools">Tools</button>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light theme">
+                <span class="theme-icon">🌙</span>
+            </button>
         </div>
     </nav>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="about" aria-labelledby="aboutLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="aboutLabel">About</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            <h4>Loner Assistant v0.6</h4>
-            <h5>A digital companion to Loner RPG</h5>
-            <p>Loner is a bare-bone freeform solo RPG designed to play with a solo character in “narrative” mode. 
-               You’ll guide your character through the story that will unravel during the game, 
-               asking closed questions to an oracle who will assume the role of Game Master. 
-               Every now and then the game will surprise you when an unexpected plot twist happens!
-            </p></br>
-            <p>Use the control buttons to invoke the Oracle. You can also generate a game prompt 
-                and the tone of the next scene to play
-            </p>
-            <p>You can also keep track on the text editor below. It autosaves every 5 seconds</p>
-            <p>The complete ruleset is available on the <a href="https://zeruhur.space/loner/">website</a> 
-                or on the <a href="https://zeruhur.itch.io/loner/">itch.io page</a>
-            </p>
-            <p>Loner 2021 by Roberto Bisceglie is released under Creative Commons License Attribution 4.0 </p>
-            <p>Story Dice make use of <a href="https://game-icons.net/">game-icons.net</a> collection, 
-                released under Creative Commons License Attribution 3.0 Unported
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="character" aria-labelledby="characterLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="characterLabel">Character Sheet</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <div>
-                <strong>Name: </strong><span id="name" class="border" contenteditable="false">Character Name</span><br>
-                <strong>Concept: </strong><span id="concept" class="border" contenteditable="false">Concept</span><br>
-                <strong>Skills: </strong>
-                <ul id="skills-list" class="border">
-                  <!-- Qui verranno aggiunti dinamicamente gli elementi delle skills -->
-                </ul>
-                <button type="button" class="btn btn-secondary" onclick="addToList('skills')">Add Skill</button><br>
-                <strong>Frailty: </strong>
-                <ul id="frailty-list" class="border">
-                  <!-- Qui verranno aggiunti dinamicamente gli elementi delle frailty -->
-                </ul>
-                <button type="button" class="btn btn-secondary" onclick="addToList('frailty')">Add Frailty</button><br>
-                <strong>Gear: </strong>
-                <ul id="gear-list" class="border">
-                  <!-- Qui verranno aggiunti dinamicamente gli elementi delle gear -->
-                </ul>
-                <button type="button" class="btn btn-secondary" onclick="addToList('gear')">Add Gear</button><br>
-                <strong>Goal and Motive: </strong><span id="goal-motive" class="border" contenteditable="false">Goal and Motive</span><br>
-                <strong>Nemesis: </strong><span id="nemesis" class="border" contenteditable="false">Nemesis</span><br>
-              </div>
-              <div>
-                <button type="button" id="reset-char-sheet" class="btn btn-danger m-1" onclick="confirmResetCharSheet()">Reset</button>
-                <button type="button" id="edit-char-sheet" class="btn btn-success m-1" onclick="toggleEdit()">Edit</button>
-                <button type="button" id="save-char-sheet" class="btn btn-danger m-1" onclick="saveCharSheet()" style="display: none;">Save</button>
-              </div>                                           
-        </div>
-      </div>
-
-
+    <!-- Main Container -->
     <div class="container">
-        <div class="row m-1">
-            <div class="col-md-4 text-center">
-                <div class="card m-2 h-100" id="combat">
-                    <div class="card-body">
-                        <h3 class="card-header my-1 card text-white bg-danger">Combat</h3>
-                        <p class="card-text p-1 mb-0">
-                            <p><strong>Character's Luck</strong></br><span id="char-luck"></span></p>
-                            <div id="start-combat">
-                                <button type="button" class="btn btn-lg btn-outline-danger m-1" onclick="startCombat()">START!</button>
-                            </div>
-                            <div id="combat-run" style="display: none;">
-                                <p id="combat-outcome" class="display-6"></p>
-                                <button type="button" class="btn btn-sm btn-success m-1" onclick="endCombat()">End Combat</button>
-                                <button id="fight-button" type="button" class="btn btn-sm btn-danger m-1" onclick="fight()">Fight!</button>
-                                <select id="fight-modifiers" type="button" class="btn btn-sm m-1" onchange="selectModifier()">
-                                    <option value="advantage">Advantage</option> 
-                                    <option selected value="normal">Normal</option>
-                                    <option value="disadvantage">Disadvantage</option>
-                                </select>
-                                <!-- <button  id="reset-luck" type="button" class="btn btn-sm btn-dark m-1" onclick="resetLuck()">Reset Luck</button> -->
-                            </div>
-                            <p"><strong>Opponent's Luck</strong></br><span id="opponent-luck"></span></p>
-                        </p>
+        
+        <!-- PLAY VIEW (Main gameplay screen) -->
+        <div id="view-play" class="view active">
+            <div class="layout-3col">
+                
+                <!-- LEFT SIDEBAR: Context -->
+                <aside class="sidebar-left">
+                    <div class="panel">
+                        <h3>Current Campaign</h3>
+                        <div id="current-campaign-info">
+                            <p class="text-muted">No campaign selected</p>
+                            <button class="btn btn-primary" onclick="showView('campaigns')">
+                                Select Campaign
+                            </button>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="card m-2 h-100" id="oracle-card">
-                    <div class="card-body">
-                        <h3 class="card-header my-1 card text-white bg-dark">The Oracle</h3>
-                        <p class="fw-bold">Twist Counter <span id="twist-counter" class="badge bg-dark"></span></p>
-                        
-                        <!-- <p id="twist-counter"></p> -->
-                        <p id="oracle" class="display-2"></p>
-                        <p id="subject-action" class="d-none">
-                            <span id="hook-title" class="display-6 fw-bold">A twist happens!</span></br>
-                            <span id="twist" class="display-5"></span>
-                        </p>
-                        <p id="next-scene" class="d-none">
-                            <span id="nxt-scn" class="display-6"></span>
-                        </p>
-                        <p id="hook-p" class="d-none">
-                            <span id="hook-title" class="display-6 fw-bold">Game Prompt:</span></br>
-                            <span id="who" class="display-7"></span></br>
-                            <span id="what" class="display-7"></span></br>
-                            <span id="why" class="display-7"></span></br>
-                            <span id="where" class="display-7"></span></br>
-                            <span id="how" class="display-7"></span></br>
-                            <span id="obstacle" class="display-7"></span></br>
-                        </p>
-                        <p id="open-question" class="d-none">
-                            <span id="oq-title" class="display-6 fw-bold">Open Answer:</span></br>
-                            <span id="verb" class="display-6 text-capitalize"></span> 
-                            <span id="adjective" class="display-6 text-capitalize"></span> 
-                            <span id="noun" class="display-6 text-capitalize"></span>
-                        </p>
+                    
+                    <div class="panel">
+                        <h3>Active Character</h3>
+                        <div id="active-character-info">
+                            <p class="text-muted">No character selected</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="card m-2 h-100" id="buttons">
-                    <div class="card-body align-middle">
-                        <button type="button" class="btn btn-outline-dark m-1" onclick="generateHook()">Game Prompt</button>
-                        <a class="btn btn-danger m-1" href="#character" data-bs-toggle="offcanvas">Character Sheet</a>
-                        <hr>
-                        <button type="button" class="btn btn-dark m-1" onclick="invokeOracle()">Ask the oracle</button>
-                        <select id="modifiers" type="button" class="btn m-1" onchange="selectModifier()"  data-bs-placement="bottom" title="Select (dis)advantage">
-                            <option value="advantage">Advantage</option> 
-                            <option selected value="normal">Normal</option>
-                            <option value="disadvantage">Disadvantage</option>
-                        </select>
-                        <hr>
-                        <button type="button" class="btn btn-outline-secondary m-1" onclick="askOpenQuestion()">Open question</button>
-                        <button type="button" class="btn btn-success m-1" onclick="askNextScene()">Next Scene</button>
-                        <hr>
-                        <button id="story-dice-button" type="button" class="btn btn-dark m-1" data-bs-toggle="modal" data-bs-target="#story-dice">
-                            Story Dice
+                    
+                    <div class="panel">
+                        <h3>Quick Links</h3>
+                        <div class="quick-links">
+                            <button class="btn btn-sm btn-outline" onclick="showNPCPanel()">NPCs</button>
+                            <button class="btn btn-sm btn-outline" onclick="showLocationPanel()">Locations</button>
+                            <button class="btn btn-sm btn-outline" onclick="showThreadPanel()">Threads</button>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- CENTER: Main Play Area -->
+                <main class="main-content">
+                    <!-- Session Notes Editor -->
+                    <div class="panel">
+                        <div class="panel-header">
+                            <h2>Session Notes</h2>
+                            <div class="session-controls">
+                                <button class="btn btn-sm" onclick="saveNotes()">💾 Save</button>
+                                <span class="save-indicator" id="save-status">Auto-saved</span>
+                            </div>
+                        </div>
+                        <div id="editor" class="editor-container"></div>
+                    </div>
+                </main>
+
+                <!-- RIGHT SIDEBAR: Game Tools -->
+                <aside class="sidebar-right">
+                    
+                    <!-- Oracle -->
+                    <div class="panel panel-highlight">
+                        <h3>🔮 Oracle</h3>
+                        <div class="oracle-controls">
+                            <div class="modifier-selector">
+                                <label>
+                                    <input type="radio" name="modifier" value="normal" checked>
+                                    Normal
+                                </label>
+                                <label>
+                                    <input type="radio" name="modifier" value="advantage">
+                                    Advantage
+                                </label>
+                                <label>
+                                    <input type="radio" name="modifier" value="disadvantage">
+                                    Disadvantage
+                                </label>
+                            </div>
+                            <button class="btn btn-large btn-primary" onclick="rollOracle()">
+                                🎲 Consult Oracle
+                            </button>
+                        </div>
+                        <div id="oracle-result" class="oracle-result hidden"></div>
+                    </div>
+
+                    <!-- Twist Counter -->
+                    <div class="panel">
+                        <h3>Twist Counter</h3>
+                        <div class="twist-counter">
+                            <div class="counter-display">
+                                <span id="twist-count">0</span> / 3
+                            </div>
+                            <button class="btn btn-sm btn-outline" onclick="resetTwistCounter()">
+                                Reset
+                            </button>
+                        </div>
+                        <div id="twist-result" class="twist-result hidden"></div>
+                    </div>
+
+                    <!-- Scene Management -->
+                    <div class="panel">
+                        <h3>Scene</h3>
+                        <button class="btn btn-secondary" onclick="rollScene()">
+                            🎬 Next Scene
                         </button>
-                        <select id="story-dice-n" type="button" class="btn m-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Select number of dice to roll">
-                            <option value="1">1</option> 
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option> 
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option> 
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                        </select>
+                        <div id="scene-result" class="scene-result"></div>
                     </div>
+
+                    <!-- Conflict System -->
+                    <div class="panel panel-danger" id="conflict-panel">
+                        <h3>⚔️ Conflict</h3>
+                        
+                        <div id="conflict-setup" class="conflict-setup">
+                            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 1rem;">
+                                Track a conflict using the Harm & Luck system
+                            </p>
+                            <div class="form-group">
+                                <label>Opponent Name</label>
+                                <input type="text" id="opponent-name" placeholder="e.g., Corporate Guard" value="Opponent">
+                            </div>
+                            <div class="form-group">
+                                <label>Opponent Luck</label>
+                                <input type="number" id="opponent-luck-input" min="1" max="12" value="6">
+                            </div>
+                            <button class="btn btn-danger" onclick="startConflict()">
+                                Start Conflict
+                            </button>
+                        </div>
+                        
+                        <div id="conflict-active" class="conflict-active hidden">
+                            <div class="luck-tracker">
+                                <div>
+                                    <label id="char-label">Character</label>
+                                    <div class="luck-display" id="char-luck">6</div>
+                                </div>
+                                <div>
+                                    <label id="opponent-label">Opponent</label>
+                                    <div class="luck-display" id="opponent-luck">6</div>
+                                </div>
+                            </div>
+                            
+                            <div class="modifier-selector" style="margin: 1rem 0;">
+                                <label style="font-size: 0.85rem; margin-bottom: 0.5rem; display: block;">
+                                    Roll Modifier:
+                                </label>
+                                <label>
+                                    <input type="radio" name="conflict-modifier" value="normal" checked>
+                                    Normal
+                                </label>
+                                <label>
+                                    <input type="radio" name="conflict-modifier" value="advantage">
+                                    Advantage
+                                </label>
+                                <label>
+                                    <input type="radio" name="conflict-modifier" value="disadvantage">
+                                    Disadvantage
+                                </label>
+                            </div>
+                            
+                            <div id="conflict-result" class="conflict-result hidden"></div>
+                            
+                            <div style="display: flex; gap: 0.5rem;">
+                                <button class="btn btn-danger" onclick="rollConflict()" style="flex: 1;">
+                                    🎲 Roll
+                                </button>
+                                <button class="btn btn-sm btn-outline" onclick="endConflict()">
+                                    End
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Get Inspired -->
+                    <div class="panel">
+                        <h3>Get Inspired</h3>
+                        <button class="btn btn-secondary" onclick="getInspired()">
+                            ✨ Random Prompt
+                        </button>
+                        <div id="inspiration-result"></div>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+
+        <!-- CAMPAIGNS VIEW -->
+        <div id="view-campaigns" class="view">
+            <div class="view-header">
+                <h2>Campaigns</h2>
+                <button class="btn btn-primary" onclick="showNewCampaignForm()">
+                    + New Campaign
+                </button>
+            </div>
+            <div id="campaigns-list" class="grid-list"></div>
+        </div>
+
+        <!-- CHARACTERS VIEW -->
+        <div id="view-characters" class="view">
+            <div class="view-header">
+                <h2>Characters</h2>
+                <button class="btn btn-primary" onclick="showNewCharacterForm()">
+                    + New Character
+                </button>
+            </div>
+            <div id="characters-list" class="grid-list"></div>
+        </div>
+
+        <!-- TOOLS VIEW (Roll Tables, etc.) -->
+        <div id="view-tools" class="view">
+            <div class="view-header">
+                <h2>Tools & Tables</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Roll Tables</h3>
+                    <p>Access tables from supplements</p>
+                    <button class="btn btn-secondary">Browse Tables</button>
+                </div>
+                <div class="tool-card">
+                    <h3>Story Dice</h3>
+                    <p>Visual inspiration generator</p>
+                    <button class="btn btn-secondary">Roll Dice</button>
+                </div>
+                <div class="tool-card">
+                    <h3>Export Data</h3>
+                    <p>Backup your campaigns</p>
+                    <button class="btn btn-secondary">Export</button>
                 </div>
             </div>
         </div>
-        <div id="row m-1">
-            <div id="col-12">
-                <div class="card m-4 h-100" id="character">
-                    <div id="editor">
-                    </div>
-                </div>    
+
+    </div>
+
+    <!-- Modal Template (for forms, etc.) -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Modal Title</h3>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content -->
             </div>
         </div>
     </div>
 
-    <div id="story-dice" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Story Dice</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div id="story-dice-body" class="row text-center"></div>
-                    </div>
-                </div>
-          </div>
-        </div>
-      </div>
-
+    <!-- Scripts -->
+    <!-- Load Dexie first -->
+    <script src="https://unpkg.com/dexie@3.2.4/dist/dexie.min.js"></script>
+    
+    <!-- Load Quill editor -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+    
+    <!-- Load our app files -->
+    <script src="js/database.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/oracle.js"></script>
+    <script src="js/campaigns.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/editor.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-    <script src="js/quillsettings.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
