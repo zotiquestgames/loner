@@ -7,6 +7,18 @@
 // Current session state
 let currentTwistCounter = 0;
 
+function loadTwistCounter() {
+  const state = App.getState();
+  if (state.sessionId) {
+    LonerDB.getSession(state.sessionId).then(session => {
+      if (session && session.twistCounter !== undefined) {
+        currentTwistCounter = session.twistCounter;
+        updateTwistCounter();
+      }
+    });
+  }
+}
+
 /**
  * Roll a die (1-6)
  */
@@ -140,16 +152,21 @@ function displayOracleResult(result) {
  */
 function updateTwistCounter() {
   const counterDisplay = document.getElementById('twist-count');
-  counterDisplay.textContent = currentTwistCounter;
-  
-  // Add danger class if at 2 (about to trigger)
-  if (currentTwistCounter >= 2) {
-    counterDisplay.classList.add('danger');
-  } else {
-    counterDisplay.classList.remove('danger');
+  if (counterDisplay) {
+    counterDisplay.textContent = currentTwistCounter;
+    
+    if (currentTwistCounter >= 2) {
+      counterDisplay.classList.add('danger');
+    } else {
+      counterDisplay.classList.remove('danger');
+    }
   }
   
-  // TODO: Save to current session
+  // SAVE to database
+  const state = App.getState();
+  if (state.sessionId) {
+    LonerDB.updateTwistCounter(state.sessionId, currentTwistCounter);
+  }
 }
 
 /**

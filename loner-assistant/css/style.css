@@ -488,6 +488,14 @@ body {
   transform: none;
 }
 
+.campaign-card {
+  cursor: default;
+}
+
+.campaign-card:hover {
+  transform: none;
+}
+
 /* ==================== MODAL ==================== */
 .modal {
   position: fixed;

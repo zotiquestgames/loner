@@ -79,10 +79,20 @@ async function createCampaign(name, description = '') {
 
 // Get all campaigns (not archived)
 async function getAllCampaigns() {
-  return await db.campaigns
-    .where('archived').equals(false)
-    .reverse()
-    .sortBy('lastPlayed');
+  // Get all campaigns first
+  const allCampaigns = await db.campaigns.toArray();
+  
+  // Filter out archived ones (handles missing field gracefully)
+  const activeCampaigns = allCampaigns.filter(c => c.archived !== true);
+  
+  // Sort by lastPlayed (most recent first)
+  activeCampaigns.sort((a, b) => {
+    const dateA = a.lastPlayed ? new Date(a.lastPlayed) : new Date(0);
+    const dateB = b.lastPlayed ? new Date(b.lastPlayed) : new Date(0);
+    return dateB - dateA;
+  });
+  
+  return activeCampaigns;
 }
 
 // Get a single campaign by ID
