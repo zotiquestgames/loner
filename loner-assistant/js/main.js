@@ -194,17 +194,16 @@ async function loadLastCampaign() {
  * Placeholder functions (to be implemented later)
  */
 function showNPCPanel() {
-  UI.showAlert('NPC manager coming soon!', 'info');
+  NPCManager.showNPCPanel();
 }
 
 function showLocationPanel() {
-  UI.showAlert('Location manager coming soon!', 'info');
+  LocationManager.showLocationPanel();
 }
 
 function showThreadPanel() {
-  UI.showAlert('Thread tracker coming soon!', 'info');
+  ThreadManager.showThreadPanel();
 }
-
 /**
  * Theme switching
  */
@@ -252,52 +251,75 @@ window.App = {
 window.showView = UI.showView;
 window.closeModal = UI.closeModal;
 
-// Campaign functions
-window.showNewCampaignForm = CampaignManager.showNewCampaignForm;
-window.createNewCampaign = CampaignManager.createNewCampaign;
-window.loadCampaignsList = CampaignManager.loadCampaignsList;
-window.selectCampaign = CampaignManager.selectCampaign;
-window.deleteCampaignConfirm = CampaignManager.deleteCampaignConfirm;
-window.viewCampaignDetails = CampaignManager.viewCampaignDetails; 
-window.editCampaign = CampaignManager.editCampaign;               
-window.saveCampaignEdit = CampaignManager.saveCampaignEdit;        
-window.setAsActiveCampaign = CampaignManager.setAsActiveCampaign; 
+// ============================================
+// GLOBAL FUNCTION EXPORTS (after all scripts load)
+// ============================================
 
-// Session functions
-window.showSessionList = SessionManager.showSessionList;
-window.showNewSessionForm = SessionManager.showNewSessionForm;
-window.createNewSession = SessionManager.createNewSession;
-window.switchToSession = SessionManager.switchToSession;
-window.renameSession = SessionManager.renameSession;
-window.deleteSessionConfirm = SessionManager.deleteSessionConfirm;
-
-// Character functions
-window.showNewCharacterForm = CharacterManager.showNewCharacterForm;
-window.createNewCharacter = CharacterManager.createNewCharacter;
-window.loadCharactersList = CharacterManager.loadCharactersList;
-window.selectCharacter = CharacterManager.selectCharacter;
-window.viewCharacterSheet = CharacterManager.viewCharacterSheet;
-window.editCharacter = CharacterManager.editCharacter;
-window.saveCharacterEdit = CharacterManager.saveCharacterEdit;
-window.setAsActiveCharacter = CharacterManager.setAsActiveCharacter;
-window.deleteCharacterConfirm = CharacterManager.deleteCharacterConfirm;
-
-// Editor functions
-window.saveNotes = Editor.saveNotes;
-
-// Oracle functions
-window.rollOracle = OracleSystem.rollOracle;
-window.rollScene = OracleSystem.rollScene;
-window.getInspired = OracleSystem.getInspired;
-window.resetTwistCounter = OracleSystem.resetTwistCounter;
-window.startConflict = OracleSystem.startConflict;
-window.rollConflict = OracleSystem.rollConflict;
-window.endConflict = OracleSystem.endConflict;
+document.addEventListener('DOMContentLoaded', () => {
+  // Campaign functions
+  if (window.CampaignManager) {
+    window.showNewCampaignForm = CampaignManager.showNewCampaignForm;
+    window.createNewCampaign = CampaignManager.createNewCampaign;
+    window.loadCampaignsList = CampaignManager.loadCampaignsList;
+    window.selectCampaign = CampaignManager.selectCampaign;
+    window.viewCampaignDetails = CampaignManager.viewCampaignDetails;
+    window.editCampaign = CampaignManager.editCampaign;
+    window.saveCampaignEdit = CampaignManager.saveCampaignEdit;
+    window.deleteCampaignConfirm = CampaignManager.deleteCampaignConfirm;
+  }
+  
+  // Character functions
+  if (window.CharacterManager) {
+    window.showNewCharacterForm = CharacterManager.showNewCharacterForm;
+    window.createNewCharacter = CharacterManager.createNewCharacter;
+    window.loadCharactersList = CharacterManager.loadCharactersList;
+    window.viewCharacterDetails = CharacterManager.viewCharacterDetails;
+    window.editCharacter = CharacterManager.editCharacter;
+    window.saveCharacterEdit = CharacterManager.saveCharacterEdit;
+    window.deleteCharacterConfirm = CharacterManager.deleteCharacterConfirm;
+  }
+  
+  // NPC functions
+  if (window.NPCManager) {
+    window.showNPCPanel = NPCManager.showNPCPanel;
+    window.showNewNPCForm = NPCManager.showNewNPCForm;
+    window.createNewNPC = NPCManager.createNewNPC;
+    window.viewNPCDetails = NPCManager.viewNPCDetails;
+    window.editNPC = NPCManager.editNPC;
+    window.saveNPCEdit = NPCManager.saveNPCEdit;
+    window.deleteNPCConfirm = NPCManager.deleteNPCConfirm;
+    window.loadNPCsList = NPCManager.loadNPCsList;
+  }
+  
+  // Location functions
+  if (window.LocationManager) {
+    window.showLocationPanel = LocationManager.showLocationPanel;
+    window.showNewLocationForm = LocationManager.showNewLocationForm;
+    window.createNewLocation = LocationManager.createNewLocation;
+    window.viewLocationDetails = LocationManager.viewLocationDetails;
+    window.markLocationVisited = LocationManager.markLocationVisited;
+    window.markLocationVisitedAndClose = LocationManager.markLocationVisitedAndClose;
+    window.editLocation = LocationManager.editLocation;
+    window.saveLocationEdit = LocationManager.saveLocationEdit;
+    window.deleteLocationConfirm = LocationManager.deleteLocationConfirm;
+    window.loadLocationsList = LocationManager.loadLocationsList;
+  }
+  
+  // Thread functions
+  if (window.ThreadManager) {
+    window.showThreadPanel = ThreadManager.showThreadPanel;
+    window.showNewThreadForm = ThreadManager.showNewThreadForm;
+    window.createNewThread = ThreadManager.createNewThread;
+    window.viewThreadDetails = ThreadManager.viewThreadDetails;
+    window.resolveThreadAndClose = ThreadManager.resolveThreadAndClose;
+    window.editThread = ThreadManager.editThread;
+    window.saveThreadEdit = ThreadManager.saveThreadEdit;
+    window.deleteThreadConfirm = ThreadManager.deleteThreadConfirm;
+    window.loadThreadsList = ThreadManager.loadThreadsList;
+  }
+});
 
 // Other functions
-window.showNPCPanel = showNPCPanel;
-window.showLocationPanel = showLocationPanel;
-window.showThreadPanel = showThreadPanel;
 window.toggleTheme = toggleTheme;
 
 // Debug helper

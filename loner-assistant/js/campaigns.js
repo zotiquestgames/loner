@@ -163,43 +163,127 @@ async function loadCampaignsList() {
 }
 
 /**
- * View campaign details in modal
+ * View campaign details in a modal
+ */
+/**
+ * View campaign details in a modal
  */
 async function viewCampaignDetails(campaignId) {
-  const campaign = await LonerDB.getCampaign(campaignId);
-  const sessions = await LonerDB.getSessionsForCampaign(campaignId);
-  const characters = await LonerDB.getCharacters(campaignId);
+  console.log('=== viewCampaignDetails called ===');
+  console.log('campaignId:', campaignId);
+  console.log('type:', typeof campaignId);
+  console.log('is valid:', !!(campaignId && (typeof campaignId === 'number' || typeof campaignId === 'string')));
   
-  const detailsHTML = `
-    <div class="campaign-details">
-      <div class="form-group">
-        <label>Name</label>
-        <div>${UI.escapeHtml(campaign.name)}</div>
-      </div>
-      <div class="form-group">
-        <label>Description</label>
-        <div>${UI.escapeHtml(campaign.description || 'No description')}</div>
-      </div>
-      <div class="form-group">
-        <label>Created</label>
-        <div>${UI.formatDate(campaign.createdAt)}</div>
-      </div>
-      <div class="form-group">
-        <label>Last Played</label>
-        <div>${UI.formatDate(campaign.lastPlayed)}</div>
-      </div>
-      <div class="form-group">
-        <label>Sessions</label>
-        <div>${sessions.length} session${sessions.length !== 1 ? 's' : ''}</div>
-      </div>
-      <div class="form-group">
-        <label>Characters</label>
-        <div>${characters.length} character${characters.length !== 1 ? 's' : ''}</div>
-      </div>
-    </div>
-  `;
+  // VALIDATE INPUT FIRST
+  if (!campaignId || (typeof campaignId !== 'number' && typeof campaignId !== 'string')) {
+    console.error('Invalid campaignId:', campaignId);
+    UI.showAlert('Invalid campaign ID', 'error');
+    return;
+  }
   
-  UI.showModal(campaign.name, detailsHTML);
+  try {
+    const campaign = await LonerDB.db.campaigns.get(campaignId);
+    
+    if (!campaign) {
+      UI.showAlert('Campaign not found', 'error');
+      return;
+    }
+    
+    // Get related data - with error handling
+    let characters = [];
+    let sessions = [];
+    let npcs = [];
+    let locations = [];
+    let threads = [];
+    
+    try {
+      characters = await LonerDB.getCharacters(campaignId);
+    } catch (e) {
+      console.warn('Error loading characters:', e);
+    }
+    
+    try {
+      sessions = await LonerDB.getSessionsForCampaign(campaignId);
+    } catch (e) {
+      console.warn('Error loading sessions:', e);
+    }
+    
+    try {
+      npcs = await LonerDB.getNPCsForCampaign(campaignId);
+    } catch (e) {
+      console.warn('Error loading NPCs:', e);
+    }
+    
+    try {
+      locations = await LonerDB.getLocationsForCampaign(campaignId);
+    } catch (e) {
+      console.warn('Error loading locations:', e);
+    }
+    
+    try {
+      threads = await LonerDB.getThreadsForCampaign(campaignId);
+    } catch (e) {
+      console.warn('Error loading threads:', e);
+    }
+    
+    const detailsHTML = `
+      <div class="campaign-details">
+        <div class="form-group">
+          <label>Name</label>
+          <div>${UI.escapeHtml(campaign.name)}</div>
+        </div>
+        
+        ${campaign.description ? `
+          <div class="form-group">
+            <label>Description</label>
+            <div>${UI.escapeHtml(campaign.description)}</div>
+          </div>
+        ` : ''}
+        
+        <div class="form-group">
+          <label>Statistics</label>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 0.5rem;">
+            <div style="padding: 0.75rem; background: var(--bg-secondary); border-radius: var(--radius);">
+              <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">${characters.length}</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">Characters</div>
+            </div>
+            <div style="padding: 0.75rem; background: var(--bg-secondary); border-radius: var(--radius);">
+              <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">${sessions.length}</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">Sessions</div>
+            </div>
+            <div style="padding: 0.75rem; background: var(--bg-secondary); border-radius: var(--radius);">
+              <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">${npcs.length}</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">NPCs</div>
+            </div>
+            <div style="padding: 0.75rem; background: var(--bg-secondary); border-radius: var(--radius);">
+              <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">${locations.length}</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">Locations</div>
+            </div>
+            <div style="padding: 0.75rem; background: var(--bg-secondary); border-radius: var(--radius);">
+              <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary);">${threads.length}</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">Threads</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label>Created</label>
+          <div>${UI.formatDate(campaign.createdAt)}</div>
+        </div>
+        
+        <div style="display: flex; gap: 0.5rem; justify-content: flex-end; margin-top: 1rem;">
+          <button class="btn btn-outline" onclick="editCampaign(${campaignId})">Edit</button>
+          <button class="btn btn-danger" onclick="deleteCampaignConfirm(${campaignId})">Delete</button>
+        </div>
+      </div>
+    `;
+    
+    UI.showModal(campaign.name, detailsHTML);
+    
+  } catch (error) {
+    console.error('Error viewing campaign details:', error);
+    UI.showAlert('Error loading campaign details: ' + error.message, 'error');
+  }
 }
 
 /**
@@ -372,18 +456,30 @@ async function selectCampaign(campaignId) {
  * Delete campaign with confirmation
  */
 async function deleteCampaignConfirm(campaignId) {
-  const campaign = await LonerDB.getCampaign(campaignId);
+  const campaign = await LonerDB.db.campaigns.get(campaignId);
   
-  if (UI.confirmDialog(`Delete campaign "${campaign.name}"? This will delete all sessions, characters, and data. This cannot be undone.`)) {
-    await LonerDB.deleteCampaign(campaignId);
-    UI.showAlert('Campaign deleted', 'success');
-    await loadCampaignsList();
-    
-    // If this was the active campaign, clear it
-    const state = App.getState();
-    if (campaignId === state.campaignId) {
-      App.clearCurrentCampaign();
-      document.getElementById('current-campaign-info').innerHTML = '<p class="text-muted">No campaign selected</p><button class="btn btn-primary" onclick="showView(\'campaigns\')">Select Campaign</button>';
+  if (!campaign) {
+    UI.showAlert('Campaign not found', 'error');
+    return;
+  }
+  
+  if (UI.confirmDialog(`Delete campaign "${campaign.name}"? This will also delete all associated characters, sessions, NPCs, locations, threads, and events. This cannot be undone.`)) {
+    try {
+      await LonerDB.deleteCampaign(campaignId);
+      UI.closeModal();
+      UI.showAlert('Campaign deleted', 'success');
+      
+      // Reload campaign list
+      await loadCampaignsList();
+      
+      // If this was the active campaign, clear it
+      const state = App.getState();
+      if (state.campaignId === campaignId) {
+        App.setState({ campaignId: null });
+      }
+    } catch (error) {
+      console.error('Error deleting campaign:', error);
+      UI.showAlert('Error deleting campaign: ' + error.message, 'error');
     }
   }
 }

@@ -358,15 +358,17 @@ async function createThread(campaignId, title, description = '') {
 
 async function getThreadsForCampaign(campaignId, status = null) {
   if (status) {
-    return await db.threads
-      .where(['campaignId', 'status'])
-      .equals([campaignId, status])
+    // Query by campaignId first, then filter by status in memory
+    const threads = await this.db.threads
+      .where('campaignId')
+      .equals(campaignId)
       .toArray();
-  } else {
-    return await db.threads
-      .where('campaignId').equals(campaignId)
-      .toArray();
+    return threads.filter(t => t.status === status);
   }
+  return await this.db.threads
+    .where('campaignId')
+    .equals(campaignId)
+    .toArray();
 }
 
 async function updateThreadStatus(id, status) {

@@ -29,11 +29,23 @@ function showView(viewName) {
   });
   
   // Load data for specific views
-  if (viewName === 'campaigns' && typeof loadCampaignsList === 'function') {
+  if (viewName === 'characters' && typeof loadCharactersList === 'function') {
+    loadCharactersList();
+  }
+    if (viewName === 'campaigns' && typeof loadCampaignsList === 'function') {
     loadCampaignsList();
   }
   if (viewName === 'characters' && typeof loadCharactersList === 'function') {
     loadCharactersList();
+  }
+  if (viewName === 'npcs' && typeof loadNPCsList === 'function') {
+    loadNPCsList();
+  }
+  if (viewName === 'locations' && typeof loadLocationsList === 'function') {
+    loadLocationsList();
+  }
+  if (viewName === 'threads' && typeof loadThreadsList === 'function') {
+    loadThreadsList();
   }
 }
 

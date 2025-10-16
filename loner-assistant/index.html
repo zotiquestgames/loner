@@ -14,13 +14,16 @@
             <span class="version">v2.0</span>
         </div>
         <div class="nav-links">
-            <button class="nav-btn active" data-view="play">Play</button>
-            <button class="nav-btn" data-view="campaigns">Campaigns</button>
-            <button class="nav-btn" data-view="characters">Characters</button>
-            <button class="nav-btn" data-view="tools">Tools</button>
-            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light theme">
-                <span class="theme-icon">🌙</span>
-            </button>
+          <button class="nav-btn active" data-view="play">Play</button>
+          <button class="nav-btn" data-view="campaigns">Campaigns</button>
+          <button class="nav-btn" data-view="characters">Characters</button>
+          <button class="nav-btn" data-view="npcs">NPCs</button>
+          <button class="nav-btn" data-view="locations">Locations</button>
+          <button class="nav-btn" data-view="threads">Threads</button>
+          <button class="nav-btn" data-view="tools">Tools</button>
+          <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light theme">
+            <span class="theme-icon">🌙</span>
+          </button>
         </div>
     </nav>
 
@@ -266,6 +269,39 @@
             </div>
         </div>
 
+        <!-- NPCs VIEW -->
+        <div id="view-npcs" class="view">
+          <div class="view-header">
+            <h2>NPCs</h2>
+            <button class="btn btn-primary" onclick="showNewNPCForm()">
+              + New NPC
+            </button>
+          </div>
+          <div id="npcs-list" class="grid-list"></div>
+        </div>
+
+        <!-- LOCATIONS VIEW -->
+        <div id="view-locations" class="view">
+          <div class="view-header">
+            <h2>Locations</h2>
+            <button class="btn btn-primary" onclick="showNewLocationForm()">
+              + New Location
+            </button>
+          </div>
+          <div id="locations-list" class="grid-list"></div>
+        </div>
+
+        <!-- THREADS VIEW -->
+        <div id="view-threads" class="view">
+          <div class="view-header">
+            <h2>Narrative Threads</h2>
+            <button class="btn btn-primary" onclick="showNewThreadForm()">
+              + New Thread
+            </button>
+          </div>
+          <div id="threads-list"></div>
+        </div>
+
     </div>
 
     <!-- Modal Template (for forms, etc.) -->
@@ -294,8 +330,11 @@
     <script src="js/oracle.js"></script>          <!-- 3. Oracle/dice -->
     <script src="js/editor.js"></script>          <!-- 4. Editor management -->
     <script src="js/campaigns.js"></script>       <!-- 5. Campaign management -->
-    <script src="js/sessions.js"></script>         <!-- 5b. Session management -->
+    <script src="js/sessions.js"></script>        <!-- 5b. Session management -->
     <script src="js/characters.js"></script>      <!-- 6. Character management -->
+    <script src="js/npcs.js"></script>            <!-- 6b. NPC management -->
+    <script src="js/locations.js"></script>       <!-- 6c. Location management -->
+    <script src="js/threads.js"></script>         <!-- 6d. Thread management -->
     <script src="js/main.js"></script>            <!-- 7. Main initialization (LAST) -->
 
 </body>
