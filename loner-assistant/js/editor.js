@@ -121,12 +121,76 @@ function startAutoSave() {
 /**
  * Insert text into editor at cursor position
  */
+/**
+ * Insert text into editor at cursor position
+ */
 function insertIntoEditor(text) {
   if (!quillEditor) return;
   
   const range = quillEditor.getSelection() || { index: quillEditor.getLength() };
   quillEditor.insertText(range.index, text + '\n');
   quillEditor.setSelection(range.index + text.length + 1);
+}
+
+/**
+ * Insert formatted content into editor
+ */
+function insertFormattedContent(content) {
+  if (!quillEditor) return;
+  
+  const range = quillEditor.getSelection() || { index: quillEditor.getLength() };
+  
+  // Insert the formatted content
+  quillEditor.insertText(range.index, content.text, content.format || {});
+  
+  // Add a newline
+  quillEditor.insertText(range.index + content.text.length, '\n');
+  
+  // Move cursor to end
+  quillEditor.setSelection(range.index + content.text.length + 1);
+  
+  // Auto-save after insert
+  setTimeout(() => saveNotes(), 500);
+}
+
+/**
+ * Insert a styled block (for oracle results, etc.)
+ */
+function insertBlock(emoji, title, content, color = null) {
+  if (!quillEditor) return;
+  
+  const range = quillEditor.getSelection() || { index: quillEditor.getLength() };
+  let currentIndex = range.index;
+  
+  // Insert emoji and title (bold)
+  const header = `${emoji} ${title}: `;
+  quillEditor.insertText(currentIndex, header, { bold: true, color: color });
+  currentIndex += header.length;
+  
+  // Insert content (normal)
+  quillEditor.insertText(currentIndex, content);
+  currentIndex += content.length;
+  
+  // Add newline
+  quillEditor.insertText(currentIndex, '\n');
+  currentIndex += 1;
+  
+  // Move cursor to end
+  quillEditor.setSelection(currentIndex);
+  
+  // Auto-save after insert
+  setTimeout(() => saveNotes(), 500);
+}
+
+/**
+ * Insert a divider line
+ */
+function insertDivider() {
+  if (!quillEditor) return;
+  
+  const range = quillEditor.getSelection() || { index: quillEditor.getLength() };
+  quillEditor.insertText(range.index, '\n---\n\n');
+  quillEditor.setSelection(range.index + 6);
 }
 
 /**
@@ -143,5 +207,8 @@ window.Editor = {
   saveNotes,
   startAutoSave,
   insertIntoEditor,
+  insertFormattedContent,
+  insertBlock,
+  insertDivider,
   getEditor
 };

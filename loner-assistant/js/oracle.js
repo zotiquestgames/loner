@@ -59,6 +59,19 @@ function rollOracle() {
   
   // Display result
   displayOracleResult(result);
+
+// Auto-insert into notes
+  const colorMap = {
+    'Yes': '#10b981',
+    'No': '#ef4444'
+  };
+  
+  Editor.insertBlock(
+    '🎲',
+    'Oracle',
+    `${result.formatted} (Chance: ${result.chanceDice}, Risk: ${result.riskDice})`,
+    colorMap[result.answer]
+  );
   
   // Check for doubles (twist counter)
   if (chanceDice === riskDice) {
@@ -222,6 +235,14 @@ function triggerTwist() {
   `;
   twistResult.classList.remove('hidden');
   
+  // Auto-insert into notes with emphasis
+  Editor.insertBlock(
+    '🌀',
+    'TWIST',
+    `${subject} → ${action}`,
+    '#f59e0b'
+  );
+
   // Reset counter
   currentTwistCounter = 0;
   updateTwistCounter();
@@ -264,7 +285,12 @@ function rollScene() {
     </div>
   `;
   
-  // TODO: Save to session
+  // Auto-insert into notes
+  Editor.insertBlock(
+    '🎬',
+    'Scene',
+    `${sceneType} - ${description}`
+  );
 }
 
 /**
@@ -313,7 +339,14 @@ function getInspired() {
       "${verb} the ${adjective} ${noun}"
     </div>
   `;
-  
+
+  // Auto-insert into notes
+  Editor.insertBlock(
+    '✨',
+    'Inspiration',
+    `${verb} the ${adjective} ${noun}`
+  );
+
   UI.showAlert('Inspiration generated!', 'success');
 }
 
@@ -427,12 +460,28 @@ function rollConflict() {
     </div>
   `;
   resultDiv.classList.remove('hidden');
+
+  // Auto-insert conflict result into notes
+  const damageText = targetIsCharacter 
+    ? `You take ${damage} damage (${result.formatted})`
+    : `${opponentName} takes ${damage} damage (${result.formatted})`;
+  
+  Editor.insertBlock(
+    '⚔️',
+    'Conflict',
+    damageText,
+    targetIsCharacter ? '#ef4444' : '#10b981'
+  );
   
   // Check for defeat
   if (characterLuck <= 0) {
+    // Insert defeat into notes
+    Editor.insertBlock('💀', 'Conflict Ended', 'You have been defeated!', '#ef4444');
     UI.showAlert('You have been defeated!', 'error');
     setTimeout(() => endConflict(), 2000);
   } else if (opponentLuck <= 0) {
+    // Insert victory into notes
+    Editor.insertBlock('🏆', 'Conflict Ended', `${opponentName} defeated!`, '#10b981');
     UI.showAlert(`${opponentName} defeated!`, 'success');
     setTimeout(() => endConflict(), 2000);
   }
