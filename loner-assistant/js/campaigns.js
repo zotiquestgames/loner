@@ -96,6 +96,10 @@ async function createNewCampaign() {
     const campaign = await LonerDB.getCampaign(campaignId);
     displayCurrentCampaign(campaign);
     
+    // ADD THESE LINES TO DISPLAY SESSION:
+    const session = await LonerDB.getSession(sessionId);
+    SessionManager.displayCurrentSession(session);
+    
     // Load the session into editor
     await Editor.loadSession(sessionId);
     
@@ -301,6 +305,9 @@ async function setAsActiveCampaign(campaignId) {
     
     // Load session into editor
     await Editor.loadSession(sessionId);
+
+    const session = await LonerDB.getSession(sessionId);
+    SessionManager.displayCurrentSession(session);
     
     // Refresh list to show new active state
     await loadCampaignsList();

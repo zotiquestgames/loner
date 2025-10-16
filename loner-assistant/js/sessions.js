@@ -12,15 +12,14 @@ function displayCurrentSession(session) {
   if (!infoDiv) return;
   
   infoDiv.innerHTML = `
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-      <h4 style="margin: 0;">${UI.escapeHtml(session.name)}</h4>
-      <button class="btn btn-sm btn-outline" onclick="showSessionList()" title="Switch session">
-        ⚡
-      </button>
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <div>
+        <h4 style="margin: 0; font-size: 1.1rem;">${UI.escapeHtml(session.name)}</h4>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0.25rem 0 0 0;">
+          Started: ${UI.formatDate(session.date)}
+        </p>
+      </div>
     </div>
-    <p style="font-size: 0.85rem; color: var(--text-muted);">
-      ${UI.formatDate(session.date)}
-    </p>
   `;
 }
 
@@ -247,4 +246,36 @@ async function deleteSessionConfirm(sessionId) {
   
   // Don't allow deleting the only session
   const sessions = await LonerDB.getSessionsForCampaign(state.campaignId);
-  if (session
+  if (sessions.length <= 1) {
+    UI.showAlert('Cannot delete the only session. Create another session first.', 'error');
+    return;
+  }
+  
+  // Don't allow deleting the active session
+  if (sessionId === state.sessionId) {
+    UI.showAlert('Cannot delete the active session. Switch to another session first.', 'error');
+    return;
+  }
+  
+  if (UI.confirmDialog(`Delete session "${session.name}"? This will delete all notes. This cannot be undone.`)) {
+    try {
+      await LonerDB.db.sessions.delete(sessionId);
+      UI.showAlert('Session deleted', 'success');
+      await showSessionList();
+    } catch (error) {
+      console.error('Error deleting session:', error);
+      UI.showAlert('Error deleting session: ' + error.message, 'error');
+    }
+  }
+}
+
+// Export functions
+window.SessionManager = {
+  displayCurrentSession,
+  showSessionList,
+  showNewSessionForm,
+  createNewSession,
+  switchToSession,
+  renameSession,
+  deleteSessionConfirm
+};

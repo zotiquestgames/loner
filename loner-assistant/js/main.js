@@ -129,6 +129,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             const session = await LonerDB.getSession(savedState.sessionId);
             if (session) {
               await Editor.loadSession(savedState.sessionId);
+              SessionManager.displayCurrentSession(session);
             }
           }
         }
@@ -257,10 +258,18 @@ window.createNewCampaign = CampaignManager.createNewCampaign;
 window.loadCampaignsList = CampaignManager.loadCampaignsList;
 window.selectCampaign = CampaignManager.selectCampaign;
 window.deleteCampaignConfirm = CampaignManager.deleteCampaignConfirm;
-window.viewCampaignDetails = CampaignManager.viewCampaignDetails;  // NEW
-window.editCampaign = CampaignManager.editCampaign;                // NEW
-window.saveCampaignEdit = CampaignManager.saveCampaignEdit;        // NEW
-window.setAsActiveCampaign = CampaignManager.setAsActiveCampaign;  // NEW
+window.viewCampaignDetails = CampaignManager.viewCampaignDetails; 
+window.editCampaign = CampaignManager.editCampaign;               
+window.saveCampaignEdit = CampaignManager.saveCampaignEdit;        
+window.setAsActiveCampaign = CampaignManager.setAsActiveCampaign; 
+
+// Session functions
+window.showSessionList = SessionManager.showSessionList;
+window.showNewSessionForm = SessionManager.showNewSessionForm;
+window.createNewSession = SessionManager.createNewSession;
+window.switchToSession = SessionManager.switchToSession;
+window.renameSession = SessionManager.renameSession;
+window.deleteSessionConfirm = SessionManager.deleteSessionConfirm;
 
 // Character functions
 window.showNewCharacterForm = CharacterManager.showNewCharacterForm;

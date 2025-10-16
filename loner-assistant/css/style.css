@@ -643,3 +643,9 @@ body {
   color: var(--text-muted);
   margin-bottom: var(--space-lg);
 }
+
+/* Session info styling */
+#current-session-info h4 {
+  font-size: 1rem;
+  margin: 0;
+}

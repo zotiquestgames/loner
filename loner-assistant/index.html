@@ -29,6 +29,23 @@
         
         <!-- PLAY VIEW (Main gameplay screen) -->
         <div id="view-play" class="view active">
+            
+            <!-- ADD THIS: Current Session Card (Full Width) -->
+            <div class="panel" style="margin-bottom: var(--space-lg);">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h3 style="margin: 0 0 0.5rem 0;">Current Session</h3>
+                        <div id="current-session-info">
+                            <p class="text-muted" style="margin: 0;">No session loaded</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="showSessionList()" style="white-space: nowrap;">
+                        ⚡ Manage Sessions
+                    </button>
+                </div>
+            </div>
+            
+            <!-- THEN the 3-column layout -->
             <div class="layout-3col">
                 
                 <!-- LEFT SIDEBAR: Context -->
@@ -223,14 +240,6 @@
                 </button>
             </div>
             <div id="characters-list" class="grid-list"></div>
-        </div>
-
-        <!-- SESSION VIEW -->
-        <div class="panel">
-            <h3>Current Session</h3>
-            <div id="current-session-info">
-                <p class="text-muted">No session loaded</p>
-            </div>
         </div>
 
         <!-- TOOLS VIEW (Roll Tables, etc.) -->
