@@ -111,39 +111,40 @@ function showNewLocationForm() {
  * Create new location
  */
 async function createNewLocation() {
-  const state = App.getState();
+  const nameInput = document.getElementById('location-name');
   
-  if (!state.campaignId) {
-    UI.showAlert('Select a campaign first!', 'error');
-    return;
-  }
-  
-  const name = document.getElementById('location-name').value.trim();
-  const description = document.getElementById('location-description').value.trim();
-  const visited = document.getElementById('location-visited').checked;
-  
-  if (!name) {
-    UI.showAlert('Name is required', 'error');
+  if (!nameInput || !nameInput.value.trim()) {
+    UI.showAlert('Please enter a location name', 'error');
     return;
   }
   
   try {
+    const state = App.getState();
+    
+    if (!state.campaignId) {
+      UI.showAlert('Please create or select a campaign first!', 'error');
+      UI.closeModal();
+      return;
+    }
+    
+    const name = nameInput.value.trim();
+    const description = document.getElementById('location-description').value.trim();
+    
     const locationId = await LonerDB.createLocation(state.campaignId, name, description);
     
-    if (visited) {
-      await LonerDB.markLocationVisited(locationId);
-    }
+    console.log('Location created with ID:', locationId);
     
     UI.closeModal();
     UI.showAlert('Location created!', 'success');
     
-    // Refresh displays
-    const panel = document.getElementById('location-panel-container');
-    if (panel) {
+    // Refresh the quick panel if it's open
+    const panel = document.getElementById('locations-panel');
+    if (panel && !panel.classList.contains('hidden')) {
       await showLocationPanel();
     }
     
-    if (document.getElementById('view-locations')?.classList.contains('active')) {
+    // Reload locations list if on Locations view
+    if (document.getElementById('view-locations').classList.contains('active')) {
       await loadLocationsList();
     }
     
@@ -383,6 +384,29 @@ async function loadLocationsList() {
           <button class="btn btn-sm btn-danger" onclick="deleteLocationConfirm(${loc.id})">Delete</button>
         </div>
       </div>
+    </div>
+  `).join('');
+}
+
+async function showLocationPanel() {
+  const state = App.getState();
+  if (!state.campaignId) {
+    document.getElementById('locations-quick-list').innerHTML = '<p class="text-muted">No campaign selected</p>';
+    return;
+  }
+  
+  const locations = await LonerDB.getLocationsForCampaign(state.campaignId);
+  const container = document.getElementById('locations-quick-list');
+  
+  if (locations.length === 0) {
+    container.innerHTML = '<p class="text-muted">No locations yet</p>';
+    return;
+  }
+  
+  container.innerHTML = locations.slice(0, 5).map(location => `
+    <div class="quick-link-item" onclick="viewLocationDetails(${location.id})">
+      <strong>${UI.escapeHtml(location.name)}</strong>
+      ${location.visited ? '<span style="color: var(--success); font-size: 0.75rem;">✓ Visited</span>' : ''}
     </div>
   `).join('');
 }

@@ -117,39 +117,40 @@ function showNewThreadForm() {
  * Create new thread
  */
 async function createNewThread() {
-  const state = App.getState();
+  const titleInput = document.getElementById('thread-title');
   
-  if (!state.campaignId) {
-    UI.showAlert('Select a campaign first!', 'error');
-    return;
-  }
-  
-  const title = document.getElementById('thread-title').value.trim();
-  const description = document.getElementById('thread-description').value.trim();
-  const status = document.getElementById('thread-status').value;
-  
-  if (!title) {
-    UI.showAlert('Title is required', 'error');
+  if (!titleInput || !titleInput.value.trim()) {
+    UI.showAlert('Please enter a thread title', 'error');
     return;
   }
   
   try {
+    const state = App.getState();
+    
+    if (!state.campaignId) {
+      UI.showAlert('Please create or select a campaign first!', 'error');
+      UI.closeModal();
+      return;
+    }
+    
+    const title = titleInput.value.trim();
+    const description = document.getElementById('thread-description').value.trim();
+    
     const threadId = await LonerDB.createThread(state.campaignId, title, description);
     
-    if (status !== 'active') {
-      await LonerDB.updateThreadStatus(threadId, status);
-    }
+    console.log('Thread created with ID:', threadId);
     
     UI.closeModal();
     UI.showAlert('Thread created!', 'success');
     
-    // Refresh displays
-    const panel = document.getElementById('thread-panel-container');
-    if (panel) {
+    // Refresh the quick panel if it's open
+    const panel = document.getElementById('threads-panel');
+    if (panel && !panel.classList.contains('hidden')) {
       await showThreadPanel();
     }
     
-    if (document.getElementById('view-threads')?.classList.contains('active')) {
+    // Reload threads list if on Threads view
+    if (document.getElementById('view-threads').classList.contains('active')) {
       await loadThreadsList();
     }
     
@@ -415,6 +416,29 @@ function renderThreadCard(thread) {
       </div>
     </div>
   `;
+}
+
+async function showThreadPanel() {
+  const state = App.getState();
+  if (!state.campaignId) {
+    document.getElementById('threads-quick-list').innerHTML = '<p class="text-muted">No campaign selected</p>';
+    return;
+  }
+  
+  const threads = await LonerDB.getThreadsForCampaign(state.campaignId);
+  const activeThreads = threads.filter(t => t.status === 'active');
+  const container = document.getElementById('threads-quick-list');
+  
+  if (activeThreads.length === 0) {
+    container.innerHTML = '<p class="text-muted">No active threads</p>';
+    return;
+  }
+  
+  container.innerHTML = activeThreads.slice(0, 5).map(thread => `
+    <div class="quick-link-item" onclick="viewThreadDetails(${thread.id})">
+      <strong>${UI.escapeHtml(thread.title)}</strong>
+    </div>
+  `).join('');
 }
 
 // Export functions

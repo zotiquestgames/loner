@@ -346,6 +346,56 @@ function loadThemePreference() {
   }
 }
 
+/**
+ * Toggle Quick Link Panel
+ */
+function toggleQuickLink(panelId) {
+  const panel = document.getElementById(panelId);
+  if (!panel) return;
+  
+  if (panel.classList.contains('hidden')) {
+    // Open this panel
+    panel.classList.remove('hidden');
+    
+    // Load content based on panel type
+    switch(panelId) {
+      case 'npcs-panel':
+        if (typeof showNPCPanel === 'function') showNPCPanel();
+        break;
+      case 'locations-panel':
+        if (typeof showLocationPanel === 'function') showLocationPanel();
+        break;
+      case 'threads-panel':
+        if (typeof showThreadPanel === 'function') showThreadPanel();
+        break;
+      case 'events-panel':
+        if (typeof showEventPanel === 'function') showEventPanel();
+        break;
+    }
+  } else {
+    // Close this panel
+    panel.classList.add('hidden');
+  }
+}
+
+/**
+ * Close Quick Link Panel
+ */
+function closeQuickLink(panelId) {
+  const panel = document.getElementById(panelId);
+  if (!panel) return;
+  
+  panel.classList.add('hidden');
+}
+
+/**
+ * Close all Quick Link Panels
+ */
+function closeAllQuickLinks() {
+  const panels = document.querySelectorAll('.quick-link-panel');
+  panels.forEach(panel => panel.classList.add('hidden'));
+}
+
 // Export App interface
 window.App = {
   getState,
@@ -361,6 +411,9 @@ window.App = {
 window.showView = UI.showView;
 window.closeModal = UI.closeModal;
 window.toggleTheme = toggleTheme;
+window.toggleQuickLink = toggleQuickLink;        // ← ADD
+window.closeQuickLink = closeQuickLink;          // ← ADD
+window.closeAllQuickLinks = closeAllQuickLinks;  // ← ADD
 
 // Debug helper
 window.LonerDebug = {

@@ -793,3 +793,213 @@ body {
   outline: none;
   border-color: var(--primary);
 }
+
+/* ==================== QUICK LINKS PANELS ==================== */
+.quick-link-panel {
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-md);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-sm);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.quick-link-panel.hidden {
+  display: none;
+}
+
+.quick-link-panel .panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border);
+}
+
+.quick-link-panel .panel-header h4 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+
+.btn-close:hover {
+  background: var(--bg-tertiary);
+  color: var(--text);
+}
+
+.btn-close:active {
+  transform: scale(0.95);
+}
+
+/* ==================== QUICK LINKS PANELS ==================== */
+.quick-link-panel {
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-md);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-sm);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.quick-link-panel.hidden {
+  display: none;
+}
+
+.quick-link-panel .panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border);
+}
+
+.quick-link-panel .panel-header h4 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.panel-actions {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.btn-icon {
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.btn-icon:hover {
+  background: var(--primary-dark);
+  transform: scale(1.1);
+}
+
+.btn-icon:active {
+  transform: scale(0.95);
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+
+.btn-close:hover {
+  background: var(--bg-tertiary);
+  color: var(--text);
+}
+
+.btn-close:active {
+  transform: scale(0.95);
+}
+
+/* Quick link list items */
+.quick-link-item {
+  padding: var(--space-xs);
+  margin-bottom: var(--space-xs);
+  background: var(--bg-tertiary);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.85rem;
+}
+
+.quick-link-item:hover {
+  background: var(--bg-primary);
+  border-left: 3px solid var(--primary);
+  padding-left: calc(var(--space-xs) + 3px);
+}
+
+.quick-link-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Empty state in quick links */
+.quick-link-panel .text-muted {
+  font-size: 0.85rem;
+  text-align: center;
+  padding: var(--space-sm) 0;
+}
+
+/* ==================== EVENT TIMELINE ==================== */
+.timeline-section {
+  margin-bottom: var(--space-xl);
+}
+
+.timeline-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--border);
+}
+
+.timeline-events {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.event-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  transition: all 0.2s;
+}
+
+.event-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

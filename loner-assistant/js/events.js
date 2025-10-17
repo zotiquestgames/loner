@@ -101,68 +101,25 @@ async function logEvent(type, description, metadata = {}) {
  */
 async function showEventPanel() {
   const state = App.getState();
-  
   if (!state.sessionId) {
+    document.getElementById('events-quick-list').innerHTML = '<p class="text-muted">No session active</p>';
     return;
   }
   
   const events = await LonerDB.getEventsForSession(state.sessionId);
+  const container = document.getElementById('events-quick-list');
   
-  // Get last 5 events
-  const recentEvents = events.slice(-5).reverse();
-  
-  const panelHTML = `
-    <div class="panel">
-      <div class="panel-header">
-        <h3>Recent Events</h3>
-        <button class="btn btn-sm btn-primary" onclick="showNewEventForm()">+ Add</button>
-      </div>
-      ${recentEvents.length === 0 ? `
-        <div style="text-align: center; padding: 2rem 1rem; color: var(--text-muted);">
-          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📜</div>
-          <p style="margin: 0;">No events yet</p>
-          <p style="font-size: 0.85rem; margin-top: 0.25rem;">Events will appear here as you play</p>
-        </div>
-      ` : `
-        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-          ${recentEvents.map(event => {
-            const config = EVENT_TYPES[event.type] || EVENT_TYPES.custom;
-            return `
-              <div class="event-quick-card" style="padding: 0.5rem; background: var(--bg-secondary); border-radius: var(--radius); border-left: 3px solid ${config.color};">
-                <div style="display: flex; align-items: start; gap: 0.5rem;">
-                  <span style="font-size: 1.2rem;">${config.icon}</span>
-                  <div style="flex: 1; min-width: 0;">
-                    <div style="font-size: 0.75rem; color: var(--text-muted);">
-                      ${UI.formatTime(event.timestamp)}
-                    </div>
-                    <div style="font-size: 0.9rem; margin-top: 0.25rem;">
-                      ${UI.escapeHtml(event.description).substring(0, 80)}${event.description.length > 80 ? '...' : ''}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            `;
-          }).join('')}
-        </div>
-      `}
-      ${events.length > 5 ? `
-        <button class="btn btn-sm btn-outline" onclick="showView('events')" style="width: 100%; margin-top: 0.5rem;">
-          View All (${events.length} total)
-        </button>
-      ` : ''}
-    </div>
-  `;
-  
-  const sidebar = document.querySelector('.sidebar-left');
-  let eventPanelContainer = document.getElementById('event-panel-container');
-  
-  if (!eventPanelContainer) {
-    eventPanelContainer = document.createElement('div');
-    eventPanelContainer.id = 'event-panel-container';
-    sidebar.appendChild(eventPanelContainer);
+  if (events.length === 0) {
+    container.innerHTML = '<p class="text-muted">No events yet</p>';
+    return;
   }
   
-  eventPanelContainer.innerHTML = panelHTML;
+  container.innerHTML = events.slice(0, 5).map(event => `
+    <div class="quick-link-item">
+      <strong>${event.type}</strong>
+      <div style="font-size: 0.75rem; opacity: 0.7;">${UI.escapeHtml(event.description)}</div>
+    </div>
+  `).join('');
 }
 
 /**
@@ -210,63 +167,45 @@ function showNewEventForm() {
  * Create new event manually
  */
 async function createNewEvent() {
-  const type = document.getElementById('event-type').value;
-  const description = document.getElementById('event-description').value.trim();
+  const descriptionInput = document.getElementById('event-description');
   
-  if (!description) {
-    UI.showAlert('Description is required', 'error');
+  if (!descriptionInput || !descriptionInput.value.trim()) {
+    UI.showAlert('Please enter an event description', 'error');
     return;
   }
   
-  await logEvent(type, description);
-  
-  UI.closeModal();
-  UI.showAlert('Event logged!', 'success');
-}
-
-/**
- * Load event timeline view
- */
-async function loadEventTimeline() {
-  const state = App.getState();
-  
-  if (!state.sessionId) {
-    const container = document.getElementById('events-timeline');
-    if (container) {
-      container.innerHTML = '<p class="text-muted text-center">Select a campaign and session first</p>';
+  try {
+    const state = App.getState();
+    
+    if (!state.campaignId || !state.sessionId) {
+      UI.showAlert('Please create or select a campaign and session first!', 'error');
+      UI.closeModal();
+      return;
     }
-    return;
+    
+    const description = descriptionInput.value.trim();
+    const type = document.getElementById('event-type').value;
+    
+    await LonerDB.logEvent(state.campaignId, state.sessionId, type, description);
+    
+    UI.closeModal();
+    UI.showAlert('Event logged!', 'success');
+    
+    // Refresh the quick panel if it's open
+    const panel = document.getElementById('events-panel');
+    if (panel && !panel.classList.contains('hidden')) {
+      await showEventPanel();
+    }
+    
+    // Reload events timeline if on Events view
+    if (document.getElementById('view-events').classList.contains('active')) {
+      await loadEventTimeline();
+    }
+    
+  } catch (error) {
+    console.error('Error logging event:', error);
+    UI.showAlert('Error logging event: ' + error.message, 'error');
   }
-  
-  const events = await LonerDB.getEventsForSession(state.sessionId);
-  const container = document.getElementById('events-timeline');
-  
-  if (!container) return;
-  
-  if (events.length === 0) {
-    container.innerHTML = '<p class="text-muted text-center">No events yet. Start playing!</p>';
-    return;
-  }
-  
-  // Group events by hour
-  const grouped = groupEventsByTime(events);
-  
-  let html = '';
-  
-  for (const [timeLabel, groupEvents] of Object.entries(grouped)) {
-    html += `
-      <div class="timeline-group" style="margin-bottom: 2rem;">
-        <h3 style="font-size: 1rem; color: var(--text-muted); margin-bottom: 1rem;">
-          ${timeLabel}
-        </h3>
-        <div class="timeline-events">
-          ${groupEvents.map(event => renderEventCard(event)).join('')}
-        </div>
-      </div>
-    `;
-  }
-  
-  container.innerHTML = html;
 }
 
 /**
@@ -413,6 +352,50 @@ async function exportSessionRecap() {
 }
 
 /**
+ * Load and display full event timeline
+ */
+async function loadEventTimeline() {
+  const state = App.getState();
+  
+  if (!state.sessionId) {
+    const container = document.getElementById('events-timeline');
+    if (container) {
+      container.innerHTML = '<p class="text-muted text-center">No active session</p>';
+    }
+    return;
+  }
+  
+  const events = await LonerDB.getEventsForSession(state.sessionId);
+  const container = document.getElementById('events-timeline');
+  
+  if (!container) return;
+  
+  if (events.length === 0) {
+    container.innerHTML = '<p class="text-muted text-center">No events yet. Events will be logged automatically as you play.</p>';
+    return;
+  }
+  
+  // Group events by time period
+  const grouped = groupEventsByTime(events);
+  
+  // Render timeline
+  let html = '';
+  
+  for (const [timeLabel, timeEvents] of Object.entries(grouped)) {
+    html += `
+      <div class="timeline-section">
+        <h3 class="timeline-header">${timeLabel}</h3>
+        <div class="timeline-events">
+          ${timeEvents.map(event => renderEventCard(event)).join('')}
+        </div>
+      </div>
+    `;
+  }
+  
+  container.innerHTML = html;
+}
+
+/**
  * Show quick events in Play Panel
  */
 async function showQuickEvents() {
@@ -458,7 +441,6 @@ async function showQuickEvents() {
     `;
   }).join('');
 }
-
 
 // Export functions
 window.EventManager = {

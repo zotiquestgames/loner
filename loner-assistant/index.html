@@ -71,13 +71,61 @@
                         </div>
                     </div>
                     
-                    <!-- Quick Links section-->
-                    <h3>Quick Links</h3>
-                    <div class="quick-links">
-                      <button class="btn btn-sm btn-outline" onclick="showNPCPanel()">NPCs</button>
-                      <button class="btn btn-sm btn-outline" onclick="showLocationPanel()">Locations</button>
-                      <button class="btn btn-sm btn-outline" onclick="showThreadPanel()">Threads</button>
-                      <button class="btn btn-sm btn-outline" onclick="showEventPanel()">Events</button>
+                    <!-- Quick Links -->
+                    
+                        <h3>Quick Links</h3>
+                        <div class="quick-links">
+                        <button class="btn btn-sm btn-outline" onclick="toggleQuickLink('npcs-panel')">👥 NPCs</button>
+                        <button class="btn btn-sm btn-outline" onclick="toggleQuickLink('locations-panel')">📍 Locations</button>
+                        <button class="btn btn-sm btn-outline" onclick="toggleQuickLink('threads-panel')">🧵 Threads</button>
+                        <button class="btn btn-sm btn-outline" onclick="toggleQuickLink('events-panel')">📅 Events</button>
+
+                        <div id="npcs-panel" class="quick-link-panel hidden">
+                            <div class="panel-header">
+                                <h4>NPCs</h4>
+                                <div class="panel-actions">
+                                    <button class="btn-icon" onclick="showNewNPCForm()" title="Add NPC">+</button>
+                                    <button class="btn-close" onclick="closeQuickLink('npcs-panel')" title="Close">×</button>
+                                </div>
+                            </div>
+                            <div id="npcs-quick-list"></div>
+                        </div>
+                        
+
+                        <div id="locations-panel" class="quick-link-panel hidden">
+                            <div class="panel-header">
+                                <h4>Locations</h4>
+                                <div class="panel-actions">
+                                    <button class="btn-icon" onclick="showNewLocationForm()" title="Add Location">+</button>
+                                    <button class="btn-close" onclick="closeQuickLink('locations-panel')" title="Close">×</button>
+                                </div>
+                            </div>
+                            <div id="locations-quick-list"></div>
+                        </div>
+                        
+
+                        <div id="threads-panel" class="quick-link-panel hidden">
+                            <div class="panel-header">
+                                <h4>Threads</h4>
+                                <div class="panel-actions">
+                                    <button class="btn-icon" onclick="showNewThreadForm()" title="Add Thread">+</button>
+                                    <button class="btn-close" onclick="closeQuickLink('threads-panel')" title="Close">×</button>
+                                </div>
+                            </div>
+                            <div id="threads-quick-list"></div>
+                        </div>
+                        
+
+                        <div id="events-panel" class="quick-link-panel hidden">
+                            <div class="panel-header">
+                                <h4>Recent Events</h4>
+                                <div class="panel-actions">
+                                    <button class="btn-icon" onclick="showNewEventForm()" title="Log Event">+</button>
+                                    <button class="btn-close" onclick="closeQuickLink('events-panel')" title="Close">×</button>
+                                </div>
+                            </div>
+                            <div id="events-quick-list"></div>
+                        </div>
                     </div>
                 </aside>
 
