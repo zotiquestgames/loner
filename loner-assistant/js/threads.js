@@ -217,6 +217,13 @@ async function resolveThreadAndClose(threadId) {
   if (document.getElementById('view-threads')?.classList.contains('active')) {
     await loadThreadsList();
   }
+
+  const thread = await LonerDB.db.threads.get(threadId);
+  await EventManager.logEvent('thread', `Thread resolved: ${thread.title}`, {
+  threadTitle: thread.title,
+  status: 'resolved'
+  });
+
 }
 
 /**

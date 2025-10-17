@@ -20,6 +20,7 @@
           <button class="nav-btn" data-view="npcs">NPCs</button>
           <button class="nav-btn" data-view="locations">Locations</button>
           <button class="nav-btn" data-view="threads">Threads</button>
+          <button class="nav-btn" data-view="events">Events</button>
           <button class="nav-btn" data-view="tools">Tools</button>
           <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light theme">
             <span class="theme-icon">🌙</span>
@@ -70,13 +71,13 @@
                         </div>
                     </div>
                     
-                    <div class="panel">
-                        <h3>Quick Links</h3>
-                        <div class="quick-links">
-                            <button class="btn btn-sm btn-outline" onclick="showNPCPanel()">NPCs</button>
-                            <button class="btn btn-sm btn-outline" onclick="showLocationPanel()">Locations</button>
-                            <button class="btn btn-sm btn-outline" onclick="showThreadPanel()">Threads</button>
-                        </div>
+                    <!-- Quick Links section-->
+                    <h3>Quick Links</h3>
+                    <div class="quick-links">
+                      <button class="btn btn-sm btn-outline" onclick="showNPCPanel()">NPCs</button>
+                      <button class="btn btn-sm btn-outline" onclick="showLocationPanel()">Locations</button>
+                      <button class="btn btn-sm btn-outline" onclick="showThreadPanel()">Threads</button>
+                      <button class="btn btn-sm btn-outline" onclick="showEventPanel()">Events</button>
                     </div>
                 </aside>
 
@@ -304,6 +305,22 @@
 
     </div>
 
+    <!-- EVENTS VIEW -->
+    <div id="view-events" class="view">
+      <div class="view-header">
+        <h2>Event Timeline</h2>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-outline" onclick="EventManager.exportSessionRecap()">
+            📥 Export Recap
+          </button>
+          <button class="btn btn-primary" onclick="EventManager.showNewEventForm()">
+            + Log Event
+          </button>
+        </div>
+      </div>
+      <div id="events-timeline"></div>
+    </div>
+
     <!-- Modal Template (for forms, etc.) -->
     <div id="modal" class="modal hidden">
         <div class="modal-backdrop" onclick="UI.closeModal()"></div>
@@ -335,6 +352,7 @@
     <script src="js/npcs.js"></script>            <!-- 6b. NPC management -->
     <script src="js/locations.js"></script>       <!-- 6c. Location management -->
     <script src="js/threads.js"></script>         <!-- 6d. Thread management -->
+    <script src="js/events.js"></script>          <!-- 6e. Event management -->
     <script src="js/main.js"></script>            <!-- 7. Main initialization (LAST) -->
 
 </body>

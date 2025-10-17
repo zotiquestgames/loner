@@ -47,6 +47,11 @@ function showView(viewName) {
   if (viewName === 'threads' && typeof loadThreadsList === 'function') {
     loadThreadsList();
   }
+
+  if (viewName === 'events' && typeof loadEventTimeline === 'function') {
+  loadEventTimeline();
+  }
+
 }
 
 /**
@@ -188,15 +193,13 @@ function formatDate(date) {
 }
 
 /**
- * Format time
+ * Format time from Date object
  */
-function formatTime(date) {
-  if (!(date instanceof Date)) {
-    date = new Date(date);
-  }
-  
-  return date.toLocaleTimeString('en-US', { 
-    hour: '2-digit', 
+function formatTime(date) {  // ADD 'function' keyword here
+  if (!date) return 'Unknown';
+  const d = new Date(date);
+  return d.toLocaleTimeString('en-US', {
+    hour: '2-digit',
     minute: '2-digit'
   });
 }

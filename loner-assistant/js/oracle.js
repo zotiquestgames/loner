@@ -29,7 +29,7 @@ function rollD6() {
 /**
  * Roll the Oracle (Chance vs Risk dice)
  */
-function rollOracle() {
+async function rollOracle() {
   // Get modifier selection
   const modifier = document.querySelector('input[name="modifier"]:checked').value;
   
@@ -85,7 +85,21 @@ function rollOracle() {
   }
   
   // Save to roll history if we have a session
-  // TODO: Implement when sessions are active
+  const resultText = `${result.answer}${result.isTwist ? ' (Twist!)' : ''}`;
+  
+  // AUTO-LOG THE ROLL
+  if (typeof EventManager !== 'undefined') {
+    await EventManager.logEvent(
+      result.isDoubles ? 'twist' : 'oracle',
+      `Oracle: ${resultText}`,
+      {
+        result: result.answer,
+        modifier: modifier,  // Changed from 'advantage' to 'modifier'
+        chanceDice: chanceDice,
+        riskDice: riskDice
+      }
+    );
+  }
   
   return result;
 }

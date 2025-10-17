@@ -437,6 +437,37 @@ async function exportCampaignData(campaignId) {
   };
 }
 
+/**
+ * ==============================================
+ * EVENT LOG FUNCTIONS
+ * ==============================================
+ */
+
+async function logEvent(campaignId, sessionId, type, description, metadata = {}) {
+  const id = await db.events.add({
+    campaignId: campaignId,
+    sessionId: sessionId,
+    timestamp: new Date(),
+    type: type, // 'oracle', 'twist', 'conflict', 'revelation', etc.
+    description: description,
+    metadata: metadata // Store extra data (roll results, NPCs involved, etc.)
+  });
+  return id;
+}
+
+async function getEventsForSession(sessionId) {
+  return await db.events
+    .where('sessionId').equals(sessionId)
+    .sortBy('timestamp');
+}
+
+async function getEventsForCampaign(campaignId) {
+  return await db.events
+    .where('campaignId').equals(campaignId)
+    .reverse()
+    .sortBy('timestamp');
+}
+
 // Import campaign data from JSON
 async function importCampaignData(jsonData) {
   // Create campaign

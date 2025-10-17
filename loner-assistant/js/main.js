@@ -317,6 +317,17 @@ document.addEventListener('DOMContentLoaded', () => {
     window.deleteThreadConfirm = ThreadManager.deleteThreadConfirm;
     window.loadThreadsList = ThreadManager.loadThreadsList;
   }
+
+  // Event functions
+  if (window.EventManager) {
+    window.showEventPanel = EventManager.showEventPanel;
+    window.showNewEventForm = EventManager.showNewEventForm;
+    window.createNewEvent = EventManager.createNewEvent;
+    window.loadEventTimeline = EventManager.loadEventTimeline;
+    window.deleteEventConfirm = EventManager.deleteEventConfirm;
+    window.exportSessionRecap = EventManager.exportSessionRecap;
+  }
+
 });
 
 // Other functions

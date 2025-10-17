@@ -212,6 +212,12 @@ async function markLocationVisited(locationId) {
     console.error('Error marking location:', error);
     UI.showAlert('Error: ' + error.message, 'error');
   }
+
+  const location = await LonerDB.db.locations.get(locationId);
+  await EventManager.logEvent('location', `Visited ${location.name}`, {
+  locationName: location.name
+ });
+
 }
 
 /**

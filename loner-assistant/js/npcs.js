@@ -172,7 +172,15 @@ async function createNewNPC() {
     console.error('Error creating NPC:', error);
     UI.showAlert('Error creating NPC: ' + error.message, 'error');
   }
+
+  await EventManager.logEvent('npc', `Met ${name}`, {
+  npcName: name,
+  relationship: relationship
+  });
+
+
 }
+
 
 /**
  * View NPC details
