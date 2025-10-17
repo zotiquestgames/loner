@@ -77,6 +77,7 @@ const TableManager = {
     const categories = {
       'adventure-maker': 'Adventure Maker',
       'get-inspired': 'Get Inspired Tables',
+      'random-tables': 'Random Tables',  // ← Changed from 'custom'
       'custom': 'Custom Tables'
     };
     
@@ -135,10 +136,13 @@ const TableManager = {
   /**
    * Roll Adventure Maker
    */
+/**
+ * Roll Adventure Maker
+ */
   async rollAdventureMaker() {
     const results = await TableSystem.rollAdventureMaker();
     
-    // Show modal with results
+    // Show modal with full results
     UI.showModal('Adventure Maker Results', `
       <div class="adventure-maker-results">
         <div class="result-section">
@@ -176,6 +180,182 @@ const TableManager = {
         </div>
       </div>
     `);
+    
+    // Also show a quick summary in the sidebar
+    const resultDiv = document.getElementById('adventure-maker-result');
+    if (resultDiv) {
+      resultDiv.innerHTML = `
+        <div class="adventure-summary">
+          <div class="adventure-summary-item">
+            <div class="adventure-summary-label">Setting</div>
+            <div class="adventure-summary-value">${results.setting.result}</div>
+          </div>
+          <div class="adventure-summary-item">
+            <div class="adventure-summary-label">Tone</div>
+            <div class="adventure-summary-value">${results.tone.result}</div>
+          </div>
+          <div class="adventure-summary-item">
+            <div class="adventure-summary-label">Opposition</div>
+            <div class="adventure-summary-value">${results.opposition.result}</div>
+          </div>
+          <div style="text-align: center; margin-top: 0.5rem;">
+            <button class="btn btn-sm btn-outline" onclick="TableManager.rollAdventureMaker()">
+              🔄 Regenerate
+            </button>
+          </div>
+        </div>
+      `;
+      resultDiv.classList.add('show');
+    }
+    
+    this.loadRollHistory();
+  },
+
+  /**
+  /**
+   * Show random tables in sidebar (for quick access)
+   */
+/**
+ * Initialize random tables panel - populate supplement selector
+ */
+showRandomTablesPanel() {
+  const selector = document.getElementById('random-tables-supplement');
+  if (!selector) return;
+  
+  // Get all supplements that have random-tables
+  const supplements = [];
+  
+  for (const [suppId, supplement] of Object.entries(TableSystem.registry)) {
+    // Check if this supplement has any random tables
+    const hasRandomTables = Object.values(supplement.tables).some(
+      table => table.category === 'random-tables'
+    );
+    
+    if (hasRandomTables) {
+      supplements.push({
+        id: suppId,
+        name: supplement.supplement.name
+      });
+    }
+  }
+  
+  if (supplements.length === 0) {
+    selector.innerHTML = '<option value="">No supplements available</option>';
+    return;
+  }
+  
+  // Populate dropdown
+  selector.innerHTML = '<option value="">-- Select Supplement --</option>' + 
+    supplements.map(supp => `
+      <option value="${supp.id}">${supp.name}</option>
+    `).join('');
+  
+  // Load last selected supplement if available
+  const lastSelected = localStorage.getItem('loner-last-random-supplement');
+  if (lastSelected && supplements.find(s => s.id === lastSelected)) {
+    selector.value = lastSelected;
+    this.showSupplementTables(lastSelected);
+  }
+},
+
+/**
+ * Show tables from a specific supplement
+ */
+  showSupplementTables(supplementId) {
+    const container = document.getElementById('random-tables-list');
+    if (!container) return;
+    
+    // Save selection
+    if (supplementId) {
+      localStorage.setItem('loner-last-random-supplement', supplementId);
+    }
+    
+    if (!supplementId) {
+      container.innerHTML = `
+        <p class="text-muted" style="font-size: 0.85rem; text-align: center;">
+          Select a supplement to see available tables
+        </p>
+      `;
+      return;
+    }
+    
+    const supplement = TableSystem.registry[supplementId];
+    if (!supplement) {
+      container.innerHTML = `
+        <p class="text-muted" style="font-size: 0.85rem; text-align: center;">
+          Supplement not found
+        </p>
+      `;
+      return;
+    }
+    
+    // Get all random tables from this supplement
+    const tables = [];
+    for (const [tableId, table] of Object.entries(supplement.tables)) {
+      if (table.category === 'random-tables') {
+        tables.push({
+          id: tableId,
+          name: table.name,
+          description: table.description
+        });
+      }
+    }
+    
+    if (tables.length === 0) {
+      container.innerHTML = `
+        <p class="text-muted" style="font-size: 0.85rem; text-align: center;">
+          No random tables in this supplement
+        </p>
+      `;
+      return;
+    }
+    
+    // Render table list
+    container.innerHTML = `
+      <div style="margin-bottom: 0.5rem;">
+        <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.25rem;">
+          ${tables.length} table${tables.length !== 1 ? 's' : ''} available
+        </div>
+      </div>
+      ${tables.map(table => `
+        <button class="btn btn-sm btn-secondary random-table-btn" 
+                onclick="TableManager.rollTableQuick('${supplementId}', '${table.id}')"
+                title="${table.description || ''}">
+          🎲 ${table.name}
+        </button>
+      `).join('')}
+    `;
+  },
+
+  /**
+   * Roll a table quickly (from sidebar) - shows result in sidebar too
+   */
+  async rollTableQuick(supplementId, tableId) {
+    const result = await TableSystem.roll(supplementId, tableId);
+    
+    // Log to database
+    await TableSystem.logTableRoll(result.table, supplementId, result.result);
+    
+    // Insert to notes
+    if (typeof Editor !== 'undefined') {
+      Editor.insertBlock(
+        '🎲',
+        result.table,
+        result.result,
+        '#6366f1'
+      );
+    }
+    
+    // Log event
+    if (typeof EventManager !== 'undefined') {
+      await EventManager.logEvent('table-roll', `${result.table}: ${result.result}`, {
+        supplement: result.supplement,
+        rolls: result.rolls
+      });
+    }
+    
+    // Show toast notification with result
+    UI.showAlert(`${result.table}: ${result.result}`, 'success', 5000);
     
     this.loadRollHistory();
   },

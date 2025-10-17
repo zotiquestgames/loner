@@ -273,6 +273,63 @@
                         <div id="inspiration-result"></div>
                     </div>
 
+                    <!-- Adventure Maker -->
+                     <div class="panel">
+                        <h3>🎭 Adventure Tables</h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <button class="btn btn-sm btn-secondary" onclick="TableManager.rollTable('core-loner', 'settings')">
+                                🌍 Setting
+                            </button>
+                            <button class="btn btn-sm btn-secondary" onclick="TableManager.rollTable('core-loner', 'tones')">
+                                🎨 Tone
+                            </button>
+                            <button class="btn btn-sm btn-secondary" onclick="TableManager.rollTable('core-loner', 'things')">
+                                📦 Things
+                            </button>
+                            <button class="btn btn-sm btn-secondary" onclick="TableManager.rollTable('core-loner', 'opposition')">
+                                ⚔️ Opposition
+                            </button>
+                            <button class="btn btn-sm btn-secondary" onclick="TableManager.rollTable('core-loner', 'actions')">
+                                ⚡ Actions
+                            </button>
+                        </div>
+                        <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--border);">
+                            <button class="btn btn-sm btn-primary" onclick="TableManager.rollAdventureMaker()" style="width: 100%;">
+                                🎲 Roll Complete Adventure
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Random Tables - TWO-STEP INTERFACE -->
+                    <div class="panel">
+                        <h3>📋 Random Tables</h3>
+                        
+                        <!-- Step 1: Select Supplement -->
+                        <div id="supplement-selector">
+                            <label style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem; display: block;">
+                                Choose a supplement:
+                            </label>
+                            <select id="random-tables-supplement" 
+                                    onchange="TableManager.showSupplementTables(this.value)"
+                                    style="width: 100%; padding: 0.5rem; background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); margin-bottom: var(--space-md);">
+                                <option value="">-- Select Supplement --</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Step 2: Show Tables from Selected Supplement -->
+                        <div id="random-tables-list">
+                            <p class="text-muted" style="font-size: 0.85rem; text-align: center;">
+                                Select a supplement to see available tables
+                            </p>
+                        </div>
+                        
+                        <div style="margin-top: var(--space-sm); padding-top: var(--space-sm); border-top: 1px solid var(--border);">
+                            <button class="btn btn-sm btn-outline" onclick="showView('tools')" style="width: 100%;">
+                                📚 Browse All Tables
+                            </button>
+                        </div>
+                    </div>
+
                 </aside>
             </div>
         </div>
@@ -398,6 +455,7 @@
     <script src="data/table-registry.js"></script>       <!-- Table registry -->
     <script src="js/tables.js"></script>                 <!-- 7. Roll tables -->
     <script src="js/table-manager.js"></script>          <!-- 7b. Table manager -->
+    <script src="data/tables/supplements/sample-encounters.js"></script>
     <script src="js/main.js"></script>                   <!-- 7. Main initialization (LAST) -->
 
 </body>

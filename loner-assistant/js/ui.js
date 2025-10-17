@@ -8,13 +8,16 @@
 /**
  * Show a specific view and hide others
  */
+/**
+ * Show a specific view
+ */
 function showView(viewName) {
   // Hide all views
   const views = document.querySelectorAll('.view');
   views.forEach(view => view.classList.remove('active'));
   
-  // Show the requested view
-  const targetView = document.getElementById('view-' + viewName);
+  // Show selected view
+  const targetView = document.getElementById(`view-${viewName}`);
   if (targetView) {
     targetView.classList.add('active');
   }
@@ -22,36 +25,51 @@ function showView(viewName) {
   // Update navigation buttons
   const navButtons = document.querySelectorAll('.nav-btn');
   navButtons.forEach(btn => {
-    btn.classList.remove('active');
     if (btn.dataset.view === viewName) {
       btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
     }
   });
   
-  // Load data for specific views
-  if (viewName === 'characters' && typeof loadCharactersList === 'function') {
-    loadCharactersList();
+  // Load view-specific content
+  switch(viewName) {
+    case 'campaigns':
+      if (typeof loadCampaignsList === 'function') {
+        loadCampaignsList();
+      }
+      break;
+    case 'characters':
+      if (typeof loadCharactersList === 'function') {
+        loadCharactersList();
+      }
+      break;
+    case 'npcs':
+      if (typeof loadNPCsList === 'function') {
+        loadNPCsList();
+      }
+      break;
+    case 'locations':
+      if (typeof loadLocationsList === 'function') {
+        loadLocationsList();
+      }
+      break;
+    case 'threads':
+      if (typeof loadThreadsList === 'function') {
+        loadThreadsList();
+      }
+      break;
+    case 'events':
+      if (typeof loadEventTimeline === 'function') {
+        loadEventTimeline();
+      }
+      break;
+    case 'tools':  // ← ADD THIS CASE
+      if (typeof TableManager !== 'undefined' && TableManager.render) {
+        TableManager.render();
+      }
+      break;
   }
-    if (viewName === 'campaigns' && typeof loadCampaignsList === 'function') {
-    loadCampaignsList();
-  }
-  if (viewName === 'characters' && typeof loadCharactersList === 'function') {
-    loadCharactersList();
-  }
-  if (viewName === 'npcs' && typeof loadNPCsList === 'function') {
-    loadNPCsList();
-  }
-  if (viewName === 'locations' && typeof loadLocationsList === 'function') {
-    loadLocationsList();
-  }
-  if (viewName === 'threads' && typeof loadThreadsList === 'function') {
-    loadThreadsList();
-  }
-
-  if (viewName === 'events' && typeof loadEventTimeline === 'function') {
-  loadEventTimeline();
-  }
-
 }
 
 /**

@@ -18,34 +18,44 @@ const TableSystem = {
 /**
  * Initialize the table system
  */
-    async init() {
+/**
+ * Initialize the table system
+ */
+  async init() {
     console.log('🎲 Initializing Table System...');
     
     // Register core supplements if they exist
     if (typeof CoreLonerTables !== 'undefined') {
-        this.registerSupplement(CoreLonerTables);
+      this.registerSupplement(CoreLonerTables);
     } else {
-        console.warn('⚠️ CoreLonerTables not loaded');
+      console.warn('⚠️ CoreLonerTables not loaded');
     }
     
     if (typeof CoreInspiredTables !== 'undefined') {
-        this.registerSupplement(CoreInspiredTables);
+      this.registerSupplement(CoreInspiredTables);
     } else {
-        console.warn('⚠️ CoreInspiredTables not loaded');
+      console.warn('⚠️ CoreInspiredTables not loaded');
+    }
+    
+    // Register sample random tables - CHANGE THIS LINE
+    if (typeof SampleRandomTables !== 'undefined') {
+      this.registerSupplement(SampleRandomTables);
+    } else {
+      console.warn('⚠️ SampleRandomTables not loaded (optional)');
     }
     
     // Load user preferences
     const activeFlavorStored = localStorage.getItem('loner-inspired-flavor');
     if (activeFlavorStored && this.registry[activeFlavorStored]) {
-        // Flavor exists, use it
+      // Flavor exists, use it
     } else {
-        // Default to core-inspired
-        localStorage.setItem('loner-inspired-flavor', 'core-inspired');
+      // Default to core-inspired
+      localStorage.setItem('loner-inspired-flavor', 'core-inspired');
     }
     
     console.log('✅ Table System initialized');
     console.log('📋 Registered supplements:', Object.keys(this.registry));
-    },
+  },
   
   /**
    * Load the table registry
@@ -224,14 +234,14 @@ const TableSystem = {
    */
   formatAdventureMaker(results) {
     return `
-**Setting:** ${results.setting.result}
-**Tone:** ${results.tone.result}
-**Elements:** ${results.thing1.result}, ${results.thing2.result}
+      **Setting:** ${results.setting.result}
+      **Tone:** ${results.tone.result}
+      **Elements:** ${results.thing1.result}, ${results.thing2.result}
 
-**Opposition:** ${results.opposition.result}
-**Actions:** ${results.action1.result} → ${results.action2.result}
-**Key Element:** ${results.thing3.result}
-    `.trim();
+      **Opposition:** ${results.opposition.result}
+      **Actions:** ${results.action1.result} → ${results.action2.result}
+      **Key Element:** ${results.thing3.result}
+          `.trim();
   },
   
   /**

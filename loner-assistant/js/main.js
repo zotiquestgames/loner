@@ -117,6 +117,11 @@ document.addEventListener('DOMContentLoaded', async function() {
       await TableSystem.init();
       console.log('✅ Table System initialized');
     }
+
+    // Load random tables panel
+    if (typeof TableManager !== 'undefined') {
+      TableManager.showRandomTablesPanel();
+    }
     
     // 4. Give it a moment to settle
     await new Promise(resolve => setTimeout(resolve, 100));
