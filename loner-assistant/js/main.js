@@ -111,6 +111,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     // 3. WAIT for database to be fully ready
     await db.open();
     console.log('✅ Database ready');
+
+    // Initialize Tables System
+    if (typeof TableSystem !== 'undefined') {
+      await TableSystem.init();
+      console.log('✅ Table System initialized');
+    }
     
     // 4. Give it a moment to settle
     await new Promise(resolve => setTimeout(resolve, 100));
@@ -148,11 +154,17 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
     
     // 6. Load active character
-    const characters = await LonerDB.getCharacters();
-    const activeChar = characters.find(c => c.isActive);
-    if (activeChar) {
-      currentCharacterId = activeChar.id;
-      CharacterManager.displayActiveCharacter(activeChar);
+    try {
+      const characters = await LonerDB.getCharacters();
+      if (characters && characters.length > 0) {
+        const activeChar = characters.find(c => c.isActive);
+        if (activeChar) {
+          currentCharacterId = activeChar.id;
+          CharacterManager.displayActiveCharacter(activeChar);
+        }
+      }
+    } catch (error) {
+      console.warn('Could not load active character:', error);
     }
     
     // 7. Start auto-save

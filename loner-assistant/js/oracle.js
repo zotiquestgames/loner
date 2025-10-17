@@ -329,7 +329,7 @@ async function rollScene() {
 /**
  * Get inspired - random prompt
  */
-function getInspired() {
+/* function getInspired() {
   // Action verbs table
   const verbs = [
     ['Cast', 'Battle', 'Free', 'Explore', 'Upgrade', 'Pilot'],
@@ -381,7 +381,7 @@ function getInspired() {
   );
 
   UI.showAlert('Inspiration generated!', 'success');
-}
+} */
 
 /**
  * Conflict system - roll for harm & luck
@@ -599,7 +599,7 @@ async function endConflict() {
 window.OracleSystem = {
   rollOracle,
   rollScene,
-  getInspired,
+  //getInspired,
   resetTwistCounter,
   startConflict,
   rollConflict,

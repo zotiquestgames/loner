@@ -13,7 +13,7 @@ const db = new Dexie('LonerAssistant');
 
 // Define the structure (like creating tables in a database)
 // IMPORTANT: If you change the schema, increment the version number!
-db.version(2).stores({
+db.version(3).stores({
   // Campaigns: each adventure/story
   campaigns: '++id, name, createdAt, lastPlayed, archived',
   
@@ -42,7 +42,17 @@ db.version(2).stores({
   supplements: '++id, name, enabled',
   
   // Roll History: all oracle/dice rolls
-  rollHistory: '++id, sessionId, timestamp, result'
+  rollHistory: '++id, sessionId, timestamp, result',
+
+  // Table results history
+  tableRolls: '++id, sessionId, timestamp, tableName, supplementId, result',
+  
+  // User preferences for Get Inspired flavors
+  userPreferences: 'key, value',
+  
+  // Custom user tables
+  customTables: '++id, name, category, entries, createdAt'  
+
 });
 
 // Keep old version for migration
@@ -207,9 +217,9 @@ async function getCharacters(campaignId = null) {
   try {
     if (campaignId === null || campaignId === undefined) {
       // Get ALL characters across all campaigns
-      return await this.db.characters.toArray();
+      return await db.characters.toArray();
     }
-    return await this.db.characters
+    return await db.characters
       .where('campaignId')
       .equals(campaignId)
       .toArray();
@@ -380,13 +390,13 @@ async function createThread(campaignId, title, description = '') {
 async function getThreadsForCampaign(campaignId, status = null) {
   try {
     if (status) {
-      const threads = await this.db.threads
+      const threads = await db.threads
         .where('campaignId')
         .equals(campaignId)
         .toArray();
       return threads.filter(t => t.status === status);
     }
-    return await this.db.threads
+    return await db.threads
       .where('campaignId')
       .equals(campaignId)
       .toArray();
@@ -553,6 +563,60 @@ db.on('ready', async function() {
   }
 });
 
+/**
+ * ==============================================
+ * CUSTOM TABLES FUNCTIONS
+ * ==============================================
+ */
+
+async function getCustomTables() {
+  return await db.customTables.toArray();
+}
+
+async function createCustomTable(name, category, entries) {
+  const id = await db.customTables.add({
+    name: name,
+    category: category,
+    entries: entries,
+    createdAt: new Date()
+  });
+  return id;
+}
+
+async function deleteCustomTable(id) {
+  await db.customTables.delete(id);
+}
+
+/**
+ * ==============================================
+ * USER PREFERENCES FUNCTIONS
+ * ==============================================
+ */
+
+async function getUserPreference(key) {
+  const pref = await db.userPreferences.get(key);
+  return pref ? pref.value : null;
+}
+
+async function setUserPreference(key, value) {
+  await db.userPreferences.put({ key: key, value: value });
+}
+
+/**
+ * ==============================================
+ * TABLE ROLLS FUNCTIONS
+ * ==============================================
+ */
+
+async function getTableRollHistory(sessionId, limit = 50) {
+  return await db.tableRolls
+    .where('sessionId')
+    .equals(sessionId)
+    .reverse()
+    .limit(limit)
+    .toArray();
+}
+
 // Make everything available globally (so other .js files can use them)
 window.LonerDB = {
   // Database instance
@@ -574,7 +638,7 @@ window.LonerDB = {
   
   // Character functions
   createCharacter,
-  getCharacters,
+  getCharacters,  // ← Make sure this is here
   getCharacter,
   updateCharacter,
   updateCharacterLuck,
@@ -608,5 +672,17 @@ window.LonerDB = {
   
   // Utility functions
   exportCampaignData,
-  importCampaignData
+  importCampaignData,
+
+  // Custom tables
+  getCustomTables,
+  createCustomTable,
+  deleteCustomTable,
+  
+  // User preferences
+  getUserPreference,
+  setUserPreference,
+  
+  // Table rolls
+  getTableRollHistory
 };

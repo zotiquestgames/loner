@@ -676,3 +676,120 @@ body {
   margin: 0;
   font-size: 1rem;
 }
+
+/* ==================== TABLE MANAGER ==================== */
+.table-manager {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-md);
+}
+
+.table-categories {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.table-category h3 {
+  margin-bottom: var(--space-md);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.table-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  transition: all 0.2s;
+}
+
+.table-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.table-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-xs);
+}
+
+.table-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.adventure-maker-results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.result-section h4 {
+  margin-bottom: var(--space-xs);
+  color: var(--primary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.result-section p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.result-section ul {
+  margin: 0;
+  padding-left: var(--space-md);
+}
+
+.roll-history-item {
+  padding: var(--space-sm);
+  border-bottom: 1px solid var(--border);
+}
+
+.roll-history-item:last-child {
+  border-bottom: none;
+}
+
+.roll-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-xs);
+  font-size: 0.85rem;
+}
+
+/* Flavor selector */
+#inspired-flavor-select {
+  width: 100%;
+  padding: var(--space-sm);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#inspired-flavor-select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
