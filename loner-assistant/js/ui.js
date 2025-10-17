@@ -276,6 +276,69 @@ function createCard(title, description, footer, onClick) {
   `;
 }
 
+/**
+ * Show loading indicator
+ */
+function showLoading(message = 'Loading...') {
+  const loading = document.createElement('div');
+  loading.id = 'loading-indicator';
+  loading.style.cssText = `
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--bg-primary);
+    padding: 2rem 3rem;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+    text-align: center;
+  `;
+  loading.innerHTML = `
+    <div style="font-size: 2rem; margin-bottom: 1rem;">⏳</div>
+    <div>${message}</div>
+  `;
+  document.body.appendChild(loading);
+}
+
+/**
+ * Hide loading indicator
+ */
+function hideLoading() {
+  const loading = document.getElementById('loading-indicator');
+  if (loading) {
+    loading.remove();
+  }
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  // Ctrl/Cmd + O = Open Oracle
+  if ((e.ctrlKey || e.metaKey) && e.key === 'o') {
+    e.preventDefault();
+    if (typeof rollOracle === 'function') {
+      rollOracle();
+    }
+  }
+  
+  // Ctrl/Cmd + S = Save Notes
+  if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+    e.preventDefault();
+    if (typeof saveNotes === 'function') {
+      saveNotes();
+      UI.showAlert('Notes saved!', 'success');
+    }
+  }
+  
+  // Ctrl/Cmd + N = New Event
+  if ((e.ctrlKey || e.metaKey) && e.key === 'n') {
+    e.preventDefault();
+    if (typeof showNewEventForm === 'function') {
+      showNewEventForm();
+    }
+  }
+});
+
 // Make functions available globally
 window.UI = {
   showView,
@@ -290,5 +353,7 @@ window.UI = {
   toggleElement,
   updateElement,
   renderCardList,
-  createCard
+  createCard,
+  showLoading,
+  hideLoading
 };

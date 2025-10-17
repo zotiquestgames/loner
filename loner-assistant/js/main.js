@@ -130,6 +130,14 @@ document.addEventListener('DOMContentLoaded', async function() {
             if (session) {
               await Editor.loadSession(savedState.sessionId);
               SessionManager.displayCurrentSession(session);
+
+                // Initialize Quick Links panels - ADD THIS
+                setTimeout(async () => {
+                    if (typeof showNPCPanel === 'function') await showNPCPanel();
+                    if (typeof showLocationPanel === 'function') await showLocationPanel();
+                    if (typeof showThreadPanel === 'function') await showThreadPanel();
+                    if (typeof showEventPanel === 'function') await showEventPanel();
+                }, 500);
             }
           }
         }
@@ -156,6 +164,96 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.error('❌ Error initializing app:', error);
     UI.showAlert('App started with errors. Check console (F12).', 'error');
   }
+
+    
+    // Campaign functions
+    if (window.CampaignManager) {
+    window.showNewCampaignForm = CampaignManager.showNewCampaignForm;
+    window.createNewCampaign = CampaignManager.createNewCampaign;
+    window.loadCampaignsList = CampaignManager.loadCampaignsList;
+    window.selectCampaign = CampaignManager.selectCampaign;
+    window.viewCampaignDetails = CampaignManager.viewCampaignDetails;
+    window.editCampaign = CampaignManager.editCampaign;
+    window.saveCampaignEdit = CampaignManager.saveCampaignEdit;
+    window.deleteCampaignConfirm = CampaignManager.deleteCampaignConfirm;
+    }
+
+    // Character functions
+    if (window.CharacterManager) {
+    window.showNewCharacterForm = CharacterManager.showNewCharacterForm;
+    window.createNewCharacter = CharacterManager.createNewCharacter;
+    window.loadCharactersList = CharacterManager.loadCharactersList;
+    window.viewCharacterDetails = CharacterManager.viewCharacterDetails;
+    window.editCharacter = CharacterManager.editCharacter;
+    window.saveCharacterEdit = CharacterManager.saveCharacterEdit;
+    window.deleteCharacterConfirm = CharacterManager.deleteCharacterConfirm;
+    }
+
+    // NPC functions
+    if (window.NPCManager) {
+    window.showNPCPanel = NPCManager.showNPCPanel;
+    window.showNewNPCForm = NPCManager.showNewNPCForm;
+    window.createNewNPC = NPCManager.createNewNPC;
+    window.viewNPCDetails = NPCManager.viewNPCDetails;
+    window.editNPC = NPCManager.editNPC;
+    window.saveNPCEdit = NPCManager.saveNPCEdit;
+    window.deleteNPCConfirm = NPCManager.deleteNPCConfirm;
+    window.loadNPCsList = NPCManager.loadNPCsList;
+    }
+
+    // Location functions
+    if (window.LocationManager) {
+    window.showLocationPanel = LocationManager.showLocationPanel;
+    window.showNewLocationForm = LocationManager.showNewLocationForm;
+    window.createNewLocation = LocationManager.createNewLocation;
+    window.viewLocationDetails = LocationManager.viewLocationDetails;
+    window.markLocationVisited = LocationManager.markLocationVisited;
+    window.markLocationVisitedAndClose = LocationManager.markLocationVisitedAndClose;
+    window.editLocation = LocationManager.editLocation;
+    window.saveLocationEdit = LocationManager.saveLocationEdit;
+    window.deleteLocationConfirm = LocationManager.deleteLocationConfirm;
+    window.loadLocationsList = LocationManager.loadLocationsList;
+    }
+
+    // Thread functions
+    if (window.ThreadManager) {
+    window.showThreadPanel = ThreadManager.showThreadPanel;
+    window.showNewThreadForm = ThreadManager.showNewThreadForm;
+    window.createNewThread = ThreadManager.createNewThread;
+    window.viewThreadDetails = ThreadManager.viewThreadDetails;
+    window.resolveThreadAndClose = ThreadManager.resolveThreadAndClose;
+    window.editThread = ThreadManager.editThread;
+    window.saveThreadEdit = ThreadManager.saveThreadEdit;
+    window.deleteThreadConfirm = ThreadManager.deleteThreadConfirm;
+    window.loadThreadsList = ThreadManager.loadThreadsList;
+    }
+
+    // Event functions
+    if (window.EventManager) {
+    window.showEventPanel = EventManager.showEventPanel;
+    window.showNewEventForm = EventManager.showNewEventForm;
+    window.createNewEvent = EventManager.createNewEvent;
+    window.loadEventTimeline = EventManager.loadEventTimeline;
+    window.deleteEventConfirm = EventManager.deleteEventConfirm;
+    window.exportSessionRecap = EventManager.exportSessionRecap;
+    }
+
+    // Oracle functions
+    if (window.OracleSystem) {
+    window.rollOracle = OracleSystem.rollOracle;
+    window.rollScene = OracleSystem.rollScene;
+    window.getInspired = OracleSystem.getInspired;
+    window.resetTwistCounter = OracleSystem.resetTwistCounter;
+    window.startConflict = OracleSystem.startConflict;
+    window.rollConflict = OracleSystem.rollConflict;
+    window.endConflict = OracleSystem.endConflict;
+    }
+
+    // Editor functions
+    if (window.Editor) {
+    window.saveNotes = Editor.saveNotes;
+    }
+
 });
 
 /**
@@ -250,87 +348,6 @@ window.App = {
 // Make functions available globally for onclick handlers
 window.showView = UI.showView;
 window.closeModal = UI.closeModal;
-
-// ============================================
-// GLOBAL FUNCTION EXPORTS (after all scripts load)
-// ============================================
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Campaign functions
-  if (window.CampaignManager) {
-    window.showNewCampaignForm = CampaignManager.showNewCampaignForm;
-    window.createNewCampaign = CampaignManager.createNewCampaign;
-    window.loadCampaignsList = CampaignManager.loadCampaignsList;
-    window.selectCampaign = CampaignManager.selectCampaign;
-    window.viewCampaignDetails = CampaignManager.viewCampaignDetails;
-    window.editCampaign = CampaignManager.editCampaign;
-    window.saveCampaignEdit = CampaignManager.saveCampaignEdit;
-    window.deleteCampaignConfirm = CampaignManager.deleteCampaignConfirm;
-  }
-  
-  // Character functions
-  if (window.CharacterManager) {
-    window.showNewCharacterForm = CharacterManager.showNewCharacterForm;
-    window.createNewCharacter = CharacterManager.createNewCharacter;
-    window.loadCharactersList = CharacterManager.loadCharactersList;
-    window.viewCharacterDetails = CharacterManager.viewCharacterDetails;
-    window.editCharacter = CharacterManager.editCharacter;
-    window.saveCharacterEdit = CharacterManager.saveCharacterEdit;
-    window.deleteCharacterConfirm = CharacterManager.deleteCharacterConfirm;
-  }
-  
-  // NPC functions
-  if (window.NPCManager) {
-    window.showNPCPanel = NPCManager.showNPCPanel;
-    window.showNewNPCForm = NPCManager.showNewNPCForm;
-    window.createNewNPC = NPCManager.createNewNPC;
-    window.viewNPCDetails = NPCManager.viewNPCDetails;
-    window.editNPC = NPCManager.editNPC;
-    window.saveNPCEdit = NPCManager.saveNPCEdit;
-    window.deleteNPCConfirm = NPCManager.deleteNPCConfirm;
-    window.loadNPCsList = NPCManager.loadNPCsList;
-  }
-  
-  // Location functions
-  if (window.LocationManager) {
-    window.showLocationPanel = LocationManager.showLocationPanel;
-    window.showNewLocationForm = LocationManager.showNewLocationForm;
-    window.createNewLocation = LocationManager.createNewLocation;
-    window.viewLocationDetails = LocationManager.viewLocationDetails;
-    window.markLocationVisited = LocationManager.markLocationVisited;
-    window.markLocationVisitedAndClose = LocationManager.markLocationVisitedAndClose;
-    window.editLocation = LocationManager.editLocation;
-    window.saveLocationEdit = LocationManager.saveLocationEdit;
-    window.deleteLocationConfirm = LocationManager.deleteLocationConfirm;
-    window.loadLocationsList = LocationManager.loadLocationsList;
-  }
-  
-  // Thread functions
-  if (window.ThreadManager) {
-    window.showThreadPanel = ThreadManager.showThreadPanel;
-    window.showNewThreadForm = ThreadManager.showNewThreadForm;
-    window.createNewThread = ThreadManager.createNewThread;
-    window.viewThreadDetails = ThreadManager.viewThreadDetails;
-    window.resolveThreadAndClose = ThreadManager.resolveThreadAndClose;
-    window.editThread = ThreadManager.editThread;
-    window.saveThreadEdit = ThreadManager.saveThreadEdit;
-    window.deleteThreadConfirm = ThreadManager.deleteThreadConfirm;
-    window.loadThreadsList = ThreadManager.loadThreadsList;
-  }
-
-  // Event functions
-  if (window.EventManager) {
-    window.showEventPanel = EventManager.showEventPanel;
-    window.showNewEventForm = EventManager.showNewEventForm;
-    window.createNewEvent = EventManager.createNewEvent;
-    window.loadEventTimeline = EventManager.loadEventTimeline;
-    window.deleteEventConfirm = EventManager.deleteEventConfirm;
-    window.exportSessionRecap = EventManager.exportSessionRecap;
-  }
-
-});
-
-// Other functions
 window.toggleTheme = toggleTheme;
 
 // Debug helper

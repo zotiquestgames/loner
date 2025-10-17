@@ -154,6 +154,14 @@ async function createNewNPC() {
     const newNPC = npcs[npcs.length - 1];
     await LonerDB.updateNPC(newNPC.id, { relationship });
     
+    // LOG EVENT
+    if (typeof EventManager !== 'undefined') {
+      await EventManager.logEvent('npc', `Met ${name}`, {
+        npcName: name,
+        relationship: relationship
+      });
+    }
+    
     UI.closeModal();
     UI.showAlert('NPC created!', 'success');
     
@@ -172,15 +180,7 @@ async function createNewNPC() {
     console.error('Error creating NPC:', error);
     UI.showAlert('Error creating NPC: ' + error.message, 'error');
   }
-
-  await EventManager.logEvent('npc', `Met ${name}`, {
-  npcName: name,
-  relationship: relationship
-  });
-
-
 }
-
 
 /**
  * View NPC details

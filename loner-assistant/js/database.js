@@ -205,7 +205,7 @@ async function createCharacter(data) {
 // Get all characters (optionally filter by campaign)
 async function getCharacters(campaignId = null) {
   try {
-    if (campaignId === null) {
+    if (campaignId === null || campaignId === undefined) {
       // Get ALL characters across all campaigns
       return await this.db.characters.toArray();
     }

@@ -117,7 +117,13 @@ async function showEventPanel() {
         <h3>Recent Events</h3>
         <button class="btn btn-sm btn-primary" onclick="showNewEventForm()">+ Add</button>
       </div>
-      ${recentEvents.length === 0 ? '<p class="text-muted">No events yet</p>' : `
+      ${recentEvents.length === 0 ? `
+        <div style="text-align: center; padding: 2rem 1rem; color: var(--text-muted);">
+          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📜</div>
+          <p style="margin: 0;">No events yet</p>
+          <p style="font-size: 0.85rem; margin-top: 0.25rem;">Events will appear here as you play</p>
+        </div>
+      ` : `
         <div style="display: flex; flex-direction: column; gap: 0.5rem;">
           ${recentEvents.map(event => {
             const config = EVENT_TYPES[event.type] || EVENT_TYPES.custom;

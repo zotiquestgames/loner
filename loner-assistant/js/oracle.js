@@ -211,7 +211,7 @@ function resetTwistCounter() {
 /**
  * Trigger a twist when counter reaches 3
  */
-function triggerTwist() {
+async function triggerTwist() {
   // Roll 2d6 for twist
   const die1 = rollD6();
   const die2 = rollD6();
@@ -257,6 +257,16 @@ function triggerTwist() {
     '#f59e0b'
   );
 
+  // LOG EVENT
+  if (typeof EventManager !== 'undefined') {
+    await EventManager.logEvent('twist', `${subject} → ${action}`, {
+      subject: subject,
+      action: action,
+      die1: die1,
+      die2: die2
+    });
+  }  
+
   // Reset counter
   currentTwistCounter = 0;
   updateTwistCounter();
@@ -270,7 +280,7 @@ function triggerTwist() {
 /**
  * Roll for scene type
  */
-function rollScene() {
+async function rollScene() {
   const roll = rollD6();
   
   let sceneType, description;
@@ -305,6 +315,15 @@ function rollScene() {
     'Scene',
     `${sceneType} - ${description}`
   );
+
+  // LOG EVENT
+  if (typeof EventManager !== 'undefined') {
+    await EventManager.logEvent('scene', `${sceneType} scene: ${description}`, {
+      sceneType: sceneType,
+      roll: roll
+    });
+  }  
+
 }
 
 /**
@@ -372,7 +391,7 @@ let characterLuck = 6;
 let opponentLuck = 6;
 let opponentName = 'Opponent';
 
-function startConflict() {
+async function startConflict() {
   // Get values from form
   opponentName = document.getElementById('opponent-name').value || 'Opponent';
   opponentLuck = parseInt(document.getElementById('opponent-luck-input').value) || 6;
@@ -392,10 +411,18 @@ function startConflict() {
   
   updateLuckDisplay();
   
+  // LOG EVENT
+  if (typeof EventManager !== 'undefined') {
+    await EventManager.logEvent('conflict', `Conflict started with ${opponentName}`, {
+      opponentName: opponentName,
+      opponentLuck: opponentLuck
+    });
+  }
+
   UI.showAlert('Conflict started!', 'success');
 }
 
-function rollConflict() {
+async function rollConflict() {
   if (!inConflict) {
     UI.showAlert('Start a conflict first!', 'error');
     return;
@@ -456,6 +483,20 @@ function rollConflict() {
     characterLuck -= damage;
   }
   
+  // Log event
+  if (typeof EventManager !== 'undefined') {
+    const damageDesc = targetIsCharacter 
+      ? `You take ${damage} harm (${characterLuck} luck remaining)`
+      : `${opponentName} takes ${damage} harm (${opponentLuck} luck remaining)`;
+    
+    await EventManager.logEvent('conflict', damageDesc, {
+      damage: damage,
+      target: targetIsCharacter ? 'character' : 'opponent',
+      characterLuck: characterLuck,
+      opponentLuck: opponentLuck
+    });
+  }
+
   // Update display
   updateLuckDisplay();
   
@@ -522,7 +563,18 @@ function updateLuckDisplay() {
   }
 }
 
-function endConflict() {
+async function endConflict() {
+  const winner = characterLuck > 0 ? 'Character' : opponentName;
+  
+  // LOG EVENT
+  if (typeof EventManager !== 'undefined') {
+    await EventManager.logEvent('conflict', `Conflict ended - ${winner} victorious`, {
+      winner: winner,
+      characterLuck: characterLuck,
+      opponentLuck: opponentLuck
+    });
+  }
+
   inConflict = false;
   
   // Show setup, hide active

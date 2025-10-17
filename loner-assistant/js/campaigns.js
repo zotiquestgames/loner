@@ -357,6 +357,20 @@ async function setAsActiveCampaign(campaignId) {
     const session = await LonerDB.getSession(sessionId);
     SessionManager.displayCurrentSession(session);
     
+    // Initialize Quick Links panels
+    if (typeof showNPCPanel === 'function') {
+      await showNPCPanel();
+    }
+    if (typeof showLocationPanel === 'function') {
+      await showLocationPanel();
+    }
+    if (typeof showThreadPanel === 'function') {
+      await showThreadPanel();
+    }
+    if (typeof showEventPanel === 'function') {
+      await showEventPanel();
+    }
+    
     // Refresh list to show new active state
     await loadCampaignsList();
     

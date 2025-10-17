@@ -195,7 +195,16 @@ async function viewLocationDetails(locationId) {
  */
 async function markLocationVisited(locationId) {
   try {
+    const location = await LonerDB.db.locations.get(locationId);
     await LonerDB.markLocationVisited(locationId);
+    
+    // LOG EVENT
+    if (typeof EventManager !== 'undefined' && location) {
+      await EventManager.logEvent('location', `Visited ${location.name}`, {
+        locationName: location.name
+      });
+    }
+    
     UI.showAlert('Location marked as visited!', 'success');
     
     // Refresh displays
@@ -212,12 +221,6 @@ async function markLocationVisited(locationId) {
     console.error('Error marking location:', error);
     UI.showAlert('Error: ' + error.message, 'error');
   }
-
-  const location = await LonerDB.db.locations.get(locationId);
-  await EventManager.logEvent('location', `Visited ${location.name}`, {
-  locationName: location.name
- });
-
 }
 
 /**

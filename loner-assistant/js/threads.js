@@ -204,7 +204,17 @@ async function viewThreadDetails(threadId) {
  * Resolve thread and close modal
  */
 async function resolveThreadAndClose(threadId) {
+  const thread = await LonerDB.db.threads.get(threadId);
   await LonerDB.updateThreadStatus(threadId, 'resolved');
+  
+  // LOG EVENT
+  if (typeof EventManager !== 'undefined' && thread) {
+    await EventManager.logEvent('thread', `Thread resolved: ${thread.title}`, {
+      threadTitle: thread.title,
+      status: 'resolved'
+    });
+  }
+  
   UI.closeModal();
   UI.showAlert('Thread marked as resolved!', 'success');
   
@@ -217,13 +227,6 @@ async function resolveThreadAndClose(threadId) {
   if (document.getElementById('view-threads')?.classList.contains('active')) {
     await loadThreadsList();
   }
-
-  const thread = await LonerDB.db.threads.get(threadId);
-  await EventManager.logEvent('thread', `Thread resolved: ${thread.title}`, {
-  threadTitle: thread.title,
-  status: 'resolved'
-  });
-
 }
 
 /**
