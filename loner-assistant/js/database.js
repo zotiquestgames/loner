@@ -146,10 +146,16 @@ async function createSession(campaignId, name) {
 
 // Get all sessions for a campaign
 async function getSessionsForCampaign(campaignId) {
-  return await db.sessions
-    .where('campaignId').equals(campaignId)
-    .reverse()
-    .sortBy('date');
+  try {
+    return await this.db.sessions
+      .where('campaignId')
+      .equals(campaignId)
+      .reverse()
+      .toArray();
+  } catch (error) {
+    console.error('Error fetching sessions:', error);
+    return [];
+  }
 }
 
 // Get a single session
@@ -198,15 +204,18 @@ async function createCharacter(data) {
 
 // Get all characters (optionally filter by campaign)
 async function getCharacters(campaignId = null) {
-  if (campaignId) {
-    // Get characters for specific campaign OR reusable characters
-    return await db.characters
+  try {
+    if (campaignId === null) {
+      // Get ALL characters across all campaigns
+      return await this.db.characters.toArray();
+    }
+    return await this.db.characters
       .where('campaignId')
-      .anyOf([campaignId, null])
+      .equals(campaignId)
       .toArray();
-  } else {
-    // Get all characters
-    return await db.characters.toArray();
+  } catch (error) {
+    console.error('Error fetching characters:', error);
+    return [];
   }
 }
 
@@ -261,9 +270,15 @@ async function createNPC(campaignId, name, description = '', tags = []) {
 }
 
 async function getNPCsForCampaign(campaignId) {
-  return await db.npcs
-    .where('campaignId').equals(campaignId)
-    .toArray();
+  try {
+    return await this.db.npcs
+      .where('campaignId')
+      .equals(campaignId)
+      .toArray();
+  } catch (error) {
+    console.error('Error fetching NPCs:', error);
+    return [];
+  }
 }
 
 async function updateNPC(id, data) {
@@ -292,9 +307,15 @@ async function createLocation(campaignId, name, description = '') {
 }
 
 async function getLocationsForCampaign(campaignId) {
-  return await db.locations
-    .where('campaignId').equals(campaignId)
-    .toArray();
+  try {
+    return await this.db.locations
+      .where('campaignId')
+      .equals(campaignId)
+      .toArray();
+  } catch (error) {
+    console.error('Error fetching locations:', error);
+    return [];
+  }
 }
 
 async function markLocationVisited(id) {
@@ -357,18 +378,22 @@ async function createThread(campaignId, title, description = '') {
 }
 
 async function getThreadsForCampaign(campaignId, status = null) {
-  if (status) {
-    // Query by campaignId first, then filter by status in memory
-    const threads = await this.db.threads
+  try {
+    if (status) {
+      const threads = await this.db.threads
+        .where('campaignId')
+        .equals(campaignId)
+        .toArray();
+      return threads.filter(t => t.status === status);
+    }
+    return await this.db.threads
       .where('campaignId')
       .equals(campaignId)
       .toArray();
-    return threads.filter(t => t.status === status);
+  } catch (error) {
+    console.error('Error fetching threads:', error);
+    return [];
   }
-  return await this.db.threads
-    .where('campaignId')
-    .equals(campaignId)
-    .toArray();
 }
 
 async function updateThreadStatus(id, status) {

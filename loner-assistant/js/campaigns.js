@@ -130,36 +130,39 @@ async function loadCampaignsList() {
   const state = App.getState();
   const activeCampaignId = state.campaignId;
   
-  container.innerHTML = campaigns.map(campaign => `
-    <div class="card campaign-card">
-      <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
-        <h3 style="margin: 0;">${UI.escapeHtml(campaign.name)}</h3>
-        ${campaign.id === activeCampaignId ? '<span style="background: var(--success); color: white; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem;">ACTIVE</span>' : ''}
-      </div>
-      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
-        ${UI.escapeHtml(campaign.description || 'No description')}
-      </p>
-      <div class="card-footer">
-        <span>Last played: ${UI.formatDate(campaign.lastPlayed)}</span>
-        <div style="display: flex; gap: 0.5rem;">
-          <button class="btn btn-sm btn-outline" onclick="viewCampaignDetails(${campaign.id})">
-            View
-          </button>
-          <button class="btn btn-sm btn-outline" onclick="editCampaign(${campaign.id})">
-            Edit
-          </button>
-          ${campaign.id !== activeCampaignId ? `
-            <button class="btn btn-sm btn-primary" onclick="setAsActiveCampaign(${campaign.id})">
-              Set Active
-            </button>
-          ` : ''}
-          <button class="btn btn-sm btn-danger" onclick="deleteCampaignConfirm(${campaign.id})">
-            Delete
-          </button>
+    container.innerHTML = campaigns.map(campaign => {
+    const campaignId = campaign.id;
+    return `
+        <div class="card campaign-card">
+        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
+            <h3 style="margin: 0;">${UI.escapeHtml(campaign.name)}</h3>
+            ${campaignId === activeCampaignId ? '<span style="background: var(--success); color: white; padding: 0.125rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem;">ACTIVE</span>' : ''}
         </div>
-      </div>
-    </div>
-  `).join('');
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+            ${UI.escapeHtml(campaign.description || 'No description')}
+        </p>
+        <div class="card-footer">
+            <span>Last played: ${UI.formatDate(campaign.lastPlayed)}</span>
+            <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-sm btn-outline" onclick="CampaignManager.viewCampaignDetails(${campaignId})">
+                View
+            </button>
+            <button class="btn btn-sm btn-outline" onclick="CampaignManager.editCampaign(${campaignId})">
+                Edit
+            </button>
+            ${campaignId !== activeCampaignId ? `
+                <button class="btn btn-sm btn-primary" onclick="CampaignManager.setAsActiveCampaign(${campaignId})">
+                Set Active
+                </button>
+            ` : ''}
+            <button class="btn btn-sm btn-danger" onclick="CampaignManager.deleteCampaignConfirm(${campaignId})">
+                Delete
+            </button>
+            </div>
+        </div>
+        </div>
+    `;
+    }).join('');
 }
 
 /**
@@ -168,19 +171,10 @@ async function loadCampaignsList() {
 /**
  * View campaign details in a modal
  */
+/**
+ * View campaign details in a modal
+ */
 async function viewCampaignDetails(campaignId) {
-  console.log('=== viewCampaignDetails called ===');
-  console.log('campaignId:', campaignId);
-  console.log('type:', typeof campaignId);
-  console.log('is valid:', !!(campaignId && (typeof campaignId === 'number' || typeof campaignId === 'string')));
-  
-  // VALIDATE INPUT FIRST
-  if (!campaignId || (typeof campaignId !== 'number' && typeof campaignId !== 'string')) {
-    console.error('Invalid campaignId:', campaignId);
-    UI.showAlert('Invalid campaign ID', 'error');
-    return;
-  }
-  
   try {
     const campaign = await LonerDB.db.campaigns.get(campaignId);
     
@@ -189,42 +183,12 @@ async function viewCampaignDetails(campaignId) {
       return;
     }
     
-    // Get related data - with error handling
-    let characters = [];
-    let sessions = [];
-    let npcs = [];
-    let locations = [];
-    let threads = [];
-    
-    try {
-      characters = await LonerDB.getCharacters(campaignId);
-    } catch (e) {
-      console.warn('Error loading characters:', e);
-    }
-    
-    try {
-      sessions = await LonerDB.getSessionsForCampaign(campaignId);
-    } catch (e) {
-      console.warn('Error loading sessions:', e);
-    }
-    
-    try {
-      npcs = await LonerDB.getNPCsForCampaign(campaignId);
-    } catch (e) {
-      console.warn('Error loading NPCs:', e);
-    }
-    
-    try {
-      locations = await LonerDB.getLocationsForCampaign(campaignId);
-    } catch (e) {
-      console.warn('Error loading locations:', e);
-    }
-    
-    try {
-      threads = await LonerDB.getThreadsForCampaign(campaignId);
-    } catch (e) {
-      console.warn('Error loading threads:', e);
-    }
+    // Get related data
+    const characters = await LonerDB.getCharacters(campaignId).catch(() => []);
+    const sessions = await LonerDB.getSessionsForCampaign(campaignId).catch(() => []);
+    const npcs = await LonerDB.getNPCsForCampaign(campaignId).catch(() => []);
+    const locations = await LonerDB.getLocationsForCampaign(campaignId).catch(() => []);
+    const threads = await LonerDB.getThreadsForCampaign(campaignId).catch(() => []);
     
     const detailsHTML = `
       <div class="campaign-details">
@@ -272,8 +236,8 @@ async function viewCampaignDetails(campaignId) {
         </div>
         
         <div style="display: flex; gap: 0.5rem; justify-content: flex-end; margin-top: 1rem;">
-          <button class="btn btn-outline" onclick="editCampaign(${campaignId})">Edit</button>
-          <button class="btn btn-danger" onclick="deleteCampaignConfirm(${campaignId})">Delete</button>
+          <button class="btn btn-outline" onclick="CampaignManager.editCampaign(${campaignId})">Edit</button>
+          <button class="btn btn-danger" onclick="CampaignManager.deleteCampaignConfirm(${campaignId})">Delete</button>
         </div>
       </div>
     `;
