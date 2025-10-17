@@ -23,15 +23,8 @@
 1. **NPC Manager**
 2. **Location Manager**
 3. **Narrative Threads**
+4. Event Log
 
-#### **Event Log**
-Automatic event tracking:
-- Log important story moments
-- Tag events (twist, conflict, revelation, etc.)
-- Timeline view
-- Export session recap
-
-**Why this?** Keep a history of what happened and when.
 
 ### **Phase 4: Advanced**
 
@@ -39,8 +32,10 @@ Automatic event tracking:
 Implement the Adventure Maker and other tables from Loner:
 - Settings, Tones, Things tables
 - Opposition, Actions tables
+- Thematic Tables from various Loner supplements
 - Custom user tables
 - Quick roller with history
+- Log the result both in the Notes and the Events Log
 - Make this extensible, so we can update the tables in time, everytime I publish a new supplement
 
 #### Make flavors for the Get Inspired function
